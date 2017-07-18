@@ -2,3 +2,4 @@
 alias start="docker-compose build && docker-compose up"
 alias stop="docker-compose down --rmi local && rm -Rf _site"
 alias build="docker-compose run --rm -e JEKYLL_ENV=production web jekyll build"
+alias flashlight='ssh -R 9002:$(docker-machine ip default):3000 flashlight'
