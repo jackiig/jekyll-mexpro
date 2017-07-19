@@ -21,7 +21,7 @@ github_username:  jekyll
 markdown: kramdown
 
 # Plugins, yay!
-gems:
+plugins:
   # Creates an XML sitemap.
   - jekyll-sitemap
   # Compile Coffeescript to Javascript.
