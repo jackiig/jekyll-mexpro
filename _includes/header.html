@@ -1,2 +1,31 @@
-<header class="container">
+<header class="navbar navbar-default navbar-fixed-top" role="banner">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="logo" href="/">
+        <img src="/images/mexpro-2017logo.png" alt="Mexpro">
+      </a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav pull-right">
+        <li role="presentation" class="{% if page.body_class == 'home' %}active{% endif %}">
+          <a href="/">Contact Us</a>
+        </li>
+        <li role="presentation" class="{% if page.body_class == 'about' %}active{% endif %}">
+          <a href="/{{canonical_mx}}">Español</a>
+        </li>
+        <li role="presentation" class="{% if page.body_class == '855' %}active{% endif %}">
+          <a href="+1855"><span class="glyphicon glyphicon-earphone"> 1-855-MEXPRO1</a>
+        </li>
+        <li role="presentation" class="{% if page.body_class == '855' %}active{% endif %}">
+          <a href=""><span class="glyphicon glyphicon-search"> Search Mexpro</a>
+        </li>
+      </ul>
+    </div><!--/.navbar-collapse -->
+  </div>
 </header>
