@@ -1,0 +1,13 @@
+@charset "utf-8";
+//= require_self
+
+// Put styles here!
+header {
+	&.navbar-default {
+		background-color: #0c93d2;
+		color: white;
+		height: 54px;
+		background-image: none;
+		box-shadow: none;
+	}
+}
