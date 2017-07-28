@@ -1,0 +1,28 @@
+@charset "utf-8";
+//= require_self
+
+// Put styles here!
+.navbar-default {
+	background-image: url(/images/nav-slice.png) !important;
+	background-repeat: repeat-x;
+	background-color: transparent !important;
+	.row1 {
+		.navdivider {
+			background-color: white;
+			height: 13px;
+			width: 1px;
+			margin: 8px 0;
+		}
+		.navbar-nav > li > {
+			a, a:focus, {
+				//color: white;
+				font-size: 13px;
+				padding: 1px 10px;
+			}
+		}
+	}
+}
+
+.row1 {
+	
+}
