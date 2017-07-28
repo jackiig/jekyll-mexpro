@@ -46,15 +46,45 @@
       <div class="row row2">
         <div class="col-sm-9 col-sm-offset-3">
           <ul class="nav navbar-nav">
-              <li><a href="/">Home</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="https://www.mexpro.com/mexico/auto/insurance.html">Insurance</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">One more separated link</a></li>
+              <li role="presentation" class="{% if page.body_class == 'home' %}active{% endif %}">
+                <a href="{{ site.url }}">Home</a>
+              </li>
+              <li class="navdivider"></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Insurance <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Mexico Tourist Auto</a></li>
+                  <li><a href="#">Home, Condo, Townhome</a></li>
+                  <li><a href="#">Boat &amp; Personal Watercraft</a></li>
+                  <li><a href="#">Travel Health Insurance</a></li>
+                  <li><a href="#">USA Tourist Auto</a></li>
+                  <li><a href="#">Mexican Resident Auto</a></li>
+                </ul>
+              </li>
+              <li class="navdivider"></li>
+              <li role="presentation" class="{% if page.body_class == 'custserv' %}active{% endif %}">
+                <a href="{{ site.url }}/mexico/customer-service/">Customer Service</a>
+              </li>
+              <li class="navdivider"></li>
+              <li role="presentation" class="{% if page.body_class == 'claims' %}active{% endif %}">
+                <a href="{{ site.url }}/mexico/customer-service/">Claims</a>
+              </li>
+              <li class="navdivider"></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">FAQ <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Mexico Tourist Auto</a></li>
+                  <li><a href="#">Home, Condo, Townhome</a></li>
+                  <li><a href="#">Boat &amp; Personal Watercraft</a></li>
+                  <li><a href="#">Travel Health Insurance</a></li>
+                  <li><a href="#">USA Tourist Auto</a></li>
+                  <li><a href="#">Mexican Resident Auto</a></li>
+                </ul>
+              </li>
+              <li class="navdivider"></li>
+              <li role="presentation" class="{% if page.body_class == 'about' %}active{% endif %}">
+                <a href="{{ site.url }}/mexico/about-mexico-car-insurance-pros.html">About</a>
+              </li>
           </ul>
         </div>
       </div> <!-- / row2 -->
