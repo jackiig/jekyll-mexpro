@@ -32,16 +32,30 @@
 		.navdivider {
 			background-color: #798d96;
 		}
-		.navbar-nav > li > {
-			a, a:focus, {
-				color: #798d96;
-				font-weight: 600;
+		.navbar-nav {
+			> li > {
+				a, a:focus, {
+					color: #798d96;
+					font-weight: 600;
+					text-transform: uppercase;
+				}
+				a:active {
+					color: #0c93d2;
+				}
+				a:hover {
+					color: #0c93d2;
+				}
 			}
-			a:active {
+			> .open > a, > .active > a {
+				background-image: none !important;
+				background-color: transparent !important;
+				text-shadow: none !important;
 				color: #0c93d2;
-			}
-			a:hover {
-				color: #0c93d2
+				&:hover &:select {
+					background-image: none !important;
+					background-color: transparent !important;
+					text-shadow: none !important;
+				}
 			}
 		}
 	}
