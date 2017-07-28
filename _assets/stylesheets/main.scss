@@ -1,5 +1,10 @@
 @charset "utf-8";
-//= require nav
+//= require nav4
 //= require_self
+//= require vendor/font-lato
 
 // Put styles here!
+
+body {
+	font-family: 'Lato-Regular';
+}
