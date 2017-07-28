@@ -1,0 +1,63 @@
+<nav class="navbar navbar-default navbar-fixed-top topmenu" role="navigation">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div itemscope itemtype="http://schema.org/Organization">
+        <a itemprop="url" class="navbar-brand" href="/"><img itemprop="logo" class="hidden-xs" src="/images/mexpro-2017logo.png" alt="Mexpro Logo" width="257" height="70"><img itemprop="logo" class="hidden-lg hidden-md hidden-sm" src="/images/mexpro-2017logo-mobile.png" alt="Mexpro Logo" width="227" height="61"></a>
+      </div>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <div class="row row1">
+        <ul class="nav navbar-nav navbar-right">
+          <li role="presentation" class="{% if page.body_class == 'contact' %}active{% endif %}">
+            <a href="{{ site.url }}/mexico/contact-mexican-insurance-online.html">Contact Us</a>
+          </li>
+          <li class="navdivider"></li>
+          <li role="presentation" class="{% if page.body_class == 'language' %}active{% endif %}">
+              <a href="{{ site.url }}/{{canonical_mx}}">Español</a>
+          </li>
+          <li class="navdivider"></li>
+          <li role="presentation" class="{% if page.body_class == '855' %}active{% endif %}">
+            <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>
+          </li>
+          <li class="navdivider"></li>
+          <li role="presentation" class="{% if page.body_class == 'Search' %}active{% endif %} st-search-show-outputs">
+            <a href="#"><span class="glyphicon glyphicon-search"></span> Search Mexpro</a>
+          </li>
+          <!--<li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>-->
+        </ul>
+      </div> <!-- /row1 -->
+      <div class="row row2">
+        <div class="col-sm-10 col-sm-offset-2">
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://www.mexpro.com/mexico/auto/insurance.html">Insurance</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+        </ul>
+        </div>
+      </div> <!-- / row2 -->
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
