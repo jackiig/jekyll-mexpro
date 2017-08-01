@@ -48,8 +48,20 @@
 					color: #0c93d2;
 				}
 			}
-			> .active > a {
-				
+			.dropdown-menu {
+				border: none;
+				box-shadow: none;
+				> li {
+					> a, > a:hover {
+						font-size: 14px;
+						background-color: white;
+						background-image: none;
+						box-shadow: none;
+					}
+					> a:hover {
+						color: #0c93d2;
+					}
+				}
 			}
 			> .open > a, > .active > a {
 				background-image: none !important;
@@ -65,8 +77,4 @@
 			}
 		}
 	}
-}
-
-.row1 {
-	
 }
