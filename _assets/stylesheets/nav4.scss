@@ -12,10 +12,12 @@
 		width: 1px;
 		margin: 8px 0;
 	}
-	.navbar-nav > li > {
-		a, a:focus {
-			font-size: 13px;
-			padding: 1px 10px;
+	.navbar-nav {
+		> li > {
+			a, a:focus {
+				font-size: 13px;
+				padding: 1px 10px;
+			}
 		}
 	}
 	.row1 {
@@ -46,10 +48,14 @@
 					color: #0c93d2;
 				}
 			}
+			> .active > a {
+				
+			}
 			> .open > a, > .active > a {
 				background-image: none !important;
 				background-color: transparent !important;
 				text-shadow: none !important;
+				box-shadow: none;
 				color: #0c93d2;
 				&:hover &:select {
 					background-image: none !important;
