@@ -11,7 +11,7 @@
       <div itemscope itemtype="http://schema.org/Organization">
         <a itemprop="url" class="navbar-brand" href="/"><img itemprop="logo" class="hidden-xs" src="/images/mexpro-2017logo.png" alt="Mexpro Logo" width="257" height="70"><img itemprop="logo" class="hidden-lg hidden-md hidden-sm" src="/images/mexpro-2017logo-mobile.png" alt="Mexpro Logo" width="227" height="61"></a>
       </div>
-    </div>
+    </div> <!-- /navbar-header -->
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <div class="row row1">
@@ -31,16 +31,6 @@
           <li role="presentation" class="{% if page.body_class == 'Search' %}active{% endif %} st-search-show-outputs">
             <a href="#" class="st-search-show-outputs"><span class="glyphicon glyphicon-search"></span> Search Mexpro</a>
           </li>
-          <!--<li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Action</a></li>
-              <li><a href="#">Another action</a></li>
-              <li><a href="#">Something else here</a></li>
-              <li role="separator" class="divider"></li>
-              <li><a href="#">Separated link</a></li>
-            </ul>
-          </li>-->
         </ul>
       </div> <!-- /row1 -->
       <div class="row row2">
@@ -51,15 +41,15 @@
               </li>
               <li class="navdivider"></li>
               <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Insurance <span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Mexico Tourist Auto</a></li>
-                  <li><a href="#">Home, Condo, Townhome</a></li>
-                  <li><a href="#">Boat &amp; Personal Watercraft</a></li>
-                  <li><a href="#">Travel Health Insurance</a></li>
-                  <li><a href="#">USA Tourist Auto</a></li>
-                  <li><a href="#">Mexican Resident Auto</a></li>
-                </ul>
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Insurance <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li><a href="https://www.mexpro.com/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=autorow2ins">Mexico Tourist Auto</a></li>
+                    <li><a href="#">Home, Condo, Townhome</a></li>
+                    <li><a href="#">Boat &amp; Personal Watercraft</a></li>
+                    <li><a href="#">Travel Health Insurance</a></li>
+                    <li><a href="#">USA Tourist Auto</a></li>
+                    <li><a href="#">Mexican Resident Auto</a></li>
+                  </ul>
               </li>
               <li class="navdivider"></li>
               <li role="presentation" class="{% if page.body_class == 'custserv' %}active{% endif %}">
@@ -86,7 +76,10 @@
                 <a href="{{ site.url }}/mexico/about-mexico-car-insurance-pros.html">About</a>
               </li>
           </ul>
-        </div>
+          <ul class="nav-btn">
+            <li><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
+            <li><button type="button" class="btn btn-default btn-xs"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
+        </div> <!-- /col-sm-9 -->
       </div> <!-- / row2 -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
