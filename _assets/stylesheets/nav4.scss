@@ -26,8 +26,14 @@
 				
 			}
 		}
+		.navbar-right {
+			margin-right: 0;
+		}
 	} //end row 1
 	.row2 {
+		.col-sm-9 {
+			padding-right: 0;
+		}
 		ul {
 			margin-left: -40px;
 		}
@@ -78,9 +84,28 @@
 		}
 		.nav-btn {
 			float: right;
+			margin: 5px 0;
 			li {
 				list-style: none;
 				display: inline;
+				.btn {
+					font-size: 13px;
+					text-transform: uppercase;
+					font-weight: 600;
+					width: 100px;
+					&:first-child {
+						margin-right: 5px;
+					}
+					&.btn-login {
+						background-color: #ebf1f4;
+						color: #798d96;
+						border-color: #cfe1e9;
+					}
+					&.btn-buy {
+						background-color: #ca6f29;
+						color: white;
+					}
+				}
 			}
 		}
 		clear:float;
