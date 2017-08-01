@@ -26,7 +26,7 @@
 				
 			}
 		}
-	}
+	} //end row 1
 	.row2 {
 		ul {
 			margin-left: -40px;
@@ -76,5 +76,13 @@
 				}
 			}
 		}
-	}
+		.nav-btn {
+			float: right;
+			li {
+				list-style: none;
+				display: inline;
+			}
+		}
+		clear:float;
+	} //end row 2
 }
