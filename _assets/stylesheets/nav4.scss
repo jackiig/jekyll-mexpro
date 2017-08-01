@@ -5,7 +5,8 @@
 .navbar-default {
 	background-image: url(/images/nav-slice.png) !important;
 	background-repeat: repeat-x;
-	background-color: transparent !important;
+	background-color: transparent;
+	box-shadow: none;
 	.navdivider {
 		background-color: white;
 		height: 13px;
@@ -100,10 +101,18 @@
 						background-color: #ebf1f4;
 						color: #798d96;
 						border-color: #cfe1e9;
+						&:hover, &:focus, &:active, &.active {
+							background-color: #ebf1f4;
+							color: #798d96;
+							border-color: #cfe1e9;
+						}
 					}
 					&.btn-buy {
 						background-color: #ca6f29;
 						color: white;
+						&:hover, &:focus, &:active, &.active {
+							background-color: #ca6f29;
+						}
 					}
 				}
 			}
