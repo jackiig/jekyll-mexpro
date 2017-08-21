@@ -175,6 +175,11 @@
 					}
 				}
 			}
+			.open .dropdown-menu, .dropdown-header {
+				>li > a {
+					padding: 0 15px 0 25px;
+				}
+			}
 		}
 	}
 	.navdivider {
