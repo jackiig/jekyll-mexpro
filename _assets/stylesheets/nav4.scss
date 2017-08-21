@@ -133,6 +133,11 @@
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
 @media (min-width:768px) and (max-width:991px) {
+.navbar-default {
+	.navbar-nav {
+		margin-left: 60px;
+	}
+}
 
 } // End Small Screen
 
