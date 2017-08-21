@@ -7,4 +7,33 @@
 
 body {
 	font-family: 'Lato-Regular';
+
+	&.home {
+		.container.content {
+			//position: relative;
+			//top: 60px;
+		}
+	}
 }
+
+/* Device Based css */
+
+/* Large Screen size - Desktop : 1200px wide and larger */
+@media (min-width:1200px) {
+
+} // End Large Screen
+
+/* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
+@media (min-width:992px) and (max-width:1199px) {
+
+}  //end Medium Screen
+
+/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
+@media (min-width:768px) and (max-width:991px) {
+
+} // End Small Screen
+
+/* Xtra-Small Screen Size - Phone : 480px - 767px */
+@media (max-width:767px) {
+
+} //End Xtra-Small Screen
