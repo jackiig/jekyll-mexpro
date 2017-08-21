@@ -154,17 +154,27 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 .navbar-default {
-	.navbar-nav > li > a {
-
-	}
 	.row.row1 {
 		display:none;
 	}
 	.row.row2 {
-		margin-left: 0;
 		margin-right: 0;
+		text-align: right;
 		.nav-btn {
 			display: none;
+		}
+		.navbar-nav {
+			.dropdown-menu {
+				text-align: right;
+				> li {
+					> a {
+						color: #798d96;
+						&:hover {
+							color: #0c93d2;
+						}
+					}
+				}
+			}
 		}
 	}
 	.navdivider {
@@ -172,7 +182,7 @@
 	}
 }
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { //removes scroll for dropdown
-	//max-height: none;
+	max-height: none;
 	
 }
 
