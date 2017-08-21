@@ -117,6 +117,16 @@
 			}
 		}
 	} //end row 2
+	.navbar-toggle {
+		border: none;
+		.icon-bar {
+			background-color: white;
+			border-color: transparent;
+		}
+		&:hover, &:focus {
+			background-color: transparent;
+		}
+	}
 }
 
 /* Device Based css */
@@ -143,5 +153,27 @@
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
+.navbar-default {
+	.navbar-nav > li > a {
+
+	}
+	.row.row1 {
+		display:none;
+	}
+	.row.row2 {
+		margin-left: 0;
+		margin-right: 0;
+		.nav-btn {
+			display: none;
+		}
+	}
+	.navdivider {
+		display: none;
+	}
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { //removes scroll for dropdown
+	//max-height: none;
+	
+}
 
 } //End Xtra-Small Screen
