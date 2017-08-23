@@ -190,6 +190,18 @@
 	.row.row1 {
 		display:none;
 	}
+	.navbar-header {
+		.search, .mobphonenav {
+			float:right;
+			a {
+				color: white;
+				font-size: 0.9em;
+			}
+		}
+		.mobphonenav a {
+			font-size: 0.8em;
+		}
+	}
 	.row.row2 {
 		margin-right: 0;
 		text-align: right;
