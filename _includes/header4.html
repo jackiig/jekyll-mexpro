@@ -15,11 +15,10 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <div class="mobphonenav hidden-md hidden-lg">
-        <button href="tel:+18556397761" class="btn btn-mobile"> <span class="glyphicon glyphicon-earphone"></span>1-855-MEXPRO1</a></li>
-     
-      <!--      <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>-->
-      </div>
+      <div class="mobphonenav hidden-md hidden-lg" itemscope itemtype="http://schema.org/ContactPoint">
+        <button type="button" href="tel:+18556397761" class="btn btn-mobile"> <span class="glyphicon glyphicon-earphone"></span><span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MEXPRO1</span></button>
+            <!-- <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>-->
+      </div> <!-- / mobile phone number -->
     </div> <!-- /navbar-header -->
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -51,26 +50,26 @@
               <li class="{% if page.body_class == 'language' %}active{% endif %} hidden-md hidden-lg">
                 <a href="{{ site.url }}/{{canonical_mx}}">Español</a>
               </li>
-              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-buy btn-xs"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
-              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
+              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-buy btn-xs" href="https://www.mexpro.com/en-US/quotes/new/?agtdst=buytopnavmob#/"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
+              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs" href="#customer-login-topnavmob" role="button" data-toggle="modal" data-target="#customer-login-topnavmob"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
               <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Insurance <span class="caret"></span></a>
+                <a href="{{ site.url }}/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopage" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Insurance <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="https://www.mexpro.com/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=autorow2ins">Mexico Tourist Auto</a></li>
-                    <li><a href="#">Home, Condo, Townhome</a></li>
-                    <li><a href="#">Boat &amp; Personal Watercraft</a></li>
-                    <li><a href="#">Travel Health Insurance</a></li>
-                    <li><a href="#">USA Tourist Auto</a></li>
-                    <li><a href="#">Mexican Resident Auto</a></li>
+                    <li><a href="{{ site.url }}/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopage">Mexico Tourist Auto</a></li>
+                    <li><a href="{{ site.url }}/mexico/home-insurance/?utm_source=nav2&utm_medium=www&utm_campaign=navautopage">Home, Condo, Townhome</a></li>
+                    <li><a href="{{ site.url }}/mexico/boat/?utm_source=nav2&utm_medium=www&utm_campaign=navboatpage">Boat &amp; Personal Watercraft</a></li>
+                    <li><a href="{{ site.url }}/mexico/holiday-medical-insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navtmedpage">Travel Health Insurance</a></li>
+                    <li><a href="{{ site.url }}/mexico/short-term-us-auto-insurance?utm_source=nav2&utm_medium=www&utm_campaign=navnbpage">USA Tourist Auto</a></li>
+                    <!--<li><a href="#{{ site.url }}">Mexican Resident Auto</a></li>-->
                   </ul>
               </li>
               <li class="navdivider"></li>
               <li role="presentation" class="{% if page.body_class == 'custserv' %}active{% endif %}">
-                <a href="{{ site.url }}/mexico/customer-service/">Customer Service</a>
+                <a href="{{ site.url }}/mexico/customer-service/?utm_source=nav2&utm_medium=www&utm_campaign=navcustsvcpage">Customer Service</a>
               </li>
               <li class="navdivider"></li>
               <li role="presentation" class="{% if page.body_class == 'claims' %}active{% endif %}">
-                <a href="{{ site.url }}/mexico/customer-service/">Claims</a>
+                <a href="{{ site.url }}/mexico/claims/instructions.html?utm_source=nav2&utm_medium=www&utm_campaign=navclaimpage">Claims</a>
               </li>
               <li class="navdivider"></li>
               <!--<li class="dropdown">
@@ -86,7 +85,7 @@
               </li>
               <li class="navdivider"></li>-->
               <li role="presentation" class="{% if page.body_class == 'about' %}active{% endif %}">
-                <a href="{{ site.url }}/mexico/about-mexico-car-insurance-pros.html">About</a>
+                <a href="{{ site.url }}/mexico/about-mexico-car-insurance-pros.html?utm_source=nav2&utm_medium=www&utm_campaign=navaboutpage">About</a>
               </li>
               <li class="hidden-sm hidden-md hidden-lg">
                 <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>
@@ -99,3 +98,29 @@
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
+<!-- Customer Login top nav modal/popup -->
+<div class="modal fade" id="customer-login-topnavmob" tabindex="-1" role="dialog" aria-labelledby="customer-login-header" aria-hidden="true">
+  <div class="modal-dialog">
+    <form action="https://www.mexpro.com/client_login/do/login.mhtml?aff_id=2149&amp;agtdst=logintopnav" method="POST" name="log-in">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">x</button>
+          <h2 id="customer-login-header">Purchased With Us Before?</h2>
+        </div>
+        <div class="modal-body">
+          <p>If you purchased with us before, you can quickly re-issue a new policy.<br><a href="https://www.mexpro.com/client_login/retrieve_password.mhtml?aff_id=2149&amp;agtdst=forgotpwtopnav" target="_blank">Click here to set up a password</a>.
+          <p>Already Have Your Password?</p>
+          <fieldset>
+            <input type="text" class="form-control cl_username" name="username" placeholder="Email">
+            <br>
+            <input type="password" class="form-control cl_password" name="password" placeholder="Password">
+          </fieldset>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+          <input type="submit" class="btn btn-primary" value="Login" >
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
