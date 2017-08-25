@@ -32,7 +32,7 @@
               <a href="{{ site.url }}/{{canonical_mx}}">Español</a>
           </li>
           <li class="navdivider"></li>
-          <li role="presentation" class="{% if page.body_class == '855' %}active{% endif %}">
+          <li role="presentation" class="{% if page.body_class == '855' %}active{% endif %}" itemscope itemtype="http://schema.org/ContactPoint">
             <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>
           </li>
           <li class="navdivider"></li>
@@ -51,7 +51,7 @@
                 <a href="{{ site.url }}/{{canonical_mx}}">Español</a>
               </li>
               <li class="hidden-md hidden-lg"><button type="button" class="btn btn-buy btn-xs" href="https://www.mexpro.com/en-US/quotes/new/?agtdst=buytopnavmob#/"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
-              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs" href="#customer-login-topnavmob" role="button" data-toggle="modal" data-target="#customer-login-topnavmob"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
+              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs" href="#customer-login-topnav" role="button" data-toggle="modal" data-target="#customer-login-topnav"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
               <li class="dropdown">
                 <a href="{{ site.url }}/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopage" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Insurance <span class="caret"></span></a>
                   <ul class="dropdown-menu">
@@ -87,19 +87,19 @@
               <li role="presentation" class="{% if page.body_class == 'about' %}active{% endif %}">
                 <a href="{{ site.url }}/mexico/about-mexico-car-insurance-pros.html?utm_source=nav2&utm_medium=www&utm_campaign=navaboutpage">About</a>
               </li>
-              <li class="hidden-sm hidden-md hidden-lg">
+              <li class="hidden-sm hidden-md hidden-lg" itemscope itemtype="http://schema.org/ContactPoint">
                 <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>
               </li>
           </ul>
           <ul class="nav-btn">
-            <li><button type="button" class="btn btn-login btn-xs"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
-            <li><button type="button" class="btn btn-buy btn-xs"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
+            <li><button type="button" class="btn btn-login btn-xs" href="#customer-login-topnav" role="button" data-toggle="modal" data-target="#customer-login-topnav"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
+            <li><button type="button" class="btn btn-buy btn-xs" href="https://www.mexpro.com/en-US/quotes/new/?agtdst=buytopnav#/"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
       </div> <!-- / row2 -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
 <!-- Customer Login top nav modal/popup -->
-<div class="modal fade" id="customer-login-topnavmob" tabindex="-1" role="dialog" aria-labelledby="customer-login-header" aria-hidden="true">
+<div class="modal fade" id="customer-login-topnav" tabindex="-1" role="dialog" aria-labelledby="customer-login-header" aria-hidden="true">
   <div class="modal-dialog">
     <form action="https://www.mexpro.com/client_login/do/login.mhtml?aff_id=2149&amp;agtdst=logintopnav" method="POST" name="log-in">
       <div class="modal-content">
