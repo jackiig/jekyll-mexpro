@@ -7,6 +7,10 @@
 	background-repeat: repeat-x;
 	background-color: transparent;
 	box-shadow: none;
+	.navbar-brand {
+		text-shadow: none;
+		padding: 0 0 0 15px;
+	}
 	.navdivider {
 		background-color: white;
 		height: 12px;
@@ -193,13 +197,25 @@
 	.navbar-header {
 		.search, .mobphonenav {
 			float:right;
+		}
+		.search {
+			margin-right: 15px;
 			a {
 				color: white;
 				font-size: 0.9em;
 			}
 		}
-		.mobphonenav a {
-			font-size: 0.8em;
+		.mobphonenav {
+			margin: 0;
+			.btn.btn-mobile {
+				color: white;
+				background-color: #15AAF2;
+				border-color: white;
+				padding: 2px 10px;
+				font-size: 0.7em;
+				position: relative;
+				top: -2px;
+			}
 		}
 	}
 	.row.row2 {
@@ -210,6 +226,10 @@
 		}
 		.navbar-nav {
 			padding-bottom: 10px;
+			margin-left: 0;
+			.btn-login, .btn-buy {
+				margin-bottom: 5px;
+			}
 			.dropdown-menu {
 				text-align: right;
 				> li {
@@ -231,6 +251,9 @@
 	.navdivider {
 		display: none;
 	}
+	.navbar-toggle {
+		margin-right: 0;
+	}
 }
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { //removes scroll for dropdown
 	max-height: none;
@@ -243,5 +266,13 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 
+
+} //End Xtra-Small Screen
+
+/* Xtra-Small Screen Size - Phone : 480px - 495px */
+@media (max-width:495px) {
+.mobphonenav {
+	display:none;
+}
 
 } //End Xtra-Small Screen
