@@ -9,7 +9,7 @@
           <a href="#" class="st-search-show-outputs"><span class="glyphicon glyphicon-search"></span></a>
       </div> 
       
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -17,7 +17,6 @@
       </button>
       <div class="mobphonenav hidden-md hidden-lg" itemscope itemtype="http://schema.org/ContactPoint">
         <button type="button" href="tel:+18556397761" class="btn btn-mobile"> <span class="glyphicon glyphicon-earphone"></span><span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MEXPRO1</span></button>
-            <!-- <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>-->
       </div> <!-- / mobile phone number -->
     </div> <!-- /navbar-header -->
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -29,7 +28,7 @@
           </li>
           <li class="navdivider"></li>-->
           <li role="presentation" class="{% if page.body_class == 'language' %}active{% endif %}">
-              <a href="{{ site.url }}/{{canonical_mx}}">Español</a>
+              <a href="{{ site.url }}/{{page.canonical_mx}}">Español</a>
           </li>
           <li class="navdivider"></li>
           <li role="presentation" class="{% if page.body_class == '855' %}active{% endif %}" itemscope itemtype="http://schema.org/ContactPoint">
@@ -50,9 +49,9 @@
               <li class="{% if page.body_class == 'language' %}active{% endif %} hidden-md hidden-lg">
                 <a href="{{ site.url }}/{{page.canonical_mx}}">Español</a>
               </li>
-              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-buy btn-xs" href="https://www.mexpro.com/en-US/quotes/new/?agtdst=buytopnavmob#/"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
-              <li class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs" href="#customer-login-topnav" role="button" data-toggle="modal" data-target="#customer-login-topnav"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
-              <li class="dropdown">
+              <li role="presentation" class="hidden-md hidden-lg"><button type="button" class="btn btn-buy btn-xs" href="https://www.mexpro.com/en-US/quotes/new/?agtdst=buytopnavmob#/"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> BUY NOW</button></li>
+              <li role="presentation" class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs" href="#customer-login-topnav" role="button" data-toggle="modal" data-target="#customer-login-topnav"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> LOG IN</button></li>
+              <li role="presentation" class="dropdown">
                 <a href="{{ site.url }}/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopage" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Insurance <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="{{ site.url }}/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopage">Mexico Tourist Auto</a></li>
@@ -87,7 +86,7 @@
               <li role="presentation" class="{% if page.body_class == 'about' %}active{% endif %}">
                 <a href="{{ site.url }}/mexico/about-mexico-car-insurance-pros.html?utm_source=nav2&utm_medium=www&utm_campaign=navaboutpage">About</a>
               </li>
-              <li class="hidden-sm hidden-md hidden-lg" itemscope itemtype="http://schema.org/ContactPoint">
+              <li role="presentation" class="hidden-sm hidden-md hidden-lg" itemscope itemtype="http://schema.org/ContactPoint">
                 <a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>
               </li>
           </ul>
