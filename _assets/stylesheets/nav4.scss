@@ -5,8 +5,11 @@
 .navbar-default {
 	background-image: url(/images/nav-slice.png) !important;
 	background-repeat: repeat-x;
-	background-color: transparent;
+	background-color: white;
 	box-shadow: none;
+	.navbar-header {
+		min-height: 30px;
+	}
 	.navbar-brand {
 		text-shadow: none;
 		padding: 0 0 0 15px;
@@ -199,6 +202,7 @@
 		display:none;
 	}
 	.navbar-header {
+		min-height: 45px;
 		.search, .mobphonenav {
 			float:right;
 		}
@@ -232,6 +236,7 @@
 		.navbar-nav {
 			padding-bottom: 10px;
 			margin-left: 0;
+			margin-top: 0;
 			.btn-login, .btn-buy {
 				margin-bottom: 5px;
 			}
