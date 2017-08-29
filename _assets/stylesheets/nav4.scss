@@ -154,11 +154,6 @@
 
 }  //end Medium Screen
 
-/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
-@media (min-width:768px) and (max-width:991px) {
-
-} // End Small Screen
-
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
     .navbar-header {
@@ -287,7 +282,10 @@
 }
 } // End 991px breakpoint
 
+/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
+@media (min-width:768px) and (max-width:991px) {
 
+} // End Small Screen
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
