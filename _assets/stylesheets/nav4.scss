@@ -117,6 +117,9 @@
 						color: white;
 					}
 				}
+				&.btn-login, &.btn-buy {
+					margin-top: 5px;
+				}
 			}
 			.btn-xs {
 				padding: 1px 10px;
@@ -201,9 +204,10 @@
 		}
 		.search {
 			margin-right: 15px;
+			margin-top: 2px;
 			a {
 				color: white;
-				font-size: 0.9em;
+				font-size: 1.2em;
 			}
 		}
 		.mobphonenav {
@@ -213,9 +217,9 @@
 				background-color: #15AAF2;
 				border-color: white;
 				padding: 2px 10px;
-				font-size: 0.7em;
+				font-size: 0.9em;
 				position: relative;
-				top: -2px;
+				top: 2px;
 			}
 		}
 	}
@@ -230,6 +234,9 @@
 			margin-left: 0;
 			.btn-login, .btn-buy {
 				margin-bottom: 5px;
+			}
+			.btn-buy {
+				margin-right: 5px;
 			}
 			.dropdown-menu {
 				text-align: right;
