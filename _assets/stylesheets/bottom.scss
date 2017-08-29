@@ -7,3 +7,42 @@
 //= require_self
 
 // Put styles here!
+
+//Footer 
+footer {
+ 	background-color: #f4f8fa;
+ 	font-size: 0.7em;
+ 	> div {
+ 		ul {
+ 			//font-size: 0.8em;
+ 			padding-left: 0;
+ 			&.col-sm-12 {
+ 				padding-left: 0;
+ 			}
+ 		}
+ 		&.bot-tips, &.bot-about, &.bot-contact {
+ 			padding-left: -40px;
+ 		}
+ 	}
+ 	li {
+ 		list-style: none;
+ 		&.title {
+ 			text-transform: uppercase;
+ 		}
+ 	}
+ 	.foot {
+ 		li {
+ 			display: inline;
+ 			white-space: nowrap;
+ 		}
+ 		font-size: 0.9em;
+ 	}
+ 	.nap {
+ 		li:after {
+ 			content: " \2022 ";
+ 		}
+ 		li.nobullet:after {
+ 			content:none;
+ 		}
+ 	}
+}
