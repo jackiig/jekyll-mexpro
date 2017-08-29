@@ -241,6 +241,16 @@
 					}
 				}
 			}
+			.open .dropdown-menu { //removed drop down box on menu dropdowns
+				position: static;
+				float: none;
+				width: auto;
+				margin-top: 0;
+				background-color: transparent;
+				border: 0;
+				-webkit-box-shadow: none;
+				box-shadow: none;
+			}
 			.open .dropdown-menu, .dropdown-header {
 				>li > a {
 					padding: 0 15px 0 25px;
