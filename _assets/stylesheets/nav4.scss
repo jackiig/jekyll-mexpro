@@ -250,6 +250,9 @@
 				border: 0;
 				-webkit-box-shadow: none;
 				box-shadow: none;
+				> li > a {
+					line-height: 28px;
+				}
 			}
 			.open .dropdown-menu, .dropdown-header {
 				>li > a {
