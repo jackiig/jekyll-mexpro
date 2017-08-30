@@ -285,7 +285,8 @@
 		display: none;
 	}
 	.navbar-toggle {
-		margin-right: 0;
+		margin-right: 5px;
+		margin-left: 5px;
 	}
 }
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { //removes scroll for dropdown
