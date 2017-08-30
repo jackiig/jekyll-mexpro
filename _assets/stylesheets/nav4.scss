@@ -241,14 +241,21 @@
 			margin-left: 0;
 			margin-top: 0;
 			.btn-login, .btn-buy {
-				margin-bottom: 5px;
+				margin-top: 10px;
+				margin-bottom: 10px;
 			}
 			.btn-buy {
 				margin-right: 5px;
 			}
-			> li.phone > a, > li.phone > a:focus {
+			> li {
+				> a, > a:focus {
+					padding-top: 5px;
+					padding-bottom: 5px;
+				}
+			}
+			li.phone > a, li.phone > a:focus {
 				padding-left: 50px;
-				padding-bottom: 10px;
+				padding-bottom: 15px;
 			}
 			.dropdown-menu {
 				text-align: right;
