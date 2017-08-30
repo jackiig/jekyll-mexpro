@@ -197,7 +197,16 @@
 		display:none;
 	}
 	.navbar-header {
-		min-height: 65px;
+		.navbar-brand {
+			img {
+				&.logo-fixed {
+					position: fixed;
+					z-index: 2000;
+					top: 0;
+					left: 2%;
+				}
+			}
+		}
 		.search, .mobphonenav {
 			float:right;
 		}
@@ -297,5 +306,19 @@
 .mobphonenav {
 	display:none;
 }
-
 } //End Xtra-Small Screen
+
+/* Logo Screen Size small : 860px - 991px wide*/
+@media (min-width:860px) and (max-width:991px) {
+.navbar-default {
+	.navbar-header {
+		.navbar-brand {
+			img {
+				&.logo-fixed {
+					left: 7%;
+				}
+			}
+		}
+	}
+}
+} // End Small Screen
