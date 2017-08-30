@@ -246,6 +246,10 @@
 			.btn-buy {
 				margin-right: 5px;
 			}
+			> li.phone > a, > li.phone > a:focus {
+				padding-left: 50px;
+				padding-bottom: 10px;
+			}
 			.dropdown-menu {
 				text-align: right;
 				> li {
