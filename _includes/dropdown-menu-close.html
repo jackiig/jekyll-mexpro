@@ -1,0 +1,25 @@
+<!-- Makes Header Drop Down Menu close when click on page -->
+<script>
+
+jQuery(document).ready(function () {
+
+    jQuery(document).on('click touchstart', function (event) {
+
+        var clickover = $(event.target);
+
+        event.stopPropagation();
+        
+        var _opened = $(".navbar-collapse").hasClass("navbar-collapse collapse in");
+
+        if (_opened === true && !clickover.hasClass("navbar-toggle") &&
+!clickover.hasClass("dropdown-toggle") && event.target.tagName != "A") {
+
+            jQuery("button.navbar-toggle").click();
+
+        }
+
+    });
+
+});
+
+</script>
