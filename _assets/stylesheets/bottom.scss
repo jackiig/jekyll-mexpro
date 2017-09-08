@@ -70,7 +70,6 @@ footer {
  		div + div {
 		    padding-left: 20px;
 		}
-
 		div + div::before {
 		    content: '';
 		    border-left: 2px solid #eaf2f6;
@@ -120,13 +119,34 @@ footer {
 			}
 		}
 		.tollsoc {
+			padding: 0;
 			li {
 				font-size: 1.2em;
 				font-weight: normal;
+				float: left;
+				margin-right: 10px;
 			}
 			li:first-child a {
 				color: #0c93d2;
 				font-weight: 600;
+			}
+			li.social {
+				background-image: url(/images/social.png);
+	    		background-repeat: no-repeat;
+	    		margin: 0;
+	    		display: block;
+	    		margin-right: 5px;
+	    		height: 30px;
+				width: 30px;
+	    		&.fb {
+	    			background-position: 0 0;
+	    		}
+	    		&.twit {
+	    			background-position: 0 -60px;
+	    		}
+	    		&.gplus {
+	    			background-position: 0 -120px;
+	    		}
 			}
 		}
 	}
