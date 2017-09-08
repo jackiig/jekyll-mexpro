@@ -14,6 +14,22 @@ footer {
  	font-size: 0.75em;
  	color: #0c93d2;
  	.bot-menu {
+ 		> div {
+    		display: inline-block;
+    		position: relative;
+ 		}
+ 		div + div {
+		    padding-left: 20px;
+		}
+
+		div + div::before {
+		    content: '';
+		    border-left: 2px solid #eaf2f6;
+		    position: absolute;
+		    height: 70%;
+		    left: 0;
+		    top: 15%;
+		}
  		li.title {
  			color: #798d96;
 			font-weight: 400;
