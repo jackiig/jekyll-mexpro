@@ -17,7 +17,7 @@ footer {
  		> div {
     		display: inline-block;
     		position: relative;
-    		&:last-child {
+    		&:last-child { // for the contact us section i.e. buy, call, visit
     			padding-right: 0;
     			ul {
     				padding-top: 15px;
@@ -50,12 +50,17 @@ footer {
 	    			}
     				h5 {
     					float: left;
-    					font-size: 1.0em;
-    					margin-bottom: 5px;
-    					margin-top: 5px;
+    					font-size: 1.0em; //had to reduce size to fit 'visit..
+    					margin: 0;
+    					margin-top: 10px;
+    				}
+    				&:first-child {
+    					h5 {
+    						margin-top: 8px;
+    					}
     				}
     				&:last-child {
-    					.visitus, h5 {
+    					span {
     						margin-top: 8px;
     					}
     				}
