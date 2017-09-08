@@ -131,3 +131,20 @@ footer {
 		}
 	}
 }
+
+@media (max-width: 991px) {
+//CSS Specific to navbar break point
+footer {
+	.bot-menu {
+		div + div {
+		   padding-left: 15px;
+		}
+		div {
+			border-bottom: 2px solid #eaf2f6;
+		}
+		div + div::before, div:last-child {
+		    border: none;
+		}
+	}
+}
+} // End breakpoint 991px
