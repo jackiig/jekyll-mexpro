@@ -23,6 +23,8 @@ footer {
     				padding-top: 15px;
     			}
     			li {
+    				height: 40px;
+    				padding-bottom: 10px;
     				span {
 	    				background-image: url(/images/CTA-footer.png);
 	    				background-repeat: no-repeat;
@@ -36,18 +38,26 @@ footer {
 							width: 35px;
 	    				}
 	    				&.callus {
-	    					background-position: 0 -70px;
-							height: 33px;
-							width: 32px;
+	    					background-position: 0 -62px;
+							height: 35px;
+							width: 34px;
 	    				}
 	    				&.visitus {
-	    					background-position: 0 -136px;
+	    					background-position: 0 -131px;
 							height: 22px;
-							width: 36px;
+							width: 37px;
 	    				}
 	    			}
     				h5 {
     					float: left;
+    					font-size: 1.0em;
+    					margin-bottom: 5px;
+    					margin-top: 5px;
+    				}
+    				&:last-child {
+    					.visitus, h5 {
+    						margin-top: 8px;
+    					}
     				}
     			}
     		}
