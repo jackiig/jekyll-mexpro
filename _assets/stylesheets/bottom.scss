@@ -17,6 +17,40 @@ footer {
  		> div {
     		display: inline-block;
     		position: relative;
+    		&:last-child {
+    			padding-right: 0;
+    			ul {
+    				padding-top: 15px;
+    			}
+    			li {
+    				span {
+	    				background-image: url(/images/CTA-footer.png);
+	    				background-repeat: no-repeat;
+	    				margin: 0;
+	    				display: block;
+	    				margin-right: 5px;
+	    				float:left;
+	    				&.buyonline {
+							background-position: 0 0;
+							height: 30px;
+							width: 35px;
+	    				}
+	    				&.callus {
+	    					background-position: 0 -70px;
+							height: 33px;
+							width: 32px;
+	    				}
+	    				&.visitus {
+	    					background-position: 0 -136px;
+							height: 22px;
+							width: 36px;
+	    				}
+	    			}
+    				h5 {
+    					float: left;
+    				}
+    			}
+    		}
  		}
  		div + div {
 		    padding-left: 20px;
