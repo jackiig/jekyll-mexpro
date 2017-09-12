@@ -26,33 +26,47 @@ footer {
     				height: 40px;
     				padding-bottom: 10px;
     				a {
-	    				span:first-child {
+	    				span {
 		    				background: url(/images/CTA-footer.png) no-repeat left top;
 		    				margin: 0;
 		    				display: block;
 		    				margin-right: 5px;
 		    				float:left;
-		    				&.buyonline {
+		    				&:first-child.buyonline {
 								background-position: 0 0;
 								height: 30px;
 								width: 35px;
 		    				}
 
-	    				&.callus {
-	    					background-position: 0 -62px;
-							height: 35px;
-							width: 34px;
-	    				}
-	    				&.visitus {
-	    					background-position: 0 -131px;
-							height: 22px;
-							width: 37px;
+		    				&:first-child.callus {
+		    					background-position: 0 -63px;
+								height: 36px;
+								width: 33px;
+		    				}
+		    				&:nth-child(2) {
+		    					background-image: none;
+		    				}
+		    				&:first-child.visitus {
+		    					background-position: 0 -133px;
+								height: 25px;
+								width: 36px;
+								margin-top: 8px;
+		    				}
 	    				}
 	    			}
 	    			a:hover {
-	    				span.buyonline {
-	    					background-position: 0 -30px;
-	    				}
+	    				span {
+	    					&:first-child.buyonline {
+	    						background-position: 0 -31px;
+	    					}
+	    					&:first-child.callus {
+	    						background-position: 0 -97px;
+
+	    					}
+		    				&:first-child.visitus {
+		    					background-position: 0 -156px;
+		    				}
+		    			}
 	    			}
     				h5 {
     					float: left;
