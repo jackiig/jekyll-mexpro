@@ -18,6 +18,7 @@ footer {
     		display: inline-block;
     		position: relative;
     		&:last-child { // for the contact us section i.e. buy, call, visit
+    			padding-top: 5px;
     			padding-right: 0;
     			ul {
     				padding-top: 15px;
@@ -74,9 +75,9 @@ footer {
 		    content: '';
 		    border-left: 2px solid #eaf2f6;
 		    position: absolute;
-		    height: 70%;
+		    height: 80%;
 		    left: 0;
-		    top: 15%;
+		    top: 10%;
 		}
  		li.title {
  			color: #798d96;
