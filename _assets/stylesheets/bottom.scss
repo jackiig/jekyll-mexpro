@@ -18,10 +18,9 @@ footer {
     		display: inline-block;
     		position: relative;
     		&:last-child { // for the contact us section i.e. buy, call, visit
-    			padding-top: 5px;
     			padding-right: 0;
     			ul {
-    				padding-top: 15px;
+    				padding-top: 20px;
     			}
     			li {
     				height: 40px;
@@ -92,9 +91,6 @@ footer {
  				padding-left: 0;
  			}
  		}
- 		&.bot-tips, &.bot-about, &.bot-contact {
- 			padding-left: -40px;
- 		}
  	}
  	li {
  		list-style: none;
@@ -107,6 +103,10 @@ footer {
 		color: #798d96;
 		padding-top: 15px;
 		border-top: 2px solid #eaf2f6;
+		div {
+			padding-left: 0;
+			padding-right: 0
+		}
  		li {
  			display: inline;
  			white-space: nowrap;
@@ -157,6 +157,15 @@ footer {
 //CSS Specific to navbar break point
 footer {
 	.bot-menu {
+		.bot-menu {
+			> div {
+				&:last-child { // for the contact us section i.e. buy, call, visit
+					ul {
+						padding-top: 15px;
+					}
+				}
+			}
+		}
 		div + div {
 		   padding-left: 15px;
 		}
@@ -168,6 +177,11 @@ footer {
 		}
 		div + div::before, div:last-child {
 		    border: none;
+		}
+	}
+	.foot {
+		div {
+			text-align: center;
 		}
 	}
 }
