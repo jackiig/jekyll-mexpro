@@ -87,9 +87,6 @@ footer {
  	> div {
  		ul {
  			padding-left: 0;
- 			&.col-sm-12 {
- 				padding-left: 0;
- 			}
  		}
  	}
  	li {
@@ -102,6 +99,7 @@ footer {
 		font-size: 0.9em;
 		color: #798d96;
 		padding-top: 15px;
+		padding-bottom: 15px;
 		border-top: 2px solid #eaf2f6;
 		div {
 			padding-left: 0;
