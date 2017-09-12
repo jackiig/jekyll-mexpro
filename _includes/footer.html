@@ -46,7 +46,17 @@
 		</div>
 	</div> <!-- End bottom menu -->
 	<div class="foot col-xs-12">
-		<div class="nap col-sm-8">
+		<!-- Toll free number & social media for mobile only -->
+		<div class="tollsoc hidden-sm hidden-md hidden-lg">
+			<ul>
+				<li itemscope itemtype="http://schema.org/ContactPoint"><a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish"><span class="glyphicon glyphicon-earphone"></span> 1-855-MexPro1</span></a> Toll Free</li>
+				<li class="social fb"><a class="" href="" title="Mexpro on Facebook"></a></li>
+				<li class="social twit"><a class="" href="" title="Mexpro on Twitter"></a></li>
+				<li class="social gplus"><a class="" href="" title="Mexpro on Google Plus"></a></li>
+			</ul>
+		</div> <!-- End toll free number & social media -->
+		<!-- End NAP -->
+		<div class="nap col-md-8 col-xs-12">
 			<ul>
 				<li itemscope itemtype="http://schema.org/Corporation">&copy;1999 - {{ site.time | date:'%Y' }} <span itemprop="brand">Mexpro - Mexico Insurance Professionals</span></li>
 				<li>DBA Mexico &amp; RV Insurance Services</li>
@@ -56,7 +66,8 @@
 				<li class="nobullet"><a href="/mexico/sitemap.html">Site Map</a></li>
 			</ul>
 		</div> <!-- End NAP -->
-		<div class="tollsoc col-sm-4">
+		<!-- Toll free number & social media for all except mobile -->
+		<div class="tollsoc col-md-4 col-sm-12 hidden-xs">
 			<ul>
 				<li itemscope itemtype="http://schema.org/ContactPoint"><a href="tel:+18556397761" rel="nofollow" title="Call Mexpro"><span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish"><span class="glyphicon glyphicon-earphone"></span> 1-855-MexPro1</span></a> Toll Free</li>
 				<li class="social fb"><a class="" href="" title="Mexpro on Facebook"></a></li>
