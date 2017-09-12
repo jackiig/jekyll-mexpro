@@ -30,7 +30,7 @@ footer {
 		    				background: url(/images/CTA-footer.png) no-repeat left top;
 		    				margin: 0;
 		    				display: block;
-		    				margin-right: 5px;
+		    				margin-right: 10px;
 		    				float:left;
 		    				&:first-child.buyonline {
 								background-position: 0 0;
@@ -66,6 +66,9 @@ footer {
 		    				&:first-child.visitus {
 		    					background-position: 0 -156px;
 		    				}
+		    			}
+		    			h5 {
+		    				color: #0c93d2;
 		    			}
 	    			}
     				h5 {
