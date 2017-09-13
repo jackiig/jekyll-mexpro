@@ -3,22 +3,16 @@
 
 // Styles Only for home page
 
-body {
-	background-size: 100% 500px;
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
-	background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
-}
-.container#content {
-	
-}
 // Home Page Photo, Text, Quote Box
 .feature {
-	min-height: 490px;
+	background-color: transparent;
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
+	background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
+	min-height: 500px;
 	position: relative;
-	top: 35px;
+	top: 60px;
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -54,13 +48,8 @@ body {
 }
 
 // Mexico insurance required, online policy easy section
-.didfast {
-	background-size: 100% 500px;
-	background-color: transparent;
-	background-repeat: no-repeat;
-	background-position: 0 0;
-	background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
-	background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
+.doublepane {
+	
 }
 
 /* Device Based css */
