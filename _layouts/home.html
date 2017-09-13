@@ -7,10 +7,12 @@
   </head>
   <body class="{{page.body_class}}">
     {% include header4.html %}
-    <div class="container" id="content">
-    	<div class="row">
+    <div id="content">
+      <div class="container">
+    	 <div class="row">
     		<h1>{{page.h1}}</h1> <!-- may want this to be page.title -->
-    	</div>
+    	 </div>
+      </div>
       {{ content }}
     </div>
     {% include footer.html %}
