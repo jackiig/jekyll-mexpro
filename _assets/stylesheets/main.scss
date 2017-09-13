@@ -9,10 +9,7 @@ body {
 	font-family: 'Lato-Regular';
 	font-size: 16px;
 	&.home {
-		.container.content {
-			//position: relative;
-			//top: 60px;
-		}
+		
 	}
 }
 h1 { //Dark text heading in the section-Learn more about our Mexico
@@ -48,6 +45,11 @@ a {
 .center {
 	text-align: center;
 	margin: 0 auto;
+}
+
+.container-fluid .container {
+    padding-left:0;
+    padding-right:0;
 }
 
 /* Device Based css */
