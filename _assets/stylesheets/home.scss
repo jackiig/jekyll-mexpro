@@ -10,20 +10,46 @@ body {
 	background-position: 0 0;
 	background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
 	background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
-	//max-width: 1500px;
 }
 .container#content {
-	//position: relative;
-	//top: 400px;
+	
 }
 
 .mainquote {
-	min-height: 450px;
+	min-height: 490px;
+	position: relative;
+	top: 35px;
 	h1 {
 		color: white;
 		font-size: 1.8em;
 		line-height: 1;
-		margin-top: 30px;
+	}
+}
+
+.btn-quotehome.btn {
+	background-color: #d47d3a;
+	color: white;
+	width: 300px;
+	border-radius: 0;
+	h2 {
+		font-size: 25px;
+		font-weight: 600;
+	}
+}
+.quotedropdown {
+	.dropdown-menu {
+		padding: 0;
+		width: 300px;
+		border-radius: 0;
+		margin: 0;
+		border: 0;
+		> li >a, > li > a:hover, > li > a:visited, > li > a:active {
+			background-color: #d47d3a;
+			color: white;
+			font-size: 18px;
+			font-weight: 600;
+			border-bottom: 1px solid red;
+		}
 	}
 }
 
