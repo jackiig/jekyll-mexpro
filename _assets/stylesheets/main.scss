@@ -52,6 +52,10 @@ a {
     padding-left:0;
     padding-right:0;
 }
+//Max width for container fluid with background images
+.feature, .doublepane {
+	max-width: 1500px;
+}
 
 /* Device Based css */
 
