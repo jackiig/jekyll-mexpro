@@ -6,13 +6,12 @@
     {% style home %}
   </head>
   <body class="{{page.body_class}}">
-    {% include header4.html %}
-    <div id="content">
-      <div class="container">
-    	 <div class="row">
-    		<h1>{{page.h1}}</h1> <!-- may want this to be page.title -->
-    	 </div>
+    <div class="container-fluid">
+      <div class="row">
+        {% include header4.html %}
       </div>
+    </div>
+    <div id="content">
       {{ content }}
     </div>
     {% include footer.html %}
