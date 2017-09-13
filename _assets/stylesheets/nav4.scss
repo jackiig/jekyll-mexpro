@@ -141,6 +141,13 @@
 	}
 }
 
+.dropdown-menu {
+	top: 33px;
+	> li > a {
+		padding: 3px 10px;
+	}
+}
+
 .modal {
 	.modal-header {
 		padding: 10px 15px;
@@ -315,6 +322,9 @@
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { //removes scroll for dropdown
 	max-height: none;
 	
+}
+.dropdown-menu {
+	top: initial;
 }
 } // End 991px breakpoint
 
