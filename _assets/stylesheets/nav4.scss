@@ -139,12 +139,11 @@
 			background-color: transparent;
 		}
 	}
-}
-
-.dropdown-menu {
-	top: 33px;
-	> li > a {
-		padding: 3px 10px;
+	.dropdown-menu {
+		top: 33px;
+		> li > a {
+			padding: 3px 10px;
+		}
 	}
 }
 
@@ -318,14 +317,15 @@
 		margin-right: 5px;
 		margin-left: 5px;
 	}
+	.dropdown-menu {
+		top: initial; 
+	} 
 }
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse { //removes scroll for dropdown
 	max-height: none;
 	
 }
-.dropdown-menu {
-	top: initial;
-}
+
 } // End 991px breakpoint
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
