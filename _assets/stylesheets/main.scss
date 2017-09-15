@@ -34,20 +34,9 @@ h5 { //Headings on the footer areas
 	font-weight: 400;
 	margin-bottom: 8px;
 }
-.center {
-	text-align: center;
-	margin: 0 auto;
-}
-
 a {
 	color: #0c93d2;
 }
-
-.center {
-	text-align: center;
-	margin: 0 auto;
-}
-
 .container-fluid .container {
     padding-left:0;
     padding-right:0;
@@ -76,5 +65,8 @@ a {
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
-
+.container-fluid .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 } //End Xtra-Small Screen
