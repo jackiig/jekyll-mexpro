@@ -8,9 +8,9 @@
 	background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: bottom left;
-	background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
-	background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
-	min-height: 500px;
+	//background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
+	//background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
+	//min-height: 500px;
 	position: relative;
 	top: 62px;
 	h1 {
@@ -53,19 +53,30 @@
 }
 
 /* Device Based css */
+@media (min-width:1500px) {
+	.feature { 
+		background-image: url('/images/home-page-1.png') center center no-repeat; // fallback
+		background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1.png);
+		min-height: 500px;
+	}
+}
+@media (min-width:1200px) and (max-width:1499px) {
+	.feature { 
+		background-image: url('/images/home-page-1300.png') center center no-repeat; // fallback
+		background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1300.png);
+		min-height: 500px;
+	}
+}
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-body {
-
-}
 
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
 @media (min-width:992px) and (max-width:1199px) {
 body {
-	background-size: 100% 450px;
+	//background-size: 100% 450px;
 }
 .feature {
 	min-height: 425px;
