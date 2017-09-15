@@ -24,27 +24,43 @@
 .btn-quotehome.btn {
 	background-color: #d47d3a;
 	color: white;
-	width: 300px;
+	width: 270px;
 	border-radius: 0;
 	h2 {
 		font-size: 22px;
 		font-weight: 600;
+		margin: 5px;
 	}
 }
 .quotedropdown {
 	ul.dropdown-menu {
-		width: 300px;
+		width: 270px;
+		background-color: #d47d3a;
 		border-radius: 0;
 		padding: 0;
 		margin: 0;
 		border: 0;
 		font-size: 0.9em;
-		> li >a, > li > a:hover, > li > a:visited, > li > a:active {
+		> li {
 			background-color: #d47d3a;
 			color: white;
-			//font-size: 18px;
-			font-weight: 600;
-			border-bottom: 1px solid red;
+			&:first-child {
+				font-size: 0.8em;
+				padding: 0 25px;
+			}
+			> a, > a:hover, > a:visited, > a:active {
+				background-color: #d47d3a;
+				color: white;
+				//font-size: 18px;
+				font-weight: 600;
+				border-bottom: 1px solid #bf5d13;
+				margin: 5px;
+			}
+			&:last-child {
+				> a, > a:hover, > a:visited, > a:active {
+					border: none;
+				}
+			}
 		}
 	}
 }
