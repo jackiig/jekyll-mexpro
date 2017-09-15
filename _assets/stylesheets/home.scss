@@ -7,13 +7,13 @@
 .feature {
 	//background-color: transparent;
 	background-repeat: no-repeat;
-	background-position: bottom right;
+	background-position: 85% 93%, right bottom;
 	background-image: url('/images/accredited.png'), url('/images/home-page-1.png'); // fallback
 	//background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1300.png);
 	min-height: 575px;
 	position: relative;
 	top: 62px;
-	background-size: 132px 242px, cover;
+	background-size: 110px 208px, cover;
 
 	h1 {
 		color: white;
@@ -86,14 +86,23 @@
 @media (min-width:992px) and (max-width:1199px) {
 	.feature {
 		min-height: 450px;
+		background-size: 90px 170px, cover;
 	}
 }  //end Medium Screen
 
+@media (max-width: 991px) {
+//CSS Specific to navbar break point
+	.feature {
+		top: 30px;
+	}
+}
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
 @media (min-width:768px) and (max-width:991px) {
 	.feature {
 		min-height: 360px;
+		background-size: 85px 160px, cover;
+		background-position: 85% 98%, right bottom;
 	}
 } // End Small Screen
 
@@ -101,8 +110,10 @@
 @media (max-width:767px) {
 	.feature {
 		background-image: url('/images/home-page-mobile-1.png');
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-size: cover;
 		min-height: 570px;
-		top: 30px;
 		h1 {
 			text-align: center;
 		}
