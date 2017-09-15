@@ -27,21 +27,22 @@
 	width: 300px;
 	border-radius: 0;
 	h2 {
-		font-size: 25px;
+		font-size: 22px;
 		font-weight: 600;
 	}
 }
 .quotedropdown {
-	.dropdown-menu {
-		padding: 0;
+	ul.dropdown-menu {
 		width: 300px;
 		border-radius: 0;
+		padding: 0;
 		margin: 0;
 		border: 0;
+		font-size: 0.9em;
 		> li >a, > li > a:hover, > li > a:visited, > li > a:active {
 			background-color: #d47d3a;
 			color: white;
-			font-size: 18px;
+			//font-size: 18px;
 			font-weight: 600;
 			border-bottom: 1px solid red;
 		}
@@ -86,6 +87,13 @@
 		}
 		.dropdown {
 			text-align: center;
+		}
+	}
+	.quotedropdown {
+		ul.dropdown-menu {
+			margin: auto;
+			float: none;
+			position: relative;
 		}
 	}
 } //End Xtra-Small Screen
