@@ -39,8 +39,8 @@ a {
 	color: #0c93d2;
 }
 .container-fluid .container {
-    padding-left:0;
-    padding-right:0;
+    //padding-left:0;
+    //padding-right:0;
 }
 //Max width for container fluid with background images
 .feature, .doublepane {
@@ -67,7 +67,7 @@ a {
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 .container-fluid .container {
-    padding-left: 15px;
-    padding-right: 15px;
+    //padding-left: 15px;
+    //padding-right: 15px;
 }
 } //End Xtra-Small Screen
