@@ -8,12 +8,13 @@
 	//background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: bottom right;
-	background-image: url('/images/home-page-1.png'); // fallback
+	background-image: url('/images/accredited.png'), url('/images/home-page-1.png'); // fallback
 	//background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1300.png);
 	min-height: 575px;
 	position: relative;
 	top: 62px;
-	background-size: cover;
+	background-size: 132px 242px, cover;
+
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -63,6 +64,10 @@
 			}
 		}
 	}
+}
+//quality icons in feature
+.qualicons {
+
 }
 
 // Mexico insurance required, online policy easy section
