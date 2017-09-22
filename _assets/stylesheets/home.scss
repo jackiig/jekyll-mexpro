@@ -149,9 +149,8 @@
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
-	.container-fluid { // covers for 62px top nav
-		top: 62px;
-		position: relative;
+	.container-fluid { // covers top nav
+		top: 30px;
 	}
 	.feature {
 		background-image: url('/images/accredited-horiz.png'), url('/images/home-page-mobile-1.png');
