@@ -7,6 +7,12 @@
 	position: relative;
 }
 
+.white-line { // used below headers on home page
+	border-bottom: 2px solid white;
+	width: 25px;
+	margin: 15px auto;
+}
+
 // Home Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
@@ -73,15 +79,30 @@
 
 // Mexico insurance required, online policy easy section
 .doublepane {
+	color: white;
 	text-align: center;
 	max-width: 1500px;
 	h2 {
+		font-size: 15px;
+		text-transform: uppercase;
+		font-weight: 600;
 		text-align: center;
+		margin-top: 28px;
+	}
+	h3 {
+		color: white;
+		font-size: 40px;
+		font-weight: normal;
+
 	}
 	.col-sm-6 {
 		background-repeat: no-repeat;
 		background-position: center top;
 		max-width: 750px;
+		min-height: 300px;
+		background-size: cover;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	.col-sm-6:first-child {
 		background-image: url('/images/ck-drivers-license.png');
@@ -128,6 +149,10 @@
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
+	.container-fluid { // covers for 62px top nav
+		top: 62px;
+		position: relative;
+	}
 	.feature {
 		background-image: url('/images/accredited-horiz.png'), url('/images/home-page-mobile-1.png');
 		background-repeat: no-repeat;
