@@ -81,6 +81,21 @@
 
 }
 
+//Feature Icons
+.featureicons {
+	z-index: 1000;
+	position:relative;
+	top: -20px;
+	li {
+		list-style: none;
+		text-align: center;
+		span {
+			background-image: url('');
+			background-repeat: no-repeat;
+		}
+	}
+}
+
 // Mexico insurance required, online policy easy section
 .doublepane {
 	color: white;
