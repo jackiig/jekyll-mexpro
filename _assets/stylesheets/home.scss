@@ -87,7 +87,8 @@
 		text-transform: uppercase;
 		font-weight: 600;
 		text-align: center;
-		margin-top: 28px;
+		padding-top: 28px;
+		margin-top: 0;
 	}
 	h3 {
 		color: white;
@@ -97,7 +98,7 @@
 	}
 	.col-sm-6 {
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: center left;
 		max-width: 750px;
 		min-height: 300px;
 		background-size: cover;
@@ -125,11 +126,16 @@
 		min-height: 450px;
 		background-size: 90px 170px, cover;
 	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 325px;
+		}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
-	.feature {
+	.container-fluid { // covers top nav
 		top: 30px;
 	}
 }
@@ -145,13 +151,15 @@
 			font-size: 1.6em;
 		}
 	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 350px;
+		}
+	}
 } // End Small Screen
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
-	.container-fluid { // covers top nav
-		top: 30px;
-	}
 	.feature {
 		background-image: url('/images/accredited-horiz.png'), url('/images/home-page-mobile-1.png');
 		background-repeat: no-repeat;
@@ -170,6 +178,11 @@
 			margin: auto;
 			float: none;
 			position: relative;
+		}
+	}
+	.doublepane {
+		.col-sm-6:last-child {
+			top: -30px;
 		}
 	}
 } //End Xtra-Small Screen
