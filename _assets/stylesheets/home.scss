@@ -41,7 +41,7 @@
 	}
 }
 .quotedropdown {
-	ul.dropdown-menu {
+	.dropdown-menu {
 		width: 270px;
 		background-color: #d47d3a;
 		border-radius: 0;
@@ -50,14 +50,14 @@
 		border: 0;
 		font-size: 0.9em;
 		> li {
-			background-color: #d47d3a;
+			background: #d47d3a;
 			color: white;
 			&:first-child {
 				font-size: 0.8em;
 				padding: 0 25px;
 			}
 			> a, > a:hover, > a:visited, > a:active {
-				background-color: #d47d3a;
+				background: #d47d3a;
 				color: white;
 				//font-size: 18px;
 				font-weight: 600;
@@ -71,6 +71,10 @@
 			}
 		}
 	}
+}
+.dropdown-menu > li > a, .dropdown-menu > li > a:hover {
+	color: white;
+	background-color: #d47d3a;
 }
 //quality icons in feature
 .qualicons {
