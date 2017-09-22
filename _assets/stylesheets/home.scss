@@ -5,10 +5,9 @@
 
 // Home Page Photo, Text, Quote Box
 .feature {
-	//background-color: transparent;
 	background-repeat: no-repeat;
 	background-position: 85% 93%, right bottom;
-	background-image: url('/images/accredited.png'), url('/images/home-page-1.png'); // fallback
+	background-image: url('/images/accredited.png'), url('/images/home-page-1.png');
 	//background-image: linear-gradient(to bottom, rgba(30,40,60,0.8) 0%,rgba(0,0,0,0.1) 55%), url(/images/home-page-1300.png);
 	min-height: 575px;
 	position: relative;
@@ -113,10 +112,10 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('/images/home-page-mobile-1.png');
+		background-image: url('/images/accredited-horiz.png'), url('/images/home-page-mobile-1.png');
 		background-repeat: no-repeat;
-		background-position: right bottom;
-		background-size: cover;
+		background-position: 50% 95%, right bottom;
+		background-size: 262px 73px, cover;
 		min-height: 570px;
 		h1 {
 			text-align: center;
