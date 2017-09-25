@@ -85,13 +85,35 @@
 .featureicons {
 	z-index: 1000;
 	position:relative;
-	top: -20px;
+	//top: -20px;
 	li {
 		list-style: none;
 		text-align: center;
 		span {
-			background-image: url('');
+			background-image: url('/images/featureiconsblue.png');
 			background-repeat: no-repeat;
+			width: 80px;
+			height: 80px;
+			display: block;
+			margin: 0 auto 10px;
+			&.auto {
+				background-position: 0 0;
+			}
+			&.home {
+				background-position: 0 -80px;
+			}
+			&.boat {
+				background-position: 0 -160px;
+			}
+			&.travel {
+				background-position: 0 -240px;
+			}
+			&.usatourist {
+				background-position: 0 -320px;
+			}
+			&.mexresauto {
+				background-position: 0 -400px;
+			}
 		}
 	}
 }
