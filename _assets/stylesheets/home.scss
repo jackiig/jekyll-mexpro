@@ -2,11 +2,6 @@
 //= require_self
 
 // Styles Only for home page
-.container-fluid { // covers for 62px top nav
-	top: 62px;
-	position: relative;
-}
-
 .white-line { // used below headers on home page
 	border-bottom: 2px solid white;
 	width: 25px;
@@ -21,7 +16,7 @@
 	min-height: 575px;
 	position: relative;
 	background-size: 110px 208px, cover;
-
+	top: 62px;
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -89,6 +84,8 @@
 	li {
 		list-style: none;
 		text-align: center;
+		padding-bottom: 10px;
+		line-height: 1.2;
 		span {
 			background-image: url('/images/featureiconsblue.png');
 			background-repeat: no-repeat;
