@@ -42,6 +42,14 @@ a, a:hover {
 	text-align: center;
 	margin: 0 auto;
 }
+.whiteline, .grayline { // small borders used below headers
+	border-bottom: 2px solid white;
+	width: 25px;
+	margin: 15px auto;
+}
+.grayline {
+	border-color: #798d96;
+}
 //Max width for container fluid with background images
 .feature, .doublepane {
 	max-width: 1500px;
