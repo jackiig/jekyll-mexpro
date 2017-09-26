@@ -78,15 +78,14 @@
 .featureicons {
 	z-index: 1000;
 	position:relative;
-	top: 20px;
-	.container {
-		padding-bottom: 10px;
+	ul {
+		margin-left: -40px;
 	}
 	li {
 		list-style: none;
 		text-align: center;
-		padding-bottom: 10px;
 		line-height: 1.2;
+		top: -30px;
 		span {
 			background-image: url('/images/featureiconsblue.png');
 			background-repeat: no-repeat;
@@ -234,8 +233,11 @@
 			font-size: 1.6em;
 		}
 	}
-	.featureicons li span {
-		margin-top: 15px;
+	.featureicons {
+		margin-bottom: 30px;
+		li {
+			top: 15px;
+		}
 	}
 	.doublepane {
 		.col-sm-6 {
