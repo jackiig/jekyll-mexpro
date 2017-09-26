@@ -24,6 +24,7 @@
 	}
 }
 
+// Quote button with dropdown within feature image
 .btn-quotehome.btn {
 	background-color: #d47d3a;
 	color: white;
@@ -35,6 +36,7 @@
 		margin: 5px;
 	}
 }
+// Quote box dropdown within feature image
 .quotedropdown {
 	.dropdown-menu {
 		width: 270px;
@@ -70,10 +72,6 @@
 .dropdown-menu > li > a, .dropdown-menu > li > a:hover {
 	color: white;
 	background-color: #d47d3a;
-}
-//quality icons in feature
-.qualicons {
-
 }
 
 //Feature Icons
@@ -151,6 +149,56 @@
 	}
 	.col-sm-6:last-child {
 		background-image: url('/images/using-mouse.png');
+	}
+}
+
+// Product Categories
+.prodcategories {
+	position:relative;
+	.container {
+		//padding-bottom: 10px;
+	}
+	li {
+		list-style: none;
+		text-align: center;
+		padding-bottom: 10px;
+		line-height: 1.2;
+		span {
+			background-image: url('/images/categoryiconsblue.png');
+			background-repeat: no-repeat;
+			display: block;
+			margin: 0 auto 10px;
+			&.autocat {
+				background-position: 0 0;
+				width: 52px;
+				height: 72px;
+			}
+			&.homecat {
+				background-position: 0 -72px;
+				width: 75px;
+				height: 53px;
+			}
+			&.boatcat {
+				background-position: 0 -125px;
+				width: 87px;
+				height: 48px;
+			}
+			&.travelcat {
+				background-position: 0 -173px;
+				width: 53px;
+				height: 64px;
+			}
+			&.usatouristcat {
+				background-position: 0 -237px;
+				width: 52px;
+				height: 72px;
+			}
+			&.mexresautocat {
+				background-position: 0 -309px;
+				width: 86px;
+				height: 67px;
+			}
+		}
 	}
 }
 
