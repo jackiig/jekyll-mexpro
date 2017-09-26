@@ -220,6 +220,12 @@
 	.feature { // covers top nav
 		margin-top: 30px;
 	}
+	.featureicons {
+		margin-bottom: 30px;
+		li {
+			top: 15px;
+		}
+	}
 }
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
@@ -231,12 +237,6 @@
 		h1 {
 			margin-top: 35px;
 			font-size: 1.6em;
-		}
-	}
-	.featureicons {
-		margin-bottom: 30px;
-		li {
-			top: 15px;
 		}
 	}
 	.doublepane {
@@ -267,9 +267,6 @@
 			float: none;
 			position: relative;
 		}
-	}
-	.featureicons li span {
-		margin-top: 15px;
 	}
 	.doublepane {
 		.col-sm-6:last-child {
