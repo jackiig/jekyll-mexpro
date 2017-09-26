@@ -233,6 +233,29 @@
 	h3 {
 		font-size: 30px;
 	}
+	ul {
+		margin-left: -40px;
+	}
+	li {
+		list-style: none;
+		span {
+			background-image: url('/images/partners.png');
+			background-repeat: no-repeat;
+			display: block;
+			margin: 0 auto 10px;
+			width: 223px;
+			height: 110px;
+			&.aba {
+				background-position: 0 0;
+			}
+			&.gnp {
+				background-position: 0 -110px;
+			}
+			&.elag {
+				background-position: 0 -220px;
+			}
+		}
+	}
 	margin-bottom: 25px;
 }
 
