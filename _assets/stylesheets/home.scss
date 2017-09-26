@@ -220,12 +220,6 @@
 	.feature { // covers top nav
 		margin-top: 30px;
 	}
-	.featureicons {
-		margin-bottom: 30px;
-		li {
-			top: 15px;
-		}
-	}
 }
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
@@ -237,6 +231,12 @@
 		h1 {
 			margin-top: 35px;
 			font-size: 1.6em;
+		}
+	}
+	.featureicons {
+		margin-bottom: 30px;
+		li {
+			top: 15px;
 		}
 	}
 	.doublepane {
@@ -259,6 +259,19 @@
 		}
 		.dropdown {
 			text-align: center;
+		}
+	}
+	.featureicons {
+		margin-bottom: 15px;
+		li {
+			top: 15px;
+			padding-bottom: 15px;
+			&.col-xs-6:nth-child(even) {
+				padding-left: 0;
+			}
+			&.col-xs-6:nth-child(odd) {
+				padding-right: 0;
+			}
 		}
 	}
 	.quotedropdown {
