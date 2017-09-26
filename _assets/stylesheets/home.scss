@@ -16,7 +16,7 @@
 	min-height: 575px;
 	position: relative;
 	background-size: 110px 208px, cover;
-	top: 62px;
+	margin-top: 62px;
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -155,9 +155,7 @@
 // Product Categories
 .prodcategories {
 	position:relative;
-	.container {
-		//padding-bottom: 10px;
-	}
+	margin: 20px auto;
 	li {
 		list-style: none;
 		text-align: center;
@@ -168,35 +166,31 @@
 			background-repeat: no-repeat;
 			display: block;
 			margin: 0 auto 10px;
+			height: 72px;
+			vertical-align: bottom;
 			&.autocat {
 				background-position: 0 0;
 				width: 52px;
-				height: 72px;
 			}
 			&.homecat {
 				background-position: 0 -72px;
 				width: 75px;
-				height: 53px;
 			}
 			&.boatcat {
-				background-position: 0 -125px;
+				background-position: 0 -147px;
 				width: 87px;
-				height: 48px;
 			}
 			&.travelcat {
-				background-position: 0 -173px;
+				background-position: 0 -216px;
 				width: 53px;
-				height: 64px;
 			}
 			&.usatouristcat {
-				background-position: 0 -237px;
+				background-position: 0 -288px;
 				width: 52px;
-				height: 72px;
 			}
 			&.mexresautocat {
-				background-position: 0 -309px;
+				background-position: 0 -361px;
 				width: 86px;
-				height: 67px;
 			}
 		}
 	}
@@ -224,8 +218,8 @@
 
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
-	.container-fluid { // covers top nav
-		top: 30px;
+	.feature { // covers top nav
+		margin-top: 30px;
 	}
 }
 
