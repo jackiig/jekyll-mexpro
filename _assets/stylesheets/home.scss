@@ -322,6 +322,24 @@
 			min-height: 350px;
 		}
 	}
+	.trusted {
+		.col-sm-6:first-child, .col-sm-6:last-child {
+			.video {
+				min-height: 200px;
+			}
+		}
+		.col-sm-6:last-child {
+			min-height: 200px;
+			padding: 0 2% 0;
+			h2 {
+				font-size: 1.4em;
+			}
+			p {
+				font-size: 0.9em;
+			}
+			background-position: 50% 90%;
+		}
+	}
 } // End Small Screen
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
