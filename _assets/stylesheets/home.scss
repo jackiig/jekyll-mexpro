@@ -380,9 +380,10 @@
 	}
 	.doublepane {
 		.col-sm-6{
-			min-height: 375px;
+			min-height: 390px;
 			&:last-child {
 				top: -30px;
+    			min-height: 350px;
 			}
 		}
 	}
