@@ -388,4 +388,16 @@
 	.prodcategories.container-fluid {
 		margin: 0 auto;
 	}
+	.trusted {
+		.col-sm-6:last-child {
+			min-height: 250px;
+			h2 {
+				font-size: 1.5em;
+			}
+			p {
+				font-size: 1em;
+			}
+			background-position: 50% 91%;
+		}
+	}
 } //End Xtra-Small Screen
