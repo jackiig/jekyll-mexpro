@@ -241,10 +241,11 @@
 	}
 	li {
 		list-style: none;
+		display: inline;
 		span {
 			background-image: url('/images/partners.png');
 			background-repeat: no-repeat;
-			display: block;
+			display: inline-block;
 			margin: 0 auto 10px;
 			width: 223px;
 			height: 110px;
@@ -393,6 +394,7 @@
 			min-height: 250px;
 			h2 {
 				font-size: 1.5em;
+				margin-bottom: 15px;
 			}
 			p {
 				font-size: 1em;
