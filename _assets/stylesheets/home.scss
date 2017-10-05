@@ -41,20 +41,21 @@
 		margin: 0;
 		border: 0;
 		font-size: 0.9em;
+		z-index: 1100; //puts above feature icons
 		> li {
 			background: #d47d3a;
 			color: white;
 			&:first-child {
 				font-size: 0.8em;
-				padding: 0 25px;
+				padding: 0 25px 5px;
 			}
 			> a, > a:hover, > a:visited, > a:active {
 				background: #d47d3a;
 				color: white;
-				//font-size: 18px;
 				font-weight: 600;
 				border-bottom: 1px solid #bf5d13;
 				margin: 5px;
+				padding-top: 0;
 			}
 			&:last-child {
 				> a, > a:hover, > a:visited, > a:active {
