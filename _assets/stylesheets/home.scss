@@ -81,8 +81,8 @@
 		text-align: center;
 		line-height: 1.2;
 		top: -30px;
-		span {
-			background-image: url('/images/featureiconsblue.png');
+		a span {
+			background-image: url('/images/featureiconsall.png');
 			background-repeat: no-repeat;
 			width: 80px;
 			height: 80px;
@@ -92,19 +92,39 @@
 				background-position: 0 0;
 			}
 			&.home {
-				background-position: 0 -80px;
-			}
-			&.boat {
 				background-position: 0 -160px;
 			}
-			&.travel {
-				background-position: 0 -240px;
-			}
-			&.usatourist {
+			&.boat {
 				background-position: 0 -320px;
 			}
+			&.travel {
+				background-position: 0 -480px;
+			}
+			&.usatourist {
+				background-position: 0 -640px;
+			}
 			&.mexresauto {
+				background-position: 0 -800px;
+			}
+		}
+		a:hover span {
+			&.auto {
+				background-position: 0 -80px;
+			}
+			&.home {
+				background-position: 0 -240px;
+			}
+			&.boat {
 				background-position: 0 -400px;
+			}
+			&.travel {
+				background-position: 0 -560px;
+			}
+			&.usatourist {
+				background-position: 0 -720px;
+			}
+			&.mexresauto {
+				background-position: 0 -880px;
 			}
 		}
 		a {
