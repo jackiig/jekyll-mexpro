@@ -3,7 +3,7 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <div itemscope itemtype="http://schema.org/Organization">
-        <a itemprop="url" class="navbar-brand" href="/" title="Mexpro Logo"><img itemprop="logo" class="hidden-xs logo-fixed" src="/images/mexpro-2017logo.png" alt="Mexpro Logo" width="257" height="70"><img itemprop="logo" class="hidden-lg hidden-md hidden-sm logo-fixed" src="/images/mexpro-2017logo-mobile.png" alt="Mexpro Logo" width="227" height="61"></a>
+        <a itemprop="url" class="navbar-brand" href="{{ site.url }}" title="Mexpro Logo"><img itemprop="logo" class="hidden-xs logo-fixed" src="/images/mexpro-2017logo.png" alt="Mexpro Logo" width="257" height="70"><img itemprop="logo" class="hidden-lg hidden-md hidden-sm logo-fixed" src="/images/mexpro-2017logo-mobile.png" alt="Mexpro Logo" width="227" height="61"></a>
       </div>
       <div class="search hidden-md hidden-lg">
           <a href="#" class="st-search-show-outputs"><span class="glyphicon glyphicon-search"></span></a>
@@ -43,7 +43,7 @@
       <div class="row row2">
           <ul class="nav navbar-nav">
               <li role="presentation" class="{% if page.body_class == 'home' %}active{% endif %}">
-                <a href="{{ site.url }}?utm_source=nav2&utm_medium=www&utm_campaign=navhome" title="Home Page">Home</a>
+                <a href="{{ site.url }}?utm_source=nav2&utm_medium=www&utm_campaign=navhomepage" title="Home Page">Home</a>
               </li>
               <li class="navdivider"></li>
               <li class="{% if page.body_class == 'language' %}active{% endif %} hidden-md hidden-lg">
@@ -57,7 +57,7 @@
                     <li><a href="{{ site.url }}/mexico/auto/insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopage" title="Mexico Auto, RV, Motorcycle insurance">Mexico Tourist Auto</a></li>
                     <li><a href="{{ site.url }}/mexico/home-insurance/?utm_source=nav2&utm_medium=www&utm_campaign=navhomepage" title="Mexico Home, Condo, Townhome insurance">Home, Condo, Townhome</a></li>
                     <li><a href="{{ site.url }}/mexico/boat/?utm_source=nav2&utm_medium=www&utm_campaign=navboatpage" title="Boat, jet ski, watercraft insurance">Boat &amp; Personal Watercraft</a></li>
-                    <li><a href="{{ site.url }}/mexico/holiday-medical-insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navtmedpage" title="International travel health insurance">Travel Health Insurance</a></li>
+                    <li><a href="{{ site.url }}/mexico/holiday-medical-insurance.html?utm_source=nav2&utm_medium=www&utm_campaign=navmedpage" title="International travel health insurance">Travel Health Insurance</a></li>
                     <li><a href="{{ site.url }}/mexico/short-term-us-auto-insurance?utm_source=nav2&utm_medium=www&utm_campaign=navnbpage" title="Insurance for tourists in USA">USA Tourist Auto</a></li>
                     <!--<li><a href="#{{ site.url }}" title="Mexican auto insurance for residents of Mexico">Mexican Resident Auto</a></li>-->
                   </ul>
