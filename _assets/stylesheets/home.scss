@@ -178,7 +178,7 @@
 	ul {
 		margin-left: -40px;
 	}
-	li {
+	li,.carousel-inner {
 		list-style: none;
 		text-align: center;
 		padding-bottom: 10px;
@@ -238,6 +238,41 @@
 		}
 		a:hover h5 {
 			color: #0c93d2;
+		}
+	}
+	#CatCarousel {
+		.carousel-control{
+			&.right, &.left {
+				background-image: none;
+				filter: none;
+				height: 30px;
+				width: 30px;
+				background: grey;
+				-moz-border-radius: 30px;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				margin-top: 15%;
+			}
+			&.right {
+				margin-right: 10px;
+				.icon-next {
+					margin-right: -11px;
+					margin-top: -17px;
+				}
+			}
+			&.left {
+				margin-left: 10px;
+				.icon-prev {
+					margin-left: -11px;
+					margin-top: -17px;
+				}
+			}
+			.icon-next:before, .icon-prev:before {
+				font-size: 1.5em;
+			}
+		}
+		.carousel-inner {
+			top: -10px;
 		}
 	}
 }
