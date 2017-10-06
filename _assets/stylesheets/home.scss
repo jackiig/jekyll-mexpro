@@ -394,6 +394,11 @@
 			margin: auto;
 			float: none;
 			position: relative;
+			> li:last-child {
+				> a, > a:hover, > a:visited, > a:active {
+					padding-bottom: 8px;
+				}
+			}
 		}
 	}
 	.doublepane {
