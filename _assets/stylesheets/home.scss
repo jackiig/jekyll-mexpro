@@ -183,7 +183,7 @@
 		text-align: center;
 		padding-bottom: 10px;
 		line-height: 1.2;
-		span {
+		a span {
 			background-image: url('/images/categoryiconsall.png');
 			background-repeat: no-repeat;
 			display: block;
@@ -195,24 +195,44 @@
 				width: 52px;
 			}
 			&.homecat {
-				background-position: 0 -72px;
+				background-position: 0 -145px;
 				width: 75px;
 			}
 			&.boatcat {
-				background-position: 0 -147px;
+				background-position: 0 -288px;
 				width: 87px;
 			}
 			&.travelcat {
-				background-position: 0 -216px;
+				background-position: 0 -432px;
 				width: 53px;
 			}
 			&.usatouristcat {
-				background-position: 0 -288px;
+				background-position: 0 -575px;
 				width: 52px;
 			}
 			&.mexresautocat {
-				background-position: 0 -361px;
+				background-position: 0 -721px;
 				width: 86px;
+			}
+		}
+		a:hover span {
+			&.autocat {
+				background-position: 0 -72px;
+			}
+			&.homecat {
+				background-position: 0 -216px;
+			}
+			&.boatcat {
+				background-position: 0 -361px;
+			}
+			&.travelcat {
+				background-position: 0 -503px;
+			}
+			&.usatouristcat {
+				background-position: 0 -647px;
+			}
+			&.mexresautocat {
+				background-position: 0 -793px;
 			}
 		}
 		a:hover h5 {
