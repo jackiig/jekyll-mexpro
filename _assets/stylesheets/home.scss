@@ -25,10 +25,8 @@
 	color: white;
 	width: 270px;
 	border-radius: 0;
-	h2 {
-		font-size: 22px;
-		font-weight: 600;
-		margin: 5px;
+	&:hover, &:focus, &.focus {
+		color: white;
 	}
 }
 // Quote box dropdown within feature image
