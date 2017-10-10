@@ -53,6 +53,10 @@ footer {
 								margin-top: 8px;
 		    				}
 	    				}
+	    				p {
+	    					color: #3c4b52;
+	    					margin-top: 10px;
+	    				}
 	    			}
 	    			a:hover {
 	    				span {
@@ -66,11 +70,11 @@ footer {
 		    					background-position: 0 -148px;
 		    				}
 		    			}
-		    			h5 {
+		    			h5, p {
 		    				color: #0c93d2;
 		    			}
 	    			}
-    				h5 {
+    				h5, p {
     					float: left;
     					font-size: 1.0em; //had to reduce size to fit 'visit..
     					margin: 0;
