@@ -2,15 +2,13 @@
 <html lang="en" xml:lang="en">
   <head>
     {% include head.html %}
+    {% style main %}
   </head>
   <body class="{{page.body_class}}">
     {% include header.html %}
-    <div class="container-fluid">
-    	<div class="row">
-    		<h1>{{page.h1}}</h1> <!-- may want this to be page.title -->
-    	</div>
+  <div id="content" class="container">
       {{ content }}
-    </div>
+  </div>
     {% include footer.html %}
     {% style bottom %}
     {% include javascript.html %}
