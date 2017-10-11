@@ -11,7 +11,7 @@
 	min-height: 575px;
 	position: relative;
 	background-size: 110px 208px, cover;
-	margin-top: 62px;
+	//margin-top: 62px; put 62px margin on id content replaced with content in bottom css
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -372,7 +372,7 @@
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
 	.feature { // covers top nav
-		margin-top: 30px;
+		//margin-top: 30px; replaced with content in bottom css
 	}
 }
 
@@ -383,7 +383,7 @@
 		background-size: 85px 160px, cover;
 		background-position: 84% 88%, right bottom;
 		h1 {
-			margin-top: 35px;
+			margin-top: 45px;
 			font-size: 1.6em;
 		}
 	}
@@ -425,6 +425,7 @@
 		min-height: 570px;
 		h1 {
 			text-align: center;
+			margin-top: 1.2em;
 		}
 		.dropdown {
 			text-align: center;
