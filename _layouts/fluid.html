@@ -4,5 +4,9 @@ layout: default
 ---
 
 <div class="container-fluid">
+	{% if page.h1 %}
+		<h1>{{page.h1}}</h1>
+	{% endif %}
+
 {{content}}
 </div>
