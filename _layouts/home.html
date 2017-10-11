@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en" xml:lang="en">
+<html lang="{{page.lang}}" xml:lang="{{page.lang}}">
   <head>
     {% include head.html %}
     {% style main %}
     {% style home %}
   </head>
   <body class="{{page.body_class}}">
-
-        {% include header.html %}
+    {% include header/header.html %}
 
     <div id="content">
       {{ content }}
     </div>
-    {% include footer.html %}
+    
+    {% include footer/footer.html %}
+
     {% style bottom %}
     {% include javascript.html %}
   </body>
