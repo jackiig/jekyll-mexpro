@@ -7,7 +7,7 @@
 .feature {
 	background-repeat: no-repeat;
 	background-position: 85% 85%, right bottom;
-	background-image: url('/images/accredited.png'), url('/images/home-page-1.png');
+	background-image: url('../images/accredited.png'), url('../images/home-page-1.png');
 	min-height: 575px;
 	position: relative;
 	background-size: 110px 208px, cover;
@@ -81,7 +81,7 @@
 		line-height: 1.2;
 		top: -30px;
 		a span {
-			background-image: url('/images/featureiconsall.png');
+			background-image: url('../images/featureiconsall.png');
 			background-repeat: no-repeat;
 			width: 80px;
 			height: 80px;
@@ -162,10 +162,10 @@
 		padding-right: 30px;
 	}
 	.col-sm-6:first-child {
-		background-image: url('/images/ck-drivers-license.png');
+		background-image: url('../images/ck-drivers-license.png');
 	}
 	.col-sm-6:last-child {
-		background-image: url('/images/using-mouse.png');
+		background-image: url('../images/using-mouse.png');
 	}
 }
 
@@ -182,7 +182,7 @@
 		padding-bottom: 10px;
 		line-height: 1.2;
 		a span {
-			background-image: url('/images/categoryiconsall.png');
+			background-image: url('../images/categoryiconsall.png');
 			background-repeat: no-repeat;
 			display: block;
 			margin: 0 auto 10px;
@@ -281,7 +281,7 @@
 	.col-sm-6:first-child {
 		padding: 0;
 		.video {
-			background-image: url('/images/play-button.png'),url('/images/company-photo750.png');
+			background-image: url('../images/play-button.png'),url('../images/company-photo750.png');
 			background-position: 50% 50%, top center;
 			max-width: 750px;
 			min-height: 300px;
@@ -291,7 +291,7 @@
 		}
 	}
 	.col-sm-6:last-child {
-		background-image: url('/images/accredited-horiz.png');
+		background-image: url('../images/accredited-horiz.png');
 		background-position: 50% 85%;
 		background-size: 262px 73px;
 		min-height: 300px;
@@ -318,7 +318,7 @@
 		list-style: none;
 		display: inline;
 		span {
-			background-image: url('/images/partners.png');
+			background-image: url('../images/partners.png');
 			background-repeat: no-repeat;
 			display: inline-block;
 			margin: 0 auto 10px;
@@ -418,7 +418,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('/images/accredited-horiz.png'), url('/images/home-page-mobile-1.png');
+		background-image: url('../images/accredited-horiz.png'), url('../images/home-page-mobile-1.png');
 		background-repeat: no-repeat;
 		background-position: 50% 95%, right bottom;
 		background-size: 262px 73px, cover;
