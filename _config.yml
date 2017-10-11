@@ -15,6 +15,7 @@ url: "https://www.mexpro.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 google-analytics: UA-3065776-3
+destination: "docs"
 
 # Build settings
 markdown: kramdown
