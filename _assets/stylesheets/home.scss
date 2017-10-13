@@ -28,7 +28,14 @@
 	&:hover, &:focus, &.focus {
 		color: white;
 	}
+
 }
+.home-sp {
+	.btn-quotehome.btn, .quotedropdown .dropdown-menu {
+		width: 300px;
+	}
+}
+
 // Quote box dropdown within feature image
 .quotedropdown {
 	.dropdown-menu {
