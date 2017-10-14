@@ -121,18 +121,18 @@
 	color: white;
 	.col-sm-6:first-child {
 		padding: 0;
-		.autowhy {
+		.autowhy, .claimsimg {
 			background-image: url('../images/auto-photos.png');
 			background-position: 0 0;
 			max-width: 750px;
-			min-height: 400px;
+			min-height: 330px;
 			background-size: cover;
 			background-repeat: no-repeat;
 			display: block;
 		}
 	}
 	.col-sm-6:last-child {
-		min-height: 400px;
+		min-height: 330px;
 	}
 }
 
