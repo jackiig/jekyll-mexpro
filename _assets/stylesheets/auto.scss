@@ -60,33 +60,33 @@
 				background-position: 0 0;
 			}
 			&.moto {
-				background-position: 0 -80px;
+				background-position: 0 -81px;
 			}
 			&.autv {
-				background-position: 0 -160px;
+				background-position: 0 -163px;
 			}
 			&.rv {
-				background-position: 0 -240px;
+				background-position: 0 -245px;
 			}
 			&.towed {
-				background-position: 0 -320px;
+				background-position: 0 -327px;
 			}
 		}
 		a:hover span {
 			&.auto {
-				background-position: 0 -400px;
+				background-position: 0 -408px;
 			}
 			&.moto {
-				background-position: 0 -480px;
+				background-position: 0 -489px;
 			}
 			&.autv {
-				background-position: 0 -560px;
+				background-position: 0 -570px;
 			}
 			&.rv {
-				background-position: 0 -640px;
+				background-position: 0 -651px;
 			}
 			&.towed {
-				background-position: 0 -720px;
+				background-position: 0 -732px;
 			}
 		}
 		a {
@@ -102,7 +102,7 @@
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto-feature-sprite.png');
-			background-position: 0 -800px;
+			background-position: 0 -813px;
 			background-repeat: no-repeat;
 			width: 70px;
 			height: 67px;
@@ -110,7 +110,7 @@
 			margin: 0 auto 10px;
 		}
 		&.fullcovimg {
-			background-position: 0 -868px;
+			background-position: 0 -880px;
 			width: 66px;
 			height: 66px;
 		}
@@ -148,7 +148,7 @@
 
 .tip {
 	background-image: url('../images/auto-photos.png');
-	background-position: 0 -800;
+	background-position: 0 -800px;
 	max-width: 675px;
 	min-height: 373px;
 	background-size: cover;
