@@ -50,7 +50,7 @@
 		position: relative;
 		padding: 0 10px;
 		a span {
-			background-image: url('../images/autoiconsall.png');
+			background-image: url('../images/auto-feature-sprite.png');
 			background-repeat: no-repeat;
 			width: 80px;
 			height: 80px;
@@ -60,30 +60,30 @@
 				background-position: 0 0;
 			}
 			&.moto {
-				background-position: 0 -160px;
+				background-position: 0 -80px;
 			}
 			&.autv {
-				background-position: 0 -320px;
+				background-position: 0 -160px;
 			}
 			&.rv {
-				background-position: 0 -480px;
+				background-position: 0 -240px;
 			}
 			&.towed {
-				background-position: 0 -640px;
+				background-position: 0 -320px;
 			}
 		}
 		a:hover span {
 			&.auto {
-				background-position: 0 -80px;
-			}
-			&.moto {
-				background-position: 0 -240px;
-			}
-			&.autv {
 				background-position: 0 -400px;
 			}
-			&.rv {
+			&.moto {
+				background-position: 0 -480px;
+			}
+			&.autv {
 				background-position: 0 -560px;
+			}
+			&.rv {
+				background-position: 0 -640px;
 			}
 			&.towed {
 				background-position: 0 -720px;
@@ -98,30 +98,50 @@
 	}
 }
 
+.autocov {
+	span {
+		&.liabimg, &.fullcovimg {
+			background-image: url('../images/auto-feature-sprite.png');
+			background-position: 0 -800px;
+			background-repeat: no-repeat;
+			width: 70px;
+			height: 67px;
+			display: block;
+			margin: 0 auto 10px;
+		}
+		&.fullcovimg {
+			background-position: 0 -868px;
+			width: 66px;
+			height: 66px;
+		}
+	}
+}
+
 .why, .claims {
 	background-color: #0c93d2;
 	color: white;
 	.col-sm-6:first-child {
 		padding: 0;
 		.autowhy {
-			background-image: url('../images/autowhy.png');
-			background-position: top center;
+			background-image: url('../images/auto-photos.png');
+			background-position: 0 0;
 			max-width: 750px;
-			min-height: 300px;
+			min-height: 400px;
 			background-size: cover;
 			background-repeat: no-repeat;
 			display: block;
 		}
 	}
 	.col-sm-6:last-child {
-		min-height: 300px;
+		min-height: 400px;
 	}
 }
 
 .claims {
 	.col-sm-6:first-child {
 		.claimsimg {
-			background-image: url('../images/claimsimg.png');
+			background-image: url('../images/auto-photos.png');
+			background-position: 0 -400px;
 		}
 	}
 }
