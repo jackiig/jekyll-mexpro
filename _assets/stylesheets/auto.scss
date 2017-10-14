@@ -156,209 +156,6 @@
 	display: block;
 }
 
-// Mexico insurance required, online policy easy section
-.doublepane {
-	color: white;
-	max-width: 1500px;
-	h2 {
-		font-size: 15px;
-		text-transform: uppercase;
-		font-weight: 600;
-		padding-top: 28px;
-		margin-top: 0;
-	}
-	h3 {
-		color: white;
-		font-size: 40px;
-		font-weight: normal;
-
-	}
-	.col-sm-6 {
-		background-repeat: no-repeat;
-		background-position: center left;
-		max-width: 750px;
-		min-height: 275px;
-		background-size: cover;
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	.col-sm-6:first-child {
-		background-image: url('../images/ck-drivers-license.png');
-	}
-	.col-sm-6:last-child {
-		background-image: url('../images/using-mouse.png');
-	}
-}
-
-// Product Categories
-.prodcategories {
-	position:relative;
-	margin: 20px auto;
-	ul {
-		margin-left: -40px;
-	}
-	li,.carousel-inner {
-		list-style: none;
-		text-align: center;
-		padding-bottom: 10px;
-		line-height: 1.2;
-		a span {
-			background-image: url('../images/categoryiconsall.png');
-			background-repeat: no-repeat;
-			display: block;
-			margin: 0 auto 10px;
-			height: 72px;
-			vertical-align: bottom;
-			&.autocat {
-				background-position: 0 0;
-				width: 52px;
-			}
-			&.homecat {
-				background-position: 0 -144px;
-				width: 75px;
-			}
-			&.boatcat {
-				background-position: 0 -288px;
-				width: 87px;
-			}
-			&.travelcat {
-				background-position: 0 -432px;
-				width: 53px;
-			}
-			&.usatouristcat {
-				background-position: 0 -576px;
-				width: 52px;
-			}
-			&.mexresautocat {
-				background-position: 0 -722px;
-				width: 86px;
-				height: 71px;
-			}
-		}
-		a:hover span {
-			&.autocat {
-				background-position: 0 -72px;
-			}
-			&.homecat {
-				background-position: 0 -216px;
-			}
-			&.boatcat {
-				background-position: 0 -361px;
-			}
-			&.travelcat {
-				background-position: 0 -503px;
-			}
-			&.usatouristcat {
-				background-position: 0 -649px;
-			}
-			&.mexresautocat {
-				background-position: 0 -793px;
-			}
-		}
-		a:hover h5 {
-			color: #0c93d2;
-		}
-	}
-	#CatCarousel {
-		.carousel-control{
-			&.right, &.left {
-				background-image: none;
-				filter: none;
-				height: 30px;
-				width: 30px;
-				background: grey;
-				-moz-border-radius: 30px;
-				-webkit-border-radius: 30px;
-				border-radius: 30px;
-				margin-top: 15%;
-			}
-			&.right {
-				margin-right: 10px;
-				.icon-next {
-					margin-right: -11px;
-					margin-top: -17px;
-				}
-			}
-			&.left {
-				margin-left: 10px;
-				.icon-prev {
-					margin-left: -11px;
-					margin-top: -17px;
-				}
-			}
-			.icon-next:before, .icon-prev:before {
-				font-size: 1.5em;
-			}
-		}
-		.carousel-inner {
-			top: -10px;
-		}
-	}
-}
-
-.trusted {
-	background-color: #0c93d2;
-	color: white;
-	.col-sm-6:first-child {
-		padding: 0;
-		.video {
-			background-image: url('../images/play-button.png'),url('../images/company-photo750.png');
-			background-position: 50% 50%, top center;
-			max-width: 750px;
-			min-height: 300px;
-			background-size: 80px 80px, cover;
-			background-repeat: no-repeat;
-			display: block;
-		}
-	}
-	.col-sm-6:last-child {
-		background-image: url('../images/accredited-horiz.png');
-		background-position: 50% 85%;
-		background-size: 262px 73px;
-		min-height: 300px;
-		padding: 4% 5% 0;
-		background-repeat: no-repeat;
-	}
-}
-
-.partners {
-	h2 {
-		color: #0c93d2;
-		font-size: 15px;
-		margin-top: 28px;
-		text-transform: uppercase;
-		font-weight: 400;
-	}
-	h3 {
-		font-size: 30px;
-	}
-	ul {
-		margin-left: -40px;
-	}
-	li {
-		list-style: none;
-		display: inline;
-		span {
-			background-image: url('../images/partners.png');
-			background-repeat: no-repeat;
-			display: inline-block;
-			margin: 0 auto 10px;
-			width: 223px;
-			height: 110px;
-			&.aba {
-				background-position: 0 0;
-			}
-			&.gnp {
-				background-position: 0 -110px;
-			}
-			&.elag {
-				background-position: 0 -220px;
-			}
-		}
-	}
-	margin-bottom: 25px;
-}
-
 /* Device Based css */
 
 /* Large Screen size - Desktop : 1200px wide and larger */
@@ -371,11 +168,6 @@
 	.feature {
 		min-height: 450px;
 		background-size: 90px 170px, cover;
-	}
-	.doublepane {
-		.col-sm-6 {
-			min-height: 325px;
-		}
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
@@ -392,17 +184,15 @@
 
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
-	.feature { // covers top nav
-		//margin-top: 30px; replaced with content in bottom css
-	}
+
 }
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
 @media (min-width:768px) and (max-width:991px) {
 	.feature {
 		min-height: 420px;
-		background-size: 85px 160px, cover;
-		background-position: 84% 88%, right bottom;
+		background-size: cover;
+		background-position: right bottom;
 		h1 {
 			margin-top: 45px;
 			font-size: 1.6em;
@@ -410,11 +200,6 @@
 	}
 	.featureicons {
 		margin-bottom: 0;
-	}
-	.doublepane {
-		.col-sm-6 {
-			min-height: 350px;
-		}
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
@@ -439,17 +224,14 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/accredited-horiz.png'), url('../images/home-page-mobile-1.png');
+		background-image: url('../images/mexico-insurance-mobile.png');
 		background-repeat: no-repeat;
-		background-position: 50% 95%, right bottom;
-		background-size: 262px 73px, cover;
+		background-position: right bottom;
+		background-size: cover;
 		min-height: 570px;
 		h1 {
 			text-align: center;
 			margin-top: 1.2em;
-		}
-		.dropdown {
-			text-align: center;
 		}
 	}
 	.featureicons {
@@ -465,30 +247,6 @@
 				padding-right: 0;
 			}
 		}
-	}
-	.quotedropdown {
-		ul.dropdown-menu {
-			margin: auto;
-			float: none;
-			position: relative;
-			> li:last-child {
-				> a, > a:hover, > a:visited, > a:active {
-					padding-bottom: 8px;
-				}
-			}
-		}
-	}
-	.doublepane {
-		.col-sm-6{
-			min-height: 390px;
-			&:last-child {
-				top: -30px;
-    			min-height: 350px;
-			}
-		}
-	}
-	.prodcategories.container-fluid {
-		margin: 0 auto;
 	}
 	.trusted {
 		.col-sm-6:last-child {
