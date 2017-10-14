@@ -140,7 +140,7 @@
 	.col-sm-6:first-child {
 		.claimsimg {
 			background-image: url('../images/auto-photos.png');
-			background-position: 0 -400px;
+			background-position: 0 -335px;
 		}
 	}
 }
@@ -150,9 +150,9 @@
 	background-position: 0 -800px;
 	max-width: 675px;
 	min-height: 373px;
-	background-size: cover;
 	background-repeat: no-repeat;
 	display: block;
+	margin: 20px auto;
 }
 
 /* Device Based css */
