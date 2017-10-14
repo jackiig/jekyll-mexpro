@@ -102,17 +102,16 @@
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto-feature-sprite.png');
-			background-position: 0 -813px;
+			background-position: 0 -826px;
 			background-repeat: no-repeat;
 			width: 70px;
-			height: 67px;
+			height: 69px;
 			display: block;
 			margin: 0 auto 10px;
 		}
 		&.fullcovimg {
-			background-position: 0 -880px;
+			background-position: 0 -893px;
 			width: 66px;
-			height: 66px;
 		}
 	}
 }
