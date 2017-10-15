@@ -135,16 +135,21 @@
 .why, .claims {
 	background-color: #0c93d2;
 	color: white;
+	.autowhy, .claimsimg {
+		background-image: url('../images/auto-photos.png');
+		max-width: 750px;
+		min-height: 330px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: block;
+	}
+}
+
+.why {
 	.col-sm-6:first-child {
 		padding: 0;
-		.autowhy, {
-			background-image: url('../images/auto-photos.png');
+		.autowhy {
 			background-position: 0 0;
-			max-width: 750px;
-			min-height: 330px;
-			background-size: cover;
-			background-repeat: no-repeat;
-			display: block;
 		}
 	}
 	.col-sm-6:last-child {
@@ -159,14 +164,9 @@
 		padding: 4% 10% 0;
 	}
 	.col-sm-6:last-child {
+		padding: 0;
 		.claimsimg {
-			background-image: url('../images/auto-photos.png');
 			background-position: 0 -335px;
-			max-width: 750px;
-			min-height: 330px;
-			background-size: cover;
-			background-repeat: no-repeat;
-			display: block;
 		}
 	}
 }
