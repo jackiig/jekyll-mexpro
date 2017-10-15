@@ -5,7 +5,7 @@
 
 //h2 headers that are darkh4 color
 .darkh5 {
-	margin-top: 30px;
+	margin-top: 40px;
 }
 
 // Home Page Photo, Text, Quote Box
@@ -16,6 +16,9 @@
 	min-height: 575px;
 	position: relative;
 	background-size: cover;
+	.col-sm-6:first-child {
+		padding-top: 2%;
+	}
 	h1, p {
 		color: white;
 		font-size: 1.8em;
@@ -134,7 +137,7 @@
 	color: white;
 	.col-sm-6:first-child {
 		padding: 0;
-		.autowhy, .claimsimg {
+		.autowhy, {
 			background-image: url('../images/auto-photos.png');
 			background-position: 0 0;
 			max-width: 750px;
@@ -146,15 +149,24 @@
 	}
 	.col-sm-6:last-child {
 		min-height: 330px;
-		padding: 4% 5% 0;
+		padding: 4% 10% 0;
 	}
 }
 
 .claims {
 	.col-sm-6:first-child {
+		min-height: 330px;
+		padding: 4% 10% 0;
+	}
+	.col-sm-6:last-child {
 		.claimsimg {
 			background-image: url('../images/auto-photos.png');
 			background-position: 0 -335px;
+			max-width: 750px;
+			min-height: 330px;
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: block;
 		}
 	}
 }
