@@ -138,7 +138,7 @@
 	.autowhy, .claimsimg {
 		background-image: url('../images/auto-photos.png');
 		max-width: 750px;
-		min-height: 330px;
+		min-height: 324px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		display: block;
@@ -153,14 +153,14 @@
 		}
 	}
 	.col-sm-6:last-child {
-		min-height: 330px;
+		min-height: 324px;
 		padding: 4% 10% 0;
 	}
 }
 
 .claims {
 	.col-sm-6:first-child {
-		min-height: 330px;
+		min-height: 324px;
 		padding: 4% 10% 0;
 	}
 	.col-sm-6:last-child {
