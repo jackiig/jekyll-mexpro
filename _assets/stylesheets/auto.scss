@@ -18,6 +18,9 @@
 	}
 	p {
 		font-size: 1em;
+		&:nth-child(2) {
+			font-size: 0.8em;
+		}
 	}
 }
 
@@ -28,9 +31,7 @@
 	width: 270px;
 	border-radius: 2px;
 	border: 1px solid white;
-	&:hover, &:focus, &.focus {
-		color: white;
-	}	
+	margin-bottom: 20px;
 }
 
 //Feature Icons
