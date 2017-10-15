@@ -100,6 +100,9 @@
 }
 
 .autocov {
+	background-image:  url('../images/coverage-slice.png');
+	background-repeat: repeat-x;
+	background-color: #fefefe;
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto-feature-sprite.png');
