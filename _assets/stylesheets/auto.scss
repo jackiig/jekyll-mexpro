@@ -3,6 +3,11 @@
 
 // Styles Only for home page
 
+//h2 headers that are darkh4 color
+.darkh5 {
+	margin-top: 30px;
+}
+
 // Home Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
@@ -103,6 +108,7 @@
 	background-image:  url('../images/coverage-slice.png');
 	background-repeat: repeat-x;
 	background-color: #fefefe;
+	margin-top: 60px;
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto-feature-sprite.png');
@@ -111,7 +117,7 @@
 			width: 70px;
 			height: 69px;
 			display: block;
-			margin: 0 auto 10px;
+			margin: 50px auto 10px;
 		}
 		&.fullcovimg {
 			background-position: 0 -893px;
