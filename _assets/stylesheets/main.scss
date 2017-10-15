@@ -35,6 +35,9 @@ h5 { //Headings on the footer areas
 	font-weight: 400;
 	margin-bottom: 8px;
 }
+.darkh5 {
+	color: #3c4b52;
+}
 a, a:hover {
 	color: #0c93d2;
 }
@@ -43,7 +46,6 @@ a.whitelink, a.whitelink:hover {
 }
 .center {
 	text-align: center;
-	margin: 0 auto;
 }
 .whiteline, .grayline { // small borders used below headers
 	border-bottom: 2px solid white;
