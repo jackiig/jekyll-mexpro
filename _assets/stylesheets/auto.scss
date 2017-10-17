@@ -153,12 +153,9 @@
 	}
 	.col-sm-6:first-child {
 		padding: 0;
-		.autowhy {
-			background-position: 0 0;
-		}
 	}
 	.col-sm-6:last-child {
-		min-height: 324px;
+		min-height: 400px;
 		padding: 4% 10% 0;
 	}
 }
@@ -168,20 +165,16 @@
 		background-image: url('../images/claims-img.png');
 	}
 	.col-sm-6:first-child {
-		min-height: 324px;
+		min-height: 400px;
 		padding: 4% 10% 0;
 	}
 	.col-sm-6:last-child {
 		padding: 0;
-		.claimsimg {
-			background-position: 0 -324px;
-		}
 	}
 }
 
 .tip {
 	background-image: url('../images/tip.png');
-	background-position: 0 -800px;
 	max-width: 657px;
 	min-height: 365px;
 	background-repeat: no-repeat;
