@@ -266,10 +266,12 @@
 		background-repeat: no-repeat;
 		background-position: right bottom;
 		background-size: cover;
-		min-height: 570px;
+		min-height: 450px;
+		text-align: center;
 		h1 {
 			text-align: center;
-			margin-top: 1.2em;
+			margin-top: 1.6em;
+			font-size: 1.4em;
 		}
 	}
 	.featureicons {
