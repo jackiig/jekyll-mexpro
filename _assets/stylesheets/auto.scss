@@ -136,9 +136,8 @@
 	background-color: #0c93d2;
 	color: white;
 	.autowhy, .claimsimg {
-		background-image: url('../images/auto-photos.png');
 		max-width: 750px;
-		min-height: 324px;
+		min-height: 400px;
 		background-size: cover;
 		background-repeat: no-repeat;
 		display: block;
@@ -146,6 +145,9 @@
 }
 
 .why {
+	.autowhy {
+		background-image: url('../images/why-mex-ins.png');
+	}
 	.col-sm-6:first-child {
 		padding: 0;
 		.autowhy {
@@ -159,6 +161,9 @@
 }
 
 .claims {
+	.autowhy {
+		background-image: url('../images/claims-img.png');
+	}
 	.col-sm-6:first-child {
 		min-height: 324px;
 		padding: 4% 10% 0;
@@ -172,10 +177,10 @@
 }
 
 .tip {
-	background-image: url('../images/auto-photos.png');
+	background-image: url('../images/tip.png');
 	background-position: 0 -800px;
-	max-width: 675px;
-	min-height: 373px;
+	max-width: 657px;
+	min-height: 365px;
 	background-repeat: no-repeat;
 	display: block;
 	margin: 20px auto;
