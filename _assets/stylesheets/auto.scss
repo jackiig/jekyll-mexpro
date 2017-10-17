@@ -5,7 +5,7 @@
 
 //h2 headers that are darkh4 color
 .darkh5 {
-	margin-top: 40px;
+	margin-top: 30px;
 }
 
 // Home Page Photo, Text, Quote Box
@@ -114,9 +114,12 @@
 	background-image:  url('../images/coverage-slice.png');
 	background-repeat: repeat-x;
 	background-color: #fefefe;
-	margin-top: 60px;
+	margin-top: 35px;
 	.container {
-		margin-bottom: 40px;
+		margin-bottom: 30px;
+	}
+	darkh5 {
+		margin-top: 20px;
 	}
 	span {
 		&.liabimg, &.fullcovimg {
@@ -126,7 +129,7 @@
 			width: 70px;
 			height: 69px;
 			display: block;
-			margin: 50px auto 10px;
+			margin: 30px auto 10px;
 		}
 		&.fullcovimg {
 			background-position: 0 -893px;
