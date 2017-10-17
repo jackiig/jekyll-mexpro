@@ -124,7 +124,7 @@
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto-feature-sprite.png');
-			background-position: 0 -826px;
+			background-position: 0 -825px;
 			background-repeat: no-repeat;
 			width: 70px;
 			height: 69px;
@@ -186,8 +186,8 @@
 
 .tip {
 	background-image: url('../images/tip.png');
-	max-width: 555px;
-	min-height: 308px;
+	width: 555px;
+	height: 308px;
 	background-repeat: no-repeat;
 	display: block;
 	margin: 20px auto;
@@ -290,36 +290,25 @@
 		}
 	}
 	.why {
-		.col-sm-6:first-child {
-			.autowhy {
-				//background-position: 0 0;
-				min-height: 260px;
-			}
-			
-		}
-		.col-sm-6:last-child {
-			min-height: 260px;
-			//padding: 4% 10% 0;
+		.col-xs-12 {
+			background-image: url('../images/why-mex-ins.png');
+			background-position: top center;
+			min-height: 250px;
 		}
 	}
 
 	.claims {
-		.col-sm-6:first-child {
-			min-height: 280px;
-			//padding: 4% 10% 0;
-		}
-		.col-sm-6:last-child {
-			.claimsimg {
-				background-position: 0 -263px;
-				min-height: 260px;
-			}
+		.col-xs-12 {
+			background-image: url('../images/claims-img.png');
+			background-position: top center;
+			min-height: 300px;
 		}
 	}
 	.tip {
 		background-image: url('../images/tip-mobile.png');
-		width: 450px;
-		height: 256px;
-		background-position: 0 0;
+		width: 300px;
+		height: 171px;
+		background-position: top center;
 	}
 	.trusted {
 		.col-sm-6:last-child {
