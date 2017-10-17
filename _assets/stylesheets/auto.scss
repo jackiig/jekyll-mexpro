@@ -291,19 +291,26 @@
 			}
 		}
 	}
+
+	.why, .claims {
+		.col-xs-12 {
+			background-position: top center;
+			min-height: 300px;
+			h2 {
+				margin-top: 28px;
+			}
+		}
+	}
 	.why {
 		.col-xs-12 {
 			background-image: url('../images/why-mex-ins.png');
-			background-position: top center;
-			min-height: 250px;
 		}
 	}
 
 	.claims {
 		.col-xs-12 {
 			background-image: url('../images/claims-img.png');
-			background-position: top center;
-			min-height: 300px;
+			height: 325px;
 		}
 	}
 	.tip {
@@ -311,6 +318,43 @@
 		width: 300px;
 		height: 171px;
 		background-position: top center;
+	}
+	.autocov {
+		#autoCarousel {
+			.carousel-control {
+				&.right, &.left {
+					background-image: none;
+					filter: none;
+					height: 30px;
+					width: 30px;
+					background: grey;
+					-moz-border-radius: 30px;
+					-webkit-border-radius: 30px;
+					border-radius: 30px;
+					margin-top: 25%;
+				}
+				&.right {
+					margin-right: 10px;
+					.icon-next {
+						margin-right: -11px;
+						margin-top: -17px;
+					}
+				}
+				&.left {
+					margin-left: 10px;
+					.icon-prev {
+						margin-left: -11px;
+						margin-top: -17px;
+					}
+				}
+				.icon-next:before, .icon-prev:before {
+					font-size: 1.5em;
+				}
+			}
+			.carousel-inner {
+				top: -10px;
+			}
+		}
 	}
 	.trusted {
 		.col-sm-6:last-child {
