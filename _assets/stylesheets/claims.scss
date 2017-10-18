@@ -28,7 +28,6 @@
 // Quote box dropdown within feature image 
 .quotedropdown {
 	.dropdown-menu {
-		width: 100%;
 		background-color: white;
 		border-radius: 0;
 		padding: 0;
@@ -37,7 +36,7 @@
 		font-size: 0.9em;
 		z-index: 1100; //puts above feature icons
 		> li {
-			background: white;
+			background-color: white;
 			color: #798d96;
 			width: 100%;
 			&.col-sm-6 {
@@ -48,9 +47,13 @@
 				float:left;
 			}
 			.right {
-				//float: right;
 				text-align: center;
-
+				padding-top: 10px;
+			}
+			&:nth-child(3), &:nth-child(4) {
+				.right {
+					padding-top: 20px;
+				}
 			}
 			span {
 				background-image: url('../images/claims/claimsfeatureicons.png');
