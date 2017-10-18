@@ -12,7 +12,7 @@
 .feature {
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-image: url('../images/mexico-insurance.png');
+	background-image: url('../images/auto/mexico-insurance.png');
 	min-height: 575px;
 	position: relative;
 	background-size: cover;
@@ -62,7 +62,7 @@
 		position: relative;
 		padding: 0 10px;
 		a span {
-			background-image: url('../images/auto-feature-sprite.png');
+			background-image: url('../images/auto/auto-feature-sprite.png');
 			background-repeat: no-repeat;
 			width: 80px;
 			height: 80px;
@@ -76,7 +76,7 @@
 			}
 			&.autv {
 				//background-position: 0 -163px;
-				background-image: url('../images/ATV.png');
+				background-image: url('../images/auto/ATV.png');
 			}
 			&.rv {
 				background-position: 0 -245px;
@@ -120,7 +120,7 @@
 }
 
 .autocov {
-	background-image:  url('../images/coverage-slice.png');
+	background-image:  url('../images/auto/coverage-slice.png');
 	background-repeat: repeat-x;
 	background-color: #fefefe;
 	margin-top: 35px;
@@ -132,7 +132,7 @@
 	}
 	span {
 		&.liabimg, &.fullcovimg {
-			background-image: url('../images/auto-feature-sprite.png');
+			background-image: url('../images/auto/auto-feature-sprite.png');
 			background-position: 0 -825px;
 			background-repeat: no-repeat;
 			width: 70px;
@@ -167,7 +167,7 @@
 
 .why {
 	.autowhy {
-		background-image: url('../images/why-mex-ins.png');
+		background-image: url('../images/auto/why-mex-ins.png');
 		background-position: top right;
 	}
 	.col-sm-6:first-child {
@@ -181,7 +181,7 @@
 
 .claims {
 	.claimsimg {
-		background-image: url('../images/claims-img.png');
+		background-image: url('../images/auto/claims-img.png');
 		background-position: top left;
 	}
 	.col-sm-6:first-child {
@@ -194,7 +194,7 @@
 }
 
 .tip {
-	background-image: url('../images/tip.png');
+	background-image: url('../images/auto/tip.png');
 	width: 555px;
 	height: 308px;
 	background-repeat: no-repeat;
@@ -271,7 +271,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/mexico-insurance-mobile.png');
+		background-image: url('../images/auto/mexico-insurance-mobile.png');
 		background-repeat: no-repeat;
 		background-position: right bottom;
 		background-size: cover;
@@ -312,18 +312,18 @@
 	}
 	.why {
 		.col-xs-12 {
-			background-image: url('../images/why-mex-ins.png');
+			background-image: url('../images/auto/why-mex-ins.png');
 		}
 	}
 
 	.claims {
 		.col-xs-12 {
-			background-image: url('../images/claims-img.png');
+			background-image: url('../images/auto/claims-img.png');
 			height: 325px;
 		}
 	}
 	.tip {
-		background-image: url('../images/tip-mobile.png');
+		background-image: url('../images/auto/tip-mobile.png');
 		width: 300px;
 		height: 171px;
 		background-position: top center;
