@@ -162,6 +162,7 @@
 .partners {
 	li {
 		list-style: none;
+		width: 100%;
 		&.title div {
 			background-color: #d9e3e7;
 		}
@@ -173,10 +174,10 @@
 				width: 153px;
 			}
 			&.phone1 {
-				width: 300px;
+				width: 275px;
 			}
 			&.phone2 {
-				width: 400px;
+				width: 300px;
 			}
 		}
 	}
