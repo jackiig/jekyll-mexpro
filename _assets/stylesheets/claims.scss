@@ -49,6 +49,7 @@
 			.right {
 				text-align: center;
 				padding-top: 10px;
+				height: 60px;
 			}
 			&:nth-child(3), &:nth-child(4) {
 				.right {
@@ -77,95 +78,6 @@
 			}
 			&:nth-child(odd) {
 				background-color: #f3f8fa;
-			}
-			> a, > a:hover, > a:visited, > a:active {
-				//background: #d47d3a;
-				//color: white;
-				//font-weight: 600;
-				//border-bottom: 1px solid #bf5d13;
-				//margin: 5px;
-				//padding-top: 0;
-			}
-		}
-	}
-}
-.dropdown-menu > li > a, .dropdown-menu > li > a:hover {
-	//color: white;
-	//background-color: #d47d3a;
-}
-
-//Feature Icons
-.featureicons {
-	z-index: 1000;
-	position:relative;
-	ul {
-		margin-left: -40px;
-	}
-	li {
-		list-style: none;
-		text-align: center;
-		line-height: 1.2;
-		top: -30px;
-		width: 14%;
-		float:left;
-		position: relative;
-		padding: 0 10px;
-		a span {
-			background-image: url('../images/featureiconsall.png');
-			background-repeat: no-repeat;
-			width: 80px;
-			height: 80px;
-			display: block;
-			margin: 0 auto 10px;
-			&.auto {
-				background-position: 0 0;
-			}
-			&.home {
-				background-position: 0 -160px;
-			}
-			&.boat {
-				background-position: 0 -320px;
-			}
-			&.travel {
-				background-position: 0 -480px;
-			}
-			&.usatourist {
-				background-position: 0 -640px;
-			}
-			&.mexresauto {
-				background-position: 0 -800px;
-			}
-			&.evac {
-				background-image: url('../images/TME.png');
-			}
-		}
-		a:hover span {
-			&.auto {
-				background-position: 0 -80px;
-			}
-			&.home {
-				background-position: 0 -240px;
-			}
-			&.boat {
-				background-position: 0 -400px;
-			}
-			&.travel {
-				background-position: 0 -560px;
-			}
-			&.usatourist {
-				background-position: 0 -720px;
-			}
-			&.mexresauto {
-				background-position: 0 -880px;
-			}
-			&.evac {
-				background-image: url('../images/hover.png');
-			}
-		}
-		a {
-			color: #798d96;
-			&:hover {
-				color: #0c93d2;
 			}
 		}
 	}
