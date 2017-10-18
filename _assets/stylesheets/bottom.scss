@@ -8,8 +8,41 @@
 
 // Put styles here!
 
-#content {
-	margin-top: 62px;
+//Carousel
+.carousel-inner {
+		text-align: center;
+		padding-bottom: 10px;
+		line-height: 1.2;
+}
+.carousel-control{
+			&.right, &.left {
+				background-image: none;
+				filter: none;
+				height: 30px;
+				width: 30px;
+				background: grey;
+				-moz-border-radius: 30px;
+				-webkit-border-radius: 30px;
+				border-radius: 30px;
+				margin-top: 15%;
+			}
+			&.right {
+				margin-right: 10px;
+				.icon-next {
+					margin-right: -12px;
+					margin-top: -17px;
+				}
+			}
+			&.left {
+				margin-left: 10px;
+				.icon-prev {
+					margin-left: -12px;
+					margin-top: -17px;
+				}
+			}
+	.icon-next:before, .icon-prev:before {
+		font-size: 1.5em;
+	}
 }
 
 //Footer 
