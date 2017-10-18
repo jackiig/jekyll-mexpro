@@ -8,6 +8,17 @@
 
 // Put styles here!
 
+// Quote button with dropdown within feature image
+.btn-quotehome.btn {
+	background-color: #d47d3a;
+	color: white;
+	width: 270px;
+	border-radius: 0;
+	&:hover, &:focus, &.focus {
+		color: white;
+	}
+}
+
 //Carousel
 .carousel-inner {
 		text-align: center;
