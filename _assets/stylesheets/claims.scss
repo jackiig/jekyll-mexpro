@@ -168,6 +168,16 @@
 		div {
 			border-right: 1px solid white;
 			border-bottom: 1px solid white;
+			float:left;
+			&.company {
+				width: 153px;
+			}
+			&.phone1 {
+				width: 300px;
+			}
+			&.phone2 {
+				width: 400px;
+			}
 		}
 	}
 	span {
