@@ -70,8 +70,6 @@
 		>.dropdown-menu {
 		    top: 0;
 		    left: 100%;
-		    //margin-top: 0;
-		    //margin-left: 0;
 		    border-radius: 0;
 		    border: none;
 		    background-color: #bf5d13;
@@ -85,6 +83,7 @@
 		    	> a, a:hover, a:visited, a:active, a:focus {
 		    		background-color: #bf5d13;
 		    		border-bottom-color: #d47d3a;
+		    		color: white;
 		    		padding-top: 6px;
 		    		padding-bottom: 6px;
 		    	}
@@ -492,6 +491,11 @@
 				> a, > a:hover, > a:visited, > a:active {
 					padding-bottom: 8px;
 				}
+			}
+		}
+		.dropdown-submenu {
+			>.dropdown-menu {
+			    left: 0%;
 			}
 		}
 	}
