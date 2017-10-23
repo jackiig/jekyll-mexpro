@@ -18,6 +18,13 @@ a:focus, :focus {
 	color: white;
 	border-radius: 3px;
 	border: 1px solid white;
+	&:hover, &:focus, &.focus {
+    	color: white;
+    }
+}
+
+.whitetext {
+	color: white;
 }
 
 // Quote button with dropdown within feature image
@@ -73,6 +80,8 @@ a:focus, :focus {
 .testimonials {
 	background-color: #0c93d2;
 	color: white;
+	padding-top: 30px;
+	padding-bottom: 30px;
 }
 
 //Footer 
