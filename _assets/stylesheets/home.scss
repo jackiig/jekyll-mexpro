@@ -476,11 +476,16 @@
 			top: 15px;
 			width: 50%;
 			padding-bottom: 15px;
-			&.col-xs-6:nth-child(even) {
+			&:nth-child(even) {
 				padding-left: 0;
 			}
-			&.col-xs-6:nth-child(odd) {
+			&:nth-child(odd) {
 				padding-right: 0;
+			}
+			&:last-child {
+				width: 100%;
+				padding-left: 10px;
+				padding-right: 10px;
 			}
 		}
 	}
