@@ -42,8 +42,9 @@
 				color: white;
 				font-weight: 600;
 				border-bottom: 1px solid #bf5d13;
-				margin: 5px;
-				padding-top: 0;
+				margin: 0;
+				padding-top: 5px;
+				padding-bottom: 5px;
 			}
 			> a:hover {
 				background: #bf5d13;
@@ -81,6 +82,10 @@
 		    	> a, a:hover, a:visited, a:active, a:focus {
 		    		background-color: #bf5d13;
 		    		border-bottom-color: #d47d3a;
+		    	}
+		    	&:first-child {
+		    		font-size: initial;
+		    		padding: initial;
 		    	}
 		    }
 		}
