@@ -67,25 +67,26 @@
 	
 	.dropdown-submenu {
     	position: relative;
-    	
 		>.dropdown-menu {
 		    top: 0;
 		    left: 100%;
-		    margin-top: -1px;
-		    margin-left: -1px;
+		    //margin-top: 0;
+		    //margin-left: 0;
 		    border-radius: 0;
 		    border: none;
 		    background-color: #bf5d13;
 		    width: 150px;
 		    > li {
 		    	background-color: #bf5d13;
+		    	&:first-child {
+		    		font-size: 1em;
+		    		padding: initial;
+		    	}
 		    	> a, a:hover, a:visited, a:active, a:focus {
 		    		background-color: #bf5d13;
 		    		border-bottom-color: #d47d3a;
-		    	}
-		    	&:first-child {
-		    		font-size: initial;
-		    		padding: initial;
+		    		padding-top: 6px;
+		    		padding-bottom: 6px;
 		    	}
 		    }
 		}
