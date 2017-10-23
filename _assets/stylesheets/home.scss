@@ -32,6 +32,9 @@
 		padding: 0;
 		margin: 0;
 		font-size: 0.9em;
+		border: 1px solid white;
+		border-top: none;
+		border-radius: 0 0 3px 3px;
 		z-index: 1100; //puts above feature icons
 		> li {
 			background: #d47d3a;
@@ -55,7 +58,6 @@
 			}
 		}
 	}
-
 	.dropdown-menu > li > a, .dropdown-menu > li > a:hover {
 		color: white;
 		background-color: #d47d3a;
@@ -100,9 +102,7 @@
 	.dropdown-submenu.pull-left>.dropdown-menu {
 	    left: -100%;
 	    margin-left: 10px;
-	    -webkit-border-radius: 6px 0 6px 6px;
-	    -moz-border-radius: 6px 0 6px 6px;
-	    border-radius: 6px 0 6px 6px;
+	    border-radius: 0;
 	}
 }
 .dropdown-menu > li > a, .dropdown-menu > li > a:hover {
