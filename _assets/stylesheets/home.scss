@@ -75,6 +75,13 @@
 		&:hover>.dropdown-menu {
 		    display: block;
 		}
+		&.pull-left {
+	    	float: none;
+			& >.dropdown-menu {
+		    left: -100%;
+		    margin-left: 10px;
+		    border-radius: 0;
+		}
 	}
 
 	/*.dropdown-submenu>a:after { // This will add white arrow pointing right
@@ -95,15 +102,7 @@
 	    //border-left-color: #fff;
 	}
 
-	.dropdown-submenu.pull-left {
-	    float: none;
-	}
-
-	.dropdown-submenu.pull-left>.dropdown-menu {
-	    left: -100%;
-	    margin-left: 10px;
-	    border-radius: 0;
-	}
+	
 }
 .dropdown-menu > li > a, .dropdown-menu > li > a:hover {
 	color: white;
