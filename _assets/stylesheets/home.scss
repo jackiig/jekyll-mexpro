@@ -124,8 +124,15 @@
 }
 
 .home-sp {
-	.btn-quotehome.btn, .quotedropdown .dropdown-menu {
-		width: 300px;
+	.quotedropdown {
+		.btn-quotehome.btn, .dropdown-menu {
+			width: 300px;
+		}
+		.dropdown-submenu {
+			> .dropdown-menu {
+				width: initial;
+			}
+		}
 	}
 }
 
@@ -504,6 +511,15 @@
 			>.dropdown-menu {
 			    left: 0%;
 			    min-width: 100%;
+			}
+		}
+	}
+	.home-sp {
+		.quotedropdown {
+			.dropdown-submenu {
+				> .dropdown-menu {
+					min-width: 100%;
+				}
 			}
 		}
 	}
