@@ -18,12 +18,6 @@
 	}
 }
 
-.home-sp {
-	.btn-quotehome.btn, .quotedropdown .dropdown-menu {
-		width: 300px;
-	}
-}
-
 // Quote box dropdown within feature image
 .quotedropdown {
 	.dropdown-menu {
@@ -43,7 +37,7 @@
 				font-size: 0.8em;
 				padding: 0 25px 5px;
 			}
-			> a, > a:hover, > a:visited, > a:active {
+			> a, > a:hover, > a:visited, > a:active, > a:focus {
 				background: #d47d3a;
 				color: white;
 				font-weight: 600;
@@ -58,10 +52,14 @@
 			}
 		}
 	}
-	.dropdown-menu > li > a, .dropdown-menu > li > a:hover {
-		color: white;
-		background-color: #d47d3a;
+
+	.dropdown.open {
+		.btn.btn-quotehome {
+			border-bottom: none;
+			border-radius: 3px 3px 0 0;
+		}
 	}
+	
 	.dropdown-submenu {
     	position: relative;
 		& >.dropdown-menu {
@@ -72,15 +70,16 @@
 		    border-radius: 0;
 		    border: none;
 		}
-		&:hover>.dropdown-menu {
+		&:hover >.dropdown-menu {
 		    display: block;
 		}
 		&.pull-left {
 	    	float: none;
 			& >.dropdown-menu {
-		    left: -100%;
-		    margin-left: 10px;
-		    border-radius: 0;
+			    left: -100%;
+			    margin-left: 10px;
+			    border-radius: 0;
+		   	}
 		}
 	}
 
@@ -101,13 +100,14 @@
 	.dropdown-submenu:hover>a:after {
 	    //border-left-color: #fff;
 	}
+}
 
-	
+.home-sp {
+	.btn-quotehome.btn, .quotedropdown .dropdown-menu {
+		width: 300px;
+	}
 }
-.dropdown-menu > li > a, .dropdown-menu > li > a:hover {
-	color: white;
-	background-color: #d47d3a;
-}
+
 
 //Feature Icons
 .featureicons {
