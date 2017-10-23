@@ -74,6 +74,8 @@
 		    border: none;
 		    background-color: #bf5d13;
 		    width: 150px;
+		    box-shadow: none;
+		    -webkit-box-shadow: none;
 		    > li {
 		    	background-color: #bf5d13;
 		    	&:first-child {
@@ -496,6 +498,7 @@
 		.dropdown-submenu {
 			>.dropdown-menu {
 			    left: 0%;
+			    min-width: 100%;
 			}
 		}
 	}
