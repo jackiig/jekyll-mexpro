@@ -13,6 +13,13 @@ a:focus, :focus {
 	outline-offset: 0 !important;
 }
 
+.btn-orange {
+	background-color: #d47d3a;
+	color: white;
+	border-radius: 3px;
+	border: 1px solid white;
+}
+
 // Quote button with dropdown within feature image
 .btn-quotehome.btn {
 	background-color: #d47d3a;
@@ -60,6 +67,12 @@ a:focus, :focus {
 	.icon-next:before, .icon-prev:before {
 		font-size: 1.5em;
 	}
+}
+
+//Testimonials
+.testimonials {
+	background-color: #0c93d2;
+	color: white;
 }
 
 //Footer 
