@@ -64,17 +64,17 @@
 	}
 	.dropdown-submenu {
     	position: relative;
-	}
-	.dropdown-submenu>.dropdown-menu {
-	    top: 0;
-	    left: 100%;
-	    margin-top: -6px;
-	    margin-left: 1px;
-	    border-radius: 0;
-	    border: none;
-	}
-	.dropdown-submenu:hover>.dropdown-menu {
-	    display: block;
+		& >.dropdown-menu {
+		    top: 0;
+		    left: 100%;
+		    margin-top: -6px;
+		    margin-left: 1px;
+		    border-radius: 0;
+		    border: none;
+		}
+		&:hover>.dropdown-menu {
+		    display: block;
+		}
 	}
 
 	/*.dropdown-submenu>a:after { // This will add white arrow pointing right
