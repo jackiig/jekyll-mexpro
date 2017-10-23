@@ -8,6 +8,11 @@
 
 // Put styles here!
 
+a:focus, :focus {
+	outline: none !important;
+	outline-offset: 0 !important;
+}
+
 // Quote button with dropdown within feature image
 .btn-quotehome.btn {
 	background-color: #d47d3a;
