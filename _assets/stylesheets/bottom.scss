@@ -355,3 +355,15 @@ footer {
 	}
 }
 } // End breakpoint 991px
+
+/* Xtra-Small Screen Size - Phone : 480px - 767px */
+@media (max-width:767px) {
+.testimonials {
+	hr {
+		width: 5%;
+		margin: 20px auto 0;
+		height: 1px;
+		background-color: white;
+	}
+}
+} //end mobile screen size
