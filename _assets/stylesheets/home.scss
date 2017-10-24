@@ -356,7 +356,7 @@
 	}
 	.modal-footer {
 		padding: 0;
-		border: none;
+		border: none; 
 	}
 }
 
@@ -530,6 +530,9 @@
 	}
 	.home-sp {
 		.quotedropdown {
+			.btn-quotehome.btn, .dropdown-menu {
+				width: 270px;
+			}
 			.dropdown-submenu {
 				> .dropdown-menu {
 					min-width: 100%;
