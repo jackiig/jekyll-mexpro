@@ -528,20 +528,8 @@
 			}
 		}
 	}
-	.home-sp {
-		.quotedropdown {
-			.btn-quotehome.btn, .dropdown-menu {
-				width: 270px;
-			}
-			.dropdown-submenu {
-				> .dropdown-menu {
-					min-width: 100%;
-				}
-			}
-		}
-	}
 	.doublepane {
-		.col-sm-6{
+		.col-sm-6 {
 			min-height: 390px;
 			&:last-child {
 				top: -30px;
@@ -568,5 +556,25 @@
 	.partners li {
 		width: 100%;
 		display: block;
+	}
+	.home-sp {
+		.feature {
+			background-position: 55% 98%, right bottom;
+		}
+		.quotedropdown {
+			.btn-quotehome.btn, .dropdown-menu {
+				width: 270px;
+			}
+			.dropdown-submenu {
+				> .dropdown-menu {
+					min-width: 100%;
+				}
+			}
+		}
+		.doublepane {
+			.col-sm-6 {
+				min-height: 450px;
+			}
+		}
 	}
 } //End Xtra-Small Screen
