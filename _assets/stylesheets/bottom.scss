@@ -80,9 +80,11 @@ a:focus, :focus {
 .testimonials {
 	background-color: #0c93d2;
 	color: white;
+	padding: 25px 15px 20px; 
 	.btn-orange {
-		font-size: 0.9em;
-		padding: 5px 10px;
+		font-size: 0.8em;
+		padding: 7px 12px;
+		margin-bottom: 15px;
 	}
 	ul {
 		margin-left: -40px;
@@ -94,6 +96,9 @@ a:focus, :focus {
 		margin: 10px auto;
 		p {
 			font-size: 0.9em;
+			margin-bottom: 0;		
+		}
+		span {
 			&.CustName {
 				text-transform: uppercase;
 				font-size: 0.8em;
@@ -103,19 +108,21 @@ a:focus, :focus {
 				font-size: 0.7em;
 				font-style: italic;
 			}
-		}
-		span {
-			background-image: url('../images/testimonials-quote.png');
-			background-repeat: no-repeat;
-			display: inline-block;
-			width: 15px;
-			height: 12px;
-			&.open-quote {
-				background-position: 0 0;
-
+			&.open-quote, &.close-quote {
+				background-image: url('../images/testimonials-quote.png');
+				background-repeat: no-repeat;
+				display: inline-block;
+				width: 15px;
+				height: 12px;
+				margin: 5px;
 			}
 			&.open-quote {
+				background-position: 0 0;
+				margin-bottom: 5px;
+			}
+			&.close-quote {
 				background-position: 0 -12px;
+				margin-top: 10px;
 			}
 		}
 	}
