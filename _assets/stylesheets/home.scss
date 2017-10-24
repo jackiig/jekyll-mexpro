@@ -575,6 +575,9 @@
 			.col-sm-6 {
 				min-height: 450px;
 			}
+			.col-sm-6:first-child {
+				min-height: 480px;
+			}
 		}
 	}
 } //End Xtra-Small Screen
