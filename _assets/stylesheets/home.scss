@@ -387,36 +387,6 @@
 	margin-bottom: 25px;
 }
 
-.testimonials {
-	.btn-orange {
-		font-size: 0.9em;
-		padding: 5px 10px;
-	}
-	ul {
-		margin-left: -40px;
-	}
-	li {
-		list-style: none;
-		display: inline;
-		text-align: center;
-		margin: 10px auto;
-		span {
-			background-image: url('../images/testimonials-quote.png');
-			background-repeat: no-repeat;
-			display: inline-block;
-			//margin: 0 auto 10px;
-			width: 15px;
-			height: 12px;
-			&.open-quote {
-				background-position: 0 0;
-			}
-			&.open-quote {
-				background-position: 0 -12px;
-			}
-		}
-	}
-}
-
 /* Device Based css */
 
 /* Large Screen size - Desktop : 1200px wide and larger */
