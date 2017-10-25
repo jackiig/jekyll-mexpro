@@ -11,6 +11,7 @@
 	min-height: 575px;
 	position: relative;
 	background-size: cover;
+	margin-bottom: 30px;
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -19,9 +20,7 @@
 }
 
 // Quote button within feature image
-.btn-quote.btn {
-	border-radius: 2px;
-	border: 1px solid white;
+.btn-orange.btn {
 	margin-bottom: 20px;
 }
 
@@ -214,7 +213,6 @@
 @media (min-width:992px) and (max-width:1199px) {
 	.feature {
 		min-height: 450px;
-		background-size: 90px 170px, cover;
 	}
 	.doublepane {
 		.col-sm-6 {
@@ -236,17 +234,13 @@
 
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
-	.feature { // covers top nav
-		//margin-top: 30px; replaced with content in bottom css
-	}
+	
 }
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
 @media (min-width:768px) and (max-width:991px) {
 	.feature {
 		min-height: 420px;
-		background-size: 85px 160px, cover;
-		background-position: 84% 88%, right bottom;
 		h1 {
 			margin-top: 45px;
 			font-size: 1.6em;
@@ -283,10 +277,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/accredited-horiz.png'), url('../images/home-page-mobile-1.png');
 		background-repeat: no-repeat;
-		background-position: 50% 95%, right bottom;
-		background-size: 262px 73px, cover;
 		min-height: 570px;
 		h1 {
 			text-align: center;
