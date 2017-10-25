@@ -41,8 +41,11 @@ h5 { //Headings on the footer areas
 a, a:hover, .blue {
 	color: #0c93d2;
 }
-a.whitelink, a.whitelink:hover {
+a.whitelink, a.whitelinkul, a.whitelink:hover, a.whitelinkul:hover {
 	color: white;
+}
+a.whitelinkul, a.whitelinkul:hover {
+	text-decoration: underline;
 }
 .center {
 	text-align: center;
