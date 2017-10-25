@@ -17,11 +17,12 @@
 		font-size: 1.8em;
 		line-height: 1;
 	}
+
 }
 
 // Quote button within feature image
 .btn-orange.btn {
-	margin-bottom: 20px;
+
 }
 
 // Quote box dropdown within feature image 
@@ -287,28 +288,23 @@
 			text-align: center;
 		}
 	}
-	.featureicons {
-		margin-bottom: 15px;
-		li {
-			top: 15px;
-			width: 50%;
-			padding-bottom: 15px;
-			&.col-xs-6:nth-child(even) {
-				padding-left: 0;
-			}
-			&.col-xs-6:nth-child(odd) {
-				padding-right: 0;
-			}
-		}
+	.btn-orange.btn {
+		width: 100%;
 	}
 	.quotedropdown {
 		ul.dropdown-menu {
 			margin: auto;
 			float: none;
 			position: relative;
-			> li:last-child {
-				> a, > a:hover, > a:visited, > a:active {
+			font-size: 0.8em;
+			> li {
+				&.col-sm-6 {
+					padding-right: 8px;
+				}
+				&:last-child {
+					> a, > a:hover, > a:visited, > a:active {
 					padding-bottom: 8px;
+					}
 				}
 			}
 		}
