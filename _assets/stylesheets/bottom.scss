@@ -23,6 +23,18 @@ a:focus, :focus {
     }
 }
 
+.btn-white {
+	background-color: white;
+	color: #d47d3a;
+	border-radius: 3px;
+	border: 1px solid #ccc;
+	margin: 5px auto;
+	text-align: center;
+	&:hover, &:focus, &.focus {
+    	color: #d47d3a;
+    }
+}
+
 .whitetext {
 	color: white;
 }
