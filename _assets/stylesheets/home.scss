@@ -59,7 +59,7 @@
 	}
 
 	.dropdown.open {
-		.btn.btn-quotehome {
+		.btn.btn-orange {
 			border-bottom: none;
 			border-radius: 3px 3px 0 0;
 		}
@@ -125,7 +125,7 @@
 
 .home-sp {
 	.quotedropdown {
-		.btn-quotehome.btn, .dropdown-menu {
+		.btn-orange.btn, .dropdown-menu {
 			width: 300px;
 		}
 		.dropdown-submenu {
@@ -562,7 +562,7 @@
 			background-position: 55% 98%, right bottom;
 		}
 		.quotedropdown {
-			.btn-quotehome.btn, .dropdown-menu {
+			.btn-orange.btn, .dropdown-menu {
 				width: 270px;
 			}
 			.dropdown-submenu {
