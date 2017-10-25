@@ -67,8 +67,7 @@
 				background-position: 0 -81px;
 			}
 			&.autv {
-				//background-position: 0 -163px;
-				background-image: url('../images/auto/ATV.png');
+				background-position: 0 -163px;
 			}
 			&.rv {
 				background-position: 0 -245px;
@@ -79,27 +78,19 @@
 		}
 		a:hover span {
 			&.auto {
-				//background-position: 0 -408px;
-				background-image: url('../images/hover.png');
+				background-position: 0 -408px;
 			}
 			&.moto {
-				//background-position: 0 -489px;
-				background-image: url('../images/hover.png');
-				background-position: 0 0;
+				background-position: 0 -488px;
 			}
 			&.autv {
-				//background-position: 0 -570px;
-				background-image: url('../images/hover.png');
+				background-position: 0 -566px;
 			}
 			&.rv {
-				//background-position: 0 -651px;
-				background-image: url('../images/hover.png');
-				background-position: 0 0;
+				background-position: 0 -646px;
 			}
 			&.towed {
-				//background-position: 0 -732px;
-				background-image: url('../images/hover.png');
-				background-position: 0 0;
+				background-position: 0 -726px;
 			}
 		}
 		a {
@@ -125,7 +116,7 @@
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto/auto-feature-sprite.png');
-			background-position: 0 -825px;
+			background-position: 0 -807px;
 			background-repeat: no-repeat;
 			width: 70px;
 			height: 69px;
@@ -133,7 +124,7 @@
 			margin: 30px auto 10px;
 		}
 		&.fullcovimg {
-			background-position: 0 -894px;
+			background-position: 0 -876px;
 			width: 66px;
 		}
 	}
