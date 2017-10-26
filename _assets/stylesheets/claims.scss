@@ -247,8 +247,14 @@
 			font-size: 1.6em;
 		}
 	}
-	.featureicons {
-		margin-bottom: 0;
+	.quotedropdown {
+		ul.dropdown-menu {
+			> li {
+				&.col-sm-6 {
+					padding-right: 8px;
+				}
+			}
+		}
 	}
 	.doublepane {
 		.col-sm-6 {
