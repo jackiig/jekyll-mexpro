@@ -284,8 +284,9 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
+		background-image: url('../images/claims/claims-feature-mobile.png');
 		background-repeat: no-repeat;
-		min-height: 570px;
+		min-height: 450px;
 		h1 {
 			text-align: center;
 			margin-top: 1.2em;
