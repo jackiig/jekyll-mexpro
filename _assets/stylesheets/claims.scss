@@ -20,11 +20,6 @@
 
 }
 
-// Quote button within feature image
-.btn-orange.btn {
-
-}
-
 // Quote box dropdown within feature image 
 .quotedropdown {
 	.dropdown-menu {
@@ -99,27 +94,20 @@
 		margin-bottom: 30px;
 	}
 	span {
-		background-image: url('../images/claims/steps.png');
-		background-repeat: no-repeat;
-		width: 80px;
-		height: 80px;
-		display: block;
-		margin: 0 auto;
-		color: white;
+		&.step {
+			background-image: url('../images/orange-circle-icon.png');
+			background-repeat: no-repeat;
+			width: 80px;
+			height: 80px;
+			display: block;
+			margin: 0 auto;
+		}
 		p {
 			position: relative;
-			top: 15px;
+			top: 20px;
 			font-size: 2em;
 			font-weight: bold;
-		}
-		&.step1 {
-			background-position: 0 0;
-		}
-		&.step2 {
-			background-position: 0 -80px;
-		}
-		&.step3 {
-			background-position: 0 -160px;
+			color: white;
 		}
 
 	}
