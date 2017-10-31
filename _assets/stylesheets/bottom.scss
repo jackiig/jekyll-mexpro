@@ -43,6 +43,22 @@ a:focus, :focus {
 .doublepane {
 	color: white;
 	background-color: #0c93d2;
+	h2 {
+		font-size: 15px;
+		text-transform: uppercase;
+		font-weight: 600;
+		padding-top: 28px;
+		margin-top: 0;
+	}
+	h3 {
+		color: white;
+		font-size: 40px;
+		font-weight: normal;
+
+	}
+	.col-sm-6 {
+		max-width: 750px;
+	}
 }
 
 //Carousel
