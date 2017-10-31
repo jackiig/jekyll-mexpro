@@ -150,11 +150,18 @@
 }
 
 .partners {
+	div.col-sm-12 > p {
+		margin: 40px 15px 30px;
+	}
+	h2 {
+		margin-bottom: 35px;
+	}
 	li {
 		list-style: none;
-		width: 100%;
+		//width: 100%;
 		&.title div {
 			background-color: #d9e3e7;
+			padding: 15px;
 		}
 		div {
 			border-right: 1px solid white;
@@ -167,7 +174,7 @@
 				width: 275px;
 			}
 			&.phone2 {
-				width: 300px;
+				width: 400px;
 			}
 		}
 	}
