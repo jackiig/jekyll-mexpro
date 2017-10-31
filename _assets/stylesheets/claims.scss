@@ -181,10 +181,15 @@
 		&.title {
 			&.bottom div {
 				font-size: 0.8em;
+				&:last-child {
+					padding-top: 5px;
+				}
 			}
 			div {
 				background-color: #d9e3e7;
-				padding: 15px;
+				&.company, &.phone1, &.phone2 {
+					padding: 15px;
+				}
 			}
 		}
 		&:nth-child(odd) div {
@@ -200,6 +205,7 @@
 				width: 153px;
 			}
 			&.phone1, &.phone2 {
+				padding: 10px 0;
 				span {
 					background-image: none;
 					height: inherit;
@@ -231,6 +237,38 @@
 	.feature {
 		min-height: 450px;
 	}
+	.partners {
+		li {
+			&.title {
+				&.bottom div {
+					padding-top: 10px;
+				}
+				div {
+					&.company, &.phone1 {
+						padding: 15px;
+					}
+					&.phone2 {
+						padding-top: 7px;
+					}
+				}
+			}
+			div {
+				&.company {
+					width: 153px;
+				}
+				&.phone1, &.phone2 {
+
+				}
+				&.phone1 {
+					width: 450px;
+					
+				}
+				&.phone2 {
+					width: 300px;
+				}
+			}
+		}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -252,6 +290,34 @@
 			> li {
 				&.col-sm-6 {
 					padding-right: 8px;
+				}
+			}
+		}
+	}
+	.partners {
+		li {
+			&.title {
+				&.bottom div {
+				}
+				div {
+					&.company, &.phone1, &.phone2 {
+						padding: 10px;
+					}
+				}
+			}
+			div {
+				&.company {
+					width: 153px;
+				}
+				&.phone1, &.phone2 {
+
+				}
+				&.phone1 {
+					width: 325px;
+					
+				}
+				&.phone2 {
+					width: 200px;
 				}
 			}
 		}
