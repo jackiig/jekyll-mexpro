@@ -37,19 +37,13 @@
 			&.col-sm-6 {
 				padding-left: 0;
 			}
-			.left {
-				width: 153px;
-				float:left;
-			}
-			.right {
-				text-align: center;
-				padding-top: 10px;
-				height: 60px;
-			}
 			&:nth-child(3), &:nth-child(4) {
 				.right {
 					padding-top: 20px;
 				}
+			}
+			&:nth-child(odd) {
+				background-color: #f3f8fa;
 			}
 			span {
 				background-image: url('../images/claims/claimsfeatureicons.png');
@@ -71,8 +65,18 @@
 					background-position: 0 -180px;
 				}
 			}
-			&:nth-child(odd) {
-				background-color: #f3f8fa;
+			.left {
+				width: 153px;
+				float:left;
+			}
+			.right {
+				text-align: center;
+				padding-top: 10px;
+				height: 60px;
+				span {
+					background-image: none;
+					display: inherit;
+				}
 			}
 		}
 	}
