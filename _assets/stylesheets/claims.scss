@@ -205,11 +205,6 @@
 	.feature {
 		min-height: 450px;
 	}
-	.doublepane {
-		.col-sm-6 {
-			min-height: 325px;
-		}
-	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -233,11 +228,6 @@
 					padding-right: 8px;
 				}
 			}
-		}
-	}
-	.doublepane {
-		.col-sm-6 {
-			min-height: 350px;
 		}
 	}
 } // End Small Screen
@@ -304,6 +294,7 @@
 				}
 				.text {
 					position: relative;
+					padding: 5px 15px 10px;
 				}
 			}
 			&:last-child {
