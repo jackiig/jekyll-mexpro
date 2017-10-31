@@ -284,6 +284,7 @@
 		background-color: transparent !important;
 		.col-sm-6 {
 			min-height: 410px;
+			width: 100%;
 			&:first-child {
 				padding: 0;
 				background-image: url('../images/claims/recommendations.png');
@@ -291,6 +292,19 @@
 				background-repeat: no-repeat;
 				background-position: top center;
 				display: block;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background-image: linear-gradient(to bottom right,#000,#000);
+			        opacity: .5;
+				}
+				.text {
+					position: relative;
+				}
 			}
 			&:last-child {
 				display: none;
