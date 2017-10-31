@@ -156,28 +156,6 @@
 	h2 {
 		margin-bottom: 35px;
 	}
-	li {
-		list-style: none;
-		//width: 100%;
-		&.title div {
-			background-color: #d9e3e7;
-			padding: 15px;
-		}
-		div {
-			border-right: 1px solid white;
-			border-bottom: 1px solid white;
-			float:left;
-			&.company {
-				width: 153px;
-			}
-			&.phone1 {
-				width: 275px;
-			}
-			&.phone2 {
-				width: 400px;
-			}
-		}
-	}
 	span {
 		background-image: url('../images/claims/claimsfeatureicons.png');
 		background-repeat: no-repeat;
@@ -198,6 +176,47 @@
 			background-position: 0 -180px;
 		}
 	}
+	li {
+		list-style: none;
+		&.title {
+			&.bottom div {
+				font-size: 0.8em;
+			}
+			div {
+				background-color: #d9e3e7;
+				padding: 15px;
+			}
+		}
+		&:nth-child(odd) div {
+			background-color: #f3f8fa;
+		}
+		div {
+			border-right: 1px solid white;
+			border-bottom: 1px solid white;
+			height: 60px;
+			float:left;
+			text-align: center;
+			&.company {
+				width: 153px;
+			}
+			&.phone1, &.phone2 {
+				span {
+					background-image: none;
+					height: inherit;
+					width: inherit;
+					display: inline;
+				}
+			}
+			&.phone1 {
+				width: 400px;
+				
+			}
+			&.phone2 {
+				width: 320px;
+			}
+		}
+	}
+	
 }
 
 /* Device Based css */
