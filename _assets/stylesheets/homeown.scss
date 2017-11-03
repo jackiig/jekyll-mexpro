@@ -91,6 +91,28 @@
 	margin: 10px auto 0;
 }
 
+// Partners/GNP
+.partners {
+	h2 {
+		color: #0c93d2;
+		font-size: 15px;
+		margin-top: 28px;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	span {
+		background-image: url('../images/homeown/ho-gnp-logo.png');
+		background-repeat: repeat-x;
+		width: 154px;
+		height: 57px;
+		display: block;
+		margin: 20px auto;
+	}
+	p {
+		margin: 10px 50px 30px;
+	}
+}
+
 .autocov {
 	background-image:  url('../images/auto/coverage-slice.png');
 	background-repeat: repeat-x;
@@ -271,6 +293,15 @@
 			}
 		}
 	}
+	.partners {
+		h2 {
+			margin-top: 35px;
+		}
+		p {
+			margin: 10px 20px 30px;
+		}
+	}
+
 
 	.why, .claims {
 		.col-xs-12 {
