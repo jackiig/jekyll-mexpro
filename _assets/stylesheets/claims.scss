@@ -151,7 +151,7 @@
 }
 
 .partners {
-	div.col-sm-12 > p {
+	.col-sm-12 > p {
 		margin: 40px 15px 30px;
 	}
 	h2 {
@@ -224,6 +224,9 @@
 		}
 	}
 	
+}
+.container.last {
+	padding: 15px 40px;
 }
 
 /* Device Based css */
@@ -321,9 +324,6 @@
 					width: 200px;
 				}
 			}
-		}
-		p.col-sm-12 {
-			margin: 20px 10px;
 		}
 	}
 } // End Small Screen
