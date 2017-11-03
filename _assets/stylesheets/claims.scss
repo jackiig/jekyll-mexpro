@@ -397,13 +397,14 @@
 				display: none;
 			}
 		}
-	}
+	} // end doublepane css
 	.partners #ClaimCarousel {
 		div {
 			width: 223px;
 			margin: auto;
 			&.title {
 				padding: 10px;
+				color: #3c4b52;
 				background-color: #d9e3e7;
 				margin: 5px 0 1px;
 			}
@@ -436,5 +437,12 @@
 				}
 			}
 		}
-	}
+		.carousel-control {
+			&.right, &.left {
+				.icon-next, .icon-prev {
+					background-image: none;
+				}
+			} 
+		}
+	} // end partners css
 } //End Xtra-Small Screen
