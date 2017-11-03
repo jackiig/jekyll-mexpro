@@ -12,20 +12,17 @@
 .feature {
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-image: url('../images/auto/mexico-insurance.png');
+	background-image: url('../images/homeown/homeowners-insurance.png');
 	min-height: 575px;
 	position: relative;
 	background-size: cover;
-	.col-sm-6:first-child {
-		padding-top: 2%;
-	}
-	h1, p {
-		color: white;
-		font-size: 1.8em;
-		line-height: 1.2;
+	.col-sm-7:first-child {
+		padding-top: 5%;
 	}
 	p {
-		font-size: 1em;
+		color: white;
+		font-size: 1.9em;
+		line-height: 1.2;
 		&:last-child {
 			font-size: 0.9em;
 		}
@@ -259,14 +256,15 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/auto/mexico-insurance-mobile.png');
-		background-repeat: no-repeat;
+		background-image: url('../images/homeown/homeowners-insurance-mobile.png');
 		min-height: 450px;
 		text-align: center;
-		h1 {
-			text-align: center;
-			margin-top: 1.6em;
-			font-size: 1.4em;
+		.col-sm-7:first-child {
+			padding-top: 11%;
+		}
+		p {
+			font-size: 1.7em;
+			padding-bottom: 20px;
 		}
 	}
 	.featureicons {
