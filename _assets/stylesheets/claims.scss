@@ -398,4 +398,43 @@
 			}
 		}
 	}
+	.partners #ClaimCarousel {
+		div {
+			width: 223px;
+			margin: auto;
+			&.title {
+				padding: 10px;
+				background-color: #d9e3e7;
+				margin: 5px 0 1px;
+			}
+			&.phone1, &.phone2 {
+				padding: 20px 0;
+				background-color: #f3f8fa;
+			}
+			span {
+				background-image: none;
+				margin: 0 auto;
+				text-align: center;
+				width: 223px;
+				height: 100%;
+				&.aba, &.elag, &.gnp, &.mexvisit {
+					background-image: url('../images/claims/claimsfeatureicons-mobile.png');
+					height: 110px;
+					padding: 0;
+				}
+				&.aba {
+					background-position: 0 0;
+				}
+				&.elag {
+					background-position: 0 -110px;
+				}
+				&.gnp {
+					background-position: 0 -220px;
+				}
+				&.mexvisit {
+					background-position: 0 -330px;
+				}
+			}
+		}
+	}
 } //End Xtra-Small Screen
