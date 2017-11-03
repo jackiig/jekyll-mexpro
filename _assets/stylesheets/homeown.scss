@@ -51,43 +51,31 @@
 		position: relative;
 		padding: 0 10px;
 		a span {
-			background-image: url('../images/auto/auto-feature-sprite.png');
+			background-image: url('../images/homeown/homeown-featureicons.png');
 			background-repeat: no-repeat;
 			width: 80px;
 			height: 80px;
 			display: block;
 			margin: 0 auto 10px;
-			&.auto {
+			&.home {
 				background-position: 0 0;
 			}
-			&.moto {
-				background-position: 0 -81px;
+			&.condo {
+				background-position: 0 -160px;
 			}
-			&.autv {
-				background-position: 0 -163px;
-			}
-			&.rv {
-				background-position: 0 -245px;
-			}
-			&.towed {
-				background-position: 0 -327px;
+			&.townhome {
+				background-position: 0 -320px;
 			}
 		}
 		a:hover span {
-			&.auto {
-				background-position: 0 -408px;
+			&.home {
+				background-position: 0 -80px;
 			}
-			&.moto {
-				background-position: 0 -488px;
+			&.condo {
+				background-position: 0 -240px;
 			}
-			&.autv {
-				background-position: 0 -568px;
-			}
-			&.rv {
-				background-position: 0 -647px;
-			}
-			&.towed {
-				background-position: 0 -728px;
+			&.townhome {
+				background-position: 0 -400px;
 			}
 		}
 		a {
