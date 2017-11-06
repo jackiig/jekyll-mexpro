@@ -122,13 +122,13 @@
 		padding-left: 75px;
     	padding-right: 75px;
     	h2 {
-    		font-size: 20px !important;
-    		text-transform: inherit !important;
+    		font-size: 20px;
+    		text-transform: inherit;
     		padding-top: 40px;
     	}
     }
 	&.eligible {
-		background-color: transparent !important;
+		background-color: transparent;
 		.col-sm-6:first-child {
 			background-image: url('../images/homeown/quote-img.png');
 			background-position: center top; 
@@ -269,6 +269,26 @@
 	}
 	.featureicons {
 		margin-bottom: 0;
+	}	
+	.doublepane {
+		.col-sm-6 {
+			min-height: 300px;
+			padding-left: 50px;
+	    	padding-right: 50px;
+	    }
+		&.eligible {
+			background-color: transparent !important;
+			.col-sm-6:first-child {
+				background-image: url('../images/homeown/quote-img.png');
+				background-position: center top; 
+			}
+			.col-sm-6:last-child {
+				background-image: url('../images/homeown/elegibility-img.png');
+				p.center {
+					font-size: 0.8em;
+				} 
+			}
+		}
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
