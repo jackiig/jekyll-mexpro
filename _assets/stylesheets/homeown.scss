@@ -142,6 +142,82 @@
 	}
 }
 
+// Homeowners Coverage
+.prodcoverage {
+	position:relative;
+	margin: 20px auto;
+	ul {
+		margin-left: -40px;
+	}
+	li,.carousel-inner {
+		list-style: none;
+		a span {
+			background-image: url('../images/mxho-coverage-sprites.png');
+			background-repeat: no-repeat;
+			display: block;
+			margin: 0 auto 10px;
+			height: 72px;
+			vertical-align: bottom;
+			&.autocat {
+				background-position: 0 0;
+				width: 52px;
+			}
+			&.homecat {
+				background-position: 0 -144px;
+				width: 75px;
+			}
+			&.boatcat {
+				background-position: 0 -288px;
+				width: 87px;
+			}
+			&.travelcat {
+				background-position: 0 -432px;
+				width: 53px;
+			}
+			&.usatouristcat {
+				background-position: 0 -576px;
+				width: 52px;
+			}
+			&.mexresautocat {
+				background-position: 0 -722px;
+				width: 86px;
+				height: 71px;
+			}
+		}
+		a:hover span {
+			&.autocat {
+				background-position: 0 -72px;
+			}
+			&.homecat {
+				background-position: 0 -216px;
+			}
+			&.boatcat {
+				background-position: 0 -361px;
+			}
+			&.travelcat {
+				background-position: 0 -503px;
+			}
+			&.usatouristcat {
+				background-position: 0 -649px;
+			}
+			&.mexresautocat {
+				background-position: 0 -793px;
+			}
+		}
+		h5, p {
+			text-align: center;
+		}
+		a:hover h5 {
+			color: #0c93d2;
+		}
+	}
+	#CatCarousel {
+		.carousel-control.right, .carousel-control.left {
+			margin-top: 10%;
+		}
+	}
+}
+
 
 /* Device Based css */
 
