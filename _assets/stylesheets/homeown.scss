@@ -142,88 +142,6 @@
 	}
 }
 
-.autocov {
-	background-image:  url('../images/auto/coverage-slice.png');
-	background-repeat: repeat-x;
-	background-color: #fefefe;
-	margin-top: 35px;
-	.container {
-		margin-bottom: 30px;
-	}
-	darkh5 {
-		margin-top: 20px;
-	}
-	span {
-		&.liabimg, &.fullcovimg {
-			background-image: url('../images/auto/auto-feature-sprite.png');
-			background-position: 0 -807px;
-			background-repeat: no-repeat;
-			width: 70px;
-			height: 69px;
-			display: block;
-			margin: 30px auto 10px;
-		}
-		&.fullcovimg {
-			background-position: 0 -876px;
-			width: 66px;
-		}
-	}
-	.col-sm-6:first-child {
-		padding-right: 30px;
-	}
-	.col-sm-6:last-child {
-		padding-left: 30px;
-	}
-}
-
-.why, .claims {
-	background-color: #0c93d2;
-	color: white;
-	.autowhy, .claimsimg {
-		max-width: 750px;
-		min-height: 360px;
-		background-size: cover;
-		background-repeat: no-repeat;
-		display: block;
-	}
-}
-
-.why {
-	.autowhy {
-		background-image: url('../images/auto/why-mex-ins.png');
-		background-position: top right;
-	}
-	.col-sm-6:first-child {
-		padding: 0;
-	}
-	.col-sm-6:last-child {
-		min-height: 360px;
-		padding: 4% 6% 0;
-	}
-}
-
-.claims {
-	.claimsimg {
-		background-image: url('../images/auto/claims-img.png');
-		background-position: top left;
-	}
-	.col-sm-6:first-child {
-		min-height: 360px;
-		padding: 4% 6% 0;
-	}
-	.col-sm-6:last-child {
-		padding: 0;
-	}
-}
-
-.tip {
-	background-image: url('../images/auto/tip.png');
-	width: 555px;
-	height: 308px;
-	background-repeat: no-repeat;
-	display: block;
-	margin: 20px auto 0;
-}
 
 /* Device Based css */
 
@@ -237,17 +155,6 @@
 	.feature {
 		min-height: 450px;
 		background-size: cover;
-	}
-	.trusted {
-		.col-sm-6:first-child, .col-sm-6:last-child {
-			.video {
-				min-height: 275px;
-			}
-		}
-		.col-sm-6:last-child {
-			min-height: 275px;
-			padding-top: 2%;
-		}
 	}
 }  //end Medium Screen
 
@@ -288,24 +195,6 @@
 					font-size: 0.8em;
 				} 
 			}
-		}
-	}
-	.trusted {
-		.col-sm-6:first-child, .col-sm-6:last-child {
-			.video {
-				min-height: 200px;
-			}
-		}
-		.col-sm-6:last-child {
-			min-height: 200px;
-			padding: 0 2% 0;
-			h2 {
-				font-size: 1.4em;
-			}
-			p {
-				font-size: 0.9em;
-			}
-			background-position: 50% 90%;
 		}
 	}
 
@@ -349,34 +238,5 @@
 		p {
 			margin: 10px 20px 30px;
 		}
-	}
-
-
-	.why, .claims {
-		.col-xs-12 {
-			background-position: top center;
-			min-height: 300px;
-			h2 {
-				margin-top: 28px;
-			}
-		}
-	}
-	.why {
-		.col-xs-12 {
-			background-image: url('../images/auto/why-mex-ins.png');
-		}
-	}
-
-	.claims {
-		.col-xs-12 {
-			background-image: url('../images/auto/claims-img.png');
-			height: 325px;
-		}
-	}
-	.tip {
-		background-image: url('../images/auto/tip-mobile.png');
-		width: 300px;
-		height: 171px;
-		background-position: top center;
 	}
 } //End Xtra-Small Screen
