@@ -112,6 +112,35 @@
 		margin: 10px 50px 30px;
 	}
 }
+// Double Pane
+.doublepane {
+	.col-sm-6 {
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		min-height: 275px;
+		background-size: cover;
+		padding-left: 75px;
+    	padding-right: 75px;
+    	h2 {
+    		font-size: 20px !important;
+    		text-transform: inherit !important;
+    		padding-top: 40px;
+    	}
+    }
+	&.eligible {
+		background-color: transparent !important;
+		.col-sm-6:first-child {
+			background-image: url('../images/homeown/quote-img.png');
+			background-position: center top; 
+		}
+		.col-sm-6:last-child {
+			background-image: url('../images/homeown/elegibility-img.png');
+			p.center {
+				font-size: 0.8em;
+			} 
+		}
+	}
+}
 
 .autocov {
 	background-image:  url('../images/auto/coverage-slice.png');
