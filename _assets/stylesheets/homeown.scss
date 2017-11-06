@@ -140,6 +140,24 @@
 			} 
 		}
 	}
+	&.claims {
+		h2 {
+			font-size: 30px;
+		}
+		.flags {
+			background-image: url('../images/homeown/flags.png');
+			background-repeat: no-repeat;
+			margin: 20px auto 15px;
+			height: 35px;
+			width: 185px;
+			display: block;
+		}
+		.col-sm-6:last-child {
+			background-image: url('../images/homeown/telemarketer.png');
+			background-position: center top; 
+			min-height: 350px;
+		}
+	}
 }
 
 // Homeowners Coverage
@@ -213,6 +231,13 @@
 		min-height: 450px;
 		background-size: cover;
 	}
+	.doublepane {
+		&.claims {
+			.col-sm-6:last-child {
+				min-height: 400px;
+			}
+		}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -242,6 +267,11 @@
 	    }
 		&.eligible {
 			background-color: transparent !important;
+		}
+		&.claims {
+			.col-sm-6:last-child {
+				min-height: 425px;
+			}
 		}
 	}
 } // End Small Screen
@@ -298,6 +328,11 @@
 			}
 			.col-sm-6:last-child {
 				top: -12px;
+			}
+		}
+		&.claims {
+			.col-sm-6 {
+				min-height: 400px;
 			}
 		}
 	}
