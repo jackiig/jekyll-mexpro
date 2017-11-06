@@ -151,6 +151,7 @@
 	}
 	li,.carousel-inner {
 		list-style: none;
+		height: 175px;
 		a span {
 			background-image: url('../images/homeown/mxho-coverage-sprites.png');
 			background-repeat: no-repeat;
@@ -171,20 +172,18 @@
 				width: 81px;
 				height: 66px;
 			}
-			&.extraord {
+			&.replace {
 				background-position: 0 -200px;
 				width: 70px;
-				height: 68px;
 			}
-			&.replace {
+			&.liab {
 				background-position: 0 -268px;
 				width: 67px;
 			}
-			&.liab {
+			&.extraord {
 				background-position: 0 -335px;
 				width: 67px;
-			}
-			
+			}	
 		}
 		h5, p {
 			text-align: center;
