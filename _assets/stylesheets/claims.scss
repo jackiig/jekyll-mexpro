@@ -41,7 +41,7 @@
 			&.col-sm-6 {
 				padding-left: 0;
 			}
-			&:nth-child(3), &:nth-child(4) {
+			&:nth-child(4) {
 				.right {
 					padding-top: 20px;
 				}
@@ -180,22 +180,25 @@
 	}
 	li {
 		list-style: none;
+		&:nth-child(odd) div {
+			background-color: #f3f8fa;
+		}
 		&.title {
-			&.bottom div {
-				font-size: 0.8em;
-				&:last-child {
-					padding-top: 5px;
-				}
-			}
 			div {
 				background-color: #d9e3e7;
 				&.company, &.phone1, &.phone2 {
 					padding: 15px;
 				}
 			}
-		}
-		&:nth-child(odd) div {
-			background-color: #f3f8fa;
+			&.bottom div {
+				font-size: 0.8em;
+				&:last-child {
+					padding-top: 10px;
+				}
+				&.phone1 {
+					padding: 20px 0;
+				}
+			}
 		}
 		div {
 			border-right: 1px solid white;
@@ -207,7 +210,6 @@
 				width: 153px;
 			}
 			&.phone1, &.phone2 {
-				padding: 10px 0;
 				span {
 					background-image: none;
 					height: inherit;
@@ -217,14 +219,17 @@
 			}
 			&.phone1 {
 				width: 400px;
-				
+				padding: 10px 0;
 			}
 			&.phone2 {
 				width: 320px;
+				padding: 20px 0;
 			}
 		}
+		&:nth-child(5) div.phone1 {
+			padding: 20px 0;
+		}
 	}
-	
 }
 .container.last {
 	padding: 15px 40px;
