@@ -340,6 +340,7 @@
 		background-image: url('../images/claims/claims-feature-mobile.png');
 		background-repeat: no-repeat;
 		min-height: 450px;
+		text-align: center;
 		h1 {
 			text-align: center;
 			margin-top: 1.2em;
@@ -362,7 +363,7 @@
 					padding-right: 8px;
 				}
 				.right {
-					padding-top: 23px;
+					padding-top: 12px;
 				}
 				&:last-child {
 					> a, > a:hover, > a:visited, > a:active {
