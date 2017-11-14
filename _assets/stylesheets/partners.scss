@@ -50,6 +50,7 @@
 	}
 	//Bootstrap Accordion Main Body
 	.bsaccordion {
+		width: 80%;
 		padding: 0;
 		overflow:visible;
 		.panel-group, .panel-body {
@@ -58,7 +59,7 @@
 			border-bottom: 3px solid white;
 			.panel {
 				border-radius: 0;
-				border: none;
+				border-color: white;
 				box-shadow: none;
 				-webkit-box-shadow: none;
 				+ .panel {
@@ -204,7 +205,7 @@
 	.btn-orange.btn {
 		width: 100%;
 	}
-	
+
 	.partners #ClaimCarousel {
 		div {
 			width: 223px;
