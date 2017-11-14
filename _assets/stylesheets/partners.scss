@@ -101,114 +101,44 @@
 	h2 {
 		font-size: 24px !important;
 	}
-	.col-sm-6 {
-		max-height: 420px;
-		span {
-			background-repeat: no-repeat;
-			background-position: top center;
-			display: block;
-		}
-	}
-	.col-sm-6:first-child {
-		padding: 2% 6% 0;
-		span.check {
-			background-image: url('../images/check-mark.png');
-			height: 20px;
-			width: 20px;
-			margin: 20px auto 3px;
-		}
-	}
-	.col-sm-6:last-child {
-		padding: 0;
-		span {
-			background-image: url('../images/claims/recommendations.png');
-			background-size: cover;
-			min-height: 420px;
-			max-width: 750px;
-		}
+	.col-sm-12 {
+		padding-top: 35px;
+		padding-bottom: 50px;
 	}
 }
 
-.partners {
-	.col-sm-12 > p {
-		margin: 40px 15px 30px;
-	}
-	span {
-		background-image: url('../images/claims/claimsfeatureicons.png');
-		background-repeat: no-repeat;
-		width: 153px;
-		height: 60px;
-		display: block;
-		margin:0;
-		&.aba {
-			background-position: 0 0;
+//Bootstrap Accordion Main Body
+.bsaccordion {
+	padding: 0;
+	overflow:visible;
+	.panel-group {
+		.panel {
+			border: none;
+			border-radius: 0;
 		}
-		&.elag {
-			background-position: 0 -60px;
-		}
-		&.gnp {
-			background-position: 0 -120px;
-		}
-		&.mexvisit {
-			background-position: 0 -180px;
-		}
-	}
-	li {
-		list-style: none;
-		&:nth-child(odd) div {
-			background-color: #f3f8fa;
-		}
-		&.title {
-			div {
-				background-color: #d9e3e7;
-				&.company, &.phone1, &.phone2 {
-					padding: 15px;
-				}
-			}
-			&.bottom div {
+		.panel-heading {
+			background-color: #d9e3e7;
+			color: #3c4b52;
+			border-radius: 0;
+			& span {
 				font-size: 0.8em;
-				&:last-child {
-					padding-top: 10px;
-				}
-				&.phone1 {
-					padding: 20px 0;
-				}
+				font-weight: normal;
+			}
+			& span:before {
+				content: "\2212";
+			}
+			.collapsed & span:before {
+				content: "\2b";
 			}
 		}
-		div {
-			border-right: 1px solid white;
-			border-bottom: 1px solid white;
-			height: 60px;
-			float:left;
-			text-align: center;
-			&.company {
-				width: 153px;
-			}
-			&.phone1, &.phone2 {
-				span {
-					background-image: none;
-					height: inherit;
-					width: inherit;
-					display: inline;
-				}
-			}
-			&.phone1 {
-				width: 400px;
-				padding: 10px 0;
-			}
-			&.phone2 {
-				width: 320px;
-				padding: 20px 0;
-			}
+		.panel-body {
+			background-color: #f3f8fa;
+			color: #798d96
 		}
-		&:nth-child(5) div.phone1 {
-			padding: 20px 0;
-		}
-	}
+	}	
 }
-.container.last {
-	padding: 15px 40px;
-}
+// End Bootstrap Accordion
+
 
 /* Device Based css */
 
