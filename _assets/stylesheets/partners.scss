@@ -48,37 +48,6 @@
 	.col-sm-6:last-child {
 		padding-left: 30px;
 	}
-	//Bootstrap Accordion Main Body
-	.bsaccordion {
-		padding: 0;
-		overflow:visible;
-		.panel-group {
-			.panel {
-				border: none;
-				border-radius: 0;
-			}
-			.panel-heading {
-				background-color: #d9e3e7;
-				color: #3c4b52;
-				border-radius: 0;
-				& span {
-					font-size: 0.8em;
-					font-weight: normal;
-				}
-				& span:before {
-					content: "\2212";
-				}
-				.collapsed & span:before {
-					content: "\2b";
-				}
-			}
-			.panel-body {
-				background-color: #f3f8fa;
-				color: #798d96
-			}
-		}	
-	}
-	// End Bootstrap Accordion
 }
 
 
@@ -137,6 +106,56 @@
 		padding-bottom: 50px;
 	}
 }
+
+//Bootstrap Accordion Main Body
+.bsaccordion {
+	padding: 0;
+	overflow:visible;
+	.panel-group, .panel-body {
+		background-color: #f3f8fa;
+		color: #798d96;
+		border-bottom: 3px solid white;
+		.panel {
+			border-radius: 0;
+			border: none;
+			box-shadow: none;
+			-webkit-box-shadow: none;
+			+ .panel {
+			    margin-top: 0;
+			}
+		}
+	}
+	.panel-heading {
+		background-color: #d9e3e7;
+		color: #3c4b52;
+		border-radius: 0;
+		.panel-title {
+			font-size: inherit;
+		}
+	}
+	.input-group {
+		width: 100%;
+	}
+	.dropdown-menu {
+		position: relative;
+		width: 100%;
+	}
+	.panel > a, .panel a h3, .panel a:hover h3, .panel a:focus h3 {
+		//color: white;
+	}
+	.panel-heading span {
+		font-weight: normal;
+	}
+	.panel-heading span:before {
+		content: "\e082";
+	}
+	.collapsed .panel-heading span:before {
+		content: "\e081";
+	}
+
+}
+// End Bootstrap Accordion
+
 
 /* Device Based css */
 
