@@ -3,7 +3,7 @@
 
 // Styles Only for claims page
 
-// Claims Page Photo, Text, Quote Box
+// Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
 	background-position: right bottom;
@@ -16,6 +16,37 @@
 		color: white;
 		font-size: 1.8em;
 		line-height: 1;
+	}
+}
+//Liability Full Coverage
+.liabfulcov {
+	margin-top: 35px;
+	.container {
+		margin-bottom: 30px;
+	}
+	darkh5 {
+		margin-top: 20px;
+	}
+	span {
+		&.liabimg, &.fullcovimg {
+			background-image: url('../images/auto/auto-feature-sprite.png');
+			background-position: 0 -807px;
+			background-repeat: no-repeat;
+			width: 70px;
+			height: 69px;
+			display: block;
+			margin: 30px auto 10px;
+		}
+		&.fullcovimg {
+			background-position: 0 -876px;
+			width: 66px;
+		}
+	}
+	.col-sm-6:first-child {
+		padding-right: 30px;
+	}
+	.col-sm-6:last-child {
+		padding-left: 30px;
 	}
 }
 
