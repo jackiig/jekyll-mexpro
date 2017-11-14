@@ -50,9 +50,11 @@
 	}
 	//Bootstrap Accordion Main Body
 	.bsaccordion {
-		width: 80%;
 		padding: 0;
 		overflow:visible;
+		.blue {
+			margin-bottom: 0;
+		}
 		.panel-group, .panel-body {
 			background-color: #f3f8fa;
 			color: #798d96;
