@@ -50,73 +50,18 @@
 	}
 }
 
-// Quote box dropdown within feature image 
-.quotedropdown {
-	.dropdown-menu {
-		background-color: white;
-		border-radius: 0;
-		padding: 0;
-		margin: 0;
-		border: 0;
-		font-size: 0.9em;
-		z-index: 1100; //puts above feature icons
-		> li {
-			background-color: white;
-			color: #798d96;
-			width: 100%;
-			&.col-sm-6 {
-				padding-left: 0;
-			}
-			&:nth-child(4) {
-				.right {
-					padding-top: 20px;
-				}
-			}
-			&:nth-child(odd) {
-				background-color: #f3f8fa;
-			}
-			span {
-				background-image: url('../images/claims/claimsfeatureicons.png');
-				background-repeat: no-repeat;
-				width: 153px;
-				height: 60px;
-				display: block;
-				margin:0;
-				&.aba {
-					background-position: 0 0;
-				}
-				&.elag {
-					background-position: 0 -60px;
-				}
-				&.gnp {
-					background-position: 0 -120px;
-				}
-				&.mexvisit {
-					background-position: 0 -180px;
-				}
-			}
-			.left {
-				width: 153px;
-				float:left;
-			}
-			.right {
-				text-align: center;
-				padding-top: 10px;
-				height: 60px;
-				span {
-					background-image: none;
-					display: inline;
-					&.hidden-xs {
-						height: inherit;
-						width: inherit;
-					}
-				}
-			}
-		}
-	}
-}
 
 .steps {
+	background-image:  url('../images/auto/coverage-slice.png');
+	background-repeat: repeat-x;
+	background-color: #fefefe;
+	margin-top: 35px;
+	.container {
+		margin-bottom: 30px;
+	}
+	darkh5 {
+		margin-top: 20px;
+	}
 	.col-sm-12 {
 		text-align: center;
 		margin: 0 auto;
