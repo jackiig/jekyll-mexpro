@@ -166,38 +166,7 @@
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
 @media (min-width:992px) and (max-width:1199px) {
-	.partners {
-		li {
-			&.title {
-				&.bottom div {
-					padding-top: 10px;
-				}
-				div {
-					&.company, &.phone1 {
-						padding: 15px;
-					}
-					&.phone2 {
-						padding-top: 7px;
-					}
-				}
-			}
-			div {
-				&.company {
-					width: 153px;
-				}
-				&.phone1, &.phone2 {
-
-				}
-				&.phone1 {
-					width: 450px;
-					
-				}
-				&.phone2 {
-					width: 300px;
-				}
-			}
-		}
-	}
+	
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -213,43 +182,6 @@
 		h1 {
 			margin-top: 45px;
 			font-size: 1.6em;
-		}
-	}
-	.quotedropdown {
-		ul.dropdown-menu {
-			> li {
-				&.col-sm-6 {
-					padding-right: 8px;
-				}
-			}
-		}
-	}
-	.partners {
-		li {
-			&.title {
-				&.bottom div {
-				}
-				div {
-					&.company, &.phone1, &.phone2 {
-						padding: 10px;
-					}
-				}
-			}
-			div {
-				&.company {
-					width: 153px;
-				}
-				&.phone1, &.phone2 {
-
-				}
-				&.phone1 {
-					width: 325px;
-					
-				}
-				&.phone2 {
-					width: 200px;
-				}
-			}
 		}
 	}
 } // End Small Screen
@@ -272,59 +204,7 @@
 	.btn-orange.btn {
 		width: 100%;
 	}
-	.quotedropdown {
-		ul.dropdown-menu {
-			margin: auto;
-			float: none;
-			position: relative;
-			font-size: 0.8em;
-			> li {
-				&.col-sm-6 {
-					padding-right: 8px;
-				}
-				.right {
-					padding-top: 12px;
-				}
-				&:last-child {
-					> a, > a:hover, > a:visited, > a:active {
-					padding-bottom: 8px;
-					}
-				}
-			}
-		}
-	}
-	.doublepane {
-		background-color: transparent !important;
-		.col-sm-6 {
-			min-height: 410px;
-			width: 100%;
-			&:first-child {
-				padding: 0;
-				background-image: url('../images/claims/recommendations.png');
-				background-size: cover;
-				background-repeat: no-repeat;
-				background-position: top center;
-				display: block;
-				&:before {
-					content: '';
-					position: absolute;
-					top: 0;
-					right: 0;
-					bottom: 0;
-					left: 0;
-					background-image: linear-gradient(to bottom right,#000,#000);
-			        opacity: .5;
-				}
-				.text {
-					position: relative;
-					padding: 5px 15px 10px;
-				}
-			}
-			&:last-child {
-				display: none;
-			}
-		}
-	} // end doublepane css
+	
 	.partners #ClaimCarousel {
 		div {
 			width: 223px;
