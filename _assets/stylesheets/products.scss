@@ -108,7 +108,7 @@
 	margin: 10px auto 0;
 }
 
-//Steps or questions
+//Steps or questions - on resident auto
 .steps {
 	margin-bottom: 20px;
 	.col-sm-12 {
@@ -155,6 +155,67 @@
 		}
 
 	}
+}
+
+//Doublepane - on resident auto
+.doublepane {
+	.col-sm-6 {
+		background-repeat: no-repeat;
+		background-position: center bottom;
+		min-height: 275px;
+		background-size: cover;
+		padding-left: 75px;
+    	padding-right: 75px;
+    	h2 {
+    		font-size: 20px;
+    		text-transform: inherit;
+    		padding-top: 40px;
+    	}
+    	&:last-child {
+		    background-image: url('/images/homeown/telemarketer.png');
+		    background-position: center top;
+		    min-height: 350px;
+		}
+	}
+}
+
+// Partners - on resident auto
+.partners {
+	h2 {
+		color: #0c93d2;
+		font-size: 15px;
+		margin-top: 28px;
+		text-transform: uppercase;
+		font-weight: 400;
+	}
+	h3 {
+		font-size: 30px;
+	}
+	ul {
+		margin-left: -40px;
+	}
+	li {
+		list-style: none;
+		display: inline;
+		span {
+			background-image: url('../images/partners.png');
+			background-repeat: no-repeat;
+			display: inline-block;
+			margin: 0 auto 10px;
+			width: 223px;
+			height: 110px;
+			&.aba {
+				background-position: 0 1px;
+			}
+			&.gnp {
+				background-position: 0 -110px;
+			}
+			&.elag {
+				background-position: 0 -220px;
+			}
+		}
+	}
+	margin-bottom: 25px;
 }
 
 .autocov {
@@ -294,6 +355,13 @@
 			height: 150px;
 		}
 	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 300px;
+			padding-left: 50px;
+	    	padding-right: 50px;
+	    }
+	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
 			.video {
@@ -357,6 +425,16 @@
 		}
 		p.font {
 			margin-top: 20px;
+		}
+	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 325px;
+			padding-left: 50px;
+	    	padding-right: 50px;
+	    }
+	    .col-sm-6:first-child {
+			min-height: 250px;
 		}
 	}
 	.why, .claims {
