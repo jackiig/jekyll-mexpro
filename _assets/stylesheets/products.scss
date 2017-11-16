@@ -1,0 +1,317 @@
+@charset "utf-8";
+//= require_self
+
+// Styles Only for auto page
+
+//h2 headers that are darkh4 color
+.darkh5 {
+	margin-top: 30px;
+}
+
+// Auto Page Photo, Text, Quote Box
+.feature {
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url('../images/auto/mexico-insurance.png');
+	min-height: 575px;
+	position: relative;
+	background-size: cover;
+	.col-sm-6:first-child {
+		padding-top: 2%;
+	}
+	h1, p {
+		color: white;
+		font-size: 1.8em;
+		line-height: 1.2;
+	}
+	p {
+		font-size: 1em;
+		&:last-child {
+			font-size: 0.9em;
+		}
+	}
+}
+
+// Quote button within feature image
+.btn-orange.btn {
+	margin-bottom: 20px;
+}
+
+//Feature Icons
+.featureicons {
+	z-index: 1000;
+	position:relative;
+	ul {
+		margin-left: -40px;
+	}
+	li {
+		list-style: none;
+		text-align: center;
+		line-height: 1.2;
+		top: -30px;
+		width: 20%;
+		float:left;
+		position: relative;
+		padding: 0 10px;
+		a span {
+			background-image: url('../images/auto/auto-feature-sprite.png');
+			background-repeat: no-repeat;
+			width: 80px;
+			height: 80px;
+			display: block;
+			margin: 0 auto 10px;
+			&.auto {
+				background-position: 0 0;
+			}
+			&.moto {
+				background-position: 0 -81px;
+			}
+			&.autv {
+				background-position: 0 -163px;
+			}
+			&.rv {
+				background-position: 0 -245px;
+			}
+			&.towed {
+				background-position: 0 -327px;
+			}
+		}
+		a:hover span {
+			&.auto {
+				background-position: 0 -408px;
+			}
+			&.moto {
+				background-position: 0 -488px;
+			}
+			&.autv {
+				background-position: 0 -568px;
+			}
+			&.rv {
+				background-position: 0 -647px;
+			}
+			&.towed {
+				background-position: 0 -728px;
+			}
+		}
+		a {
+			color: #798d96;
+			&:hover {
+				color: #0c93d2;
+			}
+		}
+	}
+}
+
+// White button
+.btn-white {
+	margin: 10px auto 0;
+}
+
+.autocov {
+	background-image:  url('../images/auto/coverage-slice.png');
+	background-repeat: repeat-x;
+	background-color: #fefefe;
+	margin-top: 35px;
+	.container {
+		margin-bottom: 30px;
+	}
+	darkh5 {
+		margin-top: 20px;
+	}
+	span {
+		&.liabimg, &.fullcovimg {
+			background-image: url('../images/auto/auto-feature-sprite.png');
+			background-position: 0 -807px;
+			background-repeat: no-repeat;
+			width: 70px;
+			height: 69px;
+			display: block;
+			margin: 30px auto 10px;
+		}
+		&.fullcovimg {
+			background-position: 0 -876px;
+			width: 66px;
+		}
+	}
+	.col-sm-6:first-child {
+		padding-right: 30px;
+	}
+	.col-sm-6:last-child {
+		padding-left: 30px;
+	}
+}
+
+.why, .claims {
+	background-color: #0c93d2;
+	color: white;
+	.autowhy, .claimsimg {
+		max-width: 750px;
+		min-height: 360px;
+		background-size: cover;
+		background-repeat: no-repeat;
+		display: block;
+	}
+}
+
+.why {
+	.autowhy {
+		background-image: url('../images/auto/why-mex-ins.png');
+		background-position: top right;
+	}
+	.col-sm-6:first-child {
+		padding: 0;
+	}
+	.col-sm-6:last-child {
+		min-height: 360px;
+		padding: 4% 6% 0;
+	}
+}
+
+.claims {
+	.claimsimg {
+		background-image: url('../images/auto/claims-img.png');
+		background-position: top left;
+	}
+	.col-sm-6:first-child {
+		min-height: 360px;
+		padding: 4% 6% 0;
+	}
+	.col-sm-6:last-child {
+		padding: 0;
+	}
+}
+
+.tip {
+	background-image: url('../images/auto/tip.png');
+	width: 555px;
+	height: 308px;
+	background-repeat: no-repeat;
+	display: block;
+	margin: 20px auto 0;
+}
+
+/* Device Based css */
+
+/* Large Screen size - Desktop : 1200px wide and larger */
+@media (min-width:1200px) {
+
+} // End Large Screen
+
+/* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
+@media (min-width:992px) and (max-width:1199px) {
+	.feature {
+		min-height: 450px;
+		background-size: cover;
+	}
+	.trusted {
+		.col-sm-6:first-child, .col-sm-6:last-child {
+			.video {
+				min-height: 275px;
+			}
+		}
+		.col-sm-6:last-child {
+			min-height: 275px;
+			padding-top: 2%;
+		}
+	}
+}  //end Medium Screen
+
+@media (max-width: 991px) {
+//CSS Specific to navbar break point
+
+}
+
+/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
+@media (min-width:768px) and (max-width:991px) {
+	.feature {
+		min-height: 420px;
+		background-size: cover;
+		background-position: right bottom;
+		h1 {
+			margin-top: 45px;
+			font-size: 1.6em;
+		}
+	}
+	.featureicons {
+		margin-bottom: 0;
+	}
+	.trusted {
+		.col-sm-6:first-child, .col-sm-6:last-child {
+			.video {
+				min-height: 200px;
+			}
+		}
+		.col-sm-6:last-child {
+			min-height: 200px;
+			padding: 0 2% 0;
+			h2 {
+				font-size: 1.4em;
+			}
+			p {
+				font-size: 0.9em;
+			}
+			background-position: 50% 90%;
+		}
+	}
+
+} // End Small Screen
+
+/* Xtra-Small Screen Size - Phone : 480px - 767px */
+@media (max-width:767px) {
+	.feature {
+		background-image: url('../images/auto/mexico-insurance-mobile.png');
+		background-repeat: no-repeat;
+		min-height: 450px;
+		text-align: center;
+		h1 {
+			text-align: center;
+			margin-top: 1.6em;
+			font-size: 1.4em;
+		}
+	}
+	.featureicons {
+		margin-bottom: 15px;
+		li {
+			top: 15px;
+			width: 50%;
+			padding-bottom: 15px;
+			&.col-xs-6:nth-child(even) {
+				padding-left: 0;
+			}
+			&.col-xs-6:nth-child(odd) {
+				padding-right: 0;
+			}
+			&:last-child {
+				width: 100%;
+			}
+		}
+	}
+
+	.why, .claims {
+		.col-xs-12 {
+			background-position: top center;
+			min-height: 300px;
+			h2 {
+				margin-top: 28px;
+			}
+		}
+	}
+	.why {
+		.col-xs-12 {
+			background-image: url('../images/auto/why-mex-ins.png');
+		}
+	}
+
+	.claims {
+		.col-xs-12 {
+			background-image: url('../images/auto/claims-img.png');
+			height: 325px;
+		}
+	}
+	.tip {
+		background-image: url('../images/auto/tip-mobile.png');
+		width: 300px;
+		height: 171px;
+		background-position: top center;
+	}
+} //End Xtra-Small Screen
