@@ -13,7 +13,7 @@
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	background-image: url('../images/auto/mexico-insurance.png');
-	min-height: 575px;
+	min-height: 500px;
 	position: relative;
 	background-size: cover;
 	.col-sm-6:first-child {
@@ -30,12 +30,13 @@
 			font-size: 0.9em;
 		}
 	}
+	.res-auto-page & {
+		min-height: 450px;
+	}
 }
 
 // Quote button within feature image
-.btn-orange.btn {
-	margin-bottom: 20px;
-}
+
 
 //Feature Icons
 .featureicons {
@@ -200,7 +201,7 @@
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
 @media (min-width:992px) and (max-width:1199px) {
 	.feature {
-		min-height: 450px;
+		min-height: 425px;
 		background-size: cover;
 	}
 	.trusted {
@@ -224,7 +225,7 @@
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
 @media (min-width:768px) and (max-width:991px) {
 	.feature {
-		min-height: 420px;
+		min-height: 350px;
 		background-size: cover;
 		background-position: right bottom;
 		h1 {
