@@ -345,7 +345,20 @@
 			}
 		}
 	}
-
+	.steps {
+		margin-bottom: 20px;
+		.col-md-2 {
+			border-right: 0;
+			border-bottom: 2px solid #e2e2e2;
+			height: inherit;
+		    padding-top: 20px;
+		    padding-bottom: 15px;
+		    margin-bottom: 0;
+		}
+		p.font {
+			margin-top: 20px;
+		}
+	}
 	.why, .claims {
 		.col-xs-12 {
 			background-position: top center;
