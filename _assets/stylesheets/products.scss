@@ -144,7 +144,7 @@
 	}
 	span {
 		&.step {
-			background-image: url('/images/orange-circle-icon.png');
+			background-image: url('../images/orange-circle-icon.png');
 			background-repeat: no-repeat;
 			width: 80px;
 			height: 80px;
@@ -177,7 +177,7 @@
     		padding-top: 40px;
     	}
     	&:last-child {
-		    background-image: url('/images/homeown/telemarketer.png');
+		    background-image: url('../images/homeown/telemarketer.png');
 		    background-position: center top;
 		    min-height: 350px;
 		}
