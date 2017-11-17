@@ -33,6 +33,11 @@
 	.res-auto-page & {
 		min-height: 450px;
 	}
+	.res-auto-page & {
+		background-image: url('../images/res-auto/resident-auto-feature.png');
+		background-position: right top;
+		min-height: 400px;
+	}
 }
 
 // Quote button within feature image
@@ -313,6 +318,9 @@
 	.feature {
 		min-height: 425px;
 		background-size: cover;
+		.res-auto-page & {
+			min-height: 350px;
+		}
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
@@ -341,6 +349,9 @@
 		h1 {
 			margin-top: 45px;
 			font-size: 1.6em;
+		}
+		.res-auto-page & {
+			min-height: 350px;
 		}
 	}
 	.featureicons {
@@ -394,6 +405,10 @@
 			text-align: center;
 			margin-top: 1.6em;
 			font-size: 1.4em;
+		}
+		.res-auto-page & {
+			min-height: 350px;
+			background-position: center top;
 		}
 	}
 	.featureicons {
