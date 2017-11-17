@@ -360,10 +360,9 @@
 	.steps {
 		.col-md-2 {
 			margin-bottom: 30px;
-			&:nth-child(4) {
-				border-right: none;
-			}
-			height: 150px;
+			height: 160px;
+			border: none;
+			border-bottom: 2px solid #e2e2e2;
 		}
 	}
 	.doublepane {
@@ -432,11 +431,15 @@
 		margin-bottom: 20px;
 		.col-md-2 {
 			border-right: 0;
-			border-bottom: 2px solid #e2e2e2;
 			height: inherit;
 		    padding-top: 20px;
 		    padding-bottom: 15px;
 		    margin-bottom: 0;
+		    hr {
+		    	color: #e2e2e2;
+		    	width: 80%;
+		    	border-bottom: 2px solid #e2e2e2;
+		    }
 		}
 		p.font {
 			margin-top: 20px;
