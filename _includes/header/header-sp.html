@@ -24,7 +24,7 @@
       <div class="row row1">
         <ul class="nav navbar-nav navbar-right">
           <!--<li role="presentation" class="{% if page.body_class == 'contact' %}active{% endif %}">
-            <a href="https://www.mexpro.com/mx/contactenos.html">Contact Us</a>
+            <a href="{{ site.url }}{{ site.baseurl }}/mx/contactenos.html">Contact Us</a>
           </li>
           <li class="navdivider"></li>-->
           <li role="presentation" class="{% if page.body_class == 'language' %}active{% endif %}">
@@ -52,20 +52,20 @@
               <li role="presentation" class="hidden-md hidden-lg"><button class="btn btn-buy btn-xs" onclick="location.href='https://www.mexpro.com/es-MX/quotes/new/?agtdst=buytopnavsp#/'" type="button"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> COMPRA AHORA</button></li>
               <li role="presentation" class="hidden-md hidden-lg"><button type="button" class="btn btn-login btn-xs" data-href="#customer-login-topnav" data-toggle="modal" data-target="#customer-login-topnav"><span class="glyphicon glyphicon-lock" aria-hidden="true"></span> INICIAR</button></li>
               <li role="presentation" class="dropdown">
-                <a href="https://www.mexpro.com/mx/seguros-carros-viajar-mexico.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopagesp" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Seguros <span class="caret"></span></a>
+                <a href="{{ site.url }}{{ site.baseurl }}/mx/seguros-carros-viajar-mexico.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopagesp" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">Seguros <span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="{{ site.url }}{{ site.baseurl }}/mx/seguros-carros-viajar-mexico.html?utm_source=nav2&utm_medium=www&utm_campaign=navautopagesp" title="Seguro Auto, Motocicleta, RV">Auto Turista en Mexico</a></li>
-                    <li><a href="https://www.mexpro.com/mx/seguro-usa/?utm_source=nav2&utm_medium=www&utm_campaign=navnbpagesp" title="Seguro para USA">Auto Turista EE.UU.</a></li>
-                    <li><a href="https://www.tupoliza.mx/?fx=QGyNBuscy0Z3dQ3igd0ENw%3D%3D" title="Seguro Auto Residente Mexicano" target="_blank">Mexico Auto Residente</a></li>
-                    <li><a href="https://www.mexpro.com/mx/seguros-de-casa/?utm_source=nav2&utm_medium=www&utm_campaign=navhomepagesp" title="Seguro Casa/Condo/Casa Adosada">Propietarios de Viviendas en Mexico</a></li>
-                    <li><a href="https://www.mexpro.com/mx/seguros-bote-mexico.html?utm_source=nav2&utm_medium=www&utm_campaign=navboatpagesp" title="Seguro Barco y Moto Acu&aacute;tica">Barco y Moto Acu&aacute;tica</a></li>
-                    <li><a href="https://www.mexpro.com/mx/seguros-medicos.html?utm_source=nav2&utm_medium=www&utm_campaign=navmedpagesp" title="Seguro M&eacute;dico de Viaje">Seguro M&eacute;dico de Viaje</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}/mx/seguro-usa/?utm_source=nav2&utm_medium=www&utm_campaign=navnbpagesp" title="Seguro para USA">Auto Turista EE.UU.</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}/mx/auto-residente.html?utm_source=nav2&utm_medium=www&utm_campaign=navresautopagesp" title="Seguro Auto Residente Mexicano" target="_blank">Mexico Auto Residente</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}/mx/seguros-de-casa/?utm_source=nav2&utm_medium=www&utm_campaign=navhomepagesp" title="Seguro Casa/Condo/Casa Adosada">Propietarios de Viviendas en Mexico</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}/mx/seguros-bote-mexico.html?utm_source=nav2&utm_medium=www&utm_campaign=navboatpagesp" title="Seguro Barco y Moto Acu&aacute;tica">Barco y Moto Acu&aacute;tica</a></li>
+                    <li><a href="{{ site.url }}{{ site.baseurl }}/mx/seguros-medicos.html?utm_source=nav2&utm_medium=www&utm_campaign=navmedpagesp" title="Seguro M&eacute;dico de Viaje">Seguro M&eacute;dico de Viaje</a></li>
                     <li><a href="#" title="Evacuaci&oacute;n M&eacute;dica de Viaje" target="_blank">Evacuaci&oacute;n M&eacute;dica de Viaje</a></li>
                   </ul>
               </li>
               <li class="navdivider"></li>
               <li role="presentation" class="{% if page.body_class == 'custserv' %}active{% endif %}">
-                <a href="https://www.mexpro.com/mx/servicio-cliente/?utm_source=nav2&utm_medium=www&utm_campaign=navcustsvcpagesp" title="Servicio al Cliente">Servicio al Cliente</a>
+                <a href="{{ site.url }}{{ site.baseurl }}/mx/servicio-cliente/?utm_source=nav2&utm_medium=www&utm_campaign=navcustsvcpagesp" title="Servicio al Cliente">Servicio al Cliente</a>
               </li>
               <li class="navdivider"></li>
               <li role="presentation" class="{% if page.body_class == 'claims' %}active{% endif %}">
@@ -85,7 +85,7 @@
               </li>
               <li class="navdivider"></li>-->
               <li role="presentation" class="{% if page.body_class == 'about' %}active{% endif %}">
-                <a href="https://www.mexpro.com/mx/acerca-de-mexpro.html?utm_source=nav2&utm_medium=www&utm_campaign=navaboutpagesp" title="Acerca Mexpro">Acerca de</a>
+                <a href="{{ site.url }}{{ site.baseurl }}/mx/acerca-de-mexpro.html?utm_source=nav2&utm_medium=www&utm_campaign=navaboutpagesp" title="Acerca Mexpro">Acerca de</a>
               </li>
               <li role="presentation" class="hidden-sm hidden-md hidden-lg phone" itemscope itemtype="https://schema.org/ContactPoint">
                 <a href="tel:+18556397761" rel="nofollow" title="Llama a Mexpro"><span class="glyphicon glyphicon-earphone"></span> <span itemprop="telephone" contactType="customer support" areaServed="US, CA, MX" ContactOption="TollFree" availableLanguage="English, Spanish">1-855-MexPro1</span></a>
