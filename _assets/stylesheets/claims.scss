@@ -240,12 +240,21 @@
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-
+	.claimsins .partners {
+		ul {
+			width: 903px;
+			margin-left: 100px;
+		}
+	}
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
 @media (min-width:992px) and (max-width:1199px) {
-	.partners {
+	.claimsins .partners {
+		ul {
+			width: 933px;
+			margin-left: 0;
+		}
 		li {
 			&.title {
 				&.bottom div {
@@ -303,7 +312,11 @@
 			}
 		}
 	}
-	.partners {
+	.claimsins .partners {
+		ul {
+			width: 710px;
+			margin-left: 0;
+		}
 		li {
 			&.title {
 				&.bottom div {
