@@ -17,6 +17,11 @@
 		font-size: 1.8em;
 		line-height: 1;
 	}
+	.gnp & {
+		background-image: url('../images/gnp/gnp-banner.png');
+		background-position: right top;
+		min-height: 400px;
+	}
 }
 //Liability Full Coverage
 .liabfulcov {
@@ -87,9 +92,6 @@
 			position: relative;
 			width: 100%;
 		}
-		.panel > a, .panel a h3, .panel a:hover h3, .panel a:focus h3 {
-			//color: white;
-		}
 		.panel-heading span {
 			font-weight: normal;
 		}
@@ -99,7 +101,6 @@
 		.collapsed .panel-heading span:before {
 			content: "\e081";
 		}
-
 	}
 	// End Bootstrap Accordion
 }
@@ -211,6 +212,10 @@
 		}
 		.dropdown {
 			text-align: center;
+		}
+		.gnp & {
+			background-image: url('../images/gnp/gnp-banner-mobile.png');
+			background-position: center top;
 		}
 	}
 	.btn-orange.btn {
