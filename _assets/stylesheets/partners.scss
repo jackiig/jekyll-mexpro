@@ -6,12 +6,15 @@
 // Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: right top;
 	background-image: url('../images/claims/claims-feature.png');
-	min-height: 475px;
+	min-height: 400px;
 	position: relative;
 	background-size: cover;
 	margin-bottom: 30px;
+	img {
+			margin-top: 50px;
+	}
 	h1 {
 		color: white;
 		font-size: 1.8em;
@@ -19,10 +22,11 @@
 	}
 	.gnp & {
 		background-image: url('../images/gnp/gnp-banner.png');
-		background-position: right top;
-		min-height: 400px;
+	}
+	.elag & {
+		background-image: url('../images/el-aguila/el-aguila-banner.png');
 		img {
-			margin-top: 50px;
+			margin-top: 20px;
 		}
 	}
 }
@@ -209,6 +213,7 @@
 		background-repeat: no-repeat;
 		min-height: 450px;
 		text-align: center;
+		background-position: center top;
 		h1 {
 			text-align: center;
 			margin-top: 1.2em;
@@ -218,7 +223,9 @@
 		}
 		.gnp & {
 			background-image: url('../images/gnp/gnp-banner-mobile.png');
-			background-position: center top;
+		}
+		.elag & {
+			background-image: url('../images/el-aguila/el-aguila-banner-mobile.png');
 		}
 	}
 	.btn-orange.btn {
