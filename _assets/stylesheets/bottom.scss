@@ -37,6 +37,13 @@ a:focus, :focus {
     }
 }
 
+.modal-footer .btn {
+	background-color: #e2e2e2;
+	&:hover {
+		background-color: #ccc;
+	}
+}
+
 .whitetext {
 	color: white;
 }
