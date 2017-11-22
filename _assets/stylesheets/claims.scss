@@ -318,13 +318,15 @@
 			margin-left: 0;
 		}
 		li {
+			font-size: 0.9em;
 			&.title {
-				&.bottom div {
-				}
 				div {
 					&.company, &.phone1, &.phone2 {
 						padding: 10px;
 					}
+				}
+				&.bottom .phone2 {
+					padding: 5px 10px !important;
 				}
 			}
 			div {
