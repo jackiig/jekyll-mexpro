@@ -53,6 +53,13 @@ a:focus, :focus {
     color: white;
 }
 
+//Basic pages copied from old website
+.basic {
+	.container {
+		margin-bottom: 20px;
+	}
+}
+
 .doublepane {
 	color: white;
 	background-color: #0c93d2;
@@ -72,6 +79,15 @@ a:focus, :focus {
 	.col-sm-6 {
 		max-width: 750px;
 	}
+}
+
+// Images
+.img-rt {
+	float: right;
+	margin: 5px 0 5px 10px;
+}
+.img-lt {
+	float: left;
 }
 
 //Carousel
