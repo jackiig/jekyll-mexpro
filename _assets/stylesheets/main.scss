@@ -19,6 +19,10 @@ h2 { //Large white text heading on most sections
 	margin-top: 10px;
 	margin-bottom: 10px;
 	font-size: 30px;
+	.basic & {
+		color: #1892D0;
+		font-size: 1.4em;
+	}
 }
 h3 { // Heading for the 6 blue icons for each product
 	color: #3c4b52;
