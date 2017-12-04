@@ -2,6 +2,9 @@
 //= require_self
 
 // Top Navigation styles
+.modal-open .navbar-fixed-top { //fixes top nav moving right when log in button clicked
+        right: 15px;
+}
 .navbar-default {
 	background-image: url(../images/nav-slice.png) !important;
 	background-repeat: repeat-x;
