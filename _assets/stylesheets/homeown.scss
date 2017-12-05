@@ -268,6 +268,14 @@ dt {
 			background-color: transparent !important;
 		}
 	}
+	.sp {
+		.prodcoverage li {
+			height: 200px;
+		}
+		.doublepane.claims .col-sm-6:last-child {
+			min-height: 375px;
+		}
+	}
 } // End Small Screen
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
