@@ -419,6 +419,11 @@
 			padding-left: 50px;
 	    	padding-right: 50px;
 	    }
+	    .usatourist & {
+	    	.col-sm-6:last-child {
+	    		min-height: 555px;
+	    	}
+	    }
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
