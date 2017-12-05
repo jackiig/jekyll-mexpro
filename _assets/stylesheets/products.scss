@@ -38,6 +38,11 @@
 		background-position: right top;
 		min-height: 400px;
 	}
+	.usatourist & {
+		background-image: url('../images/usa-auto/usa-feature.png');
+		background-position: right top;
+		min-height: 450px;
+	}
 }
 
 // Quote button within feature image
@@ -202,6 +207,11 @@
 	.usatourist & {
 		.col-sm-6 {
 			padding: 20px 40px;
+			&:last-child {
+			    background-image: url('../images/usa-auto/usa-accident.png');
+			    background-position: right top;
+			    min-height: 400px;
+			}
 		}
 	}
 }
@@ -362,6 +372,11 @@
 			padding-top: 2%;
 		}
 	}
+	.feature {
+		.usatourist & {
+			min-height: 400px;
+		}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -428,6 +443,11 @@
 			.autowhy {
 				min-height: 400px;
 			}
+		}
+	}
+	.feature {
+		.usatourist & {
+			min-height: 350px;
 		}
 	}
 
