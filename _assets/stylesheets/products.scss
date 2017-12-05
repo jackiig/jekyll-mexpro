@@ -393,8 +393,11 @@
 	.feature {
 		min-height: 425px;
 		background-size: cover;
-		.res-auto-page & {
+		.res-auto-page &, .tme & {
 			min-height: 350px;
+		}
+		.usatourist & {
+			min-height: 400px;
 		}
 	}
 	.trusted {
@@ -406,11 +409,6 @@
 		.col-sm-6:last-child {
 			min-height: 275px;
 			padding-top: 2%;
-		}
-	}
-	.feature {
-		.usatourist & {
-			min-height: 400px;
 		}
 	}
 }  //end Medium Screen
@@ -513,6 +511,11 @@
 		.usatourist & {
 			background-image: url('../images/usa-auto/usa-feature-mobile.png');
 			background-position: center bottom;
+			min-height: 400px;
+		}
+		.tme & {
+			background-image: url('../images/tme/tme-feature-mobile.png');
+			background-position: center top;
 			min-height: 400px;
 		}
 	}
