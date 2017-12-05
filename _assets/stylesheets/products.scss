@@ -46,7 +46,6 @@
 	.tme & {
 		background-image: url('../images/tme/tme-feature.png');
 		background-position: right top;
-		min-height: 450px;
 	}
 }
 
@@ -393,10 +392,10 @@
 	.feature {
 		min-height: 425px;
 		background-size: cover;
-		.res-auto-page &, .tme & {
+		.res-auto-page & {
 			min-height: 350px;
 		}
-		.usatourist & {
+		.usatourist &, .tme & {
 			min-height: 400px;
 		}
 	}
@@ -432,8 +431,11 @@
 				margin-top: 35px;
 			}
 		}
-		.res-auto-page & {
+		.res-auto-page &, .tme & {
 			min-height: 350px;
+		}
+		.usatourist & {
+			min-height: 300px;
 		}
 	}
 	.featureicons {
@@ -482,11 +484,6 @@
 			.autowhy {
 				min-height: 400px;
 			}
-		}
-	}
-	.feature {
-		.usatourist & {
-			min-height: 300px;
 		}
 	}
 
