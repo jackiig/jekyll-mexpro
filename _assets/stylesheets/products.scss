@@ -447,7 +447,7 @@
 	}
 	.feature {
 		.usatourist & {
-			min-height: 350px;
+			min-height: 300px;
 		}
 	}
 
@@ -468,6 +468,11 @@
 		.res-auto-page & {
 			min-height: 350px;
 			background-position: center top;
+		}
+		.usatourist & {
+			background-image: url('../images/usa-auto/usa-feature-mobile.png');
+			background-position: center bottom;
+			min-height: 400px;
 		}
 	}
 	.featureicons {
