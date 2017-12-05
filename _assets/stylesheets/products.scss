@@ -43,7 +43,7 @@
 		background-position: right top;
 		min-height: 450px;
 	}
-	.tme {
+	.tme & {
 		background-image: url('../images/tme/tme-feature.png');
 		background-position: right top;
 		min-height: 450px;
@@ -230,6 +230,23 @@
 			    background-image: url('../images/usa-auto/usa-accident.png');
 			    background-position: right top;
 			    min-height: 400px;
+			}
+		}
+	}
+	.tme & {
+		.col-sm-6 {
+			padding: 40px;
+			span.tmelogo {
+				background-image: url('../images/tme/tme-logo.png');
+				display: block;
+				margin: 20px auto;
+				width: 285px;
+				height: 88px;
+			}
+			&:last-child {
+			    background-image: url('../images/tme/doublepane-airplane.png');
+			    background-position: center top;
+			    min-height: 350px;
 			}
 		}
 	}
