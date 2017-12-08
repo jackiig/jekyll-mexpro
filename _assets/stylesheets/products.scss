@@ -381,8 +381,8 @@
 }
 
 // auto/insurance page css
-.auto-insurance, .auto-reasons { 
-	.carins1, .motoins1, .rvins1, .reasonsimg {
+.auto-insurance, .auto-reasons, .auto-law { 
+	.carins1, .motoins1, .rvins1, .autolawimg {
 		background-repeat: no-repeat;
 		display: block;
 		margin: 20px;
@@ -412,12 +412,25 @@
 		margin: 10px 0 10px 15px;
 		border-radius: 6px;
 	}
+	.autolawimg { 
+		background-image: url('../images/auto/mexican-jail.png');
+		width: 450px;
+		height: 299px;
+		float: right;
+		margin: 10px 0 10px 15px;
+		border-radius: 6px;
+	}
 	h1, h2 {
 		margin-top: 45px;
 	}
 	h2 {
 		color: #0c93d2;
 		font-size: 1.4em;
+	}
+}
+.auto-law {
+	.OptEndTablePad {
+		width: 50% !important;
 	}
 }
 
@@ -631,14 +644,19 @@
 		height: 171px;
 		background-position: top center;
 	}
-	.auto-insurance, .auto-reasons { 
-		.carins1, .motoins1, .rvins1, .reasonsimg {
+	.auto-insurance, .auto-reasons, .auto-law { 
+		.carins1, .motoins1, .rvins1, .reasonsimg, .autolawimg {
 			float: none;
 			margin: 20px auto;
 		}
 		h2 {
 			text-align: center;
 			margin: 20px auto;
+		}
+	}
+	.auto-law {
+		.OptEndTablePad {
+			width: initial !important;
 		}
 	}
 } //End Xtra-Small Screen
