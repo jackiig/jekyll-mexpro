@@ -385,7 +385,7 @@
 	.carins1, .motoins1, .rvins1 {
 		background-repeat: no-repeat;
 		display: block;
-		margin: 10px 25px;
+		margin: 20px;
 		float: right;
 	}
 	.carins1 {
@@ -403,9 +403,11 @@
 		width: 150px;
 		height: 84px;
 	}
+	h1, h2 {
+		margin-top: 45px;
+	}
 	h2 {
 		color: #0c93d2;
-		margin-top: 28px;
 		font-size: 1.4em;
 	}
 	.col-sm-12 {
@@ -619,5 +621,15 @@
 		width: 300px;
 		height: 171px;
 		background-position: top center;
+	}
+	.auto-insurance { 
+		.carins1, .motoins1, .rvins1 {
+			float: none;
+			margin: 20px auto;
+		}
+		h2 {
+			text-align: center;
+			margin: 20px auto;
+		}
 	}
 } //End Xtra-Small Screen
