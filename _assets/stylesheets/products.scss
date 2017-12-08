@@ -382,7 +382,7 @@
 
 // auto/insurance page css
 .auto-insurance { 
-	.carins1, .motoins1 {
+	.carins1, .motoins1, .rvins1 {
 		background-repeat: no-repeat;
 		display: block;
 		margin: 10px 25px;
@@ -396,6 +396,11 @@
 	.motoins1 {
 		background-image: url('../images/auto/motorcycle-insurance1.png');
 		width: 131px;
+		height: 84px;
+	}
+	.rvins1 {
+		background-image: url('../images/auto/rv-insurance1.png');
+		width: 150px;
 		height: 84px;
 	}
 	h2 {
