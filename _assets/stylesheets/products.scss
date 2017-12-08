@@ -380,6 +380,33 @@
 	margin: 20px auto 0;
 }
 
+// auto/insurance page css
+.auto-insurance { 
+	.carins1, .motoins1 {
+		background-repeat: no-repeat;
+		display: block;
+		margin: 10px 25px;
+		float: right;
+	}
+	.carins1 {
+		background-image: url('../images/auto/car-insurance1.png');
+		width: 167px;
+		height: 84px;
+	}
+	.motoins1 {
+		background-image: url('../images/auto/motorcycle-insurance1.png');
+		width: 131px;
+		height: 84px;
+	}
+	h2 {
+		color: #0c93d2;
+		margin-top: 28px;
+		font-size: 1.4em;
+	}
+	.col-sm-12 {
+		border-bottom: 1px solid #e2e2e2;
+	}
+}
 /* Device Based css */
 
 /* Large Screen size - Desktop : 1200px wide and larger */
