@@ -381,8 +381,8 @@
 }
 
 // auto/insurance page css
-.auto-insurance { 
-	.carins1, .motoins1, .rvins1 {
+.auto-insurance, .auto-reasons { 
+	.carins1, .motoins1, .rvins1, .reasonsimg {
 		background-repeat: no-repeat;
 		display: block;
 		margin: 20px;
@@ -404,6 +404,14 @@
 		width: 150px;
 		height: 84px;
 	}
+	.reasonsimg { 
+		background-image: url('../images/auto/police-pulled-over.png');
+		width: 350px;
+		height: 243px;
+		float: right;
+		margin: 10px 0 10px 15px;
+		border-radius: 6px;
+	}
 	h1, h2 {
 		margin-top: 45px;
 	}
@@ -411,10 +419,10 @@
 		color: #0c93d2;
 		font-size: 1.4em;
 	}
-	.col-sm-12 {
-		border-bottom: 1px solid #e2e2e2;
-	}
 }
+
+// auto/reasons page
+
 /* Device Based css */
 
 /* Large Screen size - Desktop : 1200px wide and larger */
