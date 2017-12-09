@@ -206,27 +206,29 @@
 	}
 }
 
-//Doublepane - on resident auto
+//Doublepane 
 .doublepane {
-	.col-sm-6 {
-		background-repeat: no-repeat;
-		background-position: center bottom;
-		min-height: 275px;
-		background-size: cover;
-		padding-left: 75px;
-    	padding-right: 75px;
-    	h2 {
-    		font-size: 20px;
-    		text-transform: inherit;
-    		padding-top: 40px;
-    	}
-    	&:last-child {
-		    background-image: url('../images/homeown/telemarketer.png');
-		    background-position: center top;
-		    min-height: 350px;
+	.res-auto-page & { // Resident Auto
+		.col-sm-6 {
+			background-repeat: no-repeat;
+			background-position: center bottom;
+			min-height: 275px;
+			background-size: cover;
+			padding-left: 75px;
+	    	padding-right: 75px;
+	    	h2 {
+	    		font-size: 20px;
+	    		text-transform: inherit;
+	    		padding-top: 40px;
+	    	}
+	    	&:last-child {
+			    background-image: url('../images/homeown/telemarketer.png');
+			    background-position: center top;
+			    min-height: 350px;
+			}
 		}
 	}
-	.usatourist & {
+	.usatourist & { //Northbound
 		.col-sm-6 {
 			padding: 20px 40px;
 			&:last-child {
@@ -236,7 +238,7 @@
 			}
 		}
 	}
-	.tme & {
+	.tme & { // Travel Medevac
 		.col-sm-6 {
 			padding: 40px;
 			span.tmelogo {
@@ -253,7 +255,7 @@
 			}
 		}
 	}
-	.travelhealth & {
+	.travelhealth & { // Travel Health
     	.col-sm-3, .col-sm-4 {
     		margin: 15px 0 25px;
     	}
@@ -535,6 +537,13 @@
 /* Device Based css */
 
 /* Large Screen size - Desktop : 1200px wide and larger */
+@media (min-width:1500px) {
+	.container-fluid {
+		&.why, &.claims {
+			width: 1500px;
+		}
+	}
+} // End Large Screen
 @media (min-width:1200px) {
 
 } // End Large Screen
