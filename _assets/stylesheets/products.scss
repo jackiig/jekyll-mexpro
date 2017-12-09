@@ -257,6 +257,9 @@
     	.col-sm-3 {
     		margin: 15px 0 25px;
     	}
+    	a.whitelink, a.whitelink:hover {
+    		text-decoration: underline;
+    	}
     }
 }
 
@@ -386,6 +389,26 @@
 						background-position: 0 -248px;
 						height: 69px;
 						width: 69px;
+					}
+					&.family {
+						background-position: 0 -317px;
+						height: 64px;
+						width: 73px;
+					}
+					&.flags {
+						background-position: 0 -381px;
+						height: 66px;
+						width: 93px;
+					}
+					&.globe {
+						background-position: 0 -447px;
+						height: 63px;
+						width: 63px;
+					}
+					&.check {
+						background-position: 0 -510px;
+						height: 62px;
+						width: 62px;
 					}
 			    }
 			}
