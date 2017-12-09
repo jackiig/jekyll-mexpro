@@ -435,6 +435,15 @@ footer {
 	}
 }
 
+/* Device Based css */
+
+/* Large Screen size - Desktop : 1200px wide and larger */
+@media (min-width:1500px) {
+	.doublepane.container-fluid {
+		width: 1500px;
+	}
+} // End Large Screen
+
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
 #content {
