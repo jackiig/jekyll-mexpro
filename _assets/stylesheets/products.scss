@@ -410,6 +410,11 @@
 						height: 62px;
 						width: 62px;
 					}
+					&.rv {
+						background-position: 0 -572px;
+						height: 57px;
+						width: 71px;
+					}
 			    }
 			}
 		}
@@ -698,6 +703,24 @@
 			margin-top: 20px;
 		}
 	}
+	.autocov {
+		.travelhealth & {
+			ul li {
+				width: 50%;
+				height: 150px;
+				margin-top: 15px;
+				&:last-child {
+					width: 100%;
+				}
+			}
+		}
+		.travelhealth &.two {
+			ul li {
+				width: 50%;
+				height: 140px;
+			}
+		}
+	}
 	.doublepane {
 		.col-sm-6 {
 			min-height: 325px;
@@ -706,6 +729,9 @@
 	    }
 	    .col-sm-6:first-child {
 			min-height: 250px;
+		}
+		p {
+			text-align: center;
 		}
 	}
 	.why, .claims {
