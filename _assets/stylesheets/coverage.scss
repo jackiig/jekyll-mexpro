@@ -1,0 +1,13 @@
+@charset "utf-8";
+//= require_self
+
+// Styles Only for Coverage pages
+span.aba {
+    background-image: url(../images/partners.png);
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 auto 10px;
+    width: 223px;
+    height: 110px;
+    float: right;
+}
