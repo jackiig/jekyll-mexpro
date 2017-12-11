@@ -2,12 +2,23 @@
 //= require_self
 
 // Styles Only for Coverage pages
-span.aba {
-    background-image: url(../images/partners.png);
-    background-repeat: no-repeat;
-    display: inline-block;
-    margin: 0 auto 10px;
-    width: 223px;
-    height: 110px;
-    float: right;
+span {
+	&.aba, &.elag, &.gnp {
+	    background-image: url(../images/partners.png);
+	    background-repeat: no-repeat;
+	    display: inline-block;
+	    margin: 0 auto 10px;
+	    width: 223px;
+	    height: 110px;
+	    float: right;
+    }
+    &.aba {
+    	background-position: 0 0;
+    }
+    &.elag {
+		background-position: 0 -220px;
+	}
+	&.gnp {
+		background-position: 0 -110px;
+	}
 }
