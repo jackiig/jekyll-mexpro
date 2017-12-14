@@ -2,6 +2,17 @@
 //= require_self
 
 // Styles Only for Coverage pages
+
+//Coverage index page
+.covhome {
+	h2 {
+		color: #666 !important;
+		margin-top: 30px !important;
+		font-size: 1.3em !important;
+	}
+}
+
+//Extended coverage pages
 span {
 	&.aba, &.elag, &.gnp {
 	    background-image: url(../images/partners.png);
