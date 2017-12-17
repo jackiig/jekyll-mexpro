@@ -27,5 +27,10 @@
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
-
+.custsvcbtn {
+	ul {
+	    -webkit-padding-start: 0;
+	    -moz-padding-start: 0;
+	}
+}
 } // end Xtra-Small
