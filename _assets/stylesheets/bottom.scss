@@ -241,6 +241,20 @@ blockquote {
 	margin-bottom: 25px;
 }
 
+// vm
+.vm {
+	.prodRight {
+		border: 1px solid #798d96;
+		border-radius: 6px;
+		ul {
+			margin-left: -40px;
+		}
+		li {
+			list-style: none;
+		}
+	}
+}
+
 //Tables - from old website
 .OptEndTablePad {
     border: 1px solid #798d96;
