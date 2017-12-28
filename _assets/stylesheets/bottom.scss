@@ -179,6 +179,13 @@ dd {
 	border-bottom: 1px solid #e2e2e2;
 	margin-bottom: 10px;
 }
+.faqbtn.btn, .faqbtn.btn a {
+    font-size: 1em;
+    color: #fff;
+    font-weight: normal;
+    width: 200px;
+}
+
 
 //Testimonials
 .testimonials {
@@ -539,6 +546,12 @@ footer {
 
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
+.faq {
+	h2 {
+		text-align: center;
+		font-size: 1.5em;
+	}
+}
 .testimonials {
 	hr {
 		width: 5%;
