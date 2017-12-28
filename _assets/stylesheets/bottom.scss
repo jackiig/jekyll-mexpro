@@ -66,6 +66,18 @@ blockquote {
     color: white;
 }
 
+//Required
+.form-group {
+	label:after {content: ":";}
+	label.required:before {content: "* ";}
+}
+p.required:before {content: "* ";}
+
+.required {
+	color: #F00; 
+	font-weight: 300;
+}
+
 //Basic pages copied from old website
 .basic {
 	.container {
@@ -148,6 +160,13 @@ img {
 	}
 	.icon-next:before, .icon-prev:before {
 		font-size: 1.5em;
+	}
+}
+
+//contact Page
+.contact {
+	iframe {
+		border: 0;
 	}
 }
 
