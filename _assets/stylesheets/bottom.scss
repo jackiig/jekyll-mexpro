@@ -102,15 +102,16 @@ blockquote {
 // Images
 .img-rt {
 	float: right;
-	margin: 5px 0 5px 10px;
+	margin: 10px 0 10px 10px;
 }
 .img-lt {
 	float: left;
-	margin: 5px 10px 5px 0;
+	margin: 10px 10px 10px 0;
 }
-
-.centerimg {
-	margin: 10px auto;
+img {
+	&.center {
+		margin: 10px auto;
+	}
 }
 
 //Carousel
