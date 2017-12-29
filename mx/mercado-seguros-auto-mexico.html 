@@ -1,0 +1,34 @@
+---
+layout: default
+lang: es
+permalink: /mx/mercado-seguros-auto-mexico.html
+alternate_en: /mexico/ranking.html
+alternate_mx: /mx/mercado-seguros-auto-mexico.html
+published: true
+body_class: basic
+title: El Mercado de Seguros para Mexico | Compania Estabilidad y Reputacion | Mexpro
+excerpt: Mexpro le proporciona un seguro de auto para M&eacute;xico con compa&ntilde;&iacute;as que pagar&aacute; su reclamo. Verificar la estabilidad con las estad&iacute;sticas de auto turistica.
+---
+<div class="container-fluid">
+    <div class="row">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1>Las clasificaciones de las Estad&iacute;sticas de Seguros para M&eacute;xico</h1>
+                        <p><a href="http://www.bbb.org/central-northern-western-arizona/business-reviews/insurance-companies/mexico-insurance-professionals-in-flagstaff-az-83004848" title="BBB Reliability Seal"><span itemscope itemtype="http://schema.org/ImageObject"><img src="{{ site.url }}{{site.baseurl}}/images/Reliability-Seal.png" alt="BBB Reliability Seal" class="img-rt img-responsive" width="50" height="76" itemprop="contentURL"></span></a><strong>&iquest;Es su compa&ntilde;a de seguros de M&eacute;xico acredita?</strong></p>
+                        <p><em>Read past years findings on how Mexican Tourist Auto companies performed.</em></p>
+                        <ul>
+                            <li><p><strong><a href="{{ site.url }}{{site.baseurl}}/pdf/AMIS-2016-Tourist-Auto-Mexpro-May-2017.pdf" title="Resultados de Auto Turista Mexico 2016">Resultados de Auto Turista Mexico 2016</a></strong></p></li>
+                            <li><p><strong><a href="{{ site.url }}{{site.baseurl}}/pdf/AMIS-2015-Results-Mexpro.pdf" title="Resultados de Auto Turista Mexico 2015">Resultados de Auto Turista Mexico 2015</a></strong></p></li>
+                            <li><p><strong><a href="{{ site.url }}{{site.baseurl}}/pdf/AMIS-2013-Results-Spanish.pdf" title="Resultados de Auto Turista Mexico 2013">Resultados de Auto Turista Mexico 2013</a></strong></p></li>
+                            <li><p><strong><a href="{{ site.url }}{{site.baseurl}}/pdf/AMIS2012-mx.pdf" title="Resultados Auto Turista Mexico 2012">Resultados de Auto Turista Mexico 2012</a></strong></p></li>
+                            <li><p><strong><a href="{{ site.url }}{{site.baseurl}}/pdf/AMIS2011-mx.pdf" title="Resultados Auto Turista Mexico 2011">Resultados de Auto Turista Mexico 2011</a></strong></p></li>
+                        </ul>
+                        <p>Lamentablemente, muchas personas que compran seguros para Mexico creen que pueden confiar en su corredor, en lugar de confiar en la compa&ntilde;&iacute;a con la que compra sus seguros para Mexico. La verdad es que la compa&ntilde;&iacute;a de quien compra su seguro deber&iacute;a ser mucho m&aacute;s importante que el corredor que le vende la p&oacute;liza. Aunque debe asegurarse de que el corredor tenga una licencia y que tenga la facilidad de servicio que usted necesita, al final es la compa&ntilde;&iacute;a quien paga el siniestro.</p>
+                        <p>Como el entorno global sigue en un estado de incertidumbre econ&oacute;micamente, puede que sea mas importante que nunca comprar su seguro para Mexico de una compa&ntilde;&iacute;a fuerte financieramente. Sea fuerte o no su corredor, si este le da seguros de una compa&ntilde;&iacute;a con problemas, puede ser que se encuentre con alguna sorpresa desagradable en caso de alg&uacute;n siniestro. Hay mas de 50 compa&ntilde;&iacute;as de seguros para Mexico; tal como en Estados Unidos, algunos son buenas y algunas no. Por favor vea las estad&iacute;sticas de auto para proteger su inversi&oacute;n y a usted.</p>
+                        <p>Es verdad algunas compa&ntilde;&iacute;as de Estados Unidos han comprado participaci&oacute;n en compa&ntilde;&iacute;as de seguro mexicanas, pero estas compa&ntilde;&iacute;as independiente de la compa&ntilde;&iacute;a de estados unidos. Pregunte a su agente sobre el tama&ntilde;o y la estabilidad de las compa&ntilde;&iacute;as que usan; en caso de tener mas problemas en la econom&iacute;a y/o devaluaci&oacute;n del peso, acompa&ntilde;ado con algunos desastres naturales como hurac&aacute;n o inundaci&oacute;n, &iquest;como saldr&aacute; la compa&ntilde;&iacute;a aseguradora?</p>
+                </div>
+            </div>
+        </div><!-- End container -->
+    </div>
+</div> <!-- End -->
