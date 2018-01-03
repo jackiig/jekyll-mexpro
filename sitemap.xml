@@ -660,6 +660,11 @@
   <lastmod>2016-10-24</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.90</priority>
+<url>
+  <loc>https://www.mexpro.com/mexico/rv/insurance.html</loc>
+  <lastmod>2016-12-16</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
   <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
@@ -668,14 +673,8 @@
   <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/rv/"
+                 href="https://www.mexpro.com/mexico/rv/insurance.html"
                  />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/rv/insurance.html</loc>
-  <lastmod>2016-12-16</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/short-term-us-auto-insurance/claims.html</loc>
@@ -789,89 +788,80 @@
                  href="https://www.mexpro.com/mexico/vm/index.html"
                  />
 </url>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <url>
-  <loc>https://www.mexpro.com/mexico/short-term-us-auto-insurance.html</loc>
+  <loc>https://www.mexpro.com/mexico/15-years-mexpro.html</loc>
+  <lastmod>2014-12-19</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/a-rated-companies.html</loc>
+  <lastmod>2014-12-17</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/aba-seguros-claims-instructions.html</loc>
+  <lastmod>2014-12-03</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+    <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/siniestros-ABA.html"
+                 />
+    <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/aba-seguros-claims-instructions.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/aba-seguros.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
-  <xhtml:link 
+    <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguro-usa.html"
+                 href="https://www.mexpro.com/mx/aba-seguros.html"
                  />
-  <xhtml:link 
+   <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/short-term-us-auto-insurance.html"
+                 href="https://www.mexpro.com/mexico/aba-seguros.html"
                  />
 </url>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <url>
-  <loc>https://www.mexpro.com/mexico/faq.html</loc>
-  <lastmod>2015-10-24</lastmod>
+  <loc>https://www.mexpro.com/mexico/about-mexico-car-insurance-pros.html</loc>
+  <lastmod>2016-09-27</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
   <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/preguntas-frequentes-seguros-auto-mexico.html"
+                 href="https://www.mexpro.com/mx/acerca-de-mexpro.html"
                  />
   <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/faq.html"
+                 href="https://www.mexpro.com/mexico/about-mexico-car-insurance-pros.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/beforeyougo.html</loc>
+  <lastmod>2017-02-13</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/antes-de-viajar.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/beforeyougo.html"
                  />
 </url>
 <url>
@@ -891,10 +881,96 @@
                  />
 </url>
 <url>
+  <loc>https://www.mexpro.com/mexico/contact-mexican-insurance-online.html</loc>
+  <lastmod>2016-04-08</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/contactenos.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/contact-mexican-insurance-online.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/coverage.html</loc>
+  <lastmod>2016-10-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/cobertura-seguros-auto-mexico.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/coverage.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/driving.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/el-aguila-claims-instructions.html</loc>
+  <lastmod>2014-12-10</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/reportar-reclamo-el-aguila.html"
+                 />
+    <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/el-aguila-claims-instructions.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/el-aguila.html</loc>
+  <lastmod>2016-08-31</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/el-aguila.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/el-aguila.html"
+                 />
+</url>
+<url>
   <loc>https://www.mexpro.com/mexico/faq-buying-insurance.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/faq.html</loc>
+  <lastmod>2015-10-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/preguntas-frequentes-seguros-auto-mexico.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/faq.html"
+                 />
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/faqcoverage.html</loc>
@@ -928,13 +1004,6 @@
                  href="https://www.mexpro.com/mexico/faqdrivingtoMexico.html"
                  />
 </url>
-
-<url>
-  <loc>https://www.mexpro.com/mexico/vehicle-import-permit-faqs.html</loc>
-  <lastmod>2017-01-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
 <url>
   <loc>https://www.mexpro.com/mexico/faqsitefunc.html</loc>
   <lastmod>2014-11-24</lastmod>
@@ -949,275 +1018,6 @@
                  rel="alternate"
                  hreflang="en"
                  href="https://www.mexpro.com/mexico/faqsitefunc.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/about-mexico-car-insurance-pros.html</loc>
-  <lastmod>2016-09-27</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/acerca-de-mexpro.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/about-mexico-car-insurance-pros.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/why-mexpro-for-mexican-insurance.html</loc>
-  <lastmod>2014-11-25</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/porque-mexpro.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/why-mexpro-for-mexican-insurance.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/meet-mexpro.html</loc>
-  <lastmod>2016-07-20</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/conozca-equipo.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/meet-mexpro.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/partners.html</loc>
-  <lastmod>2016-09-20</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/companias-seguros-mexico.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/partners.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/contact-mexican-insurance-online.html</loc>
-  <lastmod>2016-04-08</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/contactenos.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/contact-mexican-insurance-online.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/sitemap.html</loc>
-  <lastmod>2016-09-23</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.60</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/mapa-sitio.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/sitemap.html"
-                 />
-</url>
-
-
-<url>
-  <loc>https://www.mexpro.com/mexico/ace-seguros.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/ace-seguros.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/ace-seguros.html"
-                 />
-</url>
-
-
-<url>
-  <loc>https://www.mexpro.com/mexico/ranking.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/mercado-seguros-auto-mexico.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/ranking.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/mexvisit.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/asistencia-mexvisit.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/mexvisit.html"
-                 />
-</url>
-
-
-<url>
-  <loc>https://www.mexpro.com/mexico/coverage.html</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/cobertura-seguros-auto-mexico.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/coverage.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/beforeyougo.html</loc>
-  <lastmod>2017-02-13</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/antes-de-viajar.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/beforeyougo.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/resources.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-     <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguros-mexico-recursos-enlaces.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/resources.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/vehicle-import-permit.html</loc>
-  <lastmod>2017-01-12</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-      <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/permiso-importacion-temporal.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/vehicle-import-permit.html"
-                 />
-
-</url>
-
-<url>
-  <loc>https://www.mexpro.com/mexico/rv-vehicle-import-permit.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/sonora-vehicle-import-permit.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-
-
-<url>
-  <loc>https://www.mexpro.com/mexico/articles.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-
-<url>
-  <loc>https://www.mexpro.com/mexico/intl_privacy_policy.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/politica-privacidad.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/intl_privacy_policy.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/grupo-nacional-provincial.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/grupo-nacional-provincial.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/grupo-nacional-provincial.html"
                  />
 </url>
 <url>
@@ -1237,100 +1037,75 @@
                  />
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/aba-seguros.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <loc>https://www.mexpro.com/mexico/gnp-claims-instructions.html</loc>
+  <lastmod>2014-11-25</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/reportar-reclamo-gnp.html"
+                 />
     <xhtml:link 
                  rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/aba-seguros.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/aba-seguros.html"
+                 href="https://www.mexpro.com/mexico/gnp-claims-instructions.html"
                  />
 </url>
-
 <url>
-  <loc>https://www.mexpro.com/mexico/coverage/ace-seguros-extended.html</loc>
+  <loc>https://www.mexpro.com/mexico/grupo-nacional-provincial.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
    <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/ace-seguros-cobertura-extendida.html"
+                 href="https://www.mexpro.com/mx/grupo-nacional-provincial.html"
                  />
    <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/coverage/ace-seguros-extended.html"
+                 href="https://www.mexpro.com/mexico/grupo-nacional-provincial.html"
                  />
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/insurance.html</loc>
+  <loc>https://www.mexpro.com/mexico/intl_privacy_policy.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/politica-privacidad.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/intl_privacy_policy.html"
+                 />
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/vehicle-insurance.html</loc>
-  <lastmod>2014-12-04</lastmod>
+  <loc>https://www.mexpro.com/mexico/meet-mexpro.html</loc>
+  <lastmod>2016-07-20</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
   <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguros-carros-viajar-mexico.html"
+                 href="https://www.mexpro.com/mx/conozca-equipo.html"
                  />
-   <xhtml:link 
+  <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/vehicle-insurance.html"
+                 href="https://www.mexpro.com/mexico/meet-mexpro.html"
                  />
 </url>
-
-
-
-
-
 <url>
-  <loc>https://www.mexpro.com/mexico/other-products.html</loc>
+  <loc>https://www.mexpro.com/mexico/mexico-road-maps.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/otros-productos.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/other-products.html"
-                 />
+  <priority>0.64</priority>
 </url>
-
-<url>
-  <loc>https://www.mexpro.com/mexico/el-aguila.html</loc>
-  <lastmod>2016-08-31</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/el-aguila.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/el-aguila.html"
-                 />
-</url>
-
-
 <url>
   <loc>https://www.mexpro.com/mexico/mexico_travel_info.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
@@ -1348,22 +1123,37 @@
                  />
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/prgm_compar.html</loc>
-  <lastmod>2014-11-21</lastmod>
+  <loc>https://www.mexpro.com/mexico/mexvisit.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/asistencia-mexvisit.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/mexvisit.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/partners.html</loc>
+  <lastmod>2016-09-20</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
   <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/comparativo-seguros-mexico.html"
+                 href="https://www.mexpro.com/mx/companias-seguros-mexico.html"
                  />
-   <xhtml:link 
+  <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/prgm_compar.html"
+                 href="https://www.mexpro.com/mexico/partners.html"
                  />
 </url>
-
 <url>
   <loc>https://www.mexpro.com/mexico/purchase-auto-insurance-policy-mexico.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
@@ -1371,40 +1161,52 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/quality-mexico-auto-insurance.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <loc>https://www.mexpro.com/mexico/qualitas-claims-instructions.html</loc>
+  <lastmod>2014-09-16</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-  <xhtml:link 
+  <priority>0.80</priority>
+   <xhtml:link 
                  rel="alternate"
                  hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguros-mexico-calidad.html"
+                 href="https://www.mexpro.com/mx/reportar-reclamo-qualitas.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/qualitas-claims-instructions.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/ranking.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/mercado-seguros-auto-mexico.html"
                  />
    <xhtml:link 
                  rel="alternate"
                  hreflang="en"
-                 href="https://www.mexpro.com/mexico/quality-mexico-auto-insurance.html"
+                 href="https://www.mexpro.com/mexico/ranking.html"
                  />
 </url>
-
-
 <url>
-  <loc>https://www.mexpro.com/mexico/testimonials.html</loc>
-  <lastmod>2016-08-22</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/driving.html</loc>
+  <loc>https://www.mexpro.com/mexico/resources.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/mexico-road-maps.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
+     <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/seguros-mexico-recursos-enlaces.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/resources.html"
+                 />
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/road-logs.html</loc>
@@ -1423,6 +1225,56 @@
                  />
 </url>
 <url>
+  <loc>https://www.mexpro.com/mexico/rv-vehicle-import-permit.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/short-term-us-auto-insurance.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/seguro-usa.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/short-term-us-auto-insurance.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/sitemap.html</loc>
+  <lastmod>2016-09-23</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.60</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/mapa-sitio.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/sitemap.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/sonora-vehicle-import-permit.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/testimonials.html</loc>
+  <lastmod>2016-08-22</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.mexpro.com/mexico/traffic-incident-baja.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -1439,51 +1291,52 @@
                  />
 </url>
 <url>
-  <loc>https://www.mexpro.com/usa/rv</loc>
+  <loc>https://www.mexpro.com/mexico/vehicle-import-permit-faqs.html</loc>
+  <lastmod>2017-01-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/vehicle-import-permit.html</loc>
+  <lastmod>2017-01-12</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+      <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/permiso-importacion-temporal.html"
+                 />
+   <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/vehicle-import-permit.html"
+                 />
+
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/why-mexpro-for-mexican-insurance.html</loc>
+  <lastmod>2014-11-25</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/porque-mexpro.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/why-mexpro-for-mexican-insurance.html"
+                 />
+</url>
+<url>
+  <loc>https://www.mexpro.com/usa/index.html</loc>
   <lastmod>2016-12-16</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.51</priority>
 </url>
-
-
 <url>
-  <loc>https://www.mexpro.com/pdf/AMIS-2012-Results-Mexpro.pdf</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/aceclaiminfo.pdf</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/gnpclaiminfo.pdf</loc>
-  <lastmod>2014-10-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/el-aguila-claims.pdf</loc>
-  <lastmod>2014-10-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/ABAclaims.pdf</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/AMIS-2013-Results-Mexpro.pdf</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/2011-Mexpro-AMIS-Tourist-Auto-Results.pdf</loc>
+  <loc>https://www.mexpro.com/pdf/2008AMISFINAL.pdf</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.51</priority>
@@ -1495,28 +1348,58 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/2008AMISFINAL.pdf</loc>
+  <loc>https://www.mexpro.com/pdf/2011-Mexpro-AMIS-Tourist-Auto-Results.pdf</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/MexVisit-ENG-ver-3-2010B.pdf</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
+  <loc>https://www.mexpro.com/pdf/ABA_toc.pdf</loc>
+  <lastmod>2016-10-24</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/Coverage-Compare-All.pdf</loc>
+  <loc>https://www.mexpro.com/pdf/ABAclaims.pdf</loc>
   <lastmod>2016-10-24</lastmod>
   <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/AMIS-2012-Results-Mexpro.pdf</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/AMIS-2013-Results-Mexpro.pdf</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/knowbeforeyougo.pdf</loc>
+  <loc>https://www.mexpro.com/pdf/AMIS-2013-Results-Spanish.pdf</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.71</priority>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/AMIS-2015-Results-Mexpro.pdf</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/AMIS-2016-Tourist-Auto-Mexpro-May-2017.pdf</loc>
+  <lastmod>2017-12-05</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/AMIS2011-mx.pdf</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.41</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/pdf/AMIS2012-mx.pdf</loc>
@@ -1531,28 +1414,22 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/AMIS-2013-Results-Spanish.pdf</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <loc>https://www.mexpro.com/pdf/Coverage-Compare-All.pdf</loc>
+  <lastmod>2016-10-24</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.41</priority>
+  <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/AMIS2011-mx.pdf</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <loc>https://www.mexpro.com/pdf/el-aguila-claims.pdf</loc>
+  <lastmod>2014-10-24</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.41</priority>
+  <priority>0.64</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/pdf/ABA_toc.pdf</loc>
+  <loc>https://www.mexpro.com/pdf/El-Aguila-toc-2016.pdf</loc>
   <lastmod>2016-10-24</lastmod>
   <changefreq>yearly</changefreq>
   <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/MXHO-Coverage-Comparison.pdf</loc>
-  <lastmod>2016-10-25</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/pdf/electronic_funds_transfer_form.pdf</loc>
@@ -1561,8 +1438,62 @@
   <priority>0.51</priority>
 </url>
 <url>
+  <loc>https://www.mexpro.com/pdf/GNP-MXHO-Claims.pdf</loc>
+  <lastmod>2014-10-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/GNP-toc-2016.pdf</loc>
+  <lastmod>2016-10-24</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/gnpclaiminfo.pdf</loc>
+  <lastmod>2014-10-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
   <loc>https://www.mexpro.com/pdf/jim_labelle_chapter.pdf</loc>
   <lastmod>2014-09-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/knowbeforeyougo.pdf</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.71</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/Letter-from-IIG-CEO.pdf</loc>
+  <lastmod>2014-09-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/MEXP-toc.pdf</loc>
+  <lastmod>2014-09-08</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/MexVisit-ENG-ver-3-2010B.pdf</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/MXHO-Coverage-Comparison.pdf</loc>
+  <lastmod>2016-10-25</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/pdf/MXHO-GNP-Terms-Conditions.pdf</loc>
+  <lastmod>2016-10-24</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.51</priority>
 </url>
@@ -1579,160 +1510,10 @@
   <priority>0.51</priority>
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/aba-seguros-claims-instructions.html</loc>
-  <lastmod>2014-12-03</lastmod>
+  <loc>https://www.mexpro.com/pdf/The-Low-Down-on-Driving-in-Mexico.pdf</loc>
+  <lastmod>2014-09-08</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-    <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/siniestros-ABA.html"
-                 />
-    <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/aba-seguros-claims-instructions.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/ace-seguros-claims-instructions.html</loc>
-  <lastmod>2014-11-25</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-    <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/siniestros-ACE.html"
-                 />
-    <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/ace-seguros-claims-instructions.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/gnp-claims-instructions.html</loc>
-  <lastmod>2014-11-25</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/reportar-reclamo-gnp.html"
-                 />
-    <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/gnp-claims-instructions.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/el-aguila-claims-instructions.html</loc>
-  <lastmod>2014-12-10</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/reportar-reclamo-el-aguila.html"
-                 />
-    <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/el-aguila-claims-instructions.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/qualitas-claims-instructions.html</loc>
-  <lastmod>2014-09-16</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/reportar-reclamo-qualitas.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/qualitas-claims-instructions.html"
-                 />
-</url>
-
-
-
-<url>
-  <loc>https://www.mexpro.com/mexico/affordable-mexico-insurance.html</loc>
-  <lastmod>2014-11-24</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.50</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguros-mexico-economicos.html"
-                 />
-   <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/affordable-mexico-insurance.html"
-                 />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/a-rated-companies.html</loc>
-  <lastmod>2014-12-17</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/licensed-insurance-agents.html</loc>
-  <lastmod>2014-12-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/15-years-mexpro.html</loc>
-  <lastmod>2014-12-19</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.50</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/buy-insurance-online.html</loc>
-  <lastmod>2014-12-28</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.50</priority>
-</url>
-
-
-<url>
-  <loc>https://www.mexpro.com/pdf/ACE-toc-2016.pdf</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/GNP-toc-2016.pdf</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/El-Aguila-toc-2016.pdf</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/pdf/MXHO-GNP-Terms-Conditions.pdf</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
-</url>
-
-<url>
-  <loc>https://www.mexpro.com/pdf/AMIS-2016-Tourist-Auto-Mexpro-May-2017.pdf</loc>
-  <lastmod>2017-12-05</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.64</priority>
+  <priority>0.41</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/sitemap.xml</loc>
