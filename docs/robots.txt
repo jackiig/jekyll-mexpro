@@ -1,2 +1,41 @@
 User-agent: *
-Disallow: /
+Allow: /
+Sitemap: https://www.mexpro.com/sitemap.xml
+Disallow: /privacy_policy/
+Disallow: /bts/
+Disallow: /repat/quote/
+Disallow: /mexico/newsletters/http%3A%2F%2Fwww.wpclipart.com%2Ffood%2Fmeat%2Fturkey%2Fthanksgiving_spread_01.png.html
+Disallow: /sbpro/
+Disallow: /repat/
+Disallow: /quote/
+Disallow: /mexico-home-owners/quick-quote/
+Disallow: /client_login/
+Disallow: /mexico/cathiesmith/
+Disallow: /cathiesmith/
+Disallow: /mexico/pdf/3Q2008MexicoTouristInsurerRankings.pdf
+Disallow: /mexico/pdf/AMIS Results 2005 - Mexpro.pdf
+Disallow: /mexico/pdf/AMIS-Results-2007-IIG-v040108.pdf
+Disallow: /mexico/pdf/2006 AMIS Broad Market Results - IIG SS.pdf
+Disallow: /mexico/pdf/2006 AMIS Tourist Auto Results - IIG SS.pdf
+Disallow: /mexico/pdf/AMIS%20Results%202007%20-%20IIG%20version%20v040108.pdf
+Disallow: /mexico/pdf/NORRA_PressRelease_2_3.pdf
+Disallow: /mexico/pdf/geclaiminfo.pdf
+Disallow: /mexico/pdf/gnp_vs_ace.pdf
+Disallow: /mexico/pdf/iig_coverages.pdf
+Disallow: /mexico/pdf/zurichclaims.pdf
+Disallow: /mexico/press/images/09p108.jpg
+Disallow: /mexico/press/images/banner_ext.jpg
+Disallow: /mexico/press/053003MexicoInsurance.jpg
+Disallow: /mexico/press/09p108.jpg
+Disallow: /mexico/press/dsun032007.html
+Disallow: /mexico/press/jim_labelle_chapter.old
+Disallow: /mexico/mexico/MexAssist-Old-6-1-2010.doc
+Disallow: /mexico/missing.html
+Disallow: /mexico/products.html
+Disallow: /mexico/repatriation-insurance.html
+Disallow: /mexico/zurich_details.html
+Disallow: /mexpro_v3/
+Disallow: /mexpro-assist/
+Disallow: /get_docs/
+Disallow: /do/
+Disallow: /vm/
