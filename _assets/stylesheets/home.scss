@@ -309,9 +309,7 @@
 	}
 }
 
-.trusted {
-	background-color: #0c93d2;
-	color: white;
+.trusted.doublepane {
 	.col-sm-6:first-child {
 		padding: 0;
 		.video {
@@ -331,6 +329,7 @@
 		min-height: 300px;
 		padding: 4% 5% 0;
 		background-repeat: no-repeat;
+		background-color: #0c93d2;
 	}
 }
 
