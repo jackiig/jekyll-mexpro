@@ -328,7 +328,7 @@
 		background-position: 50% 85%;
 		background-size: 262px 73px;
 		min-height: 300px;
-		padding: 4% 5% 0;
+		padding: 2% 5% 0;
 		background-repeat: no-repeat;
 		background-color: #0c93d2;
 	}
@@ -402,11 +402,9 @@
 			min-height: 350px;
 		}
 	}
-	.trusted {
+	.trusted.doublepane {
 		.col-sm-6:first-child, .col-sm-6:last-child {
-			.video {
-				min-height: 200px;
-			}
+			min-height: 200px;
 		}
 		.col-sm-6:last-child {
 			min-height: 200px;
@@ -487,7 +485,13 @@
 	.prodcategories.container-fluid {
 		margin: 0 auto;
 	}
-	.trusted {
+	.trusted.doublepane {
+		.col-sm-6:first-child {
+			min-height: 300px;
+			.video {
+				min-height: 270px;
+			}
+		}
 		.col-sm-6:last-child {
 			min-height: 260px;
 			h2 {
