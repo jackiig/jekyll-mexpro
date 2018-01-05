@@ -244,7 +244,7 @@
 	li,.carousel-inner {
 		list-style: none;
 		a span {
-			background-image: url('../images/categoryiconsall.png');
+			background-image: url('../images/categoryiconsallnew.png');
 			background-repeat: no-repeat;
 			display: block;
 			margin: 0 auto 10px;
@@ -275,6 +275,11 @@
 				width: 86px;
 				height: 71px;
 			}
+			&.tmecat {
+				background-position: 0 -864px;
+				width: 83px;
+				height: 51px;
+			}
 		}
 		a:hover span {
 			&.autocat {
@@ -294,6 +299,9 @@
 			}
 			&.mexresautocat {
 				background-position: 0 -793px;
+			}
+			&.tmecat {
+				background-position: 0 -915px;
 			}
 		}
 		h5, p {
