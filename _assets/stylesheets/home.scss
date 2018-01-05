@@ -434,7 +434,7 @@
 		li {
 			top: 15px;
 			width: 50%;
-			padding-bottom: 15px;
+			padding-bottom: 20px;
 			&:nth-child(even) {
 				padding-left: 0;
 			}
@@ -479,14 +479,13 @@
 		margin: 0 auto;
 	}
 	.trusted.doublepane {
-		.col-sm-6:first-child {
+		.col-sm-6 {
 			min-height: 300px;
-			.video {
-				min-height: 270px;
-			}
 		}
 		.col-sm-6:last-child {
-			min-height: 260px;
+			background-position: 50% 90%;
+			padding: 2% 5%  0;
+			top: 0;
 			h2 {
 				font-size: 1.5em;
 				margin-bottom: 15px;
@@ -494,7 +493,6 @@
 			p {
 				font-size: 1em;
 			}
-			background-position: 50% bottom;
 		}
 	}
 	.partners li {
