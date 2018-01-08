@@ -300,7 +300,8 @@
 				background-position: 0 -793px;
 			}
 			&.tmecat {
-				background-position: 0 -923px;
+				background-position: 0 -921px;
+				height: 57px;
 			}
 		}
 		h5, p {
@@ -402,6 +403,9 @@
 	.doublepane {
 		.col-sm-6 {
 			min-height: 350px;
+		}
+		.home-sp & .col-sm-6 {
+			min-height: 375px;
 		}
 	}
 	.trusted.doublepane {
