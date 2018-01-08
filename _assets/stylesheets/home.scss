@@ -341,6 +341,12 @@
 		background-repeat: no-repeat;
 		background-color: #0c93d2;
 	}
+	.home-sp & {
+		.col-sm-6:last-child {
+			background-position: 50% 90%;
+			padding-top: 1%;
+		}
+	}
 }
 
 //Video Modal
@@ -375,6 +381,12 @@
 	.trusted.doublepane {
 		.col-sm-6 {
 			min-height: 300px;
+		}
+		.home-sp & {
+			.col-sm-6:last-child {
+				background-position: 50% 95%;
+				padding-top: 1%;
+			}
 		}
 	}
 }  //end Medium Screen
@@ -421,11 +433,6 @@
 				font-size: 0.9em;
 			}
 			background-position: 50% 80%;
-		}
-		.home-sp & {
-			.col-sm-6:last-child {
-				background-position: 50% 95%;
-				padding-top: 1%;
 		}
 	}
 } // End Small Screen
