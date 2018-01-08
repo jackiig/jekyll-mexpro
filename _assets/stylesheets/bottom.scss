@@ -267,24 +267,25 @@ dd {
 	li {
 		list-style: none;
 		display: inline;
-		span {
-			background-image: url('../images/partners.png');
-			background-repeat: no-repeat;
-			display: inline-block;
-			margin: 0 auto 10px;
-			width: 223px;
-			height: 110px;
-			&.aba {
-				background-position: 0 1px;
-			}
-			&.gnp {
-				background-position: 0 -110px;
-			}
-			&.elag {
-				background-position: 0 -220px;
-			}
+	}
+	span {
+		background-image: url('../images/partners.png');
+		background-repeat: no-repeat;
+		display: inline-block;
+		margin: 0 auto 10px;
+		width: 223px;
+		height: 110px;
+		&.aba {
+			background-position: 0 1px;
+		}
+		&.gnp {
+			background-position: 0 -110px;
+		}
+		&.elag {
+			background-position: 0 -220px;
 		}
 	}
+
 	margin-bottom: 25px;
 }
 //Show Partner logos without list element
@@ -340,7 +341,9 @@ footer {
  	background-color: #f4f8fa;
  	font-size: 0.75em;
  	color: #0c93d2;
- 	margin-top: 15px;
+ 	.missingpage & {
+ 		margin-top: 20px;
+ 	}
  	.bot-menu {
  		> div {
     		display: inline-block;
