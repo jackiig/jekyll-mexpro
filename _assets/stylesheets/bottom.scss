@@ -285,7 +285,12 @@ dd {
 			background-position: 0 -220px;
 		}
 	}
-
+	.old & {
+		span.aba, span.gnp, span.elag {
+			float: left;
+			margin: 0 15px 10px 0;
+		}
+	}
 	margin-bottom: 25px;
 }
 //Show Partner logos without list element
