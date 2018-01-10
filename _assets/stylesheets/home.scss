@@ -7,7 +7,7 @@
 .feature {
 	background-repeat: no-repeat;
 	background-position: 85% 85%, right bottom;
-	background-image: url('../images/accredited.png'), url('../images/home-page-1.png');
+	background-image: url('../images/accredited.png'), url('../images/home-page-1.jpg');
 	min-height: 575px;
 	position: relative;
 	background-size: 110px 208px, cover;
@@ -440,7 +440,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/accredited-horiz.png'), url('../images/home-page-mobile-1.png');
+		background-image: url('../images/accredited-horiz.png'), url('../images/home-page-mobile-1.jpg');
 		background-repeat: no-repeat;
 		background-position: 55% 95%, right bottom;
 		background-size: 262px 73px, cover;
