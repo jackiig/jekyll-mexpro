@@ -7,7 +7,7 @@
 .feature {
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-image: url('../images/claims/claims-feature.png');
+	background-image: url('../images/claims/claims-feature.jpg');
 	min-height: 475px;
 	position: relative;
 	background-size: cover;
@@ -147,7 +147,7 @@
 	.col-sm-6:last-child {
 		padding: 0;
 		span {
-			background-image: url('../images/claims/recommendations.png');
+			background-image: url('../images/claims/recommendations.jpg');
 			background-size: cover;
 			min-height: 420px;
 			max-width: 750px;
@@ -357,7 +357,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/claims/claims-feature-mobile.png');
+		background-image: url('../images/claims/claims-feature-mobile.jpg');
 		background-repeat: no-repeat;
 		min-height: 450px;
 		text-align: center;
@@ -400,7 +400,7 @@
 			width: 100%;
 			&:first-child {
 				padding: 0;
-				background-image: url('../images/claims/recommendations.png');
+				background-image: url('../images/claims/recommendations.jpg');
 				background-size: cover;
 				background-repeat: no-repeat;
 				background-position: top center;
