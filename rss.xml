@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?> 
 <rss> 
  <channel> 
+
    <!-- other tags -->
    <item> 
     <title>Emergency Medical Evacuation Insurance</title> 
@@ -9,10 +10,48 @@
      <language>en-us</language>
    </item>
    <item> 
-    <title>Auto Insurance for Mexican Residents with Mexico License Plates</title> 
+    <title>Mexican Resident Auto Insurance with Mexico License Plates</title> 
      <link>https://www.mexpro.com/mexico/resident-auto/index.html</link>
      <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>es-us</language>
+     <language>en-us</language>
    </item>
+   <item> 
+    <title>Mexico Insurance for tourists driving into Mexico</title> 
+     <link>https://www.mexpro.com/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>Especializamos en proporcionar seguros Mexico para turistas conduciendo al Mexico</title> 
+     <link>https://www.mexpro.com/mx/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>es-mx</language>
+   </item>
+   <item> 
+    <title>How to Report a Mexico Insurance Claim in Mexico</title> 
+     <link>https://www.mexpro.com/mexico/claims/instructions.html</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
+   </item>
+    <item> 
+    <title>Instrucciones de reclamos seguro auto Mexico</title> 
+     <link>https://www.mexpro.com/mx/instrucciones-reclamos.html</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>es-mx</language>
+   </item>
+   <item> 
+    <title>Mexico Home Insurance with Grupo Nacional Provincial</title> 
+     <link>https://www.mexpro.com/mexico/home-insurance/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>Seguros de la Casa, Habitacion y Condominio en Mexico</title>
+     <link>https://www.mexpro.com/mx/seguros-de-casa/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>es-mx</language>
+   </item>
+
+
  </channel> 
 </rss>
