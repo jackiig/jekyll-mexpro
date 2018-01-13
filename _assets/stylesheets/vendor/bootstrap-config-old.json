@@ -391,14 +391,24 @@
     "buttons.less",
     "responsive-utilities.less",
     "glyphicons.less",
+    "button-groups.less",
     "input-groups.less",
     "navs.less",
     "navbar.less",
+    "breadcrumbs.less",
+    "pagination.less",
+    "pager.less",
+    "labels.less",
+    "badges.less",
+    "jumbotron.less",
     "thumbnails.less",
     "alerts.less",
+    "progress-bars.less",
     "media.less",
     "list-group.less",
+    "panels.less",
     "responsive-embed.less",
+    "wells.less",
     "close.less",
     "component-animations.less",
     "dropdowns.less",
@@ -420,6 +430,5 @@
     "collapse.js",
     "scrollspy.js",
     "transition.js"
-  ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=87d5a78a165954ef9604edf4b5a82285"
+  ]
 }
