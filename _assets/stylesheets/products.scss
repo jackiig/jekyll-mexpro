@@ -12,7 +12,7 @@
 .feature {
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-image: url('../images/auto/mexico-insurance.png');
+	background-image: url('../images/auto/mexico-insurance.jpg');
 	min-height: 500px;
 	position: relative;
 	background-size: cover;
@@ -228,7 +228,7 @@
 	    		padding-top: 40px;
 	    	}
 	    	&:last-child {
-			    background-image: url('../images/homeown/telemarketer.png');
+			    background-image: url('../images/homeown/telemarketer.jpg');
 			    background-position: center top;
 			    min-height: 350px;
 			}
@@ -446,7 +446,7 @@
 
 .why {
 	.autowhy {
-		background-image: url('../images/auto/why-mex-ins.png');
+		background-image: url('../images/auto/why-mex-ins.jpg');
 		background-position: top right;
 	}
 	.col-sm-6:first-child {
@@ -460,7 +460,7 @@
 
 .claims {
 	.claimsimg {
-		background-image: url('../images/auto/claims-img.png');
+		background-image: url('../images/auto/claims-img.jpg');
 		background-position: top left;
 	}
 	.col-sm-6:first-child {
@@ -473,7 +473,7 @@
 }
 
 .tip {
-	background-image: url('../images/auto/tip.png');
+	background-image: url('../images/auto/tip.jpg');
 	width: 555px;
 	height: 308px;
 	background-repeat: no-repeat;
@@ -491,22 +491,22 @@
 		float: right;
 	}
 	.carins1 {
-		background-image: url('../images/auto/car-insurance1.png');
+		background-image: url('../images/auto/car-insurance1.jpg');
 		width: 167px;
 		height: 84px;
 	}
 	.motoins1 {
-		background-image: url('../images/auto/motorcycle-insurance1.png');
+		background-image: url('../images/auto/motorcycle-insurance1.jpg');
 		width: 131px;
 		height: 84px;
 	}
 	.rvins1 {
-		background-image: url('../images/auto/rv-insurance1.png');
+		background-image: url('../images/auto/rv-insurance1.jpg');
 		width: 150px;
 		height: 84px;
 	}
 	.reasonsimg { 
-		background-image: url('../images/auto/police-pulled-over.png');
+		background-image: url('../images/auto/police-pulled-over.jpg');
 		width: 350px;
 		height: 243px;
 		float: right;
@@ -514,7 +514,7 @@
 		border-radius: 6px;
 	}
 	.autolawimg { 
-		background-image: url('../images/auto/mexican-jail.png');
+		background-image: url('../images/auto/mexican-jail.jpg');
 		width: 450px;
 		height: 299px;
 		float: right;
@@ -675,7 +675,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/auto/mexico-insurance-mobile.png');
+		background-image: url('../images/auto/mexico-insurance-mobile.jpg');
 		background-repeat: no-repeat;
 		min-height: 450px;
 		text-align: center;
@@ -779,18 +779,18 @@
 	}
 	.why {
 		.col-xs-12 {
-			background-image: url('../images/auto/why-mex-ins.png');
+			background-image: url('../images/auto/why-mex-ins.jpg');
 		}
 	}
 
 	.claims {
 		.col-xs-12 {
-			background-image: url('../images/auto/claims-img.png');
+			background-image: url('../images/auto/claims-img.jpg');
 			height: 325px;
 		}
 	}
 	.tip {
-		background-image: url('../images/auto/tip-mobile.png');
+		background-image: url('../images/auto/tip-mobile.jpg');
 		width: 300px;
 		height: 171px;
 		background-position: top center;
