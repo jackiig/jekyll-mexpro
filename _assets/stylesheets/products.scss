@@ -34,7 +34,7 @@
 		min-height: 450px;
 	}
 	.res-auto-page & {
-		background-image: url('../images/res-auto/resident-auto-feature.png');
+		background-image: url('../images/res-auto/resident-auto-feature.jpg');
 		background-position: right top;
 		min-height: 400px;
 	}
@@ -238,7 +238,7 @@
 		.col-sm-6 {
 			padding: 20px 40px;
 			&:last-child {
-			    background-image: url('../images/usa-auto/usa-accident.png');
+			    background-image: url('../images/usa-auto/usa-accident.jpg');
 			    background-position: right top;
 			    min-height: 400px;
 			}
@@ -321,7 +321,7 @@
 	span {
 		&.liabimg, &.fullcovimg {
 			background-image: url('../images/auto/auto-feature-sprite.png');
-			background-position: 0 -807px;
+			background-position: 0 -808px;
 			background-repeat: no-repeat;
 			width: 70px;
 			height: 69px;
