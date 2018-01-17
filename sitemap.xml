@@ -139,7 +139,7 @@
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/claims/instructions.html</loc>
-  <lastmod>2016-10-24</lastmod>
+  <lastmod>2018-01-09</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
   <xhtml:link 
@@ -152,6 +152,12 @@
                  hreflang="en"
                  href="https://www.mexpro.com/mexico/claims/instructions.html"
                  />
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/coverage/</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/coverage/aba-seguros-extended.html</loc>
@@ -254,12 +260,6 @@
                  hreflang="en"
                  href="https://www.mexpro.com/mexico/coverage/gnp-extended.html"
                  />
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/coverage/</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/coverage/lay-up-provision.html</loc>
@@ -416,9 +416,25 @@
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/emergency-evacuation/</loc>
-  <lastmod>2014-11-03</lastmod>
+  <lastmod>2018-01-09</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/home-insurance/</loc>
+  <lastmod>2018-01-09</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/seguros-de-casa/"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/home-insurance/"
+                 />
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/home-insurance/gnp-claims.html</loc>
@@ -448,22 +464,7 @@
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://www.mexpro.com/mexico/home-insurance/</loc>
-  <lastmod>2018-01-09</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguros-de-casa/"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/home-insurance/"
-                 />
-</url>
+
 <url>
   <loc>https://www.mexpro.com/mexico/home-insurance/mexican-homeowners-insurance-partners.html</loc>
   <lastmod>2015-12-15</lastmod>
