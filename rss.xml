@@ -4,18 +4,6 @@
 
    <!-- other tags -->
    <item> 
-    <title>Emergency Medical Evacuation Insurance</title> 
-     <link>https://www.mexpro.com/mexico/emergency-evacuation/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Mexican Resident Auto Insurance with Mexico License Plates</title> 
-     <link>https://www.mexpro.com/mexico/resident-auto/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
     <title>Mexico Insurance for auto, rv, home, boat and travel</title> 
      <link>https://www.mexpro.com/</link>
      <pubDate>Tue, 09 Jan 2018</pubDate>
@@ -28,16 +16,40 @@
      <language>es-mx</language>
    </item>
    <item> 
+    <title>Mexico Auto Insurance for US and Canadian Citizens</title> 
+     <link>https://www.mexpro.com/mexico/auto/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>Mexico Auto Insurance for US and Canadian Citizens</title> 
+     <link>https://www.mexpro.com/mexico/auto/insurance.html</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>Seguro para Auto en Mexico para residentes EEUU y Canada</title>
+     <link>https://www.mexpro.com/mx/seguros-carros-viajar-mexico.html</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>es-mx</language>
+   </item>
+   <item> 
     <title>How to Report a Mexico Insurance Claim in Mexico</title> 
      <link>https://www.mexpro.com/mexico/claims/instructions.html</link>
      <pubDate>Tue, 09 Jan 2018</pubDate>
      <language>en-us</language>
    </item>
-    <item> 
+   <item> 
     <title>Instrucciones de reclamos seguro auto Mexico</title> 
      <link>https://www.mexpro.com/mx/instrucciones-reclamos.html</link>
      <pubDate>Tue, 09 Jan 2018</pubDate>
      <language>es-mx</language>
+   </item>
+   <item> 
+    <title>Emergency Medical Evacuation Insurance</title> 
+     <link>https://www.mexpro.com/mexico/emergency-evacuation/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
    </item>
    <item> 
     <title>Mexico Home Insurance with Grupo Nacional Provincial</title> 
@@ -48,18 +60,6 @@
    <item> 
     <title>Seguros de la Casa, Habitacion y Condominio en Mexico</title>
      <link>https://www.mexpro.com/mx/seguros-de-casa/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Mexico Auto Insurance for US and Canadian Citizens</title> 
-     <link>https://www.mexpro.com/mexico/auto/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Seguro para Auto en Mexico para residentes EEUU y Canada</title>
-     <link>https://www.mexpro.com/mx/seguros-carros-viajar-mexico.html</link>
      <pubDate>Tue, 09 Jan 2018</pubDate>
      <language>es-mx</language>
    </item>
@@ -75,6 +75,11 @@
      <pubDate>Tue, 09 Jan 2018</pubDate>
      <language>en-us</language>
    </item>
-
+   <item> 
+    <title>Mexican Resident Auto Insurance with Mexico License Plates</title> 
+     <link>https://www.mexpro.com/mexico/resident-auto/</link>
+     <pubDate>Tue, 09 Jan 2018</pubDate>
+     <language>en-us</language>
+   </item>
  </channel> 
 </rss>
