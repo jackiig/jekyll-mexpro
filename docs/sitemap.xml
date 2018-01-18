@@ -701,6 +701,12 @@
                  />
 </url>
 <url>
+  <loc>https://www.mexpro.com/mexico/holiday-medical-insurance.html</loc>
+  <lastmod>2015-12-01</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.mexpro.com/mexico/home-insurance/</loc>
   <lastmod>2018-01-09</lastmod>
   <changefreq>monthly</changefreq>
@@ -1296,6 +1302,12 @@
 <url>
   <loc>https://www.mexpro.com/mexico/vehicle-import-permit-faqs.html</loc>
   <lastmod>2017-01-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/vehicle-insurance.html</loc>
+  <lastmod>2014-12-04</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
