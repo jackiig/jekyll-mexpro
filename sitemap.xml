@@ -1108,6 +1108,28 @@
                  />
 </url>
 <url>
+  <loc>https://www.mexpro.com/mexico/rv-vehicle-import-permit.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.70</priority>
+</url>
+<url>
+  <loc>https://www.mexpro.com/mexico/short-term-us-auto-insurance.html</loc>
+  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/seguro-usa.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/short-term-us-auto-insurance.html"
+                 />
+</url>
+<url>
   <loc>https://www.mexpro.com/mexico/short-term-us-auto-insurance/</loc>
   <lastmod>2018-01-09</lastmod>
   <changefreq>monthly</changefreq>
@@ -1189,56 +1211,6 @@
                  />
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/towed-units/</loc>
-  <lastmod>2016-10-24</lastmod>
-  <changefreq>yearly</changefreq>
-  <priority>0.70</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/unidades-remolque.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/towed-units/"
-                 />
-</url>
-
-
-
-
-
-
-
-
-
-
-
-
-<url>
-  <loc>https://www.mexpro.com/mexico/rv-vehicle-import-permit.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
-</url>
-<url>
-  <loc>https://www.mexpro.com/mexico/short-term-us-auto-insurance.html</loc>
-  <lastmod>2014-08-25T21:02:47+00:00</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="es-MX"
-                 href="https://www.mexpro.com/mx/seguro-usa.html"
-                 />
-  <xhtml:link 
-                 rel="alternate"
-                 hreflang="en"
-                 href="https://www.mexpro.com/mexico/short-term-us-auto-insurance.html"
-                 />
-</url>
-<url>
   <loc>https://www.mexpro.com/mexico/sitemap.html</loc>
   <lastmod>2016-09-23</lastmod>
   <changefreq>monthly</changefreq>
@@ -1267,6 +1239,22 @@
   <priority>0.64</priority>
 </url>
 <url>
+  <loc>https://www.mexpro.com/mexico/towed-units/</loc>
+  <lastmod>2016-10-24</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.70</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/unidades-remolque.html"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/towed-units/"
+                 />
+</url>
+<url>
   <loc>https://www.mexpro.com/mexico/traffic-incident-baja.html</loc>
   <lastmod>2014-08-25T21:02:47+00:00</lastmod>
   <changefreq>monthly</changefreq>
@@ -1283,10 +1271,10 @@
                  />
 </url>
 <url>
-  <loc>https://www.mexpro.com/mexico/vehicle-import-permit-faqs.html</loc>
-  <lastmod>2017-01-24</lastmod>
+  <loc>https://www.mexpro.com/usa/</loc>
+  <lastmod>2018-01-09</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.80</priority>
+  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/vehicle-import-permit.html</loc>
@@ -1306,6 +1294,12 @@
 
 </url>
 <url>
+  <loc>https://www.mexpro.com/mexico/vehicle-import-permit-faqs.html</loc>
+  <lastmod>2017-01-24</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://www.mexpro.com/mexico/why-mexpro-for-mexican-insurance.html</loc>
   <lastmod>2014-11-25</lastmod>
   <changefreq>monthly</changefreq>
@@ -1320,12 +1314,6 @@
                  hreflang="en"
                  href="https://www.mexpro.com/mexico/why-mexpro-for-mexican-insurance.html"
                  />
-</url>
-<url>
-  <loc>https://www.mexpro.com/usa/</loc>
-  <lastmod>2016-12-16</lastmod>
-  <changefreq>monthly</changefreq>
-  <priority>0.51</priority>
 </url>
 <url>
   <loc>https://www.mexpro.com/pdf/ABA_toc.pdf</loc>
