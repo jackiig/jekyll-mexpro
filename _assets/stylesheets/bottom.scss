@@ -69,11 +69,19 @@ blockquote {
 //Required
 .form-group {
 	label:after {content: ":";}
-	label.required:before {content: "* ";}
+	label.required:before {
+		content: "* ";
+		color: #F00; 
+		font-weight: 300;
+	}
 }
-p.required:before {content: "* ";}
+p.required:before {
+	content: "* ";
+	color: #F00; 
+	font-weight: 300;
+}
 
-.required {
+.contact .required {
 	color: #F00; 
 	font-weight: 300;
 }
