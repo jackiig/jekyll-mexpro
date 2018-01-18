@@ -556,6 +556,33 @@
 	}
 }
 
+//Holiday medical insurance
+.holiday-medical-insurance {
+	.row {
+		.col-sm-6 {
+			padding-left: 0;
+		}
+	}
+	.imgprod1, .imgprod2, .imgprod3, .imgprod4 {
+		background-image: url('../images/travel-health/travmed-imgprods.jpg');
+		width: 175px;
+		height: 117px;
+		float: left;
+		margin-right: 15px;
+		margin-bottom: 15px;
+		border: 1px solid #eee;
+	}
+	.imgprod1 {
+		background-position: 0 0;
+	} 
+	.imgprod2 {
+		background-position: 0 -117px;
+	}
+	.imgprod3 {
+		background-position: 0 -234px;
+	}
+}
+
 /* Device Based css */
 
 /* Large Screen size - Desktop : 1200px wide and larger */
