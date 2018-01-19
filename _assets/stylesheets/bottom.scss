@@ -37,9 +37,11 @@ a:focus, :focus {
     }
 }
 
-.modal-footer .btn.btn-close {
-	background-color: #e2e2e2;
-	&:hover {
+.modal-footer button {
+	&.btn.btn-close {
+		border: 1px solid #ccc;
+	}
+	&:hover.btn.btn-close {
 		background-color: #ccc;
 	}
 }
