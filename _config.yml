@@ -11,7 +11,7 @@ email: mexico@mexpro.com
 description: > # this means to ignore newlines until "baseurl:"
   Mexpro is the number one seller of Mexico auto insurance in the US. We have served over one-million customers with policies from top, A-rated companies with terrific claims records.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://jekyll.mexpro.com" # the base hostname & protocol for your site
+url: "https://www.mexpro.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 google-analytics: UA-3065776-3
