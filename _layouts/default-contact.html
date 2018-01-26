@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{page.lang}}" xml:lang="{{page.lang}}">
+  <head>
+    {% include head.html %}
+    {% style main %}
+  </head>
+  <body class="{{page.body_class}}">
+    {% include header/header.html %}
+  <div id="content">
+      {{ content }}
+  </div>
+    {% include footer/footer.html %}
+    {% style bottom %}
+    {% include javascript-contact.html %}
+  </body>
+</html>
