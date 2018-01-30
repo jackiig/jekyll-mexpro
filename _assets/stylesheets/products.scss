@@ -155,16 +155,6 @@
 		font-size: 0.9em;
 
 	}
-	.col-md-2 {
-		padding-left: 30px;
-		padding-right: 30px;
-		margin-bottom: 20px;
-		border-right: 2px solid #e2e2e2;
-		&:last-child {
-			border-right: 0;
-		}
-		height: 200px;
-	}
 	h2 {
 		margin-top: 30px;
 		margin-bottom: 30px;
@@ -189,23 +179,24 @@
 			color: white;
 		}
 	}
-	.usatourist & {
-		.col-sm-3 {
-			padding-left: 30px;
-			padding-right: 30px;
-			margin-bottom: 20px;
-			border-right: 2px solid #e2e2e2;
-			height: 150px;
-			&:last-child {
-				border-right: 0;
-			}
+	.col-sm-3, .col-sm-4 {
+		padding-left: 30px;
+		padding-right: 30px;
+		margin-bottom: 20px;
+		border-right: 2px solid #e2e2e2;
+		height: 150px;
+		&:last-child {
+			border-right: 0;
 		}
-		p.darkh5 {
-			font-size: 1em;
-			line-height: 1.2;
-			margin-top: 15px;
-			color: #3c4b52;
-		}
+	}
+	.col-sm-4 {
+		height: 200px;
+	}
+	p.darkh5 {
+		font-size: 1em;
+		line-height: 1.2;
+		margin-top: 15px;
+		color: #3c4b52;
 	}
 }
 
