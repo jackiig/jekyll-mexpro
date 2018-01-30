@@ -644,7 +644,7 @@
 			margin-bottom: 30px;
 			height: 160px;
 			border: none;
-			border-bottom: 2px solid #e2e2e2;
+			border-bottom: 1px solid #e2e2e2;
 		}
 	}
 	.doublepane {
@@ -736,25 +736,14 @@
 	}
 	.steps {
 		margin-bottom: 20px;
-		.col-md-2 {
-			border-right: 0;
-			height: inherit;
-		    padding-top: 20px;
-		    padding-bottom: 15px;
-		    margin-bottom: 0;
-		    hr {
-		    	color: #e2e2e2;
-		    	width: 80%;
-		    	border-bottom: 2px solid #e2e2e2;
-		    }
-		}
 		p.font {
 			margin-top: 20px;
+			padding-right: 15px;
+			padding-left: 15px;
 		}
-		.usatourist & {
-			.col-sm-3 {
-				border-right: 0;
-			}
+		.col-sm-3, .col-sm-4 {
+			border-right: 0;
+			height: inherit;
 		}
 	}
 	.autocov {
