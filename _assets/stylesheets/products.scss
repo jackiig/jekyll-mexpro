@@ -208,6 +208,7 @@
 			font-size: 1em;
 			line-height: 1.2;
 			margin-top: 15px;
+			color: #3c4b52;
 		}
 	}
 }
@@ -762,6 +763,16 @@
 		}
 		p.font {
 			margin-top: 20px;
+		}
+		.usatourist & {
+			.col-sm-3 {
+				border-right: 0;
+				margin-bottom: 10px;
+				p.darkh5 {
+					margin-top: 0;
+					padding-bottom: 10px;
+				}
+			}
 		}
 	}
 	.autocov {
