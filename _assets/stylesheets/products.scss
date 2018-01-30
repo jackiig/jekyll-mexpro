@@ -175,7 +175,7 @@
 			font-size: 1em;
 		}
 	}
-	div {
+	span {
 		&.step {
 			background-image: url('../images/orange-circle-icon.png');
 			background-repeat: no-repeat;
@@ -183,15 +183,11 @@
 			height: 80px;
 			display: block;
 			margin: 0 auto;
-		}
-		p {
-			position: relative;
-			top: 20px;
+			padding-top: 20px;
 			font-size: 2em;
 			font-weight: bold;
 			color: white;
 		}
-
 	}
 	.usatourist & {
 		.col-sm-3 {
