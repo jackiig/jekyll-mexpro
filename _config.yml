@@ -10,7 +10,7 @@ title: Mexpro Mexico Insurance Professionals
 email: mexico@mexpro.com
 description: > # this means to ignore newlines until "baseurl:"
   Mexpro is the number one seller of Mexico auto insurance in the US. We have served over one-million customers with policies from top, A-rated companies with terrific claims records.
-baseurl: "/jekyll-mexpro" # the subpath of your site, e.g. /blog
+baseurl: "/jekyll-mexpro-roxanna" # the subpath of your site, e.g. /blog
 url: "https://iigkid.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
