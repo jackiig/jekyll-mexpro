@@ -630,8 +630,12 @@
 	    	padding-right: 50px;
 	    }
 	    .usatourist & {
+	    	.col-sm-6 {
+	    		padding: 15px 20px;
+	    		font-size: 0.9em;
+	    	}
 	    	.col-sm-6:last-child {
-	    		min-height: 555px;
+	    		max-height: 500px;
 	    	}
 	    }
 	}
