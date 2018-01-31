@@ -120,37 +120,6 @@
 	.container {
 		margin-bottom: 30px;
 	}
-	darkh5 {
-		margin-top: 20px;
-	}
-	.col-sm-12 {
-		text-align: center;
-		margin: 0 auto;
-		font-size: 0.9em;
-
-	}
-	.col-sm-4 {
-		padding-left: 30px;
-		padding-right: 30px;
-	}
-	h2 {
-		margin-top: 30px;
-		margin-bottom: 30px;
-	}
-	span {
-		&.step {
-			background-image: url('../images/orange-circle-icon.png');
-			background-repeat: no-repeat;
-			width: 80px;
-			height: 80px;
-			display: block;
-			margin: 0 auto;
-			padding-top: 20px;
-			font-size: 2em;
-			font-weight: bold;
-			color: white;
-		}
-	}
 }
 
 // Mexico insurance required, online policy easy section
