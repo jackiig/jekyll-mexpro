@@ -1,0 +1,167 @@
+.feature {
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-image: url("../images/claims/claims-feature.jpg");
+  min-height: 400px;
+  position: relative;
+  background-size: cover;
+  margin-bottom: 30px; }
+  .feature img {
+    margin-top: 50px; }
+  .feature h1 {
+    color: white;
+    font-size: 1.8em;
+    line-height: 1; }
+  .gnp .feature {
+    background-image: url("../images/gnp/gnp-banner.png"); }
+  .elag .feature {
+    background-image: url("../images/el-aguila/el-aguila-banner.png"); }
+    .elag .feature img {
+      margin-top: 20px; }
+
+.liabfulcov {
+  margin-top: 35px; }
+  .liabfulcov .container {
+    margin-bottom: 30px; }
+  .liabfulcov darkh5 {
+    margin-top: 20px; }
+  .liabfulcov span.liabimg, .liabfulcov span.fullcovimg {
+    background-image: url("../images/auto/auto-feature-sprite.png");
+    background-position: 0 -807px;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 69px;
+    display: block;
+    margin: 30px auto 10px; }
+  .liabfulcov span.fullcovimg {
+    background-position: 0 -876px;
+    width: 66px; }
+  .liabfulcov .col-sm-6:first-child {
+    padding-right: 30px; }
+  .liabfulcov .col-sm-6:last-child {
+    padding-left: 30px; }
+  .liabfulcov .bsaccordion {
+    padding: 0;
+    overflow: visible; }
+    .liabfulcov .bsaccordion .blue {
+      margin-bottom: 0; }
+    .liabfulcov .bsaccordion .panel-group, .liabfulcov .bsaccordion .panel-body {
+      background-color: #f3f8fa;
+      color: #798d96;
+      border-bottom: 3px solid white; }
+      .liabfulcov .bsaccordion .panel-group .panel, .liabfulcov .bsaccordion .panel-body .panel {
+        border-radius: 0;
+        border-color: white;
+        box-shadow: none;
+        -webkit-box-shadow: none; }
+        .liabfulcov .bsaccordion .panel-group .panel + .panel, .liabfulcov .bsaccordion .panel-body .panel + .panel {
+          margin-top: 0; }
+    .liabfulcov .bsaccordion .panel-heading {
+      background-color: #d9e3e7;
+      color: #3c4b52;
+      border-radius: 0; }
+      .liabfulcov .bsaccordion .panel-heading .panel-title {
+        font-size: inherit; }
+    .liabfulcov .bsaccordion .panel-group {
+      margin-top: 30px; }
+    .liabfulcov .bsaccordion .input-group {
+      width: 100%; }
+    .liabfulcov .bsaccordion .dropdown-menu {
+      position: relative;
+      width: 100%; }
+    .liabfulcov .bsaccordion .panel-heading span {
+      font-weight: normal; }
+    .liabfulcov .bsaccordion .panel-heading span:before {
+      content: "\e082"; }
+    .liabfulcov .bsaccordion .collapsed .panel-heading span:before {
+      content: "\e081"; }
+
+.steps {
+  background-image: url("../images/auto/coverage-slice.png");
+  background-repeat: repeat-x;
+  background-color: #fefefe;
+  margin-top: 35px; }
+  .steps .container {
+    margin-bottom: 30px; }
+
+.doublepane h2 {
+  font-size: 24px !important; }
+.doublepane .col-sm-12 {
+  padding-top: 35px;
+  padding-bottom: 50px; }
+.gnp .doublepane ul {
+  padding: 20px 40px; }
+  .gnp .doublepane ul li {
+    text-align: left;
+    padding-bottom: 10px; }
+
+/* Device Based css */
+/* Large Screen size - Desktop : 1200px wide and larger */
+/* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
+@media (max-width: 991px) {
+  .feature {
+    min-height: 400px; } }
+/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
+@media (min-width: 768px) and (max-width: 991px) {
+  .feature h1 {
+    margin-top: 45px;
+    font-size: 1.6em; } }
+/* Xtra-Small Screen Size - Phone : 480px - 767px */
+@media (max-width: 767px) {
+  .feature {
+    background-image: url("../images/claims/claims-feature-mobile.png");
+    background-repeat: no-repeat;
+    min-height: 450px;
+    text-align: center;
+    background-position: center top; }
+    .feature h1 {
+      text-align: center;
+      margin-top: 1.2em; }
+    .feature .dropdown {
+      text-align: center; }
+    .gnp .feature {
+      background-image: url("../images/gnp/gnp-banner-mobile.png"); }
+    .elag .feature {
+      background-image: url("../images/el-aguila/el-aguila-banner-mobile.png"); }
+
+  .btn-orange.btn {
+    width: 100%; }
+
+  .liabfulcov .container {
+    margin-bottom: 0; }
+
+  .partners #ClaimCarousel div {
+    width: 223px;
+    margin: auto; }
+    .partners #ClaimCarousel div.title {
+      padding: 10px;
+      color: #3c4b52;
+      background-color: #d9e3e7;
+      margin: 5px 0 1px; }
+    .partners #ClaimCarousel div.phone1, .partners #ClaimCarousel div.phone2 {
+      padding: 20px 0;
+      background-color: #f3f8fa; }
+    .partners #ClaimCarousel div span {
+      background-image: none;
+      margin: 0 auto;
+      text-align: center;
+      width: 223px;
+      height: 100%; }
+      .partners #ClaimCarousel div span.aba, .partners #ClaimCarousel div span.elag, .partners #ClaimCarousel div span.gnp, .partners #ClaimCarousel div span.mexvisit {
+        background-image: url("../images/claims/claimsfeatureicons-mobile.png");
+        height: 110px;
+        padding: 0; }
+      .partners #ClaimCarousel div span.aba {
+        background-position: 0 0; }
+      .partners #ClaimCarousel div span.elag {
+        background-position: 0 -110px; }
+      .partners #ClaimCarousel div span.gnp {
+        background-position: 0 -220px; }
+      .partners #ClaimCarousel div span.mexvisit {
+        background-position: 0 -330px; }
+  .partners #ClaimCarousel .carousel-control.right .icon-next, .partners #ClaimCarousel .carousel-control.right .icon-prev, .partners #ClaimCarousel .carousel-control.left .icon-next, .partners #ClaimCarousel .carousel-control.left .icon-prev {
+    background-image: none; }
+
+  .gnp .doublepane ul {
+    padding: 0 25px 0 40px;
+    margin-bottom: 0; } }
