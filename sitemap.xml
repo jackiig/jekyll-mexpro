@@ -578,9 +578,19 @@
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/emergency-evacuation/</loc>
-  <lastmod>2018-01-09</lastmod>
+  <lastmod>2018-02-01</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.90</priority>
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="es-MX"
+                 href="https://www.mexpro.com/mx/evacuacion-emergencia/"
+                 />
+  <xhtml:link 
+                 rel="alternate"
+                 hreflang="en"
+                 href="https://www.mexpro.com/mexico/emergency-evacuation/"
+                 />
 </url>
 <url>
   <loc>https://www.mexpro.com/mexico/faq.html</loc>
