@@ -98,6 +98,12 @@ p.required:before {
 	h1 {
 		margin-top: 28px;
 	}
+	&.travelhealth h2 {
+		color: white;
+	}
+	&.travelhealth h2.darkh5 {
+		color: #1892D0;
+	}
 }
 
 .doublepane {
