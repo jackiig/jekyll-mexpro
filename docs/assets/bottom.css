@@ -7739,6 +7739,10 @@ p.required:before {
   padding: 10px !important; }
 .basic h1 {
   margin-top: 28px; }
+.basic.travelhealth h2 {
+  color: white; }
+.basic.travelhealth h2.darkh5 {
+  color: #1892D0; }
 
 .doublepane {
   color: white;
