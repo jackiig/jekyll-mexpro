@@ -1,7 +1,7 @@
 .feature {
   background-repeat: no-repeat;
   background-position: right top;
-  background-image: url("../images/claims/claims-feature.jpg");
+  background-image: url("../images/aba/aba-feature-handshake.jpg");
   min-height: 400px;
   position: relative;
   background-size: cover;
@@ -109,7 +109,7 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width: 767px) {
   .feature {
-    background-image: url("../images/claims/claims-feature-mobile.png");
+    background-image: url("../images/aba/aba-feature-mobile.png");
     background-repeat: no-repeat;
     min-height: 450px;
     text-align: center;
@@ -119,6 +119,8 @@
       margin-top: 1.2em; }
     .feature .dropdown {
       text-align: center; }
+    .aba .feature {
+      min-height: 420px; }
     .gnp .feature {
       background-image: url("../images/gnp/gnp-banner-mobile.png"); }
     .elag .feature {
