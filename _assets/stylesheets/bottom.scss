@@ -62,10 +62,20 @@ blockquote {
     font-style: italic;
 }
 
-.feature p {
-    font-size: 0.9em;
-    padding-top: 15px;
-    color: white;
+.feature {
+	p {
+	    font-size: 0.9em;
+	    padding-top: 15px;
+	    color: white;
+	}
+	.testimonials & {
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-image: url('../images/testimonials-feature.png');
+		min-height: 400px;
+		position: relative;
+		background-size: cover;
+	}
 }
 
 //Required
