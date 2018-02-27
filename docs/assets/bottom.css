@@ -7718,6 +7718,13 @@ blockquote {
   font-size: 0.9em;
   padding-top: 15px;
   color: white; }
+.testimonials .feature {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-image: url("../images/testimonials-feature.png");
+  min-height: 400px;
+  position: relative;
+  background-size: cover; }
 
 .form-group label:after {
   content: ":"; }
