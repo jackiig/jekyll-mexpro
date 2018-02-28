@@ -15,7 +15,7 @@ excerpt: Seguro de viaje para evacuacion Medica proporcionara evacuacion en ambu
             <div class="row">
                 <div class="col-sm-6">
                     <h1>Seguro de Evacuacion medica de viajes para servicio de ambulancia aerea que lo llevara a su hospital en casa en caso de una evacuacion medica de emergencia.</h1>
-                    <button type="button" onClick="window.open('https://travelmedevac.com/');" class="btn btn-orange">Obtener cotizacion ahora!</button>
+                    <button type="button" onClick="window.open('{{site.tme_quote_url}}');" class="btn btn-orange">Obtener cotizacion ahora!</button>
                     <p>¿Has comprado con nosotros antes?<br><strong><a class="whitelink" href="#customer-login-tme" role="button" data-toggle="modal" data-target="#customer-login-tme">&raquo; Inicia sesión ahora</a></strong></p>
                 </div> <!-- End col-sm-6 -->
                 <div class="col-sm-6">
@@ -45,7 +45,7 @@ excerpt: Seguro de viaje para evacuacion Medica proporcionara evacuacion en ambu
         <div class="col-sm-6 center">
             <div class="text">
                 <p><span class="tmelogo"></span></p>
-                <p>Nota: Si Viaja a otros paises aparte de Mexico, o le gustaría un plan anual, visite la pagina de <a class="whitelinkul" href="https://travelmedevac.com/" target="_blank">Travel Med Evac (Evacuacion Medica de Viaje)</a> para ver las diferentes opciones.</p>
+                <p>Nota: Si Viaja a otros paises aparte de Mexico, o le gustaría un plan anual, visite la pagina de <a class="whitelinkul" href="{{site.tme_site_url}}" target="_blank">Travel Med Evac (Evacuacion Medica de Viaje)</a> para ver las diferentes opciones.</p>
             </div>
         </div>
         <div class="col-sm-6 center">
@@ -57,7 +57,7 @@ excerpt: Seguro de viaje para evacuacion Medica proporcionara evacuacion en ambu
 <!-- Customer Login top nav modal/popup -->
 <div class="modal fade" id="customer-login-tme" tabindex="-1" role="dialog" aria-labelledby="customer-login-header-tme" aria-hidden="true">
   <div class="modal-dialog">
-    <form action="https://www.mexpro.com/client_login/do/login.mhtml?aff_id=2149&amp;lang=sp&amp;agtdst=logintme" method="POST" name="log-in">
+    <form action="https://www.mexpro.com/client_login/do/login.mhtml?aff_id=2149&amp;lang=sp&amp;agtdst=logintmesp" method="POST" name="log-in">
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">x</button>
