@@ -34,7 +34,7 @@
     .quotedropdown .dropdown-menu > li:nth-child(odd) {
       background-color: #f3f8fa; }
     .quotedropdown .dropdown-menu > li span {
-      background-image: url("../images/claims/claimsfeatureicons.png");
+      background-image: url("../images/claims/claimsfeatureicons.jpg");
       background-repeat: no-repeat;
       width: 153px;
       height: 60px;
@@ -88,7 +88,7 @@
 .claimspartners .col-sm-12 > p {
   margin: 40px 15px 30px; }
 .claimspartners span {
-  background-image: url("../images/claims/claimsfeatureicons.png");
+  background-image: url("../images/claims/claimsfeatureicons.jpg");
   background-repeat: no-repeat;
   width: 153px;
   height: 60px;
@@ -267,8 +267,8 @@
       width: 223px;
       height: 100%; }
       .claimspartners #ClaimCarousel div span.aba, .claimspartners #ClaimCarousel div span.elag, .claimspartners #ClaimCarousel div span.gnp, .claimspartners #ClaimCarousel div span.mexvisit {
-        background-image: url("../images/claims/claimsfeatureicons-mobile.png");
-        height: 110px;
+        background-image: url("../images/partners.jpg");
+        height: 107px;
         padding: 0; }
       .claimspartners #ClaimCarousel div span.aba {
         background-position: 0 0; }
