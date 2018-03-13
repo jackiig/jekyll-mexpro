@@ -1,0 +1,24 @@
+.covhome h2 {
+  color: #666 !important;
+  margin-top: 30px !important;
+  font-size: 1.3em !important; }
+
+span.aba, span.elag, span.gnp {
+  background-image: url(../images/partners.jpg);
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin: 0 auto 10px;
+  width: 223px;
+  height: 107px;
+  float: right; }
+span.aba {
+  background-position: 0 0; }
+span.elag {
+  background-position: 0 -220px; }
+span.gnp {
+  background-position: 0 -110px; }
+
+table {
+  text-align: center; }
+  table td {
+    padding: 10px !important; }
