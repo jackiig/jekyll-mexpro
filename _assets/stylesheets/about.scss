@@ -131,12 +131,6 @@
 		}
 
 	}
-	.col-sm-6:first-child {
-		//background-image: url('../images/ck-drivers-license.jpg');
-	}
-	.col-sm-6:last-child {
-		//background-image: url('../images/using-mouse.jpg');
-	}
 }
 
 .people.doublepane {
@@ -289,24 +283,7 @@
 			}
 		}
 	}
-	.quotedropdown {
-		ul.dropdown-menu {
-			margin: auto;
-			float: none;
-			position: relative;
-			> li:last-child {
-				> a, > a:hover, > a:visited, > a:active {
-					padding-bottom: 8px;
-				}
-			}
-		}
-		.dropdown-submenu {
-			>.dropdown-menu {
-			    left: 0%;
-			    min-width: 100%;
-			}
-		}
-	}
+
 	.doublepane {
 		&.story {
 			.col-sm-6:last-child {
@@ -322,9 +299,7 @@
 			}
 		}
 	}
-	.prodcategories.container-fluid {
-		margin: 0 auto;
-	}
+
 	.people.doublepane {
 		.col-sm-6 {
 			min-height: 300px;
@@ -349,16 +324,6 @@
 	.home-sp {
 		.feature {
 			background-position: 55% 98%, right bottom;
-		}
-		.quotedropdown {
-			.btn-orange.btn, .dropdown-menu {
-				width: 270px;
-			}
-			.dropdown-submenu {
-				> .dropdown-menu {
-					min-width: 100%;
-				}
-			}
 		}
 	}
 } //End Xtra-Small Screen
