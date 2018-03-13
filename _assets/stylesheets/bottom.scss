@@ -14,15 +14,17 @@ a:focus, :focus {
 	outline-offset: 0 !important;
 }
 
-.btn-orange {
+.btn-primary, .btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
 	background-color: #d47d3a;
 	color: white;
 	border-radius: 3px;
 	border: 1px solid white;
 	width: 270px;
+	background-image: none;
 	&:hover, &:focus, &.focus {
     	color: white;
     }
+
 }
 
 .btn-white {
@@ -35,6 +37,11 @@ a:focus, :focus {
 	&:hover, &:focus, &.focus {
     	color: #d47d3a;
     }
+}
+
+//Home page quote drop down in Spanish
+.home-sp .quotedropdown .btn-primary.btn, .home-sp .quotedropdown .dropdown-menu {
+	width: 325px;
 }
 
 .modal-footer button {
@@ -231,7 +238,7 @@ dd {
 	background-color: #0c93d2;
 	color: white;
 	padding: 25px 15px 20px; 
-	.btn-orange {
+	.btn-primary {
 		font-size: 0.8em;
 		padding: 7px 12px;
 		margin-bottom: 15px;

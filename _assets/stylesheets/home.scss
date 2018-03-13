@@ -60,7 +60,7 @@
 	}
 
 	.dropdown.open {
-		.btn.btn-orange {
+		.btn.btn-primary {
 			border-bottom: none;
 			border-radius: 3px 3px 0 0;
 		}
@@ -125,14 +125,9 @@
 }
 
 .home-sp {
-	.quotedropdown {
-		.btn-orange.btn, .dropdown-menu {
-			width: 300px;
-		}
-		.dropdown-submenu {
-			> .dropdown-menu {
-				width: initial;
-			}
+	.dropdown-submenu {
+		> .dropdown-menu {
+			width: initial;
 		}
 	}
 }
@@ -528,7 +523,7 @@
 			background-position: 55% 98%, right bottom;
 		}
 		.quotedropdown {
-			.btn-orange.btn, .dropdown-menu {
+			.btn-primary.btn, .dropdown-menu {
 				width: 270px;
 			}
 			.dropdown-submenu {
