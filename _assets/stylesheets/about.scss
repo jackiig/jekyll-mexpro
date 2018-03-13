@@ -28,6 +28,9 @@
 		font-size: 1.8em;
 		line-height: 1;
 	}
+	h1 {
+		margin-bottom: 0 !important;
+	}
 	p {
 		font-size: 1em !important;
 		//padding-top: 0!important;
@@ -180,7 +183,7 @@
 @media (min-width:992px) and (max-width:1199px) {
 	.feature {
 		min-height: 450px;
-		background-size: 90px 170px, cover;
+		background-size: cover;
 	}
 	.doublepane {
 		.col-sm-6 {
