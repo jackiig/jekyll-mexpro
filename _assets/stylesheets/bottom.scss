@@ -39,6 +39,13 @@ a:focus, :focus {
     }
 }
 
+.btn-default, .btn-default:active:hover, .btn-default.active:hover, .open > .dropdown-toggle.btn-default:hover, .btn-default:active:focus, .btn-default.active:focus, .open > .dropdown-toggle.btn-default:focus, .btn-default:active.focus, .btn-default.active.focus, .open > .dropdown-toggle.btn-default.focus, .btn-default:hover, .btn-default:focus {
+	background-color: white;
+	border-color: #0c93d2;
+	color: #0c93d2;
+	background-image: none;
+}
+
 //Home page quote drop down in Spanish
 .home-sp .quotedropdown .btn-primary.btn, .home-sp .quotedropdown .dropdown-menu {
 	width: 325px;
@@ -53,12 +60,17 @@ a:focus, :focus {
 	.modal-body {
 		padding: 15px 30px;
 	}
-	.modal-footer button {
-		&.btn.btn-close {
-			border: 1px solid #ccc;
+	.modal-footer {
+		button {
+			&.btn.btn-close {
+				//border: 1px solid #ccc;
+			}
+			&:hover.btn.btn-close {
+				//background-color: #ccc;
+			}
 		}
-		&:hover.btn.btn-close {
-			background-color: #ccc;
+		.btn {
+			width: inherit;
 		}
 	}
 }
