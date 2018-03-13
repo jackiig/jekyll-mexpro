@@ -1,0 +1,350 @@
+@charset "utf-8";
+//= require_self
+
+// Styles Only for home page
+
+// Home Page Photo, Text, Quote Box
+.feature {
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url('../images/home-page-1.jpg');
+	min-height: 575px;
+	position: relative;
+	background-size: cover;
+	.overlay {
+		background-color: white;
+		  top: 0;
+		  left: 0;
+		  //width: 100%;
+		  //height: 100%;
+		  position: relative;
+		  z-index: 1;
+		  opacity: 0.8;
+	}
+	h1, h2, p {
+		color: #3c4b52 !important;
+	}
+	h1, h2 {
+		font-size: 1.8em;
+		line-height: 1;
+	}
+	p {
+		font-size: 1em !important;
+		//padding-top: 0!important;
+		&:first-child {
+			//padding-top: 15px!important;
+		}
+	}
+}
+
+//Feature Icons
+.featureicons {
+	z-index: 1000;
+	position:relative;
+	ul {
+		margin-left: -40px;
+	}
+	li {
+		list-style: none;
+		text-align: center;
+		line-height: 1.2;
+		top: -30px;
+		width: 14%;
+		float:left;
+		position: relative;
+		padding: 0 10px;
+		a span {
+			background-image: url('../images/featureiconsall.png');
+			background-repeat: no-repeat;
+			width: 80px;
+			height: 80px;
+			display: block;
+			margin: 0 auto 10px;
+			&.auto {
+				background-position: 0 0;
+			}
+			&.home {
+				background-position: 0 -160px;
+			}
+			&.boat {
+				background-position: 0 -320px;
+			}
+			&.travel {
+				background-position: 0 -480px;
+			}
+			&.usatourist {
+				background-position: 0 -640px;
+			}
+			&.mexresauto {
+				background-position: 0 -800px;
+			}
+			&.evac {
+				background-position: 0 -960px;
+			}
+		}
+		a:hover span {
+			&.auto {
+				background-position: 0 -80px;
+			}
+			&.home {
+				background-position: 0 -240px;
+			}
+			&.boat {
+				background-position: 0 -400px;
+			}
+			&.travel {
+				background-position: 0 -560px;
+			}
+			&.usatourist {
+				background-position: 0 -720px;
+			}
+			&.mexresauto {
+				background-position: 0 -880px;
+			}
+			&.evac {
+				background-position: 0 -1039px;
+			}
+		}
+		a {
+			color: #798d96;
+			&:hover {
+				color: #0c93d2;
+			}
+		}
+	}
+}
+
+// Mexico insurance required, online policy easy section
+.doublepane {
+	background-color: transparent !important;
+	.col-sm-6 {
+		background-repeat: no-repeat;
+		background-position: center left;
+		min-height: 275px;
+		background-size: cover;
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.col-sm-6:first-child {
+		//background-image: url('../images/ck-drivers-license.jpg');
+	}
+	.col-sm-6:last-child {
+		//background-image: url('../images/using-mouse.jpg');
+	}
+}
+
+.trusted.doublepane {
+	.col-sm-6:first-child {
+		padding: 0;
+		background-image: none;
+		.video {
+			background-image: url('../images/play-button.png'),url('../images/company-photo750.jpg');
+			background-position: 50% 50%, top center;
+			max-width: 750px;
+			min-height: 300px;
+			background-size: 80px 80px, cover;
+			background-repeat: no-repeat;
+			display: block;
+		}
+	}
+	.col-sm-6:last-child {
+		background-color: #0c93d2;
+	}
+	.home-sp & {
+		.col-sm-6:last-child {
+			background-position: 50% 90%;
+			padding-top: 1%;
+		}
+	}
+}
+
+//Video Modal
+#company-video {
+	.modal-header {
+		border: none;
+	}
+	.modal-footer {
+		padding: 0;
+		border: none; 
+	}
+}
+
+/* Device Based css */
+
+/* Large Screen size - Desktop : 1200px wide and larger */
+@media (min-width:1200px) {
+
+} // End Large Screen
+
+/* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
+@media (min-width:992px) and (max-width:1199px) {
+	.feature {
+		min-height: 450px;
+		background-size: 90px 170px, cover;
+	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 325px;
+		}
+	}
+	.trusted.doublepane {
+		.col-sm-6 {
+			min-height: 300px;
+		}
+		.home-sp & {
+			.col-sm-6:last-child {
+				background-position: 50% 95%;
+				padding-top: 1%;
+			}
+		}
+	}
+}  //end Medium Screen
+
+@media (max-width: 991px) {
+//CSS Specific to navbar break point
+	.feature { // covers top nav
+		//margin-top: 30px; replaced with content in bottom css
+	}
+}
+
+/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
+@media (min-width:768px) and (max-width:991px) {
+	.feature {
+		min-height: 300px;
+		background-size: cover;
+		background-position: right bottom;
+		h1 {
+			margin-top: 45px;
+			font-size: 1.6em;
+		}
+	}
+	.featureicons {
+		margin-bottom: 0;
+	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 350px;
+		}
+		.home-sp & .col-sm-6 {
+			min-height: 375px;
+		}
+	}
+	.trusted.doublepane {
+		.col-sm-6 {
+			min-height: 300px;
+		}
+		.col-sm-6:last-child {
+			padding: 2% 3% 0;
+			h2 {
+				font-size: 1.4em;
+			}
+			p {
+				font-size: 0.9em;
+			}
+			background-position: 50% 80%;
+		}
+	}
+} // End Small Screen
+
+/* Xtra-Small Screen Size - Phone : 480px - 767px */
+@media (max-width:767px) {
+	.feature {
+		background-image: url('../images/home-page-mobile-1.jpg');
+		background-repeat: no-repeat;
+		background-position: right bottom;
+		background-size: cover;
+		min-height: 570px;
+		h1 {
+			text-align: center;
+			margin-top: 1.2em;
+		}
+		.dropdown {
+			text-align: center;
+		}
+	}
+	.featureicons {
+		margin-bottom: 15px;
+		li {
+			top: 15px;
+			width: 50%;
+			padding-bottom: 20px;
+			&:nth-child(even) {
+				padding-left: 0;
+			}
+			&:nth-child(odd) {
+				padding-right: 0;
+			}
+			&:last-child {
+				width: 100%;
+				padding-left: 10px;
+				padding-right: 10px;
+			}
+		}
+	}
+	.quotedropdown {
+		ul.dropdown-menu {
+			margin: auto;
+			float: none;
+			position: relative;
+			> li:last-child {
+				> a, > a:hover, > a:visited, > a:active {
+					padding-bottom: 8px;
+				}
+			}
+		}
+		.dropdown-submenu {
+			>.dropdown-menu {
+			    left: 0%;
+			    min-width: 100%;
+			}
+		}
+	}
+	.doublepane {
+		.col-sm-6 {
+			min-height: 390px;
+			&:last-child {
+				top: -30px;
+    			min-height: 350px;
+			}
+		}
+	}
+	.prodcategories.container-fluid {
+		margin: 0 auto;
+	}
+	.trusted.doublepane {
+		.col-sm-6 {
+			min-height: 300px;
+		}
+		.col-sm-6:last-child {
+			background-position: 50% 90%;
+			padding: 2% 5%  0;
+			top: 0;
+			h2 {
+				font-size: 1.5em;
+				margin-bottom: 15px;
+			}
+			p {
+				font-size: 1em;
+			}
+		}
+	}
+	.partners li {
+		width: 100%;
+		display: block;
+	}
+	.home-sp {
+		.feature {
+			background-position: 55% 98%, right bottom;
+		}
+		.quotedropdown {
+			.btn-orange.btn, .dropdown-menu {
+				width: 270px;
+			}
+			.dropdown-submenu {
+				> .dropdown-menu {
+					min-width: 100%;
+				}
+			}
+		}
+	}
+} //End Xtra-Small Screen
