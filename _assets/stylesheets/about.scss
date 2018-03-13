@@ -6,137 +6,36 @@
 // Home Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
-	background-position: 85% 85%, right bottom;
-	background-image: url('../images/accredited.png'), url('../images/home-page-1.jpg');
+	background-position: right bottom;
+	background-image: url('../images/home-page-1.jpg');
 	min-height: 575px;
 	position: relative;
-	background-size: 110px 208px, cover;
-	h1 {
-		color: white;
+	background-size: cover;
+	.overlay {
+		background-color: white;
+		  top: 0;
+		  left: 0;
+		  //width: 100%;
+		  //height: 100%;
+		  position: relative;
+		  z-index: 1;
+		  opacity: 0.8;
+	}
+	h1, h2, p {
+		color: #3c4b52 !important;
+	}
+	h1, h2 {
 		font-size: 1.8em;
 		line-height: 1;
 	}
-}
-
-// Quote box dropdown within feature image
-.quotedropdown {
-	.dropdown-menu {
-		width: 270px;
-		color: white;
-		background-color: #d47d3a;
-		padding: 0;
-		margin: 0;
-		font-size: 0.9em;
-		border: 1px solid white;
-		border-top: none;
-		border-radius: 0 0 3px 3px;
-		z-index: 1100; //puts above feature icons
-		> li {
-			background-color: #d47d3a;
-			color: white;
-			&:first-child {
-				font-size: 0.8em;
-				padding: 0 25px 5px;
-			}
-			> a, > a:visited, > a:active, > a:focus, > a:hover {
-				background-color: #d47d3a;
-				color: white;
-				font-weight: 600;
-				border-bottom: 1px solid #bf5d13;
-				margin: 0;
-				padding-top: 5px;
-				padding-bottom: 5px;
-			}
-			> a:hover {
-				background: #bf5d13;
-				color: white;
-			}
-			&:last-child {
-				> a, > a:hover, > a:visited, > a:active {
-					border: none;
-				}
-			}
-		}
-	}
-
-	.dropdown.open {
-		.btn.btn-orange {
-			border-bottom: none;
-			border-radius: 3px 3px 0 0;
-		}
-	}
-	
-	.dropdown-submenu {
-    	position: relative;
-		>.dropdown-menu {
-		    top: 0;
-		    left: 100%;
-		    border-radius: 0;
-		    border: none;
-		    background-color: #bf5d13;
-		    width: 150px;
-		    box-shadow: none;
-		    -webkit-box-shadow: none;
-		    > li {
-		    	background-color: #bf5d13;
-		    	&:first-child {
-		    		font-size: 1em;
-		    		padding: initial;
-		    	}
-		    	> a, a:hover, a:visited, a:active, a:focus {
-		    		background-color: #bf5d13;
-		    		border-bottom-color: #d47d3a;
-		    		color: white;
-		    		padding-top: 6px;
-		    		padding-bottom: 6px;
-		    	}
-		    }
-		}
-		&:hover >.dropdown-menu {
-		    display: block;
-		}
-		&.pull-left {
-	    	float: none;
-			& >.dropdown-menu {
-			    left: -100%;
-			    margin-left: 10px;
-			    border-radius: 0;
-		   	}
-		}
-	}
-
-	/*.dropdown-submenu>a:after { // This will add white arrow pointing right
-	    display: block;
-	    content: " ";
-	    float: right;
-	    width: 0;
-	    height: 0;
-	    border-color: transparent;
-	    border-style: solid;
-	    border-width: 5px 0 5px 5px;
-	    border-left-color: white;
-	    margin-top: 5px;
-	    margin-right: -10px;
-	} */
-
-	.dropdown-submenu:hover>a:after {
-	    //border-left-color: #fff;
-	}
-}
-
-.home-sp {
-	.quotedropdown {
-		.btn-orange.btn, .dropdown-menu {
-			width: 300px;
-		}
-		.dropdown-submenu {
-			> .dropdown-menu {
-				width: initial;
-			}
+	p {
+		font-size: 1em !important;
+		//padding-top: 0!important;
+		&:first-child {
+			//padding-top: 15px!important;
 		}
 	}
 }
-
 
 //Feature Icons
 .featureicons {
@@ -227,94 +126,10 @@
 		padding-right: 30px;
 	}
 	.col-sm-6:first-child {
-		background-image: url('../images/ck-drivers-license.jpg');
+		//background-image: url('../images/ck-drivers-license.jpg');
 	}
 	.col-sm-6:last-child {
-		background-image: url('../images/using-mouse.jpg');
-	}
-}
-
-// Product Categories
-.prodcategories {
-	position:relative;
-	margin: 20px auto;
-	ul {
-		margin-left: -40px;
-	}
-	li,.carousel-inner {
-		list-style: none;
-		a span {
-			background-image: url('../images/categoryiconsallnew.png');
-			background-repeat: no-repeat;
-			display: block;
-			margin: 0 auto 10px;
-			height: 72px;
-			vertical-align: bottom;
-			&.autocat {
-				background-position: 0 0;
-				width: 52px;
-			}
-			&.homecat {
-				background-position: 0 -144px;
-				width: 75px;
-			}
-			&.boatcat {
-				background-position: 0 -288px;
-				width: 87px;
-			}
-			&.travelcat {
-				background-position: 0 -432px;
-				width: 53px;
-			}
-			&.usatouristcat {
-				background-position: 0 -576px;
-				width: 52px;
-			}
-			&.mexresautocat {
-				background-position: 0 -722px;
-				width: 86px;
-			}
-			&.tmecat {
-				background-position: 0 -865px;
-				width: 83px;
-				height: 58px;
-			}
-		}
-		a:hover span {
-			&.autocat {
-				background-position: 0 -72px;
-			}
-			&.homecat {
-				background-position: 0 -216px;
-			}
-			&.boatcat {
-				background-position: 0 -361px;
-			}
-			&.travelcat {
-				background-position: 0 -503px;
-			}
-			&.usatouristcat {
-				background-position: 0 -649px;
-			}
-			&.mexresautocat {
-				background-position: 0 -793px;
-			}
-			&.tmecat {
-				background-position: 0 -923px;
-				height: 58px;
-			}
-		}
-		h5, p {
-			text-align: center;
-		}
-		a:hover h5 {
-			color: #0c93d2;
-		}
-	}
-	#CatCarousel {
-		.carousel-control.right, .carousel-control.left {
-			margin-top: 10%;
-		}
+		//background-image: url('../images/using-mouse.jpg');
 	}
 }
 
@@ -333,12 +148,6 @@
 		}
 	}
 	.col-sm-6:last-child {
-		background-image: url('../images/accredited-horiz.png');
-		background-position: 50% 77%;
-		background-size: 262px 73px;
-		min-height: 300px;
-		padding: 2% 5% 0;
-		background-repeat: no-repeat;
 		background-color: #0c93d2;
 	}
 	.home-sp & {
@@ -402,8 +211,8 @@
 @media (min-width:768px) and (max-width:991px) {
 	.feature {
 		min-height: 300px;
-		background-size: 85px 160px, cover;
-		background-position: 84% 88%, right bottom;
+		background-size: cover;
+		background-position: right bottom;
 		h1 {
 			margin-top: 45px;
 			font-size: 1.6em;
@@ -440,10 +249,10 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/accredited-horiz.png'), url('../images/home-page-mobile-1.jpg');
+		background-image: url('../images/home-page-mobile-1.jpg');
 		background-repeat: no-repeat;
-		background-position: 55% 95%, right bottom;
-		background-size: 262px 73px, cover;
+		background-position: right bottom;
+		background-size: cover;
 		min-height: 570px;
 		h1 {
 			text-align: center;
