@@ -44,12 +44,22 @@ a:focus, :focus {
 	width: 325px;
 }
 
-.modal-footer button {
-	&.btn.btn-close {
-		border: 1px solid #ccc;
+//Modals
+.modal {
+	.modal-header h2 {
+		color: #0c93d2;
+		text-indent: 15px;
 	}
-	&:hover.btn.btn-close {
-		background-color: #ccc;
+	.modal-body {
+		padding: 15px 30px;
+	}
+	.modal-footer button {
+		&.btn.btn-close {
+			border: 1px solid #ccc;
+		}
+		&:hover.btn.btn-close {
+			background-color: #ccc;
+		}
 	}
 }
 
