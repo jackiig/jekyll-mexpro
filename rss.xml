@@ -2,101 +2,35 @@
 <rss> 
  <channel> 
    <!-- other tags -->
+    <item> 
+    <title>El Aguila Mexpro Mexican Insurance Partner</title> 
+     <link>https://www.mexpro.com/mexico/el-aguila.html</link>
+     <pubDate>Tue, 13 Mar 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>El Aguila Compania de Seguros Socio de Mexpro</title> 
+     <link>https://www.mexpro.com/mx/el-aguila.html</link>
+     <pubDate>Tue, 13 Mar 2018</pubDate>
+     <language>es-mx</language>
+   </item>
+   <item> 
+    <title>Grupo Nacional Provincial (GNP) Mexpro Mexico Insurance Partner</title> 
+     <link>https://www.mexpro.com/mexico/grupo-nacional-provincial.html</link>
+     <pubDate>Tue, 12 Mar 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>Grupo Nacional Provincial (GNP) Compañía de seguros socio de Mexpro</title> 
+     <link>https://www.mexpro.com/mx/grupo-nacional-provincial.html</link>
+     <pubDate>Mon, 12 Mar 2018</pubDate>
+     <language>es-mx</language>
+   </item>
    <item> 
     <title>Seguro Evacuacion Medica Viaje servicio ambulancia Aerea</title> 
      <link>https://www.mexpro.com/mx/evacuacion-emergencia/</link>
      <pubDate>Thu, 1 Feb 2018</pubDate>
      <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Seguro de Auto Temporal para EEUU</title> 
-     <link>https://www.mexpro.com/mx/seguro-usa/</link>
-     <pubDate>Wed, 31 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Seguros de Auto para residentes de Mexico</title> 
-     <link>https://www.mexpro.com/mx/auto-residente.html</link>
-     <pubDate>Wed, 31 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Mexico Insurance for auto, rv, home, boat and travel</title> 
-     <link>https://www.mexpro.com/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Especializamos en proporcionar seguros Mexico para turistas conduciendo al Mexico</title> 
-     <link>https://www.mexpro.com/mx/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Mexico Auto Insurance for US and Canadian Citizens</title> 
-     <link>https://www.mexpro.com/mexico/auto/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Mexico Auto Insurance for US and Canadian Citizens</title> 
-     <link>https://www.mexpro.com/mexico/auto/insurance.html</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Seguro para Auto en Mexico para residentes EEUU y Canada</title>
-     <link>https://www.mexpro.com/mx/seguros-carros-viajar-mexico.html</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>How to Report a Mexico Insurance Claim in Mexico</title> 
-     <link>https://www.mexpro.com/mexico/claims/instructions.html</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Instrucciones de reclamos seguro auto Mexico</title> 
-     <link>https://www.mexpro.com/mx/instrucciones-reclamos.html</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Emergency Medical Evacuation Insurance</title> 
-     <link>https://www.mexpro.com/mexico/emergency-evacuation/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Mexico Home Insurance with Grupo Nacional Provincial</title> 
-     <link>https://www.mexpro.com/mexico/home-insurance/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Seguros de la Casa, Habitacion y Condominio en Mexico</title>
-     <link>https://www.mexpro.com/mx/seguros-de-casa/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Temporary Car Insurance for Mexican Licensed Vehicles in the US</title> 
-     <link>https://www.mexpro.com/mexico/short-term-us-auto-insurance/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>International Holiday, Travel Medical and Health Insurance</title> 
-     <link>https://www.mexpro.com/mexico/international-health/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
-   </item>
-   <item> 
-    <title>Mexican Resident Auto Insurance with Mexico License Plates</title> 
-     <link>https://www.mexpro.com/mexico/resident-auto/</link>
-     <pubDate>Tue, 09 Jan 2018</pubDate>
-     <language>en-us</language>
    </item>
  </channel> 
 </rss>
