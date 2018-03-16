@@ -5,8 +5,8 @@
  */
 
 /*!
- * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.3/customize/?id=1f0f2b2a8962a71718e987088a346802)
- * Config saved to config.json and https://gist.github.com/1f0f2b2a8962a71718e987088a346802
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.3/customize/?id=4c7d6da2c3a97dced73a34ccde81c4de)
+ * Config saved to config.json and https://gist.github.com/4c7d6da2c3a97dced73a34ccde81c4de
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -156,24 +156,24 @@ fieldset[disabled] .btn-primary.active {
   background-image: none;
 }
 .btn-success {
-  background-image: -webkit-linear-gradient(top, #009900 0%, #005c00 100%);
-  background-image: -o-linear-gradient(top, #009900 0%, #005c00 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#009900), to(#005c00));
-  background-image: linear-gradient(to bottom, #009900 0%, #005c00 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff009900', endColorstr='#ff005c00', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #0c93d2 0%, #096a98 100%);
+  background-image: -o-linear-gradient(top, #0c93d2 0%, #096a98 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c93d2), to(#096a98));
+  background-image: linear-gradient(to bottom, #0c93d2 0%, #096a98 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0c93d2', endColorstr='#ff096a98', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #005200;
+  border-color: #08648e;
 }
 .btn-success:hover,
 .btn-success:focus {
-  background-color: #005c00;
+  background-color: #096a98;
   background-position: 0 -15px;
 }
 .btn-success:active,
 .btn-success.active {
-  background-color: #005c00;
-  border-color: #005200;
+  background-color: #096a98;
+  border-color: #08648e;
 }
 .btn-success.disabled,
 .btn-success[disabled],
@@ -193,28 +193,28 @@ fieldset[disabled] .btn-success:active,
 .btn-success.disabled.active,
 .btn-success[disabled].active,
 fieldset[disabled] .btn-success.active {
-  background-color: #005c00;
+  background-color: #096a98;
   background-image: none;
 }
 .btn-info {
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #003df5 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #003df5 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#003df5));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #003df5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff003df5', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #0c93d2 0%, #096a98 100%);
+  background-image: -o-linear-gradient(top, #0c93d2 0%, #096a98 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c93d2), to(#096a98));
+  background-image: linear-gradient(to bottom, #0c93d2 0%, #096a98 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0c93d2', endColorstr='#ff096a98', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #003beb;
+  border-color: #08648e;
 }
 .btn-info:hover,
 .btn-info:focus {
-  background-color: #003df5;
+  background-color: #096a98;
   background-position: 0 -15px;
 }
 .btn-info:active,
 .btn-info.active {
-  background-color: #003df5;
-  border-color: #003beb;
+  background-color: #096a98;
+  border-color: #08648e;
 }
 .btn-info.disabled,
 .btn-info[disabled],
@@ -234,7 +234,7 @@ fieldset[disabled] .btn-info:active,
 .btn-info.disabled.active,
 .btn-info[disabled].active,
 fieldset[disabled] .btn-info.active {
-  background-color: #003df5;
+  background-color: #096a98;
   background-image: none;
 }
 .btn-warning {
@@ -337,13 +337,13 @@ fieldset[disabled] .btn-danger.active {
 .dropdown-menu > .active > a,
 .dropdown-menu > .active > a:hover,
 .dropdown-menu > .active > a:focus {
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #1953ff 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #1953ff 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#1953ff));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #1953ff 100%);
+  background-image: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+  background-image: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff1953ff', GradientType=0);
-  background-color: #1953ff;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
+  background-color: #f2f2f2;
 }
 .navbar-default {
   background-image: -webkit-linear-gradient(top, #1faff2 0%, #0c93d2 100%);
@@ -407,12 +407,12 @@ fieldset[disabled] .btn-danger.active {
   .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
   .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
     color: #fff;
-    background-image: -webkit-linear-gradient(top, #3366ff 0%, #1953ff 100%);
-    background-image: -o-linear-gradient(top, #3366ff 0%, #1953ff 100%);
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#1953ff));
-    background-image: linear-gradient(to bottom, #3366ff 0%, #1953ff 100%);
+    background-image: -webkit-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+    background-image: -o-linear-gradient(top, #ffffff 0%, #f2f2f2 100%);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#f2f2f2));
+    background-image: linear-gradient(to bottom, #ffffff 0%, #f2f2f2 100%);
     background-repeat: repeat-x;
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff1953ff', GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff2f2f2', GradientType=0);
   }
 }
 .alert {
@@ -465,28 +465,28 @@ fieldset[disabled] .btn-danger.active {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffebebeb', endColorstr='#fff5f5f5', GradientType=0);
 }
 .progress-bar {
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #0040ff 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #0040ff 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#0040ff));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #0040ff 100%);
+  background-image: -webkit-linear-gradient(top, #d47d3a 0%, #b46427 100%);
+  background-image: -o-linear-gradient(top, #d47d3a 0%, #b46427 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d47d3a), to(#b46427));
+  background-image: linear-gradient(to bottom, #d47d3a 0%, #b46427 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff0040ff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd47d3a', endColorstr='#ffb46427', GradientType=0);
 }
 .progress-bar-success {
-  background-image: -webkit-linear-gradient(top, #009900 0%, #006600 100%);
-  background-image: -o-linear-gradient(top, #009900 0%, #006600 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#009900), to(#006600));
-  background-image: linear-gradient(to bottom, #009900 0%, #006600 100%);
+  background-image: -webkit-linear-gradient(top, #0c93d2 0%, #0971a2 100%);
+  background-image: -o-linear-gradient(top, #0c93d2 0%, #0971a2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c93d2), to(#0971a2));
+  background-image: linear-gradient(to bottom, #0c93d2 0%, #0971a2 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff009900', endColorstr='#ff006600', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0c93d2', endColorstr='#ff0971a2', GradientType=0);
 }
 .progress-bar-info {
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #0040ff 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #0040ff 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#0040ff));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #0040ff 100%);
+  background-image: -webkit-linear-gradient(top, #0c93d2 0%, #0971a2 100%);
+  background-image: -o-linear-gradient(top, #0c93d2 0%, #0971a2 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#0c93d2), to(#0971a2));
+  background-image: linear-gradient(to bottom, #0c93d2 0%, #0971a2 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff0040ff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0c93d2', endColorstr='#ff0971a2', GradientType=0);
 }
 .progress-bar-warning {
   background-image: -webkit-linear-gradient(top, #e9a949 0%, #e3941c 100%);
@@ -517,14 +517,14 @@ fieldset[disabled] .btn-danger.active {
 .list-group-item.active,
 .list-group-item.active:hover,
 .list-group-item.active:focus {
-  text-shadow: 0 -1px 0 #0040ff;
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #0d49ff 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #0d49ff 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#0d49ff));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #0d49ff 100%);
+  text-shadow: 0 -1px 0 #b46427;
+  background-image: -webkit-linear-gradient(top, #d47d3a 0%, #be6a2a 100%);
+  background-image: -o-linear-gradient(top, #d47d3a 0%, #be6a2a 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d47d3a), to(#be6a2a));
+  background-image: linear-gradient(to bottom, #d47d3a 0%, #be6a2a 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff0d49ff', GradientType=0);
-  border-color: #0d49ff;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd47d3a', endColorstr='#ffbe6a2a', GradientType=0);
+  border-color: #be6a2a;
 }
 .list-group-item.active .badge,
 .list-group-item.active:hover .badge,
@@ -544,12 +544,12 @@ fieldset[disabled] .btn-danger.active {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fff5f5f5', endColorstr='#ffe8e8e8', GradientType=0);
 }
 .panel-primary > .panel-heading {
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #1953ff 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #1953ff 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#1953ff));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #1953ff 100%);
+  background-image: -webkit-linear-gradient(top, #d47d3a 0%, #c9702c 100%);
+  background-image: -o-linear-gradient(top, #d47d3a 0%, #c9702c 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d47d3a), to(#c9702c));
+  background-image: linear-gradient(to bottom, #d47d3a 0%, #c9702c 100%);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff1953ff', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd47d3a', endColorstr='#ffc9702c', GradientType=0);
 }
 .panel-success > .panel-heading {
   background-image: -webkit-linear-gradient(top, #dff0d8 0%, #d0e9c6 100%);
