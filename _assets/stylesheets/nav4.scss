@@ -112,12 +112,10 @@
 					}
 				}
 				&.btn-primary {
-					//background-color: #ca6f29;
-					//color: white;
 					width: inherit;
 					&:hover, &:focus, &:active, &.active {
-						//background-color: #ca6f29;
-						//color: white;
+						background-color: #ca6f29;
+						color: white;
 					}
 				}
 				&.btn-login, &.btn-primary {
