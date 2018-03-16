@@ -111,15 +111,16 @@
 						border-color: #cfe1e9;
 					}
 				}
-				&.btn-buy {
-					background-color: #ca6f29;
-					color: white;
+				&.btn-primary {
+					//background-color: #ca6f29;
+					//color: white;
+					width: inherit;
 					&:hover, &:focus, &:active, &.active {
-						background-color: #ca6f29;
-						color: white;
+						//background-color: #ca6f29;
+						//color: white;
 					}
 				}
-				&.btn-login, &.btn-buy {
+				&.btn-login, &.btn-primary {
 					margin-top: 5px;
 				}
 			}
@@ -261,11 +262,11 @@
 		.navbar-nav {
 			margin-left: 0;
 			margin-top: 0;
-			.btn-login, .btn-buy {
+			.btn-login, .btn-primary {
 				margin-top: 10px;
 				margin-bottom: 10px;
 			}
-			.btn-buy {
+			.btn-primary {
 				margin-right: 5px;
 			}
 			> li {
