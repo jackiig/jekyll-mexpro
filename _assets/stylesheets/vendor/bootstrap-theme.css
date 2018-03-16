@@ -1,12 +1,12 @@
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2017 Twitter, Inc.
+ * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
 /*!
- * Generated using the Bootstrap Customizer (http://getbootstrap.com/customize/?id=68a27c64414ed20bd2a87fffede41061)
- * Config saved to config.json and https://gist.github.com/68a27c64414ed20bd2a87fffede41061
+ * Generated using the Bootstrap Customizer (https://getbootstrap.com/docs/3.3/customize/?id=1f0f2b2a8962a71718e987088a346802)
+ * Config saved to config.json and https://gist.github.com/1f0f2b2a8962a71718e987088a346802
  */
 /*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
@@ -115,24 +115,24 @@ fieldset[disabled] .btn-default.active {
   background-image: none;
 }
 .btn-primary {
-  background-image: -webkit-linear-gradient(top, #3366ff 0%, #003df5 100%);
-  background-image: -o-linear-gradient(top, #3366ff 0%, #003df5 100%);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#3366ff), to(#003df5));
-  background-image: linear-gradient(to bottom, #3366ff 0%, #003df5 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3366ff', endColorstr='#ff003df5', GradientType=0);
+  background-image: -webkit-linear-gradient(top, #d47d3a 0%, #ab6025 100%);
+  background-image: -o-linear-gradient(top, #d47d3a 0%, #ab6025 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d47d3a), to(#ab6025));
+  background-image: linear-gradient(to bottom, #d47d3a 0%, #ab6025 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffd47d3a', endColorstr='#ffab6025', GradientType=0);
   filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
   background-repeat: repeat-x;
-  border-color: #003beb;
+  border-color: #a35b24;
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #003df5;
+  background-color: #ab6025;
   background-position: 0 -15px;
 }
 .btn-primary:active,
 .btn-primary.active {
-  background-color: #003df5;
-  border-color: #003beb;
+  background-color: #ab6025;
+  border-color: #a35b24;
 }
 .btn-primary.disabled,
 .btn-primary[disabled],
@@ -152,7 +152,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-  background-color: #003df5;
+  background-color: #ab6025;
   background-image: none;
 }
 .btn-success {
