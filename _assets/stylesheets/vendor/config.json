@@ -391,6 +391,7 @@
     "buttons.less",
     "responsive-utilities.less",
     "glyphicons.less",
+    "button-groups.less",
     "input-groups.less",
     "navs.less",
     "navbar.less",
@@ -421,5 +422,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=e2710ef1309884d4172d57bedae3c479"
+  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=ef09ba38e868ceb939fa869bf21e0bb2"
 }
