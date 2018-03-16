@@ -19,7 +19,7 @@ a:focus, :focus {
 	color: white;
 	border-radius: 3px;
 	border: 1px solid white;
-	width: 270px;
+	//width: 270px;
 	background-image: none;
 	&:hover, &:focus, &.focus {
     	//color: white;
@@ -48,6 +48,9 @@ a:focus, :focus {
 }
 
 //Home page quote drop down in Spanish
+.quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
+	width: 270px;
+}
 .home-sp .quotedropdown .btn-primary.btn, .home-sp .quotedropdown .dropdown-menu {
 	width: 325px;
 }
