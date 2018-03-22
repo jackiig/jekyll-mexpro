@@ -34,8 +34,6 @@ node {
       dir('_eb') {
         sh "sed -i s/:master/:${BRANCH_NAME}/g Dockerrun.aws.json"
         withCredentials([usernamePassword(credentialsId: 'ebs-credentials', usernameVariable: 'AWS_ACCESS_KEY_ID', passwordVariable: 'AWS_SECRET_ACCESS_KEY')]) {
-          sh 'echo $AWS_ACCESS_KEY_ID'
-          echo AWS_SECRET_ACCESS_KEY
           if (env.BRANCH_NAME == "master") {
             sh 'echo Master Branch!'
           } else {
@@ -47,7 +45,7 @@ node {
             }
             sh "eb status ${EBS_ENV_NAME}"
             env.CNAME = sh(
-              script: 'eb status | grep CNAME | sed "s/\\s*CNAME:\\s*//"',
+              script: "eb status ${EBS_ENV_NAME} | grep CNAME | sed \"s/\\s*CNAME:\\s*//\"",
               returnStdout: true
             ).trim()
           }
