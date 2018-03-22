@@ -15,7 +15,7 @@ node {
   env.EBS_ENV_NAME = env.BRANCH_NAME
   if (env.BRANCH_NAME == "master") {
     env.BRANCH_NAME = 'latest'
-    env.EBS_ENV_NAME = 'Production'
+    env.EBS_ENV_NAME = 'mio-rails-mexpro-nginx-production'
   }
 
   try {
