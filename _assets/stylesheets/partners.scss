@@ -78,12 +78,20 @@
 				}
 			}
 		}
+		.panel-body {
+			p {
+				padding-left: 7px;
+				padding-right: 7px;
+			}
+		}
 		.panel-heading {
 			background-color: #d9e3e7;
 			color: #3c4b52;
 			border-radius: 0;
 			.panel-title {
 				font-size: inherit;
+				padding: 10px;
+				margin: 2px;
 			}
 		}
 		.panel-group {
