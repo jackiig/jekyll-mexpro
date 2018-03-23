@@ -47,13 +47,24 @@ a:focus, :focus {
 	background-image: none;
 }
 
-//Home page quote drop down in Spanish
+//Home page quote drop down
 .quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
 	width: 270px;
+	.home-sp & {
+		width: 325px;
+	}
 }
-.home-sp .quotedropdown .btn-primary.btn, .home-sp .quotedropdown .dropdown-menu {
-	width: 325px;
+//Claims page drop down
+.claimsins {
+	.open > .dropdown-toggle.btn-primary, .quotedropdown .dropdown-menu {
+		width: 450px;
+	}
+	.open > .dropdown-toggle.btn-primary {
+		border-radius: 3px 3px 0 0;
+
+	}
 }
+
 
 //Modals
 .modal {
@@ -691,6 +702,12 @@ footer {
 		margin: 20px auto 0;
 		height: 1px;
 		background-color: white;
+	}
+}
+// Claims instructions drop down
+.claimsins {
+	.open > .dropdown-toggle.btn-primary, .quotedropdown .dropdown-menu {
+		width: 300px;
 	}
 }
 } //end mobile screen size
