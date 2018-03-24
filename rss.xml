@@ -2,6 +2,18 @@
 <rss> 
  <channel> 
    <!-- other tags -->
+   <item> 
+    <title>ABA Seguros Mexico Insurance Partner</title> 
+     <link>https://www.mexpro.com/mexico/el-aguila.html</link>
+     <pubDate>Sat, 24 Mar 2018</pubDate>
+     <language>en-us</language>
+   </item>
+   <item> 
+    <title>ABA Seguros compania de Seguros socio de Mexico</title> 
+     <link>https://www.mexpro.com/mx/aba-seguros.html</link>
+     <pubDate>Sat, 24 Mar 2018</pubDate>
+     <language>es-mx</language>
+   </item>
     <item> 
     <title>El Aguila Mexpro Mexican Insurance Partner</title> 
      <link>https://www.mexpro.com/mexico/el-aguila.html</link>
@@ -24,12 +36,6 @@
     <title>Grupo Nacional Provincial (GNP) Compañía de seguros socio de Mexpro</title> 
      <link>https://www.mexpro.com/mx/grupo-nacional-provincial.html</link>
      <pubDate>Mon, 12 Mar 2018</pubDate>
-     <language>es-mx</language>
-   </item>
-   <item> 
-    <title>Seguro Evacuacion Medica Viaje servicio ambulancia Aerea</title> 
-     <link>https://www.mexpro.com/mx/evacuacion-emergencia/</link>
-     <pubDate>Thu, 1 Feb 2018</pubDate>
      <language>es-mx</language>
    </item>
  </channel> 
