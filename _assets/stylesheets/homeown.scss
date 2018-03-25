@@ -35,11 +35,6 @@
 	min-height: 500px;
 }
 
-// Quote button within feature image
-.btn-primary.btn {
-	//margin-bottom: 20px;
-}
-
 //Feature Icons
 .featureicons {
 	z-index: 1000;
@@ -182,10 +177,11 @@
 			display: block;
 			margin: 0 auto 10px;
 			height: 67px;
+			width: 67px;
 			vertical-align: bottom;
 			&.theft {
 				background-position: 0 0;
-				width: 67px;
+				width: 73px;
 			}
 			&.deduct {
 				background-position: 0 -67px;
@@ -202,11 +198,22 @@
 			}
 			&.liab {
 				background-position: 0 -268px;
-				width: 67px;
 			}
 			&.extraord {
 				background-position: 0 -335px;
-				width: 67px;
+				height: 68px;
+			}
+			&.persprop {
+				background-position: 0 -403px;
+				width: 100px;
+				height: 68px;
+			}
+			&.glass {
+				background-position: 0 -471px;
+			}
+			&.debris {
+				background-position: 0 -538px;
+				width: 100px;
 			}	
 		}
 		h5, p {
