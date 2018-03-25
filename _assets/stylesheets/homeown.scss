@@ -91,6 +91,15 @@
 		}
 	}
 }
+.singlefam, .condo {
+	.featureicons {
+		li {
+			top: 0;
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	}
+}
 
 // White button
 .btn-white {
@@ -247,7 +256,9 @@
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-
+	.homeins.condo .feature .col-sm-6:first-child {
+	    padding-top: 2%;
+	}
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
@@ -255,6 +266,9 @@
 	.feature {
 		min-height: 450px;
 		background-size: cover;
+	}
+	.homeins.condo .feature .col-sm-6:first-child {
+	    padding-top: 2%;
 	}
 }  //end Medium Screen
 
