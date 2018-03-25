@@ -29,10 +29,15 @@
 			}
 		}
 	}
-}
-.singlefam .feature {
-	background-image: url('../images/homeown/single-family-feature.jpg');
-	min-height: 500px;
+	&.singlefam .feature {
+		background-image: url('../images/homeown/single-family-feature.jpg');
+	}
+	&.condo .feature {
+		background-image: url('../images/homeown/condo-feature.jpg');
+	}
+	&.singlefam .feature, &.condo .feature {
+		min-height: 500px;
+	}
 }
 
 //Feature Icons
