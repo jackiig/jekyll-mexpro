@@ -3,7 +3,8 @@
 
 // Styles Only for home page
 h2 {
-	font-size: 20px !important;
+	font-size: 25px !important;
+	text-transform: initial !important;
 }
 // Home Page Photo, Text, Quote Box
 .feature {
@@ -163,6 +164,38 @@ h2 {
 			padding-top: 1%;
 		}
 	}
+}
+
+// Our Technology, Personal Info is safe
+.techsafe {
+	position:relative;
+	margin: 30px auto;
+	span {
+		background-image: url('../images/homeown/mxho-coverage-sprites.png');
+		background-repeat: no-repeat;
+		display: block;
+		margin: 0 auto 10px;
+		height: 67px;
+		width: 67px;
+		vertical-align: bottom;
+		&.theft {
+			background-position: 0 0;
+			width: 73px;
+		}
+		&.technology {
+			background-image: url('../images/about/tech.png');
+		}
+	}
+}
+
+//NFP
+.nfp {
+	background-image: url('../images/about/nfp-logo.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0 auto 10px;
+	height: 67px;
+	width: 67px;
 }
 
 //Video Modal
