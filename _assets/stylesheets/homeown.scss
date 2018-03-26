@@ -69,7 +69,7 @@
 				background-position: 0 -160px;
 			}
 			&.townhome {
-				background-position: 0 -320px;
+				//background-position: 0 -320px;
 			}
 		}
 		a:hover span {
@@ -80,7 +80,7 @@
 				background-position: 0 -240px;
 			}
 			&.townhome {
-				background-position: 0 -400px;
+				//background-position: 0 -400px;
 			}
 		}
 		a {
@@ -244,7 +244,7 @@
 	}
 }
 
-//Partners Page
+//Partners
 .homepartner {
 	img {
 		float: left;
@@ -289,7 +289,7 @@
 		}
 	}
 	.featureicons {
-		margin-bottom: 0;
+		//margin-bottom: 0;
 	}	
 	.doublepane {
 		.col-sm-6 {
@@ -329,16 +329,16 @@
 		margin-bottom: 15px;
 		li {
 			top: 15px;
-			width: 50%;
+			//width: 50%;
 			padding-bottom: 15px;
 			&.col-xs-6:nth-child(even) {
-				padding-left: 0;
+				//padding-left: 0;
 			}
 			&.col-xs-6:nth-child(odd) {
-				padding-right: 0;
+				//padding-right: 0;
 			}
 			&:last-child {
-				width: 100%;
+				//width: 100%;
 			}
 		}
 	}
