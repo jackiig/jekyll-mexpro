@@ -1,0 +1,443 @@
+@charset "utf-8";
+//= require_self
+
+// Styles Only for Customer Service Pages
+
+// Claims Page Photo, Text, Quote Box
+.feature {
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url('../images/claims/claims-feature.jpg');
+	min-height: 475px;
+	position: relative;
+	background-size: cover;
+	margin-bottom: 30px;
+	h1 {
+		color: white;
+		font-size: 1.8em;
+		line-height: 1;
+	}
+	p {
+		font-size: 0.9em;
+		padding-top: 15px;
+		color: white;
+	}
+}
+
+// Quote box dropdown within feature image 
+.quotedropdown {
+	.dropdown-menu {
+		background-color: white;
+		border-radius: 0;
+		padding: 0;
+		margin: 0;
+		border: 0;
+		font-size: 0.9em;
+		z-index: 1100; //puts above feature icons
+		> li {
+			background-color: white;
+			color: #798d96;
+			width: 100%;
+			&.col-sm-6 {
+				padding-left: 0;
+			}
+			&:nth-child(4) {
+				.right {
+					padding-top: 20px;
+				}
+			}
+			&:nth-child(odd) {
+				background-color: #f3f8fa;
+			}
+			span {
+				background-image: url('../images/claims/claimsfeatureicons.jpg');
+				background-repeat: no-repeat;
+				width: 153px;
+				height: 60px;
+				display: block;
+				margin:0;
+				&.aba {
+					background-position: 0 0;
+				}
+				&.elag {
+					background-position: 0 -60px;
+				}
+				&.gnp {
+					background-position: 0 -120px;
+				}
+				&.mexvisit {
+					background-position: 0 -180px;
+				}
+			}
+			.left {
+				width: 153px;
+				float:left;
+			}
+			.right {
+				text-align: center;
+				padding-top: 10px;
+				height: 60px;
+				span {
+					background-image: none;
+					display: inline;
+					&.hidden-xs {
+						height: inherit;
+						width: inherit;
+					}
+				}
+			}
+		}
+	}
+}
+
+// Mexico insurance required, online policy easy section
+.doublepane {
+	h2 {
+		font-size: 24px !important;
+	}
+	.col-sm-6 {
+		max-height: 420px;
+		span {
+			background-repeat: no-repeat;
+			background-position: top center;
+			display: block;
+		}
+	}
+	.col-sm-6:first-child {
+		padding: 2% 6% 0;
+		span.check {
+			background-image: url('../images/check-mark.png');
+			height: 20px;
+			width: 20px;
+			margin: 20px auto 3px;
+		}
+	}
+	.col-sm-6:last-child {
+		padding: 0;
+		span {
+			background-image: url('../images/claims/recommendations.jpg');
+			background-size: cover;
+			min-height: 420px;
+			max-width: 750px;
+		}
+	}
+}
+
+.claimspartners {
+	.col-sm-12 > p {
+		margin: 40px 15px 30px;
+	}
+	span {
+		background-image: url('../images/claims/claimsfeatureicons.jpg');
+		background-repeat: no-repeat;
+		width: 153px;
+		height: 60px;
+		display: block;
+		margin:0;
+		&.aba {
+			background-position: 0 0;
+		}
+		&.elag {
+			background-position: 0 -60px;
+		}
+		&.gnp {
+			background-position: 0 -120px;
+		}
+		&.mexvisit {
+			background-position: 0 -180px;
+		}
+	}
+	li {
+		list-style: none;
+		&:nth-child(odd) div {
+			background-color: #f3f8fa;
+		}
+		&.title {
+			div {
+				background-color: #d9e3e7;
+				&.company, &.phone1, &.phone2 {
+					padding: 15px;
+				}
+			}
+			&.bottom div {
+				font-size: 0.8em;
+				&:last-child {
+					padding-top: 10px;
+				}
+				&.phone1 {
+					padding: 20px 0;
+				}
+			}
+		}
+		> div {
+			border-right: 1px solid white;
+			border-bottom: 1px solid white;
+			height: 60px;
+			float:left;
+			text-align: center;
+			&.company {
+				width: 153px;
+			}
+			&.phone1, &.phone2 {
+				span {
+					background-image: none;
+					height: inherit;
+					width: inherit;
+					display: inline;
+				}
+			}
+			&.phone1 {
+				width: 400px;
+				padding: 10px 0;
+			}
+			&.phone2 {
+				width: 320px;
+				padding: 20px 0;
+			}
+		}
+		&:nth-child(5) div.phone1 {
+			padding: 20px 0;
+		}
+	}
+}
+.container.last {
+	padding: 15px 40px;
+}
+//Claims expectations
+.claimsexp {
+	h2 {
+		color: #0c93d2;
+	}
+}
+
+/* Device Based css */
+
+/* Large Screen size - Desktop : 1200px wide and larger */
+@media (min-width:1200px) {
+	.claimspartners {
+		ul {
+			width: 903px;
+			margin-left: 100px;
+		}
+	}
+} // End Large Screen
+
+/* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
+@media (min-width:992px) and (max-width:1199px) {
+	.claimspartners {
+		ul {
+			width: 933px;
+			margin-left: 0;
+		}
+		li {
+			&.title {
+				&.bottom div {
+					padding-top: 10px;
+				}
+				div {
+					&.company, &.phone1 {
+						padding: 15px;
+					}
+					&.phone2 {
+						padding-top: 7px;
+					}
+				}
+			}
+			div {
+				&.company {
+					width: 153px;
+				}
+				&.phone1, &.phone2 {
+
+				}
+				&.phone1 {
+					width: 450px;
+					
+				}
+				&.phone2 {
+					width: 300px;
+				}
+			}
+		}
+	}
+}  //end Medium Screen
+
+@media (max-width: 991px) {
+//CSS Specific to navbar break point
+	.feature {
+		min-height: 400px;
+	}
+}
+
+/* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
+@media (min-width:768px) and (max-width:991px) {
+	.feature {
+		h1 {
+			margin-top: 45px;
+			font-size: 1.6em;
+		}
+	}
+	.quotedropdown {
+		ul.dropdown-menu {
+			> li {
+				&.col-sm-6 {
+					padding-right: 8px;
+				}
+			}
+		}
+	}
+	.claimspartners {
+		ul {
+			width: 710px;
+			margin-left: 0;
+		}
+		li {
+			font-size: 0.9em;
+			&.title {
+				div {
+					&.company, &.phone1, &.phone2 {
+						padding: 10px;
+					}
+				}
+				&.bottom .phone2 {
+					padding: 5px 10px !important;
+				}
+			}
+			div {
+				&.company {
+					width: 153px;
+				}
+				&.phone1, &.phone2 {
+
+				}
+				&.phone1 {
+					width: 325px;
+					
+				}
+				&.phone2 {
+					width: 200px;
+				}
+			}
+		}
+	}
+} // End Small Screen
+
+/* Xtra-Small Screen Size - Phone : 480px - 767px */
+@media (max-width:767px) {
+	.feature {
+		background-image: url('../images/claims/claims-feature-mobile.jpg');
+		background-repeat: no-repeat;
+		min-height: 450px;
+		text-align: center;
+		h1 {
+			text-align: center;
+			margin-top: 1.2em;
+		}
+		.dropdown {
+			text-align: center;
+		}
+	}
+	.btn-primary.btn {
+		width: 100%;
+	}
+	.quotedropdown {
+		ul.dropdown-menu {
+			margin: auto;
+			float: none;
+			position: relative;
+			font-size: 0.8em;
+			> li {
+				&.col-sm-6 {
+					padding-right: 8px;
+				}
+				.right {
+					padding-top: 12px;
+				}
+				&:last-child {
+					> a, > a:hover, > a:visited, > a:active {
+					padding-bottom: 8px;
+					}
+				}
+			}
+		}
+	}
+	.doublepane {
+		background-color: transparent !important;
+		.col-sm-6 {
+			min-height: 410px;
+			width: 100%;
+			&:first-child {
+				padding: 0;
+				background-image: url('../images/claims/recommendations.jpg');
+				background-size: cover;
+				background-repeat: no-repeat;
+				background-position: top center;
+				display: block;
+				&:before {
+					content: '';
+					position: absolute;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					left: 0;
+					background-image: linear-gradient(to bottom right,#000,#000);
+			        opacity: .5;
+				}
+				.text {
+					position: relative;
+					padding: 5px 15px 10px;
+				}
+			}
+			&:last-child {
+				display: none;
+			}
+		}
+	} // end doublepane css
+	.claimspartners #ClaimCarousel {
+		div {
+			width: 223px;
+			margin: auto;
+			&.title {
+				padding: 10px;
+				color: #3c4b52;
+				background-color: #d9e3e7;
+				margin: 5px 0 1px;
+			}
+			&.phone1, &.phone2 {
+				padding: 20px 0;
+				background-color: #f3f8fa;
+			}
+			span {
+				background-image: none;
+				margin: 0 auto;
+				text-align: center;
+				width: 223px;
+				height: 100%;
+				&.aba, &.elag, &.gnp, &.mexvisit {
+					background-image: url('../images/partners.jpg');
+					height: 107px;
+					padding: 0;
+				}
+				&.aba {
+					background-position: 0 0;
+				}
+				&.elag {
+					background-position: 0 -220px;
+				}
+				&.gnp {
+					background-position: 0 -110px;
+				}
+				&.mexvisit {
+					background-position: 0 -330px;
+				}
+			}
+		}
+		.carousel-control {
+			&.right, &.left {
+				.icon-next, .icon-prev {
+					background-image: none;
+				}
+			} 
+		}
+	} // end partners css
+} //End Xtra-Small Screen
