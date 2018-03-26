@@ -119,17 +119,21 @@
 // Mexico insurance required, online policy easy section
 .doublepane {
 	&.story {
-		.col-sm-6 {
-			padding: 20px 35px 30px;
-		}
-		.col-sm-6:last-child {
-			background-image: url('../images/meet-mexpro/Andrea-Jim-Labelle.jpg');
-			background-position: center center;
-			background-color: #f3f3f3;
+		.col-md-6, .col-md-3 {
+			padding: 20px 20px 30px;
+			background-position: right top;
 			background-repeat: no-repeat;
-			min-height: 400px;
+			min-height: 500px;
 		}
-
+		.col-md-3:first-child {
+			background-image: url('../images/about/andrea.jpg');
+			padding: 0;
+			background-color: white;
+		}
+		.col-md-3:last-child {
+			background-image: url('../images/about/jim.jpg');
+			padding: 0;
+		}
 	}
 }
 
@@ -186,6 +190,11 @@
 		.col-sm-6 {
 			min-height: 325px;
 		}
+		&.story {
+			.col-md-6, .col-md-3 {
+				min-height: 450px;
+			}
+		}
 	}
 	.people.doublepane {
 		.col-sm-6 {
@@ -224,7 +233,10 @@
 	.doublepane {
 		&.story {
 			.col-sm-6:last-child {
-				min-height: 575px;
+				//min-height: 575px;
+			}
+			.col-md-6, .col-md-3 {
+				min-height: 425px;
 			}
 		}
 		.home-sp & .col-sm-6 {
