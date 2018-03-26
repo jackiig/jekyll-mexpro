@@ -6,21 +6,21 @@
 // Claims Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-image: url('../images/claims/claims-feature.jpg');
-	min-height: 475px;
+	background-position: center top;
+	background-image: url('../images/customer/call-center-feature.jpg');
+	min-height: 500px;
 	position: relative;
 	background-size: cover;
 	margin-bottom: 30px;
 	h1 {
 		color: white;
-		font-size: 1.8em;
-		line-height: 1;
+		font-size: 1.7em;
+		font-weight: normal;
 	}
 	p {
-		font-size: 0.9em;
-		padding-top: 15px;
-		color: white;
+		//font-size: 0.9em;
+		//padding-top: 15px;
+		//color: white;
 	}
 }
 
@@ -325,8 +325,6 @@
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/claims/claims-feature-mobile.jpg');
-		background-repeat: no-repeat;
 		min-height: 450px;
 		text-align: center;
 		h1 {
