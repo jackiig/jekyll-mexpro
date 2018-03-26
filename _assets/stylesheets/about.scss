@@ -234,6 +234,16 @@ h2, h3 {
     background-repeat: repeat-x;
     background-color: #fefefe !important;
     margin-top: 35px;
+    color: #798d96 !important;
+    h2 {
+    	color: #3c4b52 !important;
+    }
+    h3 {
+    	margin-top: 10px;
+    }
+    .CustName, .CustLoc {
+    	color: #0c93d2;
+    }
 }
 
 //Video Modal
@@ -335,9 +345,10 @@ h2, h3 {
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		background-image: url('../images/home-page-mobile-1.jpg');
+		//background-image: url('../images/home-page-mobile-1.jpg');
+		background-image: url('../images/about/about-bg.jpg');
 		background-repeat: no-repeat;
-		background-position: right bottom;
+		background-position: center top;
 		background-size: cover;
 		h1 {
 			text-align: center;
