@@ -10,7 +10,8 @@ h2, h3 {
 .feature {
 	background-repeat: no-repeat;
 	background-position: right bottom;
-	background-image: url('../images/home-page-1.jpg');
+	//background-image: url('../images/home-page-1.jpg');
+	background-image: url('../images/about/about-bg.jpg');
 	min-height: 400px;
 	position: relative;
 	background-size: cover;
@@ -22,7 +23,7 @@ h2, h3 {
 		  //height: 100%;
 		  position: relative;
 		  z-index: 1;
-		  opacity: 0.8;
+		  opacity: 0.9;
 	}
 	h1, h2 {
 		color: #3c4b52 !important;
@@ -208,19 +209,19 @@ h2, h3 {
 // Home Page Photo, Text, Quote Box
 .why {
 	background-repeat: no-repeat;
-	background-position: right bottom;
-	background-image: url('../images/home-page-1.jpg');
+	background-position: left top;
+	background-image: url('../images/about/car-accident.jpg');
 	min-height: 250px;
 	position: relative;
 	background-size: cover;
 	color: white;
 	.overlay {
 		background-color: #0c93d2;
-		  top: 0;
-		  left: 0;
-		  position: relative;
-		  z-index: 1;
-		  opacity: 0.8;
+		top: 0;
+		left: 0;
+		position: relative;
+		z-index: 1;
+		opacity: 0.75;
 	}
 	.col-sm-12 {
 		padding: 30px;
