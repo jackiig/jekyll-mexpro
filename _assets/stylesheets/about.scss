@@ -141,6 +141,7 @@ h2, h3 {
 	}
 }
 
+// Our People
 .people.doublepane {
 	.col-sm-6:first-child {
 		padding: 0;
@@ -202,6 +203,36 @@ h2, h3 {
 		height: 67px;
 		width: 67px;
 	}
+}
+
+// Home Page Photo, Text, Quote Box
+.why {
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url('../images/home-page-1.jpg');
+	min-height: 250px;
+	position: relative;
+	background-size: cover;
+	color: white;
+	.overlay {
+		background-color: #0c93d2;
+		  top: 0;
+		  left: 0;
+		  position: relative;
+		  z-index: 1;
+		  opacity: 0.8;
+	}
+	.col-sm-12 {
+		padding: 30px;
+	}
+}
+
+// Testimonials
+.testimonials {
+	background-image: url(../images/auto/coverage-slice.png) !important;
+    background-repeat: repeat-x;
+    background-color: #fefefe !important;
+    margin-top: 35px;
 }
 
 //Video Modal
