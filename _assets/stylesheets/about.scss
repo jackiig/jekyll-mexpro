@@ -2,7 +2,7 @@
 //= require_self
 
 // Styles Only for home page
-h2 {
+h2, h3 {
 	font-size: 25px !important;
 	text-transform: initial !important;
 }
@@ -190,12 +190,18 @@ h2 {
 
 //NFP
 .nfp {
-	background-image: url('../images/about/nfp-logo.png');
-	background-repeat: no-repeat;
-	display: block;
-	margin: 0 auto 10px;
-	height: 67px;
-	width: 67px;
+	background-image: url(../images/auto/coverage-slice.png);
+    background-repeat: repeat-x;
+    background-color: #fefefe;
+    margin-top: 35px;
+    span.nfplogo {
+		background-image: url('../images/about/nfp-logo.png');
+		background-repeat: no-repeat;
+		display: block;
+		margin: 0 auto 10px;
+		height: 67px;
+		width: 67px;
+	}
 }
 
 //Video Modal
