@@ -399,6 +399,7 @@
     "alerts.less",
     "media.less",
     "list-group.less",
+    "panels.less",
     "responsive-embed.less",
     "close.less",
     "component-animations.less",
@@ -422,5 +423,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "https://getbootstrap.com/docs/3.3/customize/?id=ef09ba38e868ceb939fa869bf21e0bb2"
+  "customizerUrl": "<none>"
 }
