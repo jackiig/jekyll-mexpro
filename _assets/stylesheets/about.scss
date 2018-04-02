@@ -260,7 +260,7 @@ h2, h3 {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-
+	
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
@@ -350,7 +350,7 @@ h2, h3 {
 		background-size: cover;
 		h1 {
 			text-align: center;
-			margin-top: 1.2em;
+			margin-top: 1.6em;
 		}
 		.dropdown {
 			text-align: center;
@@ -378,34 +378,26 @@ h2, h3 {
 
 	.doublepane {
 		&.story {
-			.col-sm-6:last-child {
-				min-height: 300px;
+			.col-sm-6 {
 				border-bottom: 1px solid #e8e8e8;
+				padding-top: 0;
 			}
 		}
-		.col-sm-6 {
-			//min-height: 390px;
-			&:last-child {
-				//top: -30px;
-    			//min-height: 350px;
+		&.people {
+			.col-sm-7 {
+				min-height: 425px;
+				padding: 0 20px;
 			}
-		}
-	}
-
-	.people.doublepane {
-		.col-sm-6 {
-			min-height: 300px;
-		}
-		.col-sm-6:last-child {
-			background-position: 50% 90%;
-			padding: 2% 5%  0;
-			top: 0;
-			h2 {
-				font-size: 1.5em;
-				margin-bottom: 15px;
-			}
-			p {
-				font-size: 1em;
+			.col-sm-5:first-child .video {
+				min-height: 500px;
+				padding: 0 20px 20px;
+				h2 {
+					//font-size: 1.5em;
+					//margin-bottom: 15px;
+				}
+				p {
+					//font-size: 1em;
+				}
 			}
 		}
 	}
