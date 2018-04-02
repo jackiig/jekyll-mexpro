@@ -124,15 +124,23 @@ h2, h3 {
 // Mexico insurance required, online policy easy section
 .doublepane {
 	&.story {
-		.col-sm-6 {
+		.col-sm-6:first-child {
 			padding: 20px 20px 30px;
 			min-height: 500px;
+			max-width: 750px;
 		}
 		.col-sm-6:last-child {
-			background-image: url('../images/about/jim-andrea.jpg');
 			padding: 0;
-			background-position: center top;
-			background-repeat: no-repeat;
+			background-image: none;
+			.video {
+				background-image: url('../images/play-button.png'),url('../images/about/jim-andrea.jpg');
+				background-position: 50% 50%, top center;
+				min-height: 500px;
+				background-size: 80px 80px, cover;
+				background-repeat: no-repeat;
+				display: block;
+				
+			}
 		}
 	}
 }
