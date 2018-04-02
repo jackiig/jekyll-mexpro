@@ -9,9 +9,9 @@ h2, h3 {
 // Home Page Photo, Text, Quote Box
 .feature {
 	background-repeat: no-repeat;
-	background-position: right bottom;
+	background-position: right center;
 	//background-image: url('../images/home-page-1.jpg');
-	background-image: url('../images/about/about-bg.jpg');
+	background-image: url('../images/about/buying-online1.jpg');
 	min-height: 400px;
 	position: relative;
 	background-size: cover;
@@ -23,7 +23,7 @@ h2, h3 {
 		  //height: 100%;
 		  position: relative;
 		  z-index: 1;
-		  opacity: 0.9;
+		  opacity: 0.85;
 	}
 	h1, h2 {
 		color: #3c4b52 !important;
@@ -124,41 +124,40 @@ h2, h3 {
 // Mexico insurance required, online policy easy section
 .doublepane {
 	&.story {
-		.col-md-6, .col-md-3 {
+		.col-sm-6 {
 			padding: 20px 20px 30px;
-			background-position: right top;
-			background-repeat: no-repeat;
 			min-height: 500px;
 		}
-		.col-md-3:first-child {
-			background-image: url('../images/about/andrea.jpg');
+		.col-sm-6:last-child {
+			background-image: url('../images/about/jim-andrea.jpg');
 			padding: 0;
-			background-color: white;
-		}
-		.col-md-3:last-child {
-			background-image: url('../images/about/jim.jpg');
-			padding: 0;
+			background-position: center top;
+			background-repeat: no-repeat;
 		}
 	}
 }
 
 // Our People
 .people.doublepane {
-	.col-sm-6:first-child {
-		padding: 0;
-		background-image: none;
-		.video {
-			background-image: url('../images/play-button.png'),url('../images/company-photo750.jpg');
-			background-position: 50% 50%, top center;
-			max-width: 750px;
-			min-height: 300px;
-			background-size: 80px 80px, cover;
-			background-repeat: no-repeat;
-			display: block;
+	.col-md-6, .col-sm-5 {
+		&:first-child {
+			padding: 0;
+			background-image: none;
+			.video {
+				background-image: url('../images/play-button.png'),url('../images/company-photo750.jpg');
+				background-position: 50% 50%, top center;
+				max-width: 750px;
+				min-height: 300px;
+				background-size: 80px 80px, cover;
+				background-repeat: no-repeat;
+				display: block;
+			}
 		}
 	}
-	.col-sm-6:last-child {
-		background-color: #0c93d2;
+	.col-md-6, .col-sm-7 {
+		&:last-child,  {
+			background-color: #0c93d2;
+		}
 	}
 	.home-sp & {
 		.col-sm-6:last-child {
@@ -274,14 +273,14 @@ h2, h3 {
 			min-height: 325px;
 		}
 		&.story {
-			.col-md-6, .col-md-3 {
+			.col-sm-6 {
 				min-height: 450px;
 			}
 		}
 	}
 	.people.doublepane {
-		.col-sm-6 {
-			min-height: 300px;
+		.col-sm-7, .col-sm-5:first-child .video {
+			min-height: 350px;
 		}
 		.home-sp & {
 			.col-sm-6:last-child {
@@ -314,30 +313,28 @@ h2, h3 {
 	}
 	.doublepane {
 		&.story {
-			.col-sm-6:last-child {
-				//min-height: 575px;
-			}
-			.col-md-6, .col-md-3 {
-				min-height: 425px;
+			.col-sm-6 {
+				padding: 0 20px;
 			}
 		}
 		.home-sp & .col-sm-6 {
 			min-height: 375px;
 		}
-	}
-	.people.doublepane {
-		.col-sm-6 {
-			min-height: 300px;
-		}
-		.col-sm-6:last-child {
-			padding: 2% 3% 0;
-			h2 {
-				font-size: 1.4em;
+		&.people {
+			.col-sm-5:first-child .video {
+				min-height: 350px;
 			}
-			p {
-				font-size: 0.9em;
+			.col-sm-7:last-child {
+				min-height: 350px;
+				padding: 20px;
+				h2 {
+					font-size: 1.4em;
+					padding-top: 0;
+				}
+				p {
+					font-size: 0.9em;
+				}
 			}
-			background-position: 50% 80%;
 		}
 	}
 } // End Small Screen
@@ -346,9 +343,10 @@ h2, h3 {
 @media (max-width:767px) {
 	.feature {
 		//background-image: url('../images/home-page-mobile-1.jpg');
-		background-image: url('../images/about/about-bg.jpg');
+		//background-image: url('../images/about/about-bg.jpg');
+		background-image: url('../images/about/buying-online-mobile.jpg');
 		background-repeat: no-repeat;
-		background-position: center top;
+		background-position: center center;
 		background-size: cover;
 		h1 {
 			text-align: center;
