@@ -180,6 +180,10 @@ h2, h3 {
 // Our Technology, Personal Info is safe
 .techsafe {
 	//position:relative;
+	margin-top: 35px;
+	h3 {
+		margin-top: 10px;
+	}
 	span {
 		background-image: url('../images/homeown/mxho-coverage-sprites.png');
 		background-repeat: no-repeat;
@@ -445,6 +449,11 @@ h2, h3 {
 					//font-size: 1em;
 				}
 			}
+		}
+	}
+	.techsafe {
+		.col-sm-6:last-child {
+			margin-top: 35px;
 		}
 	}
 	.partners li {
