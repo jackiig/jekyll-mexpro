@@ -48,6 +48,9 @@ h2, h3 {
 .featureicons {
 	z-index: 1000;
 	position:relative;
+	h2 {
+		display: none;
+	}
 	ul {
 		margin-left: -40px;
 	}
@@ -335,10 +338,12 @@ h2, h3 {
 			.col-sm-6 {
 				&:first-child {
 					padding: 0 20px;
+					height: 450px;
 				}
 				&:last-child {
 					.video {
 						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
+						height: 450px;
 					}
 				}
 			}
@@ -384,10 +389,16 @@ h2, h3 {
 	}
 	.featureicons {
 		margin-bottom: 15px;
+		h2 {
+			display: inherit;
+			color: #0c93d2;
+			margin-top: 28px;
+		}
 		li {
 			top: 15px;
 			width: 50%;
 			padding-bottom: 20px;
+			height: inherit;
 			&:nth-child(even) {
 				padding-left: 0;
 			}
@@ -437,6 +448,11 @@ h2, h3 {
 	.partners li {
 		width: 100%;
 		display: block;
+	}
+	.why {
+		.col-sm-12 {
+			padding-bottom: 20px;
+		}
 	}
 	.home-sp {
 		.feature {
