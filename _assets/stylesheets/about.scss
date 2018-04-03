@@ -55,11 +55,12 @@ h2, h3 {
 		list-style: none;
 		text-align: center;
 		line-height: 1.2;
-		top: -30px;
+		top: -80px;
 		width: 14%;
 		float:left;
 		position: relative;
 		padding: 0 10px;
+		height: 50px;
 		a span {
 			background-image: url('../images/featureiconsall.png');
 			background-repeat: no-repeat;
@@ -207,7 +208,6 @@ h2, h3 {
 		background-image: url('../images/about/NFP_logo.png');
 		background-repeat: no-repeat;
 		display: inline-block;
-		//margin: 0 auto 10px;
 		width: 151px;
 		height: 40px;
 		margin-right: 10px;
@@ -231,7 +231,7 @@ h2, h3 {
 		//left: 0;
 		//position: relative;
 		z-index: 1;
-		opacity: 0.85;
+		opacity: 0.75;
 	}
 	h2 {
 		color: black;
@@ -240,7 +240,7 @@ h2, h3 {
 		color: #3c4b52;
 	}
 	.col-sm-12 {
-		padding: 20px;
+		padding: 20px 20px 45px;
 	}
 }
 
