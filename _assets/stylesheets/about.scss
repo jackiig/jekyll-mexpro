@@ -199,14 +199,21 @@ h2, h3 {
 	background-image: url(../images/auto/coverage-slice.png);
     background-repeat: repeat-x;
     background-color: #fefefe;
-    margin-top: 35px;
+    margin-top: 25px;
+    h3 {
+    	color: #4b5b52;
+    }
     span.nfplogo {
-		background-image: url('../images/about/nfp-logo.png');
+		background-image: url('../images/about/NFP_logo.png');
 		background-repeat: no-repeat;
-		display: block;
-		margin: 0 auto 10px;
-		height: 67px;
-		width: 67px;
+		display: inline-block;
+		//margin: 0 auto 10px;
+		width: 151px;
+		height: 40px;
+		margin-right: 10px;
+	}
+	p {
+		margin-bottom: 25px;
 	}
 }
 
