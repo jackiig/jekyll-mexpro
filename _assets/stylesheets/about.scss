@@ -175,22 +175,21 @@ h2, h3 {
 
 // Our Technology, Personal Info is safe
 .techsafe {
-	position:relative;
-	margin: 30px auto;
+	//position:relative;
 	span {
 		background-image: url('../images/homeown/mxho-coverage-sprites.png');
 		background-repeat: no-repeat;
 		display: block;
 		margin: 0 auto 10px;
 		height: 67px;
-		width: 67px;
 		vertical-align: bottom;
 		&.theft {
 			background-position: 0 0;
 			width: 73px;
 		}
 		&.technology {
-			background-image: url('../images/about/tech.png');
+			background-image: url('../images/about/tech-icon.png');
+			width: 86px;
 		}
 	}
 }
