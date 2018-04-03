@@ -126,7 +126,7 @@ h2, h3 {
 	&.story {
 		.col-sm-6:first-child {
 			padding: 20px 20px 30px;
-			min-height: 500px;
+			min-height: 400px;
 			max-width: 750px;
 		}
 		.col-sm-6:last-child {
@@ -136,7 +136,7 @@ h2, h3 {
 			.video {
 				background-image: url('../images/play-button.png'),url('../images/about/jim-andrea.png');
 				background-position: 50% 50%, top center;
-				min-height: 500px;
+				min-height: 400px;
 				background-size: 80px 80px, cover;
 				background-repeat: no-repeat;
 				display: block;
@@ -285,7 +285,9 @@ h2, h3 {
 		}
 		&.story {
 			.col-sm-6 {
-				min-height: 450px;
+				&:last-child .video, &:first-child {
+					min-height: 475px;
+				}
 			}
 		}
 	}
