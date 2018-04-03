@@ -338,12 +338,13 @@ h2, h3 {
 			.col-sm-6 {
 				&:first-child {
 					padding: 0 20px;
-					height: 450px;
+					//min-height: 450px;
 				}
 				&:last-child {
 					.video {
 						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
-						height: 450px;
+						min-height: 500px;
+						background-position: 50% 50%, center top;
 					}
 				}
 			}
@@ -424,6 +425,7 @@ h2, h3 {
 				&:last-child {
 					.video {
 						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
+						background-position: 50% 50%, 36% 50%;
 					}
 				}
 			}
