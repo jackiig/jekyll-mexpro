@@ -8,6 +8,8 @@ OptionSettings:
   aws:elasticbeanstalk:command:
     BatchSize: '30'
     BatchSizeType: Percentage
+  aws:elasticbeanstalk:sns:topics:
+    Notification Endpoint: jack.mangels@nfp.com
   aws:elb:policies:
     ConnectionDrainingEnabled: true
   aws:elb:loadbalancer:
