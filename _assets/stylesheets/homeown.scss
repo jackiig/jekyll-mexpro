@@ -270,6 +270,14 @@
 	.homeins.condo .feature .col-sm-6:first-child {
 	    padding-top: 2%;
 	}
+	.sp {
+		.prodcoverage {
+			margin-bottom: 0;
+			li {
+				height: 225px;
+			}
+		}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -302,8 +310,11 @@
 		}
 	}
 	.sp {
-		.prodcoverage li {
-			height: 200px;
+		.prodcoverage {
+			margin-bottom: 0;
+			li {
+				height: 225px;
+			}
 		}
 		.doublepane.claims .col-sm-6:last-child {
 			min-height: 375px;
