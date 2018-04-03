@@ -133,7 +133,7 @@ h2, h3 {
 			padding: 0;
 			background-image: none;
 			.video {
-				background-image: url('../images/play-button.png'),url('../images/about/jim-andrea.jpg');
+				background-image: url('../images/play-button.png'),url('../images/about/jim-andrea1.jpg');
 				background-position: 50% 50%, top center;
 				min-height: 500px;
 				background-size: 80px 80px, cover;
@@ -220,9 +220,9 @@ h2, h3 {
 	background-size: cover;
 	.overlay {
 		background-color: #fefefe;
-		top: 0;
-		left: 0;
-		position: relative;
+		//top: 0;
+		//left: 0;
+		//position: relative;
 		z-index: 1;
 		opacity: 0.85;
 	}
@@ -233,7 +233,7 @@ h2, h3 {
 		color: #3c4b52;
 	}
 	.col-sm-12 {
-		padding: 30px;
+		padding: 20px;
 	}
 }
 
@@ -391,16 +391,18 @@ h2, h3 {
 			.col-sm-6 {
 				border-bottom: 1px solid #e8e8e8;
 				padding-top: 0;
+				&:first-child {
+					padding-top: 0;
+				}
 			}
 		}
 		&.people {
 			.col-sm-7 {
 				min-height: 425px;
-				padding: 0 20px;
+				padding: 0 20px 20px;
 			}
 			.col-sm-5:first-child .video {
-				min-height: 500px;
-				padding: 0 20px 20px;
+				//min-height: 500px;
 				h2 {
 					//font-size: 1.5em;
 					//margin-bottom: 15px;
