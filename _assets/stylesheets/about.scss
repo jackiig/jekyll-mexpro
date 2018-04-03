@@ -132,14 +132,15 @@ h2, h3 {
 		.col-sm-6:last-child {
 			padding: 0;
 			background-image: none;
+			background-color: #f3f3f3;
 			.video {
-				background-image: url('../images/play-button.png'),url('../images/about/jim-andrea1.jpg');
+				background-image: url('../images/play-button.png'),url('../images/about/jim-andrea.png');
 				background-position: 50% 50%, top center;
 				min-height: 500px;
 				background-size: 80px 80px, cover;
 				background-repeat: no-repeat;
 				display: block;
-				
+
 			}
 		}
 	}
@@ -324,7 +325,14 @@ h2, h3 {
 	.doublepane {
 		&.story {
 			.col-sm-6 {
-				padding: 0 20px;
+				&:first-child {
+					padding: 0 20px;
+				}
+				&:last-child {
+					.video {
+						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
+					}
+				}
 			}
 		}
 		.home-sp & .col-sm-6 {
@@ -394,8 +402,13 @@ h2, h3 {
 				&:first-child {
 					padding-top: 0;
 				}
+				&:last-child {
+					.video {
+						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
+					}
+				}
 			}
-		}
+		}			
 		&.people {
 			.col-sm-7 {
 				min-height: 425px;
