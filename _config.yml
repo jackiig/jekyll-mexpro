@@ -35,12 +35,15 @@ assets:
   # Add a CDN for where to host static files.
   # cdn: "http://yourdomain.com"
 exclude:
+  - _eb
+  - _nginx
+  - aliases
+  - docker-compose.yml
+  - Dockerfile
   - Gemfile
   - Gemfile.lock
-  - Dockerfile
-  - docker-compose.yml
+  - Jenkinsfile
   - LICENSE
   - README.md
   - server.sh
-  - aliases
 
