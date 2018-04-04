@@ -13,10 +13,6 @@ node {
   // If BRANCH_NAME includes '_', convert to '-'
   env.BRANCH_NAME = env.BRANCH_NAME.replaceAll('_', '-')
   env.EBS_ENV_NAME = env.BRANCH_NAME
-  if (env.BRANCH_NAME == "master") {
-    env.BRANCH_NAME = 'latest'
-    env.EBS_ENV_NAME = 'jekyll-mexpro-nginx-production'
-  }
 
   try {
     stage('Building Rails assets') {
