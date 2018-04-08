@@ -284,7 +284,9 @@ h2, h3 {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-	
+	.sp .featureicons {
+		height: 110px;
+	}
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
@@ -336,6 +338,9 @@ h2, h3 {
 	}
 	.featureicons {
 		margin-bottom: 0;
+		.sp & {
+			height: 110px;
+		}
 	}
 	.doublepane {
 		&.story {
