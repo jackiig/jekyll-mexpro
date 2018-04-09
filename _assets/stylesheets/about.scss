@@ -355,9 +355,15 @@ h2, h3 {
 						min-height: 500px;
 						background-position: 50% 50%, center top;
 					}
+					.sp & {
+						.video {
+							min-height: 550px;
+						}
+					}
 				}
 			}
 		}
+
 		.home-sp & .col-sm-6 {
 			min-height: 375px;
 		}
