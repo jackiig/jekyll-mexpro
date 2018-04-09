@@ -54,6 +54,12 @@ a:focus, :focus {
 	color: white;
 }
 
+.orangebg {
+	background-color: #d47d3a;
+	color: white;
+	padding: 15px 40px;
+}
+
 //Home page quote drop down
 .quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
 	width: 270px;
@@ -644,7 +650,7 @@ footer {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1500px) {
-	.doublepane.container-fluid {
+	.doublepane.container-fluid, .orangebg.container-fluid {
 		width: 1500px;
 	}
 } // End Large Screen
