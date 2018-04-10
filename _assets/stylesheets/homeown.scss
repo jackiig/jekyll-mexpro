@@ -156,6 +156,8 @@
 		}
 	}
 	.condo & {
+		margin-top: 10px;
+		margin-bottom: 10px;
 		h2 {
 			font-size: 1.4em;
 			padding-top: 10px;
@@ -276,6 +278,12 @@
     }
     h2 {
     	color: #0c93d2;
+    }
+    &.partners {
+    	margin-bottom: 0;
+    	.col-sm-12 {
+    		padding: 10px 0 0;
+    	}
     }
 }
 
