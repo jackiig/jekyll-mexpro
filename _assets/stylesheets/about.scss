@@ -49,21 +49,24 @@ h2, h3 {
 	z-index: 1000;
 	position:relative;
 	h2 {
-		display: none;
+		//display: none;
+		    color: #0c93d2;
+		    margin-top: 28px;
 	}
 	ul {
 		margin-left: -40px;
+		margin-top: 20px;
 	}
 	li {
 		list-style: none;
 		text-align: center;
 		line-height: 1.2;
-		top: -40px;
+		//top: -40px;
 		width: 14%;
 		float:left;
-		position: relative;
+		//position: relative;
 		padding: 0 10px;
-		height: 80px;
+		//height: 80px;
 		a span {
 			background-image: url('../images/featureiconsall.png');
 			background-repeat: no-repeat;
@@ -233,18 +236,20 @@ h2, h3 {
 	position: relative;
 	background-size: cover;
 	.overlay {
-		background-color: #fefefe;
+		//background-color: #fefefe;
+		background-color: #0c93d2;
 		//top: 0;
 		//left: 0;
 		//position: relative;
 		z-index: 1;
-		opacity: 0.75;
+		opacity: 0.9;
 	}
 	h2 {
-		color: black;
+		//color: black;
 	}
 	p {
-		color: #3c4b52;
+		color: white;
+		font-size: 1.1em;
 	}
 	.col-sm-12 {
 		padding: 20px 20px 50px;
@@ -284,9 +289,7 @@ h2, h3 {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-	.sp .featureicons {
-		height: 110px;
-	}
+
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
