@@ -366,6 +366,11 @@
 		.doublepane.claims .col-sm-6:last-child {
 			min-height: 375px;
 		}
+		&.condo .doublepane {
+			.col-sm-4:nth-child(2) {
+				min-height: 660px;
+			}
+		}
 	}
 } // End Small Screen
 
@@ -434,6 +439,9 @@
 					border-bottom: 0;
 				}
 			}
+		}
+		.sp.condo & .col-sm-4:nth-child(2) {
+		    min-height: initial;
 		}
 		&.claims {
 			.col-sm-6, .col-sm-6:last-child {
