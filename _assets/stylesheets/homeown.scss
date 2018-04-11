@@ -170,6 +170,11 @@
 			border-left: 1px dotted white;
 		}
 	}
+	.sp.condo & {
+		.col-sm-4:nth-child(2) {
+			min-height: 480px;
+		}
+	}
 	&.claims {
 		h2 {
 			font-size: 30px;
@@ -310,6 +315,13 @@
 			margin-bottom: 0;
 			li {
 				height: 225px;
+			}
+		}
+	}
+	.doublepane {
+		.sp.condo & {
+			.col-sm-4:nth-child(2) {
+				min-height: 550px;
 			}
 		}
 	}
