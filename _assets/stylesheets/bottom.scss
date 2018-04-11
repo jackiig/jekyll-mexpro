@@ -650,8 +650,10 @@ footer {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1500px) {
-	.doublepane.container-fluid, .orangebg.container-fluid {
-		width: 1500px;
+	.container-fluid {
+		&.doublepane, &.orangebg, &.techsafe {
+			width: 1500px;
+		}
 	}
 } // End Large Screen
 
