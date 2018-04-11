@@ -161,7 +161,7 @@ h2, h3 {
 			background-image: url('../images/company-photo750.jpg');
 			background-position: top center;
 			max-width: 750px;
-			min-height: 300px;
+			min-height: 350px;
 			background-size: cover;
 			background-repeat: no-repeat;
 			//display: block;
@@ -170,12 +170,6 @@ h2, h3 {
 	.col-md-6, .col-sm-7 {
 		&:last-child,  {
 			background-color: #0c93d2;
-		}
-	}
-	.home-sp & {
-		.col-sm-6:last-child {
-			background-position: 50% 90%;
-			padding-top: 1%;
 		}
 	}
 }
@@ -201,6 +195,9 @@ h2, h3 {
 		&.technology {
 			background-image: url('../images/about/tech-icon.png');
 			width: 86px;
+		}
+		.grayline {
+			display: none;
 		}
 	}
 }
@@ -312,11 +309,8 @@ h2, h3 {
 	.people.doublepane {
 		.col-sm-7, .col-sm-5:first-child {
 			min-height: 350px;
-		}
-		.home-sp & {
-			.col-sm-6:last-child {
-				background-position: 50% 95%;
-				padding-top: 1%;
+			.sp & {
+				min-height: 400px;
 			}
 		}
 	}
@@ -342,7 +336,7 @@ h2, h3 {
 	.featureicons {
 		margin-bottom: 0;
 		.sp & {
-			height: 110px;
+			//height: 110px;
 		}
 	}
 	.doublepane {
@@ -366,16 +360,14 @@ h2, h3 {
 				}
 			}
 		}
-
-		.home-sp & .col-sm-6 {
-			min-height: 375px;
-		}
 		&.people {
-			.col-sm-5:first-child {
+			.col-sm-5:first-child, .col-sm-7:last-child {
 				min-height: 350px;
+				.sp & {
+					min-height: 400px;
+				}
 			}
 			.col-sm-7:last-child {
-				min-height: 350px;
 				padding: 20px;
 				h2 {
 					font-size: 1.4em;
@@ -469,6 +461,11 @@ h2, h3 {
 		.col-sm-6:last-child {
 			margin-top: 35px;
 		}
+		span.grayline {
+			display: block;
+			background-image: none;
+			height: 30px;
+		}
 	}
 	.partners li {
 		width: 100%;
@@ -477,11 +474,6 @@ h2, h3 {
 	.why {
 		.col-sm-12 {
 			padding-bottom: 20px;
-		}
-	}
-	.home-sp {
-		.feature {
-			background-position: 55% 98%, right bottom;
 		}
 	}
 } //End Xtra-Small Screen
