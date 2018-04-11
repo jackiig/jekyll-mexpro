@@ -349,13 +349,8 @@ h2, h3 {
 				&:last-child {
 					.video {
 						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
-						min-height: 500px;
+						min-height: 550px;
 						background-position: 50% 50%, center top;
-					}
-					.sp & {
-						.video {
-							min-height: 550px;
-						}
 					}
 				}
 			}
