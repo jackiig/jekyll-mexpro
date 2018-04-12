@@ -155,15 +155,15 @@
 			} 
 		}
 	}
-	.condo & {
+	.condo &, .singlefam & {
 		margin-top: 10px;
 		margin-bottom: 10px;
-		h2 {
-			font-size: 1.4em;
-			padding-top: 10px;
-		}
 		.col-sm-4 {
 			padding: 20px 15px;
+			h2 {
+			font-size: 1.4em;
+			padding-top: 10px;
+			}
 		}
 		.col-sm-4:nth-child(2) {
 			border-right: 1px dotted white;
@@ -173,6 +173,11 @@
 	.sp.condo & {
 		.col-sm-4:nth-child(2) {
 			min-height: 480px;
+		}
+	}
+	.singlefam & {
+		.col-sm-4:nth-child(2) {
+			min-height: 350px;
 		}
 	}
 	&.claims {
@@ -324,7 +329,13 @@
 				min-height: 550px;
 			}
 		}
+		.singlefam & {
+			.col-sm-4:nth-child(2) {
+		    	min-height: 400px;
+		    }
+		}
 	}
+
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -428,12 +439,13 @@
 				top: -12px;
 			}
 		}
-		.condo & {
+		.condo &, .singlefam & {
 			.col-sm-4 {
 				border-bottom: 1px solid white;
 				&:nth-child(2) {
 					border-left: 0;
 					border-right: 0;
+					min-height: inherit;
 				}
 				&:last-child {
 					border-bottom: 0;
