@@ -34,6 +34,7 @@
 	}
 	&.condo .feature {
 		background-image: url('../images/homeown/condo-feature.jpg');
+		background-position: left top;
 	}
 	&.singlefam .feature, &.condo .feature {
 		min-height: 500px;
