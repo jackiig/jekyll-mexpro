@@ -16,8 +16,8 @@ twitter_username: jekyllrb
 github_username:  jekyll
 google-analytics: UA-3065776-3
 destination: "docs"
-tme_quote_url: https://travelmedevac.com/quote/?orid=133&opid=66
-tme_site_url: https://travelmedevac.com/?orid=133&opid=68
+tme_quote_url: https://travelmedevac.com/quote/?id=IIICOM&sub-id=AGTDST&orid=164&opid=69
+tme_site_url: https://travelmedevac.com/?id=IIICOM&sub-id=AGTDST&orid=164&opid=69
 
 # Build settings
 markdown: kramdown
