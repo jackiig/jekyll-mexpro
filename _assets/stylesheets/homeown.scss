@@ -169,6 +169,7 @@
 		.col-sm-4:nth-child(2) {
 			border-right: 1px dotted white;
 			border-left: 1px dotted white;
+			min-height: 375px;
 		}
 	}
 	.sp.condo & {
@@ -178,7 +179,7 @@
 	}
 	.singlefam & {
 		.col-sm-4:nth-child(2) {
-			min-height: 375px;
+			//min-height: 375px;
 		}
 	}
 	&.claims {
@@ -306,7 +307,7 @@
 	    padding-top: 2%;
 	}
 	.singlefam .doublepane .col-sm-4:nth-child(2) {
-			min-height: 325px;
+		min-height: 325px;
 	}
 } // End Large Screen
 
