@@ -178,7 +178,7 @@
 	}
 	.singlefam & {
 		.col-sm-4:nth-child(2) {
-			min-height: 350px;
+			min-height: 375px;
 		}
 	}
 	&.claims {
@@ -305,6 +305,9 @@
 	.homeins.condo .feature .col-sm-6:first-child {
 	    padding-top: 2%;
 	}
+	.singlefam .doublepane .col-sm-4:nth-child(2) {
+			min-height: 325px;
+	}
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
@@ -329,11 +332,6 @@
 			.col-sm-4:nth-child(2) {
 				min-height: 550px;
 			}
-		}
-		.singlefam & {
-			.col-sm-4:nth-child(2) {
-		    	min-height: 400px;
-		    }
 		}
 	}
 
