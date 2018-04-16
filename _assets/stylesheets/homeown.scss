@@ -39,6 +39,17 @@
 	&.singlefam .feature, &.condo .feature {
 		min-height: 500px;
 	}
+	&.catastrophic .feature {
+		background-image: url('../images/homeown/coverage/hurricane-feature.jpg');
+		background-position: top center;
+		min-height: 475px;
+		h1 {
+			color: white;
+		}
+		p {
+			font-size: 1.1em;
+		}
+	}
 }
 
 //Feature Icons
@@ -297,6 +308,27 @@
     		padding: 10px 0 0;
     	}
     }
+}
+
+.homeins.coverage .orangebg {
+	.col-sm-6:nth-child(2) {
+		background-image: url(../images/homeown/coverage/complete-quote.jpg);
+		background-position: top left;
+		background-repeat: no-repeat;
+		min-height: 300px;
+	}
+	h2 {
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+	li {
+		font-size: 1.1em;
+	}
+	&.better {
+		.col-sm-6 {
+			padding: 2% 5%;
+		}
+	}
 }
 
 /* Device Based css */
