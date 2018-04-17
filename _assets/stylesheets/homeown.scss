@@ -9,46 +9,55 @@
 }
 
 // Homeowners Page Photo, Text, Quote Box
-.homeins {
-	.feature {
-		background-repeat: no-repeat;
-		background-position: right bottom;
-		background-image: url('../images/homeown/homeowners-insurance.jpg');
-		min-height: 575px;
-		position: relative;
-		background-size: cover;
-		.col-sm-6:first-child {
-			padding-top: 5%;
-		}
-		p {
-			color: white;
-			font-size: 1.5em;
-			line-height: 1.1;
-			&:last-child {
-				font-size: 0.9em;
-			}
+.feature {
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-image: url('../images/homeown/homeowners-insurance.jpg');
+	min-height: 575px;
+	position: relative;
+	background-size: cover;
+	.col-sm-6:first-child {
+		padding-top: 5%;
+	}
+	p {
+		color: white;
+		font-size: 1.5em;
+		line-height: 1.1;
+		&:last-child {
+			font-size: 0.9em;
 		}
 	}
-	&.singlefam .feature {
+	.singlefam & {
 		background-image: url('../images/homeown/single-family-feature.jpg');
 	}
-	&.condo .feature {
+	.condo & {
 		background-image: url('../images/homeown/condo-feature.jpg');
 		background-position: left top;
 	}
-	&.singlefam .feature, &.condo .feature {
+	.singlefam &, .condo & {
 		min-height: 500px;
 	}
-	&.catastrophic .feature {
-		background-image: url('../images/homeown/coverage/hurricane-feature.jpg');
+	.coverage & {
 		background-position: top center;
-		min-height: 475px;
+		min-height: 400px;
+		padding-top: 5%;
 		h1 {
 			color: white;
+			margin-top: 10px;
 		}
 		p {
 			font-size: 1.1em;
 		}
+	}
+	.theft & {
+		background-image: url('../images/homeown/coverage/theft-feature.jpg');
+		background-position: bottom center;
+	}
+	.catastrophic & {
+		background-image: url('../images/homeown/coverage/hurricane-feature.jpg');
+	}
+	.adjustable & {
+		background-image: url('../images/homeown/coverage/adjustable-feature.jpg');
 	}
 }
 
@@ -154,6 +163,12 @@
     		padding-top: 40px;
     	}
     }
+    .col-sm-12 {
+    	h2 {
+    		font-size: 26px;
+    	}
+    	padding-bottom: 20px;
+    }
 	&.eligible {
 		background-color: transparent;
 		.col-sm-6:first-child {
@@ -209,6 +224,11 @@
 			background-image: url('../images/homeown/telemarketer.jpg');
 			background-position: center top; 
 			min-height: 350px;
+		}
+		.theft & {
+			.col-sm-6, .col-sm-6:last-child {
+				min-height: 250px;
+			}
 		}
 	}
 }
@@ -319,7 +339,6 @@
 	}
 	h2 {
 		margin-bottom: 20px;
-		margin-top: 20px;
 	}
 	li {
 		font-size: 1.1em;
@@ -328,6 +347,10 @@
 		.col-sm-6 {
 			padding: 2% 5%;
 		}
+	}
+	.col-sm-12 {
+		padding: 30px 30px 20px;
+		font-size: 1.2em;
 	}
 }
 
