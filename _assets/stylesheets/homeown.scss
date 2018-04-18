@@ -245,6 +245,11 @@
 			text-transform: initial;
 		}
 	}
+	.liabcov & {
+		.col-sm-6:last-child {
+			border-left: 1px dotted white;
+		}
+	}
 }
 
 // Homeowners Coverage
@@ -529,6 +534,14 @@
 		&.claims {
 			.col-sm-6, .col-sm-6:last-child {
 				min-height: 375px;
+			}
+		}
+		.liabcov & {
+			.col-sm-6:first-child {
+				border-bottom: 1px solid white;
+			}
+			.col-sm-6:last-child {
+				border-left: 0;
 			}
 		}
 	}
