@@ -47,6 +47,7 @@
 		}
 		p {
 			font-size: 1.1em;
+			line-height: 1.3;
 		}
 	}
 	.theft & {
@@ -58,6 +59,14 @@
 	}
 	.adjustable & {
 		background-image: url('../images/homeown/coverage/adjustable-feature.jpg');
+	}
+	.replace & {
+		background-image: url('../images/homeown/coverage/replacement-feature.jpg');
+		background-position: right center;
+	}
+	.liabcov & {
+		background-image: url('../images/homeown/coverage/liability-feature.jpg');
+		background-position: bottom right;
 	}
 }
 
@@ -231,6 +240,11 @@
 			}
 		}
 	}
+	.coverage & {
+		h2 {
+			text-transform: initial;
+		}
+	}
 }
 
 // Homeowners Coverage
@@ -330,7 +344,7 @@
     }
 }
 
-.homeins.coverage .orangebg {
+.coverage .orangebg {
 	.col-sm-6:nth-child(2) {
 		background-image: url(../images/homeown/coverage/complete-quote.jpg);
 		background-position: top left;
@@ -352,6 +366,11 @@
 		padding: 30px 30px 20px;
 		font-size: 1.2em;
 	}
+	
+}
+.replace.coverage .orangebg .col-sm-12 {
+	padding: 10px;
+	font-size: 1em;
 }
 
 /* Device Based css */
