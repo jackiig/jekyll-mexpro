@@ -487,11 +487,14 @@
 	}
 	.doublepane {
 		.col-sm-6 {
-			min-height: 390px;
+			min-height: 465px;
 			&:last-child {
 				top: -30px;
-    			min-height: 350px;
+    			min-height: 400px;
 			}
+		}
+		.home-sp & .col-sm-6 {
+			min-height: 500px;
 		}
 	}
 	.prodcategories.container-fluid {

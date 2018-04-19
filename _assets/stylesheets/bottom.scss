@@ -47,19 +47,26 @@ a:focus, :focus {
 	background-image: none;
 }
 
+.whiteline {
+	color: white;
+}
 .blueline {
 	color: #0DB7EB;
 }
-.whiteline {
+
+.orangebg {
+	background-color: #d47d3a;
 	color: white;
+	//padding: 15px 40px;
+	h1, h2, h3 {
+		color: white;
+		//margin-top:10px;
+	}
 }
 
 //Home page quote drop down
 .quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
 	width: 270px;
-	.home-sp & {
-		width: 325px;
-	}
 }
 //Claims page drop down
 .claimsins {
@@ -644,8 +651,10 @@ footer {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1500px) {
-	.doublepane.container-fluid {
-		width: 1500px;
+	.container-fluid {
+		&.doublepane, &.orangebg, &.techsafe {
+			width: 1500px;
+		}
 	}
 } // End Large Screen
 

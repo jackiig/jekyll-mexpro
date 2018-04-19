@@ -10,20 +10,17 @@ h2, h3 {
 .feature {
 	background-repeat: no-repeat;
 	background-position: right center;
-	//background-image: url('../images/home-page-1.jpg');
 	background-image: url('../images/about/buying-online1.jpg');
 	min-height: 400px;
 	position: relative;
 	background-size: cover;
 	.overlay {
 		background-color: white;
-		  top: 0;
-		  left: 0;
-		  //width: 100%;
-		  //height: 100%;
-		  position: relative;
-		  z-index: 1;
-		  opacity: 0.85;
+		top: 0;
+		left: 0;
+		position: relative;
+		z-index: 1;
+		opacity: 0.85;
 	}
 	h1, h2 {
 		color: #3c4b52 !important;
@@ -49,21 +46,20 @@ h2, h3 {
 	z-index: 1000;
 	position:relative;
 	h2 {
-		display: none;
+		color: #0c93d2;
+		margin-top: 28px;
 	}
 	ul {
 		margin-left: -40px;
+		margin-top: 20px;
 	}
 	li {
 		list-style: none;
 		text-align: center;
 		line-height: 1.2;
-		top: -40px;
 		width: 14%;
 		float:left;
-		position: relative;
 		padding: 0 10px;
-		height: 80px;
 		a span {
 			background-image: url('../images/featureiconsall.png');
 			background-repeat: no-repeat;
@@ -158,10 +154,9 @@ h2, h3 {
 			background-image: url('../images/company-photo750.jpg');
 			background-position: top center;
 			max-width: 750px;
-			min-height: 300px;
+			min-height: 350px;
 			background-size: cover;
 			background-repeat: no-repeat;
-			//display: block;
 		}
 	}
 	.col-md-6, .col-sm-7 {
@@ -169,17 +164,10 @@ h2, h3 {
 			background-color: #0c93d2;
 		}
 	}
-	.home-sp & {
-		.col-sm-6:last-child {
-			background-position: 50% 90%;
-			padding-top: 1%;
-		}
-	}
 }
 
 // Our Technology, Personal Info is safe
 .techsafe {
-	//position:relative;
 	margin-top: 35px;
 	h3 {
 		margin-top: 10px;
@@ -198,6 +186,9 @@ h2, h3 {
 		&.technology {
 			background-image: url('../images/about/tech-icon.png');
 			width: 86px;
+		}
+		.grayline {
+			display: none;
 		}
 	}
 }
@@ -233,18 +224,13 @@ h2, h3 {
 	position: relative;
 	background-size: cover;
 	.overlay {
-		background-color: #fefefe;
-		//top: 0;
-		//left: 0;
-		//position: relative;
+		background-color: #0c93d2;
 		z-index: 1;
-		opacity: 0.75;
-	}
-	h2 {
-		color: black;
+		opacity: 0.9;
 	}
 	p {
-		color: #3c4b52;
+		color: white;
+		font-size: 1.1em;
 	}
 	.col-sm-12 {
 		padding: 20px 20px 50px;
@@ -284,7 +270,7 @@ h2, h3 {
 
 /* Large Screen size - Desktop : 1200px wide and larger */
 @media (min-width:1200px) {
-	
+
 } // End Large Screen
 
 /* Medium Screen Size - Tablet horizontal : 992px - 1199px wide */
@@ -307,11 +293,8 @@ h2, h3 {
 	.people.doublepane {
 		.col-sm-7, .col-sm-5:first-child {
 			min-height: 350px;
-		}
-		.home-sp & {
-			.col-sm-6:last-child {
-				background-position: 50% 95%;
-				padding-top: 1%;
+			.sp & {
+				min-height: 400px;
 			}
 		}
 	}
@@ -319,9 +302,7 @@ h2, h3 {
 
 @media (max-width: 991px) {
 //CSS Specific to navbar break point
-	.feature { // covers top nav
-		//margin-top: 30px; replaced with content in bottom css
-	}
+
 }
 
 /* Small  Screen Size - Tablet Vertical : 768px - 991px wide*/
@@ -342,26 +323,24 @@ h2, h3 {
 			.col-sm-6 {
 				&:first-child {
 					padding: 0 20px;
-					//min-height: 450px;
 				}
 				&:last-child {
 					.video {
 						background-image: url('../images/play-button.png'),url('../images/about/jim-andrea-mobile.png');
-						min-height: 500px;
+						min-height: 550px;
 						background-position: 50% 50%, center top;
 					}
 				}
 			}
 		}
-		.home-sp & .col-sm-6 {
-			min-height: 375px;
-		}
 		&.people {
-			.col-sm-5:first-child {
+			.col-sm-5:first-child, .col-sm-7:last-child {
 				min-height: 350px;
+				.sp & {
+					min-height: 400px;
+				}
 			}
 			.col-sm-7:last-child {
-				min-height: 350px;
 				padding: 20px;
 				h2 {
 					font-size: 1.4em;
@@ -378,8 +357,6 @@ h2, h3 {
 /* Xtra-Small Screen Size - Phone : 480px - 767px */
 @media (max-width:767px) {
 	.feature {
-		//background-image: url('../images/home-page-mobile-1.jpg');
-		//background-image: url('../images/about/about-bg.jpg');
 		background-image: url('../images/about/buying-online-mobile.jpg');
 		background-repeat: no-repeat;
 		background-position: center center;
@@ -439,21 +416,16 @@ h2, h3 {
 				min-height: 425px;
 				padding: 0 20px 20px;
 			}
-			.col-sm-5:first-child .video {
-				//min-height: 500px;
-				h2 {
-					//font-size: 1.5em;
-					//margin-bottom: 15px;
-				}
-				p {
-					//font-size: 1em;
-				}
-			}
 		}
 	}
 	.techsafe {
 		.col-sm-6:last-child {
 			margin-top: 35px;
+		}
+		span.grayline {
+			display: block;
+			background-image: none;
+			height: 30px;
 		}
 	}
 	.partners li {
@@ -463,11 +435,6 @@ h2, h3 {
 	.why {
 		.col-sm-12 {
 			padding-bottom: 20px;
-		}
-	}
-	.home-sp {
-		.feature {
-			background-position: 55% 98%, right bottom;
 		}
 	}
 } //End Xtra-Small Screen
