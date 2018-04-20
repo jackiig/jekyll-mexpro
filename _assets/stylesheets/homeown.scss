@@ -344,12 +344,16 @@
     }
     h2 {
     	color: #0c93d2;
-    	padding-top: 20px;
     }
     &.partners {
     	margin-bottom: 0;
     	.col-sm-12 {
     		padding: 10px 0 0;
+    	}
+    }
+    .extraord & {
+    	.col-sm-12 {
+    		padding-bottom: 10px;
     	}
     }
 }
