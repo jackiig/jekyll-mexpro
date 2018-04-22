@@ -70,7 +70,12 @@
 	}
 	.extraord & {
 		background-image: url('../images/homeown/coverage/extraordinary-feature.jpg');
-		//background-position: bottom right;
+		background-position: center center;
+		min-height: 500px;
+	}
+	.personalprop & {
+		background-image: url('../images/homeown/coverage/personal-property-feature.jpg');
+		background-position: center center;
 	}
 }
 
@@ -249,7 +254,7 @@
 			text-transform: initial;
 		}
 	}
-	.liabcov & {
+	.liabcov &, .personalprop & {
 		.col-sm-6:last-child {
 			border-left: 1px dotted white;
 		}
@@ -548,7 +553,7 @@
 				min-height: 375px;
 			}
 		}
-		.liabcov & {
+		.liabcov &, .personalprop & {
 			.col-sm-6:first-child {
 				border-bottom: 1px solid white;
 			}
