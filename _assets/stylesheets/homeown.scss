@@ -267,6 +267,11 @@
 			border-left: 1px dotted white;
 		}
 	}
+	.endorse & ul {
+		display: block;
+		width: 40%;
+		margin: 20px auto 10px;
+	}
 }
 
 // Homeowners Coverage
@@ -435,6 +440,9 @@
 				min-height: 550px;
 			}
 		}
+		.endorse & ul {
+			width: 60%;
+		}
 	}
 
 }  //end Medium Screen
@@ -463,6 +471,9 @@
 	    }
 		&.eligible {
 			background-color: transparent !important;
+		}
+		.endorse & ul {
+			width: 75%;
 		}
 	}
 	.sp {
@@ -568,6 +579,9 @@
 			.col-sm-6:last-child {
 				border-left: 0;
 			}
+		}
+		.endorse & ul {
+			width: 100%;
 		}
 	}
 } //End Xtra-Small Screen
