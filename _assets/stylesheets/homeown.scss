@@ -374,6 +374,11 @@
     		padding-bottom: 10px;
     	}
     }
+    .coinsure & ol {
+    	display: block;
+    	width: 70%;
+    	margin: 0 auto;
+    }
 }
 
 .coverage .orangebg {
@@ -444,7 +449,11 @@
 			width: 60%;
 		}
 	}
-
+	.exclusions {
+		.coinsure & ol {
+    		width: 80%;
+    	}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -491,6 +500,11 @@
 				min-height: 660px;
 			}
 		}
+	}
+	.exclusions {
+		.coinsure & ol {
+    		width: 100%;
+    	}
 	}
 } // End Small Screen
 
@@ -583,5 +597,10 @@
 		.endorse & ul {
 			width: 100%;
 		}
+	}
+	.exclusions {
+		.coinsure & ol {
+    		width: 100%;
+    	}
 	}
 } //End Xtra-Small Screen
