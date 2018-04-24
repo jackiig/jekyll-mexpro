@@ -3,24 +3,29 @@
 
 // Styles Only for Customer Service Pages
 
-// Claims Page Photo, Text, Quote Box
-.custsvc .feature {
-	background-repeat: no-repeat;
-	background-position: center top;
-	background-image: url('../images/customer/call-center-feature.jpg');
-	min-height: 500px;
-	position: relative;
-	background-size: cover;
-	margin-bottom: 30px;
-	h1 {
-		color: white;
-		font-size: 1.7em;
-		font-weight: normal;
-	}
-	p {
-		//font-size: 0.9em;
-		//padding-top: 15px;
-		//color: white;
+
+.custsvc {
+// Feature
+	.feature {
+		background-repeat: no-repeat;
+		background-position: center top;
+		background-image: url('../images/customer/call-center-feature.jpg');
+		min-height: 500px;
+		position: relative;
+		background-size: cover;
+		margin-bottom: 30px;
+		h1 {
+			color: white;
+			font-size: 1.7em;
+			font-weight: normal;
+		}
+		p {
+			margin-bottom: 0;
+			font-size: 1em;
+		}
+		.st-default-search-input, .st-ui-search-input {
+			width: 270px;
+		}
 	}
 }
 
