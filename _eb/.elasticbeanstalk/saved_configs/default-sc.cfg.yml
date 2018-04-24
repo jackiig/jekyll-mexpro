@@ -1,0 +1,31 @@
+EnvironmentConfigurationMetadata:
+  Description: Configuration created from the EB CLI using "eb config save".
+  DateCreated: '1521489541000'
+  DateModified: '1521489541000'
+Platform:
+  PlatformArn: arn:aws:elasticbeanstalk:us-west-1::platform/Multi-container Docker running on 64bit Amazon Linux/2.9.0
+OptionSettings:
+  aws:elasticbeanstalk:command:
+    BatchSize: '30'
+    BatchSizeType: Percentage
+  aws:elasticbeanstalk:sns:topics:
+    Notification Endpoint: jack.mangels@nfp.com
+  aws:elb:policies:
+    ConnectionDrainingEnabled: true
+  aws:elb:loadbalancer:
+    LoadBalancerHTTPSPort: '443'
+    CrossZone: true
+    SSLCertificateId: arn:aws:iam::944352380058:server-certificate/cloudfront/star_mexpro_com
+  aws:elasticbeanstalk:environment:
+    LoadBalancerType: classic
+  aws:autoscaling:launchconfiguration:
+    IamInstanceProfile: aws-elasticbeanstalk-ec2-role
+    InstanceType: t2.micro
+    EC2KeyName: jack-2018
+  aws:autoscaling:updatepolicy:rollingupdate:
+    RollingUpdateType: Health
+    RollingUpdateEnabled: true
+EnvironmentTier:
+  Type: Standard
+  Name: WebServer
+AWSConfigurationTemplateVersion: 1.1.0.0

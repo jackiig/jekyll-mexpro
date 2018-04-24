@@ -1,0 +1,22 @@
+{
+  "AWSEBDockerrunVersion": 2,
+  "authentication": {
+    "bucket": "mexpro",
+    "key": "docker/iigins-dockercfg"
+  },
+  "containerDefinitions": [
+    {
+      "name": "nginx",
+      "image": "jackiig/mexpro-jekyll-rproxy:master",
+      "memory": 128,
+      "essential": true,
+      "portMappings": [
+        {
+          "hostPort": 80,
+          "containerPort": 80
+        }
+      ]
+    }
+  ],
+  "Logging": "/var/log/nginx"
+}
