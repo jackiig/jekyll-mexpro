@@ -68,6 +68,23 @@
 		background-image: url('../images/homeown/coverage/liability-feature.jpg');
 		background-position: bottom right;
 	}
+	.extraord & {
+		background-image: url('../images/homeown/coverage/extraordinary-feature.jpg');
+		background-position: center center;
+		min-height: 500px;
+	}
+	.personalprop & {
+		background-image: url('../images/homeown/coverage/personal-property-feature.jpg');
+		background-position: center center;
+	}
+	.glassbreak & {
+		background-image: url('../images/homeown/coverage/glass-feature.jpg');
+		background-position: top right;
+	}
+	.debris & {
+		background-image: url('../images/homeown/coverage/debris-feature.jpg');
+		background-position: center center;
+	}
 }
 
 //Feature Icons
@@ -245,10 +262,15 @@
 			text-transform: initial;
 		}
 	}
-	.liabcov & {
+	.liabcov &, .personalprop & {
 		.col-sm-6:last-child {
 			border-left: 1px dotted white;
 		}
+	}
+	.endorse & ul {
+		display: block;
+		width: 40%;
+		margin: 20px auto 10px;
 	}
 }
 
@@ -347,6 +369,16 @@
     		padding: 10px 0 0;
     	}
     }
+    .extraord & {
+    	.col-sm-12 {
+    		padding-bottom: 10px;
+    	}
+    }
+    .coinsure & ol {
+    	display: block;
+    	width: 70%;
+    	margin: 0 auto;
+    }
 }
 
 .coverage .orangebg {
@@ -413,8 +445,15 @@
 				min-height: 550px;
 			}
 		}
+		.endorse & ul {
+			width: 60%;
+		}
 	}
-
+	.exclusions {
+		.coinsure & ol {
+    		width: 80%;
+    	}
+	}
 }  //end Medium Screen
 
 @media (max-width: 991px) {
@@ -442,6 +481,9 @@
 		&.eligible {
 			background-color: transparent !important;
 		}
+		.endorse & ul {
+			width: 75%;
+		}
 	}
 	.sp {
 		.prodcoverage {
@@ -458,6 +500,11 @@
 				min-height: 660px;
 			}
 		}
+	}
+	.exclusions {
+		.coinsure & ol {
+    		width: 100%;
+    	}
 	}
 } // End Small Screen
 
@@ -539,7 +586,7 @@
 				min-height: 375px;
 			}
 		}
-		.liabcov & {
+		.liabcov &, .personalprop & {
 			.col-sm-6:first-child {
 				border-bottom: 1px solid white;
 			}
@@ -547,5 +594,13 @@
 				border-left: 0;
 			}
 		}
+		.endorse & ul {
+			width: 100%;
+		}
+	}
+	.exclusions {
+		.coinsure & ol {
+    		width: 100%;
+    	}
 	}
 } //End Xtra-Small Screen

@@ -4,7 +4,7 @@
 // Styles Only for Customer Service Pages
 
 // Claims Page Photo, Text, Quote Box
-.feature {
+.custsvc .feature {
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-image: url('../images/customer/call-center-feature.jpg');
@@ -21,72 +21,6 @@
 		//font-size: 0.9em;
 		//padding-top: 15px;
 		//color: white;
-	}
-}
-
-// Quote box dropdown within feature image 
-.quotedropdown {
-	.dropdown-menu {
-		background-color: white;
-		border-radius: 0;
-		padding: 0;
-		margin: 0;
-		border: 0;
-		font-size: 0.9em;
-		z-index: 1100; //puts above feature icons
-		> li {
-			background-color: white;
-			color: #798d96;
-			width: 100%;
-			&.col-sm-6 {
-				padding-left: 0;
-			}
-			&:nth-child(4) {
-				.right {
-					padding-top: 20px;
-				}
-			}
-			&:nth-child(odd) {
-				background-color: #f3f8fa;
-			}
-			span {
-				background-image: url('../images/claims/claimsfeatureicons.jpg');
-				background-repeat: no-repeat;
-				width: 153px;
-				height: 60px;
-				display: block;
-				margin:0;
-				&.aba {
-					background-position: 0 0;
-				}
-				&.elag {
-					background-position: 0 -60px;
-				}
-				&.gnp {
-					background-position: 0 -120px;
-				}
-				&.mexvisit {
-					background-position: 0 -180px;
-				}
-			}
-			.left {
-				width: 153px;
-				float:left;
-			}
-			.right {
-				text-align: center;
-				padding-top: 10px;
-				height: 60px;
-				span {
-					background-image: none;
-					display: inline;
-					&.hidden-xs {
-						height: inherit;
-						width: inherit;
-					}
-				}
-			}
-		}
 	}
 }
 
