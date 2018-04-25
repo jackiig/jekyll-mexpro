@@ -108,14 +108,6 @@
 @media (max-width:767px) {
 	.feature {
 		min-height: 450px;
-		text-align: center;
-		h1 {
-			text-align: center;
-			margin-top: 1.2em;
-		}
-		.dropdown {
-			text-align: center;
-		}
 		.custsvc & .st-default-search-input, .custsvc & .st-ui-search-input {
 		    width: 200px;
 		}
@@ -125,11 +117,4 @@
 			text-align: center;
 		}
 	}
-	.doublepane {
-		.col-sm-3 {
-			p {
-				text-align: center;
-			}
-		}
-	} // end doublepane css
 } //End Xtra-Small Screen
