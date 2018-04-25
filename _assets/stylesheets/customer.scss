@@ -116,6 +116,9 @@
 		.dropdown {
 			text-align: center;
 		}
+		.custsvc & .st-default-search-input, .custsvc & .st-ui-search-input {
+		    width: 200px;
+		}
 	}
 	.exclusions {
 		p{
