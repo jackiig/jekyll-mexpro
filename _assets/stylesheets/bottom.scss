@@ -67,10 +67,32 @@ a:focus, :focus {
 	}
 }
 
+a.orangelink, a.orangelinkul, a.orangelink:hover, a.orangelinkul:hover {
+	color: #d47d3a;
+}
+a.orangelinkul, a.orangelinkul:hover {
+	text-decoration: underline;
+}
+
 //Home page quote drop down
 .quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
 	width: 270px;
 }
+
+//Exclusions (background fade)
+.exclusions {
+    background-image: url(../images/auto/coverage-slice.png);
+    background-repeat: repeat-x;
+    background-color: #fefefe !important;
+    color: #798d96 !important;
+    .col-sm-12 {
+    	padding: 20px 30px 25px;
+    }
+    h2 {
+    	color: #0c93d2;
+    }
+}
+
 //Claims page drop down
 .claimsins {
 	.open > .dropdown-toggle.btn-primary, .quotedropdown .dropdown-menu {
