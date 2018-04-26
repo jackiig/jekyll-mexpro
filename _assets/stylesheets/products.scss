@@ -185,7 +185,7 @@
 			min-height: 275px;
 			background-size: cover;
 			padding-left: 75px;
-	    	padding-right: 75px;
+			padding-right: 75px;
 	    	h2 {
 	    		font-size: 20px;
 	    		text-transform: inherit;
@@ -228,6 +228,22 @@
 	.travelhealth & { // Travel Health
     	.col-sm-3, .col-sm-4 {
     		margin: 15px 0 25px;
+    	}
+    }
+    .motorcycle & {
+    	h2 {
+    		text-transform: none;
+    		font-size: 24px;
+    	}
+    	.col-sm-6 {
+    		padding: 10px 35px 20px;
+    	}
+    	.col-sm-6:last-child {
+    		background-image: url('../images/motorcycle/motorcycle.jpg');
+			background-repeat: no-repeat;
+			background-position: center top;
+			min-height: 485px;
+			background-size: cover;
     	}
     }
 }
@@ -586,6 +602,11 @@
 	    		min-height: 450px;
 	    	}
 	    }
+	    .motorcycle & {
+	    	.col-sm-6:last-child {
+				min-height: 550px;
+			}
+		}
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
@@ -652,6 +673,11 @@
 	    		max-height: 500px;
 	    	}
 	    }
+	    .motorcycle & {
+	    	.col-sm-6:last-child {
+				min-height: 675px;
+			}
+		}
 	}
 	.trusted {
 		.col-sm-6:first-child, .col-sm-6:last-child {
