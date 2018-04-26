@@ -77,6 +77,9 @@ a.orangelinkul, a.orangelinkul:hover {
 //Home page quote drop down
 .quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
 	width: 270px;
+	.home-sp & {
+		width: 300px;
+	}
 }
 
 //Exclusions (background fade)
@@ -749,6 +752,12 @@ footer {
 .claimsins {
 	.open > .dropdown-toggle.btn-primary, .quotedropdown .dropdown-menu {
 		width: 300px;
+	}
+}
+//Home page quote drop down
+.quotedropdown .btn-primary.btn, .quotedropdown .dropdown-menu, .feature .btn-primary {
+	.home-sp & {
+		width: 270px;
 	}
 }
 } //end mobile screen size
