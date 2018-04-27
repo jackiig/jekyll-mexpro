@@ -301,7 +301,7 @@
 				width: 66px;
 			}
 			&.catast {
-				background-position: 0 -134px;
+				background-position: 0 -135px;
 				width: 81px;
 				height: 66px;
 			}
@@ -369,11 +369,6 @@
     		padding: 10px 0 0;
     	}
     }
-    .covhome & {
-    	button {
-    		margin-bottom: 15px;
-    	}
-    }
     .extraord & {
     	.col-sm-12 {
     		padding-bottom: 10px;
@@ -413,6 +408,18 @@
 .replace.coverage .orangebg .col-sm-12 {
 	padding: 10px;
 	font-size: 1em;
+}
+
+.covhome {
+    button {
+    	margin-bottom: 15px;
+    }
+	.prodcoverage {
+		margin: 15px auto;
+	}
+	.featureicons {
+		margin-top: 50px;
+	}
 }
 
 /* Device Based css */
