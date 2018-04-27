@@ -415,7 +415,10 @@
     	margin-bottom: 15px;
     }
 	.prodcoverage {
-		margin: 15px auto;
+		margin: 15px auto 0;
+		h2 {
+			margin-bottom: 35px;
+		}
 	}
 	.featureicons {
 		margin-top: 50px;
@@ -517,6 +520,11 @@
 		.coinsure & ol {
     		width: 100%;
     	}
+	}
+	.covhome {
+		h1 {
+			margin-top: 50px;
+		}
 	}
 } // End Small Screen
 
