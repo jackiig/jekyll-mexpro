@@ -9,10 +9,19 @@ node {
   env.APP_NAME = 'Mexpro Website'
 
   // If BRANCH_NAME includes '/', convert to '-'
-  env.BRANCH_NAME = env.BRANCH_NAME.replaceAll('/', '-')
+  env.BRANCH_NAME = env.BRANCH_NAME.toLowerCase().replaceAll('/', '-')
+  env.JOB_NAME = env.JOB_NAME.toLowerCase().replaceAll('/', '-')
+  // Sometimes '/' is encoded as '%2f'
+  env.BRANCH_NAME = env.BRANCH_NAME.replaceAll('%2f', '-')
+  env.JOB_NAME = env.JOB_NAME.replaceAll('%2f', '-')
   // If BRANCH_NAME includes '_', convert to '-'
   env.BRANCH_NAME = env.BRANCH_NAME.replaceAll('_', '-')
-  env.EBS_ENV_NAME = env.BRANCH_NAME
+  env.JOB_NAME = env.JOB_NAME.replaceAll('_', '-')
+  env.EBS_ENV_NAME = env.JOB_NAME
+  // EBS won't allow over 40 characters.
+  if (env.EBS_ENV_NAME.length() > 40) {
+    env.EBS_ENV_NAME = env.EBS_ENV_NAME.substring(0, 40)
+  }
 
   try {
     stage('Building Rails assets') {
