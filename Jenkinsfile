@@ -26,6 +26,7 @@ node {
   try {
     stage('Building Rails assets') {
       def rails = docker.image('jackiig/mio-rails-mexpro:latest')
+      sh "rm -Rf ${env.WORKSPACE}/docs/assets"
       rails.pull()
       rails.withRun("-v ${env.WORKSPACE}/docs/assets:/usr/src/app/public/assets -e RAILS_ENV=production") { c ->
         sh "docker exec ${c.id} rake assets:precompile i18n:js:export"
@@ -39,21 +40,17 @@ node {
       dir('_eb') {
         sh "sed -i s/:master/:${BRANCH_NAME}/g Dockerrun.aws.json"
         withCredentials([usernamePassword(credentialsId: 'ebs-credentials', usernameVariable: 'AWS_ACCESS_KEY_ID', passwordVariable: 'AWS_SECRET_ACCESS_KEY')]) {
-          if (env.BRANCH_NAME == "master") {
-            sh 'echo Master Branch!'
-          } else {
-            try {
-              sh "eb create ${EBS_ENV_NAME} -r us-west-1 -k jack-2018 -c ${EBS_ENV_NAME} --cfg default-sc"
-            } catch(e) {
-              sh "eb use ${EBS_ENV_NAME}"
-              sh "eb deploy"
-            }
-            sh "eb status ${EBS_ENV_NAME}"
-            env.CNAME = sh(
-              script: "eb status ${EBS_ENV_NAME} | grep CNAME | sed \"s/\\s*CNAME:\\s*//\"",
-              returnStdout: true
-            ).trim()
+          try {
+            sh "eb create ${EBS_ENV_NAME} -r us-west-1 -k jack-2018 -c ${EBS_ENV_NAME} --cfg default-sc"
+          } catch(e) {
+            sh "eb use ${EBS_ENV_NAME}"
+            sh "eb deploy"
           }
+          sh "eb status ${EBS_ENV_NAME}"
+          env.CNAME = sh(
+            script: "eb status ${EBS_ENV_NAME} | grep CNAME | sed \"s/\\s*CNAME:\\s*//\"",
+            returnStdout: true
+          ).trim()
         }
       }
     }
